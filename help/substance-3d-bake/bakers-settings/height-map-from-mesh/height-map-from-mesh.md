@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/height-map-from-mesh.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/height-map-from-mesh.html"
 breadcrumb-title: ''
 description: Créez des cartes d’height à partir de maillages de polygone pour capturer les détails de surface et les informations de géométrie pour la texturation.
 helpx_creative_field: ""

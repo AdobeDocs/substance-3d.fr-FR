@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/cycles-and-eevee/cycles-and-eevee-susbtance-painter.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/cycles-and-eevee/cycles-and-eevee-susbtance-painter.html"
 breadcrumb-title: ''
 description: Exportez les textures de Substance Painter pour les Cycles de Blender et les moteurs de rendu Eevee à l’aide des paramètres de sortie appropriés.
 helpx_creative_field: ""

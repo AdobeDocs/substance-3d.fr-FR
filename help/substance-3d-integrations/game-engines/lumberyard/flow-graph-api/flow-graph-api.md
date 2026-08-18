@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/lumberyard/flow-graph-api.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/lumberyard/flow-graph-api.html"
 breadcrumb-title: ''
 description: Utilisez les nœuds Flow Graph dans Lumberyard pour configurer les paramètres de matériel procéduraux par programmation.
 helpx_creative_field: ""

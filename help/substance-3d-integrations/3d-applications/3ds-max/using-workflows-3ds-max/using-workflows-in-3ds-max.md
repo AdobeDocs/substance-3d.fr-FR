@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/using-workflows-in-3ds-max.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/3ds-max/using-workflows-in-3ds-max.html"
 breadcrumb-title: ''
 description: Utilisez les workflows de rendu de 3ds Max pour créer automatiquement des réseaux d’ombrage pour différents systèmes de rendu à partir de matériaux de Substance.
 helpx_creative_field: ""

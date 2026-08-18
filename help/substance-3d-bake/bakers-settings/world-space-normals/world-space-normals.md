@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/world-space-normals.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/world-space-normals.html"
 breadcrumb-title: ''
 description: Enregistrez les normales, tangentes et binormales du maillage dans des textures à l’aide des coordonnées de l’espace universel pour les workflows avancés.
 helpx_creative_field: ""

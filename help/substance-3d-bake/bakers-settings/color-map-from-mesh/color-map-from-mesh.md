@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/color-map-from-mesh.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/color-map-from-mesh.html"
 breadcrumb-title: ''
 description: Projetez les propriétés de couleur des filets en polychromie dans les textures pour cuire de la polypeinture ou des ID de matériau pour les masques de sélection.
 helpx_creative_field: ""

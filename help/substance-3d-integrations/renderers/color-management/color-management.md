@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/color-management.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/color-management.html"
 breadcrumb-title: ''
 description: Découvrez la gestion des couleurs et la correction gamma lors de l’utilisation de matériaux de Substance avec différents systèmes de rendu.
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ Nous adopterons une approche simpliste en affirmant que le rendu d&#39;espace li
 
 ## Gestion des couleurs
 
-L&#39;objectif de ce document est de détailler le processus de travail avec les textures exportées à partir de **Substance Painter** et de **Substance Designer** dans le [logiciel 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) et les moteurs de rendu.
+L&#39;objectif de ce document est de détailler le processus de travail avec les textures exportées à partir de **Substance Painter** et de **Substance Designer** dans le [logiciel 3D](https://www.adobe.com/fr/products/substance3d/3d-augmented-reality.html) et les moteurs de rendu.
 
 La bonne façon d’interpréter une image utilisée comme entrée dans une couche de matériau dépend de la façon dont l’image est utilisée dans la scène. L&#39;espace colorimétrique, le codage et le fait que les valeurs de couleur soient proportionnelles à la **luminance à référence scène** ou à la **luminance à référence affichage** jouent également un rôle important.
 

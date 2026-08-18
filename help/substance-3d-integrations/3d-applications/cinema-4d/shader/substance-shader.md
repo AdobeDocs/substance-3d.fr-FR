@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/substance-shader.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/cinema-4d/substance-shader.html"
 breadcrumb-title: ''
 description: Découvrez comment les nuanceurs de Substances relient les actifs de Substance aux matériaux de Cinema 4D pour les workflows de rendu.
 helpx_creative_field: ""

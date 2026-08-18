@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/unity-preferences.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/unity-preferences.html"
 breadcrumb-title: ''
 description: Configurez les préférences du plug-in Substance 3D dans Unity pour personnaliser son comportement et ses paramètres.
 helpx_creative_field: ""

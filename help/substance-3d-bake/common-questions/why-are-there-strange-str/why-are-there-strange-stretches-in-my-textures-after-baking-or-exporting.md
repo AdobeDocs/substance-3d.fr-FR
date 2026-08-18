@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/why-are-there-strange-stretches-in-my-textures-after-baking-or-exporting.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-questions/why-are-there-strange-stretches-in-my-textures-after-baking-or-exporting.html"
 breadcrumb-title: ''
 description: Identifiez et corrigez les étirements étranges dans vos textures cuites causées par des problèmes de mappage UV ou de filet.
 helpx_creative_field: ""
@@ -30,4 +30,4 @@ ht-degree: 0%
 >
 > **Solution**
 > 
-> Les Substance Bakers appliquent à la fois la diffusion et la dilatation à l&#39;extérieur des Îlots UV pour combler l&#39;écart et s&#39;assurer que la texture fonctionnera correctement dans les moteurs de jeu lorsque les mipmaps seront générés. Pour en savoir plus, voir : [Remplissage](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/padding-134643719.html).
+> Les Substance Bakers appliquent à la fois la diffusion et la dilatation à l&#39;extérieur des Îlots UV pour combler l&#39;écart et s&#39;assurer que la texture fonctionnera correctement dans les moteurs de jeu lorsque les mipmaps seront générés. Pour en savoir plus, voir : [Remplissage](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/padding-134643719.html).

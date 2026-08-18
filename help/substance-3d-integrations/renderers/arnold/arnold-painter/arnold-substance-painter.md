@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/arnold/arnold-substance-painter.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/arnold/arnold-substance-painter.html"
 breadcrumb-title: ''
 description: Utilisez des modèles de sortie de Substance Painter pour le moteur de rendu Arnold avec la matière aiStandard pour le rendu physique.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/curvature-from-mesh.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/curvature-from-mesh.html"
 breadcrumb-title: ''
 description: Générez des textures de courbure précises à partir de maillages à poly élevé à l’aide du lancer de rayons pour une détection précise des bords.
 helpx_creative_field: ""

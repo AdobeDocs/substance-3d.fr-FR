@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/modo-plugin-release-notes/modo-v-2-7-1.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/modo/modo-plugin-release-notes/modo-v-2-7-1.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour du module externe MODO version 2.7.1 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""

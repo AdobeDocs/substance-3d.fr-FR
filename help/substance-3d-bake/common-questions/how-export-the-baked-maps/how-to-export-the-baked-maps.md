@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/how-to-export-the-baked-maps.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-questions/how-to-export-the-baked-maps.html"
 breadcrumb-title: ''
 description: Découvrez comment exporter des textures précuites depuis Substance Designer et Painter pour les utiliser dans d’autres applications.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/converting-substance-outputs.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/converting-substance-outputs.html"
 breadcrumb-title: ''
 description: Découvrez comment convertir les sorties de matériau Substance pour qu’elles correspondent à différents workflows et exigences de rendu.
 helpx_creative_field: ""

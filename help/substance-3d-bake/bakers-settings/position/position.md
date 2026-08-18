@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/position.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/position.html"
 breadcrumb-title: ''
 description: Calculez et enregistrez l’emplacement de la géométrie du maillage dans les textures pour créer des effets basés sur le volume et des masques de dégradé.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/custom-materials.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/modo/custom-materials.html"
 breadcrumb-title: ''
 description: Utilisez les matériaux personnalisés Unreal, Unity et glTF dans MODO avec le plug-in Substance pour les workflows spécialisés.
 helpx_creative_field: ""

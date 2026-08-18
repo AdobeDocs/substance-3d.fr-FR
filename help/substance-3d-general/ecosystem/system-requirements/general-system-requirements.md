@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/general-system-requirements.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-general/ecosystem/general-system-requirements.html"
 breadcrumb-title: ''
 description: Vérifiez la configuration requise pour les applications Substance 3D pour vous assurer que votre matériel répond aux spécifications minimales, recommandées ou optimales.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/what-are-assbin-files.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-questions/what-are-assbin-files.html"
 breadcrumb-title: ''
 description: Découvrez les fichiers Assbin et comment les utiliser en tant que fichiers de cache de géométrie pour accélérer les opérations d'ancrage.
 helpx_creative_field: ""
@@ -32,4 +32,4 @@ ht-degree: 0%
 > 
 > Assbin lime des versions prétraitées des maillages à haute teneur en poly utilisés pendant le processus de cuisson. Ils sont plus rapides à lire que les fichiers de maillage d&#39;origine, ce qui permet de recadrer plus rapidement lors de l&#39;itération sur les paramètres Bakers. Ils peuvent être enlevés en toute sécurité. La Substance Painter les régénérera si nécessaire. Toutefois, cela peut avoir un impact sur les performances de cuisson.
 > 
-> Il est possible de ne jamais générer ces fichiers en accédant à la Substance Painter de données [préférences principales](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/general-71008262.html) et de désactiver l’option « Enregistrer les fichiers de scène prétraités ».
+> Il est possible de ne jamais générer ces fichiers en accédant à la Substance Painter de données [préférences principales](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/general-71008262.html) et de désactiver l’option « Enregistrer les fichiers de scène prétraités ».

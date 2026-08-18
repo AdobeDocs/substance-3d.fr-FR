@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-general/adobe-standard-material/asm-technical-documentation.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-general/adobe-standard-material/asm-technical-documentation.html"
 breadcrumb-title: ''
 description: Accédez à la documentation technique détaillée, y compris les formules et les mathématiques utilisées par le modèle de matériau standard Adobe.
 helpx_creative_field: ""

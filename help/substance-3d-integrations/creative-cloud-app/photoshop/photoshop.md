@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/creative-cloud-applications/photoshop.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/creative-cloud-applications/photoshop.html"
 breadcrumb-title: ''
 description: Utilisez des matières Substance directement dans Photoshop pour créer des textures réalistes et améliorer vos illustrations 2D avec des matières 3D.
 helpx_creative_field: ""

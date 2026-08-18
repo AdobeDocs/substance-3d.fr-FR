@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/ambient-occlusion-from-mesh.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/ambient-occlusion-from-mesh.html"
 breadcrumb-title: ''
 description: Créez des textures d’occlusion ambiante précises à partir de maillages à poly élevé à l’aide de techniques de lancer de rayon pour un réalisme amélioré.
 helpx_creative_field: ""

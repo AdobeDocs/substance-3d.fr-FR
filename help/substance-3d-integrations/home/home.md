@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/home.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/home.html"
 breadcrumb-title: ''
 description: Découvrez comment les matériaux de Substance s’intègrent aux moteurs de jeu, aux applications DCC et aux systèmes de rendu grâce aux plug-ins et à la prise en charge native.
 helpx_creative_field: ""
@@ -35,9 +35,9 @@ Pour plus d’informations sur l’utilisation de ces matériaux, voir :
 
 Si vous souhaitez expérimenter avec des fichiers SBSAR, il existe de nombreuses façons d&#39;obtenir vos propres documents SBSAR :
 
-* Des supports de Substance gratuits sont disponibles sur le site Web [Ressources de la communauté 3D](https://helpx.adobe.com/substance-3d/unlisted/assets.html).
-* Des supports de Substance téléchargeables sont disponibles via le site Web [Substance 3D Assets](https://helpx.adobe.com/substance-3d/unlisted/assets.html) dans le cadre de l&#39;abonnement à Substance.
-* Les matériaux de Substance avec paramètres exposables peuvent être fabriqués avec [Substance 3D Designer](https://experienceleague.adobe.com/en/docs/substance-3d-designer/home) et [Substance 3D Sampler](https://helpx.adobe.com/substance-3d-sampler.html). (Consultez nos [Directives d&#39;optimisation](../game-engines/unity/optimization-guidelines/optimization-guidelines.md). )
+* Des supports de Substance gratuits sont disponibles sur le site Web [Ressources de la communauté 3D](https://helpx.adobe.com/fr/substance-3d/unlisted/assets.html).
+* Des supports de Substance téléchargeables sont disponibles via le site Web [Substance 3D Assets](https://helpx.adobe.com/fr/substance-3d/unlisted/assets.html) dans le cadre de l&#39;abonnement à Substance.
+* Les matériaux de Substance avec paramètres exposables peuvent être fabriqués avec [Substance 3D Designer](https://experienceleague.adobe.com/en/docs/substance-3d-designer/home) et [Substance 3D Sampler](https://helpx.adobe.com/fr/substance-3d-sampler.html). (Consultez nos [Directives d&#39;optimisation](../game-engines/unity/optimization-guidelines/optimization-guidelines.md). )
 * Substance 3D Connector peut être utilisé pour partager en toute transparence des matériaux de Substance entre des applications principales et tierces. Pour plus d&#39;informations, veuillez lire notre [article de blog officiel](https://blog.adobe.com/en/publish/2024/04/04/substance-3d-connector-bridging-tools-3dworkflows).
 
 >[!NOTE]

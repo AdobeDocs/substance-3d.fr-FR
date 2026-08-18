@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/vray/vray-next-substance-painter.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/vray/vray-next-substance-painter.html"
 breadcrumb-title: ''
 description: Exportez les textures de Substance Painter pour le rendu V-Ray Next à l’aide des modèles de sortie et des paramètres de workflow appropriés.
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ Sous les Paramètres du nuanceur, vous pouvez configurer le nuanceur Vray pour t
 
 >[!NOTE]
 >
-> Si votre projet a été configuré pour utiliser la [mosaïque UV UDIM héritée](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html). Utilisez le modèle de sortie UDIM Vray Next.
+> Si votre projet a été configuré pour utiliser la [mosaïque UV UDIM héritée](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html). Utilisez le modèle de sortie UDIM Vray Next.
 
 ![](../../../assets/vray-mtl-shader.png){width="800px"}
 

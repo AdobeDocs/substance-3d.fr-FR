@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/working-with-bump-offset-parallax-ue4.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/working-with-bump-offset-parallax-ue4.html"
 breadcrumb-title: ''
 description: Utilisez le mapping Décalage de relief avec les matériaux de Substance dans Unreal Engine 4 pour créer une illusion de profondeur et des détails de surface.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/scripting-in-unity-deprecated/api-overview.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/scripting-in-unity-deprecated/api-overview.html"
 breadcrumb-title: ''
 description: Présentation de référence de l’API Substance Unity obsolète pour les projets hérités et les besoins en matière de scripts.
 helpx_creative_field: ""

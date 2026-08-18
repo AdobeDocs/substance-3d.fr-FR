@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/is-dithering-applied-to-baked-textures.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-questions/is-dithering-applied-to-baked-textures.html"
 breadcrumb-title: ''
 description: Découvrez si l’interpolation est appliquée aux textures cuites et comment elle affecte la qualité de la texture.
 helpx_creative_field: ""

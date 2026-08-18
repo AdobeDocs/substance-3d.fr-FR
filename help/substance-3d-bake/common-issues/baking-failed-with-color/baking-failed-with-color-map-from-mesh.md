@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/baking-failed-with-color-map-from-mesh.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-issues/baking-failed-with-color-map-from-mesh.html"
 breadcrumb-title: ''
 description: Résolvez les problèmes de correspondance des couleurs des filets en vérifiant les propriétés des couleurs des filets et la correspondance UV.
 helpx_creative_field: ""

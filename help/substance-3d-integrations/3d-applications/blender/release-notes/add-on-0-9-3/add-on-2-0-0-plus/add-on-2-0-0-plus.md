@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/release-notes/add-on-0-9-3/add-on-2-0-0-plus.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/blender/release-notes/add-on-0-9-3/add-on-2-0-0-plus.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour pour le module complémentaire Blender version 2.0.0 et ultérieure pour en savoir plus sur les nouvelles fonctionnalités et améliorations.
 helpx_creative_field: ""

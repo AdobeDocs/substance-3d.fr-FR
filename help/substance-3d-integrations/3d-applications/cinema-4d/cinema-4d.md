@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/cinema-4d.html"
 breadcrumb-title: ''
 description: Installez et utilisez le plug-in Substance pour Cinema 4D afin d’importer et d’utiliser des matériaux de Substance dans vos projets.
 helpx_creative_field: ""

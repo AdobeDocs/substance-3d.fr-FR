@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/material-template-usage-ue5.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/material-template-usage-ue5.html"
 breadcrumb-title: ''
 description: Créez et utilisez des modèles de matériau dans Unreal Engine 5 pour définir la façon dont les nœuds de sortie de Substance se connectent aux entrées de matériau.
 helpx_creative_field: ""

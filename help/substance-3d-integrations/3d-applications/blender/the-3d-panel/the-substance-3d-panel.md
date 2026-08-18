@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/the-substance-3d-panel.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/blender/the-substance-3d-panel.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser le panneau Substance 3D dans Blender pour gérer les matières, les paramètres et les sorties.
 helpx_creative_field: ""

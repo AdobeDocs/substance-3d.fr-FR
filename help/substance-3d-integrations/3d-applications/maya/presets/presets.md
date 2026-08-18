@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/presets.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/presets.html"
 breadcrumb-title: ''
 description: Gérez les paramètres prédéfinis intégrés dans les fichiers de Substance ou créez de nouveaux paramètres prédéfinis dans Maya pour enregistrer les configurations de paramètres.
 helpx_creative_field: ""

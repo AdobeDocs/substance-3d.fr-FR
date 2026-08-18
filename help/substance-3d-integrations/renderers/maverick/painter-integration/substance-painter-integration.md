@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maverick/substance-painter-integration.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/maverick/substance-painter-integration.html"
 breadcrumb-title: ''
 description: Intégrez la Substance Painter au moteur de rendu Maverick pour des workflows de matériaux transparents et une visualisation du produit.
 helpx_creative_field: ""

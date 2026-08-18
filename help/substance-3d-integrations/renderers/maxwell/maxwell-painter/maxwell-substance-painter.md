@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maxwell/maxwell-substance-painter.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/maxwell/maxwell-substance-painter.html"
 breadcrumb-title: ''
 description: Exportez les textures de Substance Painter pour le rendu Maxwell à l’aide des modèles de sortie et des paramètres de matière appropriés.
 helpx_creative_field: ""

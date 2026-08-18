@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/using-the-substance-plugin.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/cinema-4d/using-the-substance-plugin.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser le plug-in Substance dans Cinema 4D pour importer des matières et gérer les actifs de Substance.
 helpx_creative_field: ""

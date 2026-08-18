@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/import-and-export-formats.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-general/ecosystem/import-and-export-formats.html"
 breadcrumb-title: ''
 description: Découvrez les formats de fichiers pris en charge par chaque application Substance 3D pour importer et exporter vos projets et ressources.
 helpx_creative_field: ""

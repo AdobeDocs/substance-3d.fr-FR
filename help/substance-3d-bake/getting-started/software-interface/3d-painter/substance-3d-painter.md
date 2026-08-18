@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/software-interface/substance-3d-painter.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/getting-started/software-interface/substance-3d-painter.html"
 breadcrumb-title: ''
 description: Découvrez comment accéder à la fenêtre d’ancrage de Substance 3D Painter et l’utiliser pour générer des cartes de maillage pour vos textures.
 helpx_creative_field: ""

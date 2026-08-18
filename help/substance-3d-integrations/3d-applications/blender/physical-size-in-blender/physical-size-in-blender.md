@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/physical-size-in-blender.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/blender/physical-size-in-blender.html"
 breadcrumb-title: ''
 description: Utilisez les paramètres de taille physique pour mettre à l’échelle les matériaux de Substance en fonction des dimensions réelles dans Blender.
 helpx_creative_field: ""

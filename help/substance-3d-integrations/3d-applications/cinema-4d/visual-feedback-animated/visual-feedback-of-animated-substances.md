@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/visual-feedback-of-animated-substances.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/cinema-4d/visual-feedback-of-animated-substances.html"
 breadcrumb-title: ''
 description: Activez la prévisualisation animée dans Cinema 4D pour voir le retour visuel des matériaux de Substance animés dans la clôture.
 helpx_creative_field: ""

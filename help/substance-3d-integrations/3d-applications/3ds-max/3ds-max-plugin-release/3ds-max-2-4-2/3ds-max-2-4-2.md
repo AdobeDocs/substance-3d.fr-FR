@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release-notes/3ds-max-2-4-2.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release-notes/3ds-max-2-4-2.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour du module externe 3ds Max version 2.4.2 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""

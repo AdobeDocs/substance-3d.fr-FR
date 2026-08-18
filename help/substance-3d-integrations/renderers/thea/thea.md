@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/thea.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/thea.html"
 breadcrumb-title: ''
 description: Convertissez des fichiers SBSAR Substance en matériaux Thea à l’aide du convertisseur de Substance Thea pour les workflows de rendu.
 helpx_creative_field: ""

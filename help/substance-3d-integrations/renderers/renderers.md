@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers.html"
 breadcrumb-title: ''
 description: Utilisez des matériaux de Substance avec des systèmes de rendu principaux tels qu’Arnold, V-Ray, Redshift et autres dans votre workflow 3D.
 helpx_creative_field: ""

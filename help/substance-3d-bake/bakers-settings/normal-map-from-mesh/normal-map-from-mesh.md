@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/normal-map-from-mesh.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/normal-map-from-mesh.html"
 breadcrumb-title: ''
 description: Créez des cartes normales d'espace tangent ou d'espace universel à partir de maillages en polygone à l'aide de la carte de normales de Mesh Baker.
 helpx_creative_field: ""

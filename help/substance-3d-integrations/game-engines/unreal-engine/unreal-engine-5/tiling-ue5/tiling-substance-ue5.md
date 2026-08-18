@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/tiling-substance-ue5.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/tiling-substance-ue5.html"
 breadcrumb-title: ''
 description: Juxtaposer les textures de Substance dans Unreal Engine 5 en ajoutant des nœuds de coordonnées de texture et des paramètres scalaires aux matériaux.
 helpx_creative_field: ""

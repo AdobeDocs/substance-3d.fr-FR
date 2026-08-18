@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/seams-are-visible-after-baking-a-normal-texture.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-issues/seams-are-visible-after-baking-a-normal-texture.html"
 breadcrumb-title: ''
 description: Éliminez les coutures visibles dans les textures normales cuites en ajustant le remplissage, l’anticrénelage et la disposition UV.
 helpx_creative_field: ""
@@ -41,4 +41,4 @@ ht-degree: 0%
 > * Souvent, les UV ne sont pas alignés sur les pixels, ce qui entraîne un crénelage et produit des coutures. Voir [cette page](../../common-issues/aliasing-on-uv-seams/aliasing-on-uv-seams.md) pour plus d&#39;informations.
 >   * L’augmentation de la résolution de la texture peut réduire cet effet.
 >   * L’alignement des bordures UV sur les pixels est un autre moyen de réduire cet effet.
-> * Augmentez le paramètre de **qualité** du shader. La qualité de l’ombrage peut affecter le calcul des reflets de specular. Si certains Îlots UV subissent une rotation et que ce paramètre est trop faible, des coutures visibles peuvent apparaître. Voir [cette page](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/pbr-metal-rough-172818827.html) pour plus d&#39;informations.
+> * Augmentez le paramètre de **qualité** du shader. La qualité de l’ombrage peut affecter le calcul des reflets de specular. Si certains Îlots UV subissent une rotation et que ce paramètre est trop faible, des coutures visibles peuvent apparaître. Voir [cette page](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/pbr-metal-rough-172818827.html) pour plus d&#39;informations.

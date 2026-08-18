@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/why-is-matching-by-name-not-working-with-ambient-occlusion-thickness.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-questions/why-is-matching-by-name-not-working-with-ambient-occlusion-thickness.html"
 breadcrumb-title: ''
 description: Découvrez pourquoi la correspondance par nom ne fonctionne pas avec Ambient Occlusion et les boulangers de Thickness et trouvez des alternatives.
 helpx_creative_field: ""

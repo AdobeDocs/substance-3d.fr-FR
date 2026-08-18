@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/material-template-usage-ue5/out-of-the-box-material-templates.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/material-template-usage-ue5/out-of-the-box-material-templates.html"
 breadcrumb-title: ''
 description: Utilisez des modèles de matériaux préconfigurés lors de l’importation de matériaux SBSAR dans Unreal Engine 5 pour une configuration et des workflows rapides.
 helpx_creative_field: ""
