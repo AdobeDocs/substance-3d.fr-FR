@@ -29,7 +29,7 @@ Using Substance.Game
 
 Substance.Game est l&#39;assembly qui contient les classes utilisées pour le script. Ces classes sont les suivantes :
 
-**Substance.Game.****Substance** : fait référence au fichier sbsar
+**Substance.Game.**&#x200B;**Substance** : fait référence au fichier sbsar
 
 **Substance.Game.SubstanceGraph** : graphique individuel dans le sbsar.*(anciennement ProceuralMaterial dans Unity 2017)*
 

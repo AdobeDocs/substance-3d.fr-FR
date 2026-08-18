@@ -51,12 +51,12 @@ ht-degree: 1%
 | **void Substance.Game.SubstanceGraph**.*SetInputTexture*( string inputName, Texture2D value) | Mettre à jour l&#39;entrée Substance Texture2D | **String** *inputName* Nom de l&#39;entrée dans la **Texture2D** *valeur* SBSAR utilisée pour mettre à jour le paramètre |
 | **Texture2D Substance.Game.SubstanceGraph**.*GetInputTexture*( string inputName) | Obtenir une entrée Substance Texture2D | **Chaîne** *inputName* Nom de l&#39;entrée dans le SBSAR |
 | **VectorInt Substance.Game.SubstanceGraph**.*GetTexturesResolution*() | Obtenez la résolution des textures Paramètres de cible du graphique (x = largeur, y = height, les valeurs peuvent être 32, 64, 128, 256, 512, 1024, 2048 et 4096) | None |
-| **int Substance.Game.SubstanceGraph**.*SetTexturesResolution*( taille de Vector2Int) | Définissez la résolution des textures des paramètres de cible du graphique (x = largeur, y = height, les valeurs peuvent être 32, 64, 128, 256, 512, 1024, 2048 et 4096). Renvoie 0 en cas de réussite, sinon : -1. | **Vector2Int** *size* utilisé pour mettre à jour le paramètre**.** |
+| **int Substance.Game.SubstanceGraph**.*SetTexturesResolution*( taille de Vector2Int) | Définissez la résolution des textures des paramètres de cible du graphique (x = largeur, y = height, les valeurs peuvent être 32, 64, 128, 256, 512, 1024, 2048 et 4096). Renvoie 0 en cas de réussite, sinon : -1. | **Vector2Int** *size* utilisé pour mettre à jour le paramètre&#x200B;**.** |
 | **List Substance.Game.SubstanceGraph**.*GetGeneratedTextures*() | Renvoie tous les objets Substance Texture2D utilisés par l’ombrage de matière du graphe. | None |
 | **int Substance.Game.SubstanceGraph**.*Bake*( Texture2D texture, string absoluPath) | Générez des fichiers .png pour tous les objets Texture2D de Substance utilisés par l’ombrage de matériau du graphique. | None |
-| **** Substance.Game.** SubstanceGraph**.*Dupliquer*() | Duplication d’un Graphe Substance | None |
+| **&#x200B;**&#x200B;Substance.Game.**&#x200B; SubstanceGraph**.*Dupliquer*() | Duplication d’un Graphe Substance | None |
 | **Substance.Game.SubstanceGraph**.*Dupliquer*(chaîne newGraphName) | Dupliquez un Graphe Substance et donnez-lui un nom (le matériau correspondant aura également le même nom) | **String newGraphName** |
-| **** Substance.Game.** SubstanceGraph**.*GetInputProperties*() | Interrogation des informations d’entrée procédurale, renvoie un tableau de « InputProperties », avec :public struct InputProperties { nom de chaîne publique ; // libellé de chaîne publique inputName ; // libellé du widget dans le groupe de chaînes publiques de l’interface utilisateur ; // groupe du widget dans la chaîne publique de l’interface utilisateur[] componentLabels ; // pour les curseurs (jusqu’à 4 libellés) de chaîne publique[] enumOptions ; // pour optionMenupublic InputPropertiesType ; public Vector4 maximum ; // pour les curseurs public Vector4 minimum ; // pour les curseurs public float step ; // pour les curseurs public InputPropertiesType Booléenne = 0,// 0 Float, // 1 Vector2, // 2 Vector3, // 3 Vector4, // 4 Color, // 5 Enum, // 6 Texture, // 7 String, // 8 Invalid = -1// -1 }; | None |
+| **&#x200B;**&#x200B;Substance.Game.**&#x200B; SubstanceGraph**.*GetInputProperties*() | Interrogation des informations d’entrée procédurale, renvoie un tableau de « InputProperties », avec :public struct InputProperties { nom de chaîne publique ; // libellé de chaîne publique inputName ; // libellé du widget dans le groupe de chaînes publiques de l’interface utilisateur ; // groupe du widget dans la chaîne publique de l’interface utilisateur[] componentLabels ; // pour les curseurs (jusqu’à 4 libellés) de chaîne publique[] enumOptions ; // pour optionMenupublic InputPropertiesType ; public Vector4 maximum ; // pour les curseurs public Vector4 minimum ; // pour les curseurs public float step ; // pour les curseurs public InputPropertiesType Booléenne = 0,// 0 Float, // 1 Vector2, // 2 Vector3, // 3 Vector4, // 4 Color, // 5 Enum, // 6 Texture, // 7 String, // 8 Invalid = -1// -1 }; | None |
 | **bool** **Substance.Game.SubstanceGraph**.*HasInput*(**string** inputName) | Vérifiez si une entrée existe dans un graphique, puis renvoyez la valeur true/false : | **Chaîne** *inputName* Nom de l&#39;entrée dans le SBSAR |
 | **bool** **Substance.Game.SubstanceGraph**.*IsInputVisible*(**string** inputName) | Vérifier si une entrée visible est visible, renvoie true/false | **Chaîne** *inputName* Nom de l&#39;entrée dans le SBSAR |
 
@@ -65,8 +65,8 @@ ht-degree: 1%
 | Méthode publique | Description | Paramètre |
 | --- | --- | --- |
 | public **void** *QueueForRender*() | Ajouter un graphique en Substance à la file d’attente | None |
-| ***mySubstance.**RenderAsync()* | Rendu asynchrone de tous les graphiques de Substance en file d’attente | None |
-| ***mySubstance.**RenderSync()* | Rendu synchrone de tous les graphiques de Substance en file d’attente | None |
+| ***mySubstance.**&#x200B;RenderAsync()* | Rendu asynchrone de tous les graphiques de Substance en file d’attente | None |
+| ***mySubstance.**&#x200B;RenderSync()* | Rendu synchrone de tous les graphiques de Substance en file d’attente | None |
 
 ## Scripts en mode éditeur :
 

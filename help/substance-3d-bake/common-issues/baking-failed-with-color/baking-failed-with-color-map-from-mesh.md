@@ -26,7 +26,7 @@ ht-degree: 0%
 > 
 > Message d’erreur possible :
 > 
-> > > > 
+> &#x200B;> > > 
 > 
 > [ Cuisson ] Échec de la cuisson (table des couleurs à partir du filet)\
 > Couleurs de sommet introuvables
