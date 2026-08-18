@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/tiling-modo-textures.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/modo/tiling-modo-textures.html"
 breadcrumb-title: ''
 description: Ajustez les propriétés de mosaïque de texture de Substance dans MODO en définissant des paramètres d’habillage horizontal et vertical.
 helpx_creative_field: ""
