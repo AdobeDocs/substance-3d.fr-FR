@@ -60,24 +60,24 @@ Les tableaux ci-dessous répertorient la prise en charge du lancer de rayons GPU
 
 | Baker | Prend en charge le lancer de rayons du GPU |
 | --- | --- |
-| Occlusion ambiante | <div><img alt="(coche)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
-| Bent normal | <div><img alt="(coche)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
-| Couleur | <div><img alt="(coche)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
-| Courbure | <div><img alt="(coche)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
-| Hauteur | <div><img alt="(coche)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
-| Normale | <div><img alt="(coche)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
-| Espace monde normal | <div><img alt="(erreur)" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| Occlusion ambiante | <div><img alt="(coche)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| Bent normal | <div><img alt="(coche)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| Couleur | <div><img alt="(coche)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| Courbure | <div><img alt="(coche)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| Hauteur | <div><img alt="(coche)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| Normale | <div><img alt="(coche)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| Espace monde normal | <div><img alt="(erreur)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
 
 
 
 | Baker | Prend en charge le lancer de rayons du GPU |
 | --- | --- |
-| Masque d’opacité | <div><img alt="(coche)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
-| Position | <div><img alt="(coche)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
-| Position basse | <div><img alt="(erreur)" data-preserve-html="true" src="../../assets/error.svg"/></div> |
-| Épaisseur | <div><img alt="(coche)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
-| Texture transférée | <div><img alt="(coche)" data-preserve-html="true" src="../../assets/check.svg"/></div> |
-| Monde à tangente | <div><img alt="(erreur)" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| Masque d’opacité | <div><img alt="(coche)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| Position | <div><img alt="(coche)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| Position basse | <div><img alt="(erreur)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
+| Épaisseur | <div><img alt="(coche)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| Texture transférée | <div><img alt="(coche)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| Monde à tangente | <div><img alt="(erreur)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
 
 
 +++
@@ -86,26 +86,26 @@ Les tableaux ci-dessous répertorient la prise en charge du lancer de rayons GPU
 
 | Baker | Prend en charge le lancer de rayons du GPU |
 | --- | --- |
-| Occlusion ambiante | <div><img alt="(erreur)" data-preserve-html="true" src="../../assets/error.svg"/></div> |
-| Ambient occlusion à partir du maillage | <div><img alt="(coche)" data-preserve-html="true" src="../../assets/check.svg"/></div> \* |
-| Bent normals à partir du maillage | <div><img alt="(coche)" data-preserve-html="true" src="../../assets/check.svg"/></div> \* |
-| Color à partir du maillage | <div><img alt="(erreur)" data-preserve-html="true" src="../../assets/error.svg"/></div> \* |
-| Convertir UV en SVG | <div><img alt="(erreur)" data-preserve-html="true" src="../../assets/error.svg"/></div> |
-| Curvature à partir du maillage | <div><img alt="(coche)" data-preserve-html="true" src="../../assets/check.svg"/></div> \* |
-| Height à partir du maillage | <div><img alt="(erreur)" data-preserve-html="true" src="../../assets/error.svg"/></div> \* |
-| Normal à partir du maillage | <div><img alt="(erreur)" data-preserve-html="true" src="../../assets/error.svg"/></div> \* |
+| Occlusion ambiante | <div><img alt="(erreur)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
+| Ambient occlusion à partir du maillage | <div><img alt="(coche)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> \* |
+| Bent normals à partir du maillage | <div><img alt="(coche)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> \* |
+| Color à partir du maillage | <div><img alt="(erreur)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> \* |
+| Convertir UV en SVG | <div><img alt="(erreur)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
+| Curvature à partir du maillage | <div><img alt="(coche)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> \* |
+| Height à partir du maillage | <div><img alt="(erreur)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> \* |
+| Normal à partir du maillage | <div><img alt="(erreur)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> \* |
 
 
 
 | Baker | Prend en charge le lancer de rayons du GPU |
 | --- | --- |
-| Masque d’opacité du maillage | <div><img alt="(erreur)" data-preserve-html="true" src="../../assets/error.svg"/></div> \* |
-| Position à partir du maillage | <div><img alt="(erreur)" data-preserve-html="true" src="../../assets/error.svg"/></div> \* |
-| Position | <div><img alt="(erreur)" data-preserve-html="true" src="../../assets/error.svg"/></div> |
-| Thickness à partir du maillage | <div><img alt="(coche)" data-preserve-html="true" src="../../assets/check.svg"/></div> \* |
-| Texture transférée du maillage | <div><img alt="(erreur)" data-preserve-html="true" src="../../assets/error.svg"/></div> \* |
-| Sens de l&#39;espace dans le monde | <div><img alt="(erreur)" data-preserve-html="true" src="../../assets/error.svg"/></div> |
-| Normales de l&#39;espace mondial | <div><img alt="(erreur)" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| Masque d’opacité du maillage | <div><img alt="(erreur)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> \* |
+| Position à partir du maillage | <div><img alt="(erreur)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> \* |
+| Position | <div><img alt="(erreur)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
+| Thickness à partir du maillage | <div><img alt="(coche)&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> \* |
+| Texture transférée du maillage | <div><img alt="(erreur)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> \* |
+| Sens de l&#39;espace dans le monde | <div><img alt="(erreur)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
+| Normales de l&#39;espace mondial | <div><img alt="(erreur)&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
 
 
 \* : prend en charge le lancer de rayons CPU, beaucoup plus lent que le lancer de rayons GPU.

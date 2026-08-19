@@ -40,6 +40,6 @@ ht-degree: 0%
 > 
 > Quelques solutions sont disponibles pour éviter ce problème :
 > 
-> * Utilisez la fonction [ Correspondance par nom ](../../features/matching-by-name/matching-by-name.md) pour isoler les maillages
+> * Utilisez la fonction [&#x200B; Correspondance par nom &#x200B;](../../features/matching-by-name/matching-by-name.md) pour isoler les maillages
 > * Utilisez une [cage](https://helpx.adobe.com/substance-3d/unlisted/documentation/bake/cage-projection-172822982.html) pour limiter la distance de rayon.
 > * Remplacez la distance de rayon par défaut dans les paramètres communs de baker par une valeur inférieure.

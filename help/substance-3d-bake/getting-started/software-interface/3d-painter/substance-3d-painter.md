@@ -42,15 +42,15 @@ Plusieurs boutons sont disponibles dans la partie supérieure gauche de la fenê
 | --- | --- |
 | **Fréquent** | Définissez la vue des paramètres sur [Paramètres communs](../../../bakers-settings/common-parameters/common-parameters.md). |
 | **Normal** | Définissez la vue des paramètres sur [Paramètres normaux](../../../bakers-settings/normal-map-from-mesh/normal-map-from-mesh.md). |
-| **Espace mondial normal** | Définissez la vue des paramètres sur [ Paramètres normaux de l&#39;espace universel ](../../../bakers-settings/world-space-normals/world-space-normals.md). |
+| **Espace mondial normal** | Définissez la vue des paramètres sur [&#x200B; Paramètres normaux de l&#39;espace universel &#x200B;](../../../bakers-settings/world-space-normals/world-space-normals.md). |
 | **ID** | Définissez la vue des paramètres sur [Paramètres de couleur](../../../bakers-settings/color-map-from-mesh/color-map-from-mesh.md). |
 | **Occlusion Ambiante** | Définissez la vue des paramètres sur [Paramètres d&#39;occlusion ambiante](../../../bakers-settings/ambient-occlusion-from/ambient-occlusion-from-mesh.md). |
-| **Courbure** | Modifiez la vue des paramètres en [ Paramètres de courbure ](../../../bakers-settings/curvature/curvature.md). |
+| **Courbure** | Modifiez la vue des paramètres en [&#x200B; Paramètres de courbure &#x200B;](../../../bakers-settings/curvature/curvature.md). |
 | **Position** | Définissez la vue des paramètres sur [Paramètres de position](../../../bakers-settings/position/position.md). |
-| **Épaisseur** | Modifiez la vue des paramètres en [ Paramètres d&#39;épaisseur ](../../../bakers-settings/thickness-map-from-mesh/thickness-map-from-mesh.md). |
+| **Épaisseur** | Modifiez la vue des paramètres en [&#x200B; Paramètres d&#39;épaisseur &#x200B;](../../../bakers-settings/thickness-map-from-mesh/thickness-map-from-mesh.md). |
 | **Hauteur** | Définissez la vue des paramètres sur [Paramètres de hauteur](../../../bakers-settings/height-map-from-mesh/height-map-from-mesh.md). |
 | **Normales courbées** | Définissez la vue des paramètres sur [Paramètres des normales courbées](../../../bakers-settings/bent-normals-from-mesh/bent-normals-from-mesh.md). |
-| **Opacité** | Définissez la vue Paramètres sur [ Paramètres d’opacité ](../../../bakers-settings/opacity-mask-from-mesh/opacity-mask-from-mesh.md). |
+| **Opacité** | Définissez la vue Paramètres sur [&#x200B; Paramètres d’opacité &#x200B;](../../../bakers-settings/opacity-mask-from-mesh/opacity-mask-from-mesh.md). |
 
 ### Paramètres
 

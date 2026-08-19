@@ -30,4 +30,4 @@ ht-degree: 0%
 >
 > **Solution**
 > 
-> Les Substance Bakers appliquent à la fois la diffusion et la dilatation en dehors des îles UV pour combler le vide et s&#39;assurer que la texture fonctionnera correctement dans les moteurs de jeu lorsque des mipmap seront générées. Pour en savoir plus à ce sujet, voir : [ Marge intérieure ](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/padding-134643719.html).
+> Les Substance Bakers appliquent à la fois la diffusion et la dilatation en dehors des îles UV pour combler le vide et s&#39;assurer que la texture fonctionnera correctement dans les moteurs de jeu lorsque des mipmap seront générées. Pour en savoir plus à ce sujet, voir : [&#x200B; Marge intérieure &#x200B;](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/padding-134643719.html).

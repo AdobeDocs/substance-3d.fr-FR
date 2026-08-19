@@ -45,7 +45,7 @@ Les boulangers peuvent utiliser le super échantillonnage pour effectuer l&#39;a
 À titre d’exemple :
 
 * un réglage AA de 2x2 signifie que le boulanger projettera 4 fois la quantité initiale de rayons. Pour une texture 2 048\*2 048 px, le calcul résultant équivaut à cuire une texture 4 096\*4 096 px et devrait prendre environ 4 fois plus de temps à calculer.
-* un réglage AA de 8x8 signifie que le boulanger projettera 64 fois la quantité initiale de rayons. Pour une texture 2 048** 2 048 px, le temps de calcul obtenu équivaut à cuire une texture 16384**16384px et devrait prendre environ 64 fois plus de temps à calculer.
+* un réglage AA de 8x8 signifie que le boulanger projettera 64 fois la quantité initiale de rayons. Pour une texture 2 048 **&#x200B; 2 048 px, le temps de calcul obtenu équivaut à cuire une texture 16384**&#x200B;16384px et devrait prendre environ 64 fois plus de temps à calculer.
 
 **En tenant compte de ces chiffres, le paramètre 8x8 doit être utilisé avec précaution**.
 

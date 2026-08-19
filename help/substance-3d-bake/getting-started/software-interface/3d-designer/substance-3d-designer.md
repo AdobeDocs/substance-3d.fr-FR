@@ -56,13 +56,13 @@ Ce panneau contrôle l’emplacement de la texture cuite.
 
 ![](../../../assets/sd-high.png)
 
-Ce panneau contrôle la liste des maillages à polyvalence élevée et les paramètres associés. Pour plus d’informations](../../../bakers-settings/common-parameters/common-parameters.md) voir les [paramètres communs.
+Ce panneau contrôle la liste des maillages à polyvalence élevée et les paramètres associés. Pour plus d’informations[&#128279;](../../../bakers-settings/common-parameters/common-parameters.md) voir les paramètres communs.
 
 ### Valeurs par défaut
 
 ![](../../../assets/sd-default-values.png)
 
-Pour plus d’informations](../../../bakers-settings/common-parameters/common-parameters.md) voir les [paramètres communs.
+Pour plus d’informations[&#128279;](../../../bakers-settings/common-parameters/common-parameters.md) voir les paramètres communs.
 
 ### Liste et paramètres Baker
 
@@ -73,7 +73,7 @@ Le boulanger est l&#39;endroit où vous pouvez choisir la texture de cuisson que
 * **Ajouter un nouveau boulanger :** Cliquez sur le bouton « Ajouter un boulanger ».
 * **Retrait d&#39;un boulanger :** Sélectionnez le boulanger dans la liste, puis cliquez sur le bouton « Supprimer le boulanger ».
 * **Déplacer un boulanger en haut :** Sélectionnez le boulanger dans la liste, puis cliquez sur le bouton « Tirer en haut ».
-* **Déplacer vers le bas d&#39;un boulanger :**Sélectionnez le boulanger dans la liste, puis cliquez sur le bouton « Push down ».
+* **Déplacer vers le bas d&#39;un boulanger :**&#x200B;Sélectionnez le boulanger dans la liste, puis cliquez sur le bouton « Push down ».
 
 Chaque boulanger dans le hérite par défaut des valeurs par défaut (voir ci-dessus). La taille (résolution) peut par exemple être remplacée en cliquant sur la cellule sur la ligne du boulanger. C&#39;est vrai pour les autres paramètres de la ligne.
 

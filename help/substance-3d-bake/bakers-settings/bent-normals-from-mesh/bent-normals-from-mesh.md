@@ -33,7 +33,7 @@ Les normales courbées de mesh baker calculent une texture qui décrit la direct
 | *Paramètre* | *Description* |
 | --- | --- |
 | **Rayons secondaires** | Quantité de rayons occlusifs. Une valeur élevée produira moins de bruit, mais sera plus longue à calculer. |
-| **Distance min. de l&#39;occluseur** | Distance minimale à laquelle les rayons d&#39;occlusion atteignent la géométrie poly élevée**.** |
+| **Distance min. de l&#39;occluseur** | Distance minimale à laquelle les rayons d&#39;occlusion atteignent la géométrie poly élevée&#x200B;**.** |
 | **Distance max. de l&#39;occluseur** | Distance maximale à laquelle les rayons d&#39;occlusion atteignent la géométrie poly élevée. |
 | **Relatif au cadre de sélection** | Si cette option est activée, les calculs de distance de rayon sont basés sur l&#39;espace normalisé (0 à 1) du maillage à faible poly. Si cette option est désactivée, le calcul de la distance de rayon est basé sur les unités spécifiées dans le maillage à faible poly lors de son exportation (mètres, centimètres, etc.). |
 | **Angle de propagation** | Angle de diffusion maximal des rayons d&#39;occlusion. La valeur par défaut est 180. |

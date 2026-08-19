@@ -26,7 +26,7 @@ ht-degree: 0%
 > 
 > Message d’erreur possible :
 > 
-> > > > 
+> &#x200B;> > > 
 > 
 > [ Cuisson ] Échec de la cuisson (Carte des couleurs du maillage)\
 > Couleurs de sommet introuvables
