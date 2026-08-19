@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings.html"
 breadcrumb-title: ''
 description: Explorez tous les paramètres de boulanger disponibles et apprenez à configurer chaque type de boulanger pour obtenir des résultats optimaux de génération de texture.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-bake/features/matching-by-name.html'
+helpx_url: 'https://helpx.adobe.com/fr/substance-3d-bake/features/matching-by-name.html'
 breadcrumb-title: ''
 description: Utilisez la fonction Correspondance par nom pour isoler les maillages à faible et à fort polygone et empêcher le saignement de la géométrie pendant la cuisson.
 helpx_creative_field: ''
@@ -91,7 +91,7 @@ La correspondance par nom peut être activée dans les [paramètres communs](../
 Les suffixes par défaut sont \_low et \_high et peuvent être modifiés comme suit :
 
 * **Substance Painter** : dans la fenêtre [Baking](../../getting-started/software-interface/3d-painter/substance-3d-painter.md), dans les paramètres communs.
-* **Concepteur de substance** : dans les paramètres [Projet](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/workspace/preferences/project-settings), sous les paramètres Cuisson.
+* **Concepteur de substance** : dans les paramètres [Projet](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/workspace/preferences/project-settings), sous les paramètres Cuisson.
 
 ## Filets à haute teneur en poly de zBrush
 

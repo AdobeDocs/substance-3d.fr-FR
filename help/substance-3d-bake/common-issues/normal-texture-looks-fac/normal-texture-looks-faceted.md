@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/normal-texture-looks-faceted.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-issues/normal-texture-looks-faceted.html"
 breadcrumb-title: ''
 description: Correction de l'aspect des facettes dans les textures normales en lissant les normales des maillages et en ajustant les paramètres des groupes de lissage.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/tutorials.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/getting-started/tutorials.html"
 breadcrumb-title: ''
 description: Accédez aux tutoriels et aux ressources d’apprentissage pour maîtriser Substance Bakers et améliorer votre workflow d’ancrage de texture.
 helpx_creative_field: ""

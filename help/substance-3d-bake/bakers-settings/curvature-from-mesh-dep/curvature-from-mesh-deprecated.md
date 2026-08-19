@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/curvature-from-mesh-deprecated.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/curvature-from-mesh-deprecated.html"
 breadcrumb-title: ''
 description: Référence pour la courbe obsolète de Mesh baker. Utilisez plutôt la courbure mise à jour de Mesh baker.
 helpx_creative_field: ""

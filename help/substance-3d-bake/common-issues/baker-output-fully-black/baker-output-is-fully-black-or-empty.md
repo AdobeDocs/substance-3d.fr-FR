@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/baker-output-is-fully-black-or-empty.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-issues/baker-output-is-fully-black-or-empty.html"
 breadcrumb-title: ''
 description: Dépannez pourquoi les sorties du boulanger sont entièrement noires ou vides et apprenez à résoudre les problèmes de maillage et d'UV.
 helpx_creative_field: ""

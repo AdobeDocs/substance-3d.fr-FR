@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/world-space-direction.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/world-space-direction.html"
 breadcrumb-title: ''
 description: Calculez les directions vectorielles dans l'espace univers et enregistrez-les dans les textures pour les effets directionnels et le masquage.
 helpx_creative_field: ""

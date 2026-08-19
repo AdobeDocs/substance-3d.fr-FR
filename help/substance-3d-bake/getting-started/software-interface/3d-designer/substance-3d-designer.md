@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/software-interface/substance-3d-designer.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/getting-started/software-interface/substance-3d-designer.html"
 breadcrumb-title: ''
 description: Découvrez comment accéder à la fenêtre de cuisson dans Substance 3D Designer et l’utiliser pour transformer les informations de modèle en textures.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![](../../../assets/sd-mesh-right-click.png)
 
-La fenêtre de cuisson est accessible à partir du fichier de maillage dans la fenêtre [Explorateur](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html). Cliquez avec le bouton droit de la souris sur le nom du maillage et choisissez « **Informations sur le modèle de cuisson** » pour ouvrir la fenêtre de cuisson.
+La fenêtre de cuisson est accessible à partir du fichier de maillage dans la fenêtre [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html). Cliquez avec le bouton droit de la souris sur le nom du maillage et choisissez « **Informations sur le modèle de cuisson** » pour ouvrir la fenêtre de cuisson.
 
 ## Vue d’ensemble
 

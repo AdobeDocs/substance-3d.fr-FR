@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/curvature.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/curvature.html"
 breadcrumb-title: ''
 description: Extrayez les informations de courbure du maillage pour créer des textures qui mettent en évidence les cavités et les arêtes de la géométrie.
 helpx_creative_field: ""

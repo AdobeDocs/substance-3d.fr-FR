@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/thickness-map-from-mesh.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/thickness-map-from-mesh.html"
 breadcrumb-title: ''
 description: Générez des cartes d'épaisseur en projetant des rayons vers l'intérieur à partir des surfaces maillées pour les utiliser dans les ombrages SSS et le masquage.
 helpx_creative_field: ""

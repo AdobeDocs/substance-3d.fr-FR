@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/features/gpu-raytracing.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/features/gpu-raytracing.html"
 breadcrumb-title: ''
 description: Activez le lancer de rayons du GPU accéléré par le matériel pour accélérer les calculs de baking de 25 fois ou plus pour des workflows plus rapides.
 helpx_creative_field: ""

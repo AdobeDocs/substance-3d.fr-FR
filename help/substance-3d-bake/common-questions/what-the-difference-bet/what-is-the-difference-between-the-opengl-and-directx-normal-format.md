@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/what-is-the-difference-between-the-opengl-and-directx-normal-format.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-questions/what-is-the-difference-between-the-opengl-and-directx-normal-format.html"
 breadcrumb-title: ''
 description: Découvrez les différences entre les formats de carte OpenGL et DirectX normaux et quand utiliser chacun d’eux.
 helpx_creative_field: ""

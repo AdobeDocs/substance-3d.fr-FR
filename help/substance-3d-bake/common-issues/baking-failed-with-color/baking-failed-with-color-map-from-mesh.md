@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/baking-failed-with-color-map-from-mesh.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-issues/baking-failed-with-color-map-from-mesh.html"
 breadcrumb-title: ''
 description: Résolvez les problèmes de couleur du maillage en vérifiant les propriétés de couleur du maillage et le mappage UV.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/bent-normals-from-mesh.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/bent-normals-from-mesh.html"
 breadcrumb-title: ''
 description: Calcule les textures normales courbées qui décrivent la direction moyenne de l'éclairage ambiant à partir de maillages à polygone élevé.
 helpx_creative_field: ""

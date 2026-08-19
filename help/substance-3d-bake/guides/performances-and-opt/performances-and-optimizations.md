@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/guides/performances-and-optimizations.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/guides/performances-and-optimizations.html"
 breadcrumb-title: ''
 description: Découvrez comment optimiser la configuration matérielle et la préparation du maillage pour obtenir des performances de cuisson plus rapides.
 helpx_creative_field: ""
@@ -66,4 +66,4 @@ Plusieurs facteurs peuvent être à l’origine des blocages, dont le TDR (Timeo
 * lors de la cuisson de maillages denses avec le boulanger Ambient Occlusion
 * lors de l&#39;utilisation des boulangers accélérés DXR avec des mailles très denses en poly élevé (plus de 60 millions de triangles)
 
-Vous trouverez des informations supplémentaires sur le TDR et un guide détaillé sur la modification des paramètres associés ici : [Les pilotes de GPU se bloquent lors des longs calculs (blocage du TDR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html)
+Vous trouverez des informations supplémentaires sur le TDR et un guide détaillé sur la modification des paramètres associés ici : [Les pilotes de GPU se bloquent lors des longs calculs (blocage du TDR)](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html)

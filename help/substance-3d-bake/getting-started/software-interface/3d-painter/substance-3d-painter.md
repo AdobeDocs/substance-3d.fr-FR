@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/software-interface/substance-3d-painter.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/getting-started/software-interface/substance-3d-painter.html"
 breadcrumb-title: ''
 description: Découvrez comment accéder à la fenêtre de cuisson dans Substance 3D Painter et l’utiliser pour générer des cartes de maillage pour vos textures.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![](../../../assets/sp-baking-button-access.png)
 
-La fenêtre de cuisson est accessible via la [Paramètres de l&#39;ensemble de texture](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/interface/texture-set/texture-set-settings). Cliquez sur le bouton « **Faire des cartes de maillage** » pour ouvrir la fenêtre de cuisson du projet actuel.
+La fenêtre de cuisson est accessible via la [Paramètres de l&#39;ensemble de texture](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/interface/texture-set/texture-set-settings). Cliquez sur le bouton « **Faire des cartes de maillage** » pour ouvrir la fenêtre de cuisson du projet actuel.
 
 ## Vue d’ensemble
 

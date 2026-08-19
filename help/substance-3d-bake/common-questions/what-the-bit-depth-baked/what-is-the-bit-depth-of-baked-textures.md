@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/what-is-the-bit-depth-of-baked-textures.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-questions/what-is-the-bit-depth-of-baked-textures.html"
 breadcrumb-title: ''
 description: Comprenez la profondeur de bits des textures ancrées et leur impact sur la qualité de la texture et la taille du fichier.
 helpx_creative_field: ""
