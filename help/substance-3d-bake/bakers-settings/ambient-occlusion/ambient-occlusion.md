@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/ambient-occlusion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/ambient-occlusion.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser Ambient Occlusion baker pour générer des textures d’ombre ambiante à l’aide d’algorithmes accélérés par GPU.
+description: Découvrez comment utiliser Ambient Occlusion baker pour générer des textures d’ombre ambiantes à l’aide d’algorithmes rapides accélérés par GPU.
 helpx_creative_field: ""
 helpx_description: bakers > Bakers Settings > Ambient Occlusion
 helpx_experience_level: ""
@@ -20,26 +20,26 @@ ht-degree: 4%
 
 # Occlusion ambiante
 
-Le boulanger d&#39;Occlusion ambiante permet de cuire une texture d&#39;ombre ambiante. Ce boulanger utilise un algorithme rapide exécuté sur le GPU.
+L&#39;Ambient Occlusion baker permet de cuire une texture d&#39;ombre ambiante. Ce boulanger utilise un algorithme rapide exécuté sur le GPU.
 
-**Disponible dans :**
+**Disponible en :**
 
-* Substance Designer
-* Substance Automation Toolkit
+* Concepteur de substance
+* Boîte à outils d&#39;automatisation des substances
 
 >[!WARNING]
 >
-> * Ce boulanger n’est peut-être pas pris en charge sur les anciens GPU.
-> * La cuisson à haute résolution sur des GPU bas de gamme/mobiles peut entraîner un blocage.
+> * Ce boulanger n&#39;est peut-être pas pris en charge sur les anciens GPU.
+> * La cuisson à haute résolution sur les GPU bas de gamme/mobiles peut entraîner un blocage.
 
 ## Paramètres
 
 | *Nom* | *Description* |
 | --- | --- |
-| **Carte des normales** | Saisissez un fichier de courbe de normales qui peut être utilisé pour fournir des détails de géométrie supplémentaires sur la surface du maillage à prendre en compte lors du calcul de Baker. Ce paramètre est facultatif. |
-| **Espace universel** | Si cette option est activée, spécifiez que la carte normale d&#39;entrée est dans l&#39;espace universel (au lieu de l&#39;espace tangent). Si aucun mappage normal d&#39;entrée n&#39;est fourni, ces paramètres sont ignorés/désactivés. |
-| **Inverser la normale** | Calculer la courbe d&#39;occlusion ambiante avec des normales inversées (peut être utilisé pour générer une courbe de thickness). |
-| **Utiliser des parties de filet non sélectionnées** | Utilisez les parties de filet non sélectionnées du filet pour former la carte d’occlusion ambiante. |
-| **Qualité** | Choisissez la qualité de la carte d’Occlusion ambiante. Plus la qualité est élevée, plus le calcul est lent.Valeurs disponibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Faible</strong> (3 passes)</li><li data-preserve-html="true"><strong>Moyen</strong> (par défaut, 5 passes)</li><li data-preserve-html="true"><strong>Élevé</strong> (10 passes)</li><li data-preserve-html="true"><strong>Très élevé</strong> (16 passes)</li></ul> |
-| **Biais De Précision** | Précision de l&#39;occlusion ambiante. Une valeur inférieure donnera une plus grande précision, mais peut produire des artefacts plus grands. |
-| **Atténuation de la distance** | Diffusion de l’occlusion ambiante. |
+| **Carte normale** | Entrez un fichier de mappage normal qui peut être utilisé pour fournir des détails de géométrie supplémentaires sur la surface du maillage à prendre en compte lors du calcul de Baker. Ce paramètre est facultatif. |
+| **Espace mondial** | Si cette option est activée, spécifiez que la carte normale d&#39;entrée se trouve dans l&#39;espace universel (au lieu de l&#39;espace tangent). Si aucun mappage normal d’entrée n’est fourni, ces paramètres sont ignorés/désactivés. |
+| **Inverser la normale** | Calculer la carte d&#39;occlusion ambiante avec des normales inversées (peut être utilisé pour générer une carte d&#39;épaisseur). |
+| **Utiliser des pièces maillées non sélectionnées** | Utilisez des parties de maillage non sélectionnées du maillage pour créer la carte d&#39;occlusion ambiante. |
+| **Qualité** | Choisissez la qualité de la carte Occlusion ambiante. Une qualité supérieure est plus lente à calculer.Valeurs disponibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Faible</strong> (3 passes)</li><li data-preserve-html="true"><strong></strong> (par défaut, 5 passes)</li><li data-preserve-html="true"><strong>Élevée</strong> (10 passes)</li><li data-preserve-html="true"><strong>Très haut</strong> (16 passes)</li></ul> |
+| **Biais de précision** | Précision de l&#39;occlusion ambiante. Une valeur faible donnera une précision plus élevée, mais peut produire des artefacts plus grands. |
+| **Fondu de distance** | Diffusion de l’occlusion ambiante. |
