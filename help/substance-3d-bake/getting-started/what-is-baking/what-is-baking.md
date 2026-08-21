@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/getting-started/what-is-baking.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/getting-started/what-is-baking.html"
 breadcrumb-title: ''
 description: Découvrez ce qu'est la cuisson et apprenez à enregistrer des informations de maillage 3D dans des fichiers de texture pour améliorer vos matériaux Substance.
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 'Qu’est-ce que la cuisson ? '
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
+source-git-commit: 4ba3396472c767b16a67daa489105093a6a20871
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 ![](https://upload.wikimedia.org/wikipedia/commons/3/36/Normal_map_example.png)
 
-&#x200B;>> 
+>> 
 
-(Credits: [Paolo Cignoni](https://commons.wikimedia.org/wiki/File:Normal_map_example.png) - [CC BY-SA 1.0](https://creativecommons.org/licenses/by-sa/1.0))
+(Crédits : [Paolo Cignoni](https://commons.wikimedia.org/wiki/File:Normal_map_example.png) - [CC BY-SA 1.0](https://creativecommons.org/licenses/by-sa/1.0))
 
 La cuisson est le nom du processus d’**enregistrement d’informations** liées à un maillage **3D** dans un fichier **texture** ([bitmap](https://en.wikipedia.org/wiki/Raster_graphics)). La plupart du temps, ce processus implique un autre maillage. Dans ce cas, les informations du premier maillage sont transférées sur les deuxièmes UV de maillage puis sauvegardées dans une texture.
 
