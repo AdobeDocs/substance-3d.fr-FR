@@ -24,7 +24,7 @@ ht-degree: 0%
 
 &#x200B;>> 
 
-(Crédits : [Paolo Cignoni](:Normal_map_example.png) - [CC BY-SA 1.0](https://creativecommons.org/licenses/by-sa/1.0)
+(Credits: [Paolo Cignoni](https://commons.wikimedia.org/wiki/File:Normal_map_example.png) - [CC BY-SA 1.0](https://creativecommons.org/licenses/by-sa/1.0))
 
 La cuisson est le nom du processus d’**enregistrement d’informations** liées à un maillage **3D** dans un fichier **texture** ([bitmap](https://en.wikipedia.org/wiki/Raster_graphics)). La plupart du temps, ce processus implique un autre maillage. Dans ce cas, les informations du premier maillage sont transférées sur les deuxièmes UV de maillage puis sauvegardées dans une texture.
 
