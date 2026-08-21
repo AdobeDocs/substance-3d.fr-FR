@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/world-space-normals.html"
 breadcrumb-title: ''
-description: Enregistrez les normales, tangentes et binormales du maillage dans des textures à l’aide des coordonnées de l’espace universel pour les workflows avancés.
+description: Enregistrez les normales de maillage, les tangentes et les binormales dans les textures à l'aide des coordonnées spatiales du globe pour les processus avancés.
 helpx_creative_field: ""
 helpx_description: bakers > Bakers Settings > World Space Normals
 helpx_experience_level: ""
@@ -20,17 +20,17 @@ ht-degree: 6%
 
 # Normales de l&#39;espace monde
 
-Le boulonneur de normales de l’espace universel permet d’enregistrer la normale du maillage, la tangente et les normales binaires dans une texture.
+Le boulon World Space normals permet d&#39;enregistrer la normale du maillage, la tangente et les binormales dans une texture.
 
 **Disponible dans :**
 
-* Substance Designer
-* Substance Automation Toolkit
+* Concepteur de substance
+* Boîte à outils d&#39;automatisation des substances
 
 ## Paramètres
 
 | *Paramètre* | *Description* |
 | --- | --- |
-| **Type de cuisson** | Définit le type de calcul effectué par le boulanger.Valeurs possibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Normal</strong> (par défaut)</li><li data-preserve-html="true"><strong>Tangente</strong></li><li data-preserve-html="true"><strong>Binormal</strong></li></ul> |
-| **Carte des normales** | Tracé de la texture normale d’entrée qui sera utilisée pendant le calcul pour ajouter des détails. |
-| **Orientation normale** | Définit le format normal de la texture d&#39;entrée si le **type de cuisson** est défini sur **Normal**. Valeurs possibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>OpenGL</strong></li><li data-preserve-html="true"><strong>DirectX</strong> (par défaut)</li></ul> |
+| **Type de cuisson** | Définit le type de calcul que le boulanger effectuera.Valeurs possibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Normal</strong> (par défaut)</li><li data-preserve-html="true"><strong> Tangente </strong></li><li data-preserve-html="true"><strong> Binormal </strong></li></ul> |
+| **Carte normale** | Chemin d’accès à la texture normale d’entrée qui sera utilisée pendant le calcul pour ajouter des détails. |
+| **Orientation normale** | Définit le format normal de la texture d’entrée si **Type de cuisson** est défini sur **Normal**.Valeurs possibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>OpenGL </strong></li><li data-preserve-html="true"><strong>DirectX</strong> (par défaut)</li></ul> |

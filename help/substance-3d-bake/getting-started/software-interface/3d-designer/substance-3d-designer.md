@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/getting-started/software-interface/substance-3d-designer.html"
 breadcrumb-title: ''
-description: Apprenez à transformer des informations de mannequin en textures à l’aide de la fenêtre de création de baking de Substance 3D Designer.
+description: Découvrez comment accéder à la fenêtre de cuisson dans Substance 3D Designer et l’utiliser pour transformer les informations de modèle en textures.
 helpx_creative_field: ""
 helpx_description: bakers > Getting Started > Software Interface > Substance 3D Designer
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 ![](../../../assets/sd-mesh-right-click.png)
 
-La fenêtre de cuisson est accessible via le fichier de maillage dans la fenêtre [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html). Cliquez avec le bouton droit de la souris sur le nom du maillage et sélectionnez « **Informations sur le modèle de cuisson** » pour ouvrir la fenêtre de cuisson.
+La fenêtre de cuisson est accessible à partir du fichier de maillage dans la fenêtre [Explorateur](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html). Cliquez avec le bouton droit de la souris sur le nom du maillage et choisissez « **Informations sur le modèle de cuisson** » pour ouvrir la fenêtre de cuisson.
 
 ## Vue d’ensemble
 
@@ -30,13 +30,13 @@ La fenêtre de cuisson est accessible via le fichier de maillage dans la fenêtr
 
 La fenêtre de cuisson de est divisée en plusieurs panneaux qui sont décrits ci-dessous.
 
-### Elément à cuire
+### Élément à cuire
 
 ![](../../../assets/sd-mesh-selection.png)
 
-Ce panneau contrôle la partie du maillage en bas-poly qui sera utilisée pour effectuer la cuisson.
+Ce panneau contrôle la partie du maillage low-poly qui sera utilisée pour effectuer la cuisson.
 
-Ce panneau répertorie la géométrie trouvée dans le fichier de maillage low-poly. Par défaut, la liste est basée sur les matériaux individuels trouvés dans le fichier, mais elle peut être commutée en sous-maillages à la place lorsque cela est pertinent. Vous pouvez décocher les éléments qui doivent être ignorés pendant le processus de cuisson.
+Ce panneau répertorie la géométrie présente dans le fichier de maillage low-poly. Par défaut, la liste est basée sur les différents matériaux trouvés dans le fichier, mais elle peut être changée en sous-maillages si nécessaire. Vous pouvez décocher les éléments qui doivent être ignorés pendant le processus de cuisson.
 
 ### Sortie
 
@@ -46,37 +46,37 @@ Ce panneau contrôle l’emplacement de la texture cuite.
 
 | *Paramètre* | *Description* |
 | --- | --- |
-| **Méthode** | Contrôle la façon dont les textures cuites seront stockées avec le package de Substance.Valeurs possibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Incorporé</strong> : la texture cuite est stockée dans un sous-dossier en regard du package de Substance avec un nom spécifique.</li><li data-preserve-html="true"><strong>Lié</strong> (par défaut) : la texture cuite est stockée dans le dossier défini, puis référencée dans le pack de Substances.</li></ul> |
-| **Dossier** | Emplacement des textures cuites lors de l’enregistrement. Cliquez sur le bouton à trois points pour ouvrir une boîte de dialogue de fichier et choisissez le dossier d’exportation. Une coche sera visible à droite pour indiquer si le dossier existe réellement ou non. |
-| **Nom** | Convention de dénomination des textures cuites. Cliquez sur le bouton à trois points pour ouvrir une liste déroulante et insérer d’autres espaces réservés (nom de pain, personnalisé, matière, filet). |
-| **Exemple** | Simuler un nom de fichier pour tester la convention de dénomination. |
-| **Placer la ressource dans un dossier spécifique au maillage** | Si cette option est activée, les textures cuites sont enregistrées dans un dossier nommé fichier de filet. |
+| **Méthode** | Contrôle la façon dont les textures cuites seront stockées avec l&#39;emballage Substance.Valeurs possibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Incorporé</strong> : la texture cuite est stockée dans un sous-dossier à côté du package Substance avec un nom spécifique.</li><li data-preserve-html="true"><strong>Lié</strong> (par défaut) : la texture cuite est stockée dans le dossier défini, puis référencée dans le package Substance .</li></ul> |
+| **Dossier** | Emplacement des textures cuites lors de l’enregistrement. Cliquez sur le bouton des trois petits points pour ouvrir une boîte de dialogue de fichier et choisir le dossier d&#39;exportation. Une coche apparaît à droite pour indiquer si le dossier existe réellement ou non. |
+| **Nom** | Convention d’affectation des noms des textures cuites. Cliquez sur le bouton des trois petits points pour ouvrir une liste déroulante et insérer d’autres espaces réservés (nom de fichier, personnalisé, matériau, maillage). |
+| **Exemple** | Simulez un nom de fichier pour tester la convention d’affectation des noms. |
+| **Placer la ressource dans un dossier spécifique au maillage** | Si cette option est activée, les textures ancrées sont enregistrées dans un dossier nommé fichier de maillage. |
 
 ### Maillages haute définition
 
 ![](../../../assets/sd-high.png)
 
-Ce panneau contrôle la liste des maillages à haute densité de polices et les paramètres associés. Voir les [paramètres communs](../../../bakers-settings/common-parameters/common-parameters.md) pour plus d&#39;informations.
+Ce panneau contrôle la liste des maillages à polyvalence élevée et les paramètres associés. Pour plus d’informations[&#128279;](../../../bakers-settings/common-parameters/common-parameters.md) voir les paramètres communs.
 
 ### Valeurs par défaut
 
 ![](../../../assets/sd-default-values.png)
 
-Voir les [paramètres communs](../../../bakers-settings/common-parameters/common-parameters.md) pour plus d&#39;informations.
+Pour plus d’informations[&#128279;](../../../bakers-settings/common-parameters/common-parameters.md) voir les paramètres communs.
 
-### Baker List and Settings
+### Liste et paramètres Baker
 
 ![](../../../assets/sd-baker-list.png)
 
-Le boulanger est l’endroit où vous pouvez choisir la texture cuite que vous souhaitez générer. Par défaut, la liste est vide.
+Le boulanger est l&#39;endroit où vous pouvez choisir la texture de cuisson que vous voulez générer. Par défaut, la liste est vide.
 
-* **Ajout d&#39;un nouveau boulanger :** Cliquez sur le bouton « Ajouter un boulanger ».
-* **Suppression d&#39;un boulanger :** sélectionnez le boulanger dans la liste, puis cliquez sur le bouton « Supprimer le boulanger ».
-* **Placement d&#39;un boulanger en haut :** sélectionnez le boulanger dans la liste, puis cliquez sur le bouton « Placer en haut ».
-* **Descendre un boulanger :**&#x200B;Sélectionnez le boulanger dans la liste, puis cliquez sur le bouton « Push down ».
+* **Ajouter un nouveau boulanger :** Cliquez sur le bouton « Ajouter un boulanger ».
+* **Retrait d&#39;un boulanger :** Sélectionnez le boulanger dans la liste, puis cliquez sur le bouton « Supprimer le boulanger ».
+* **Déplacer un boulanger en haut :** Sélectionnez le boulanger dans la liste, puis cliquez sur le bouton « Tirer en haut ».
+* **Déplacer vers le bas d&#39;un boulanger :**&#x200B;Sélectionnez le boulanger dans la liste, puis cliquez sur le bouton « Push down ».
 
-Chaque boulanger hérite par défaut des valeurs par défaut (voir ci-dessus). La taille (résolution) peut par exemple être remplacée en cliquant sur la cellule sur la ligne du boulanger. Cela est vrai pour les autres paramètres de la ligne.
+Chaque boulanger dans le hérite par défaut des valeurs par défaut (voir ci-dessus). La taille (résolution) peut par exemple être remplacée en cliquant sur la cellule sur la ligne du boulanger. C&#39;est vrai pour les autres paramètres de la ligne.
 
-Lorsque vous cliquez sur un boulanger dans la liste, la vue Baker Parameters est mise à jour avec ses paramètres spécifiques.
+Lorsque vous cliquez sur un boulanger dans la liste, la vue Paramètres Baker est mise à jour avec ses paramètres spécifiques.
 
-Pour en savoir plus sur les paramètres spécifiques, voir : [Paramètres Bakers](../../../bakers-settings/bakers-settings.md).
+Pour en savoir plus sur les paramètres spécifiques, voir : [Bakers Settings](../../../bakers-settings/bakers-settings.md).

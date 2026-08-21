@@ -7,7 +7,7 @@ helpx_description: bakers > Getting Started > Compatible 3D software
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Logiciel 3D compatible
+title: Logiciels 3D compatibles
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
@@ -18,34 +18,34 @@ ht-degree: 2%
 ---
 
 
-# Logiciel 3D compatible
+# Logiciels 3D compatibles
 
-La plupart des logiciels 3D sont compatibles avec Substance Bakers à condition qu’ils exportent la géométrie de maillage sous forme de polygones dans des formats de fichiers pris en charge par les applications.
+La plupart des logiciels 3D sont compatibles avec Substance Bakers à condition qu&#39;ils exportent la géométrie maillée sous forme de polygones dans des formats de fichiers pris en charge par les applications.
 
-Cependant, tous les logiciels ne sont pas sur un pied d’égalité en termes de fonctionnalités et de qualité lors de l’exportation de ces maillages. C&#39;est pourquoi il est important de bien nettoyer un filet et de s&#39;assurer qu&#39;il sera compatible avec les boulangers. Pour plus d&#39;informations sur la préparation d&#39;un filet, consultez les différents [guides](../../guides/performances-and-opt/performances-and-optimizations.md).
+Cependant, tous les logiciels ne sont pas du même niveau en termes de fonctionnalité et de qualité lors de l’exportation de ces maillages. C&#39;est pourquoi il est important de nettoyer correctement un maillage et de s&#39;assurer qu&#39;il sera compatible avec les boulangers. Pour plus d&#39;informations sur la préparation d&#39;un maillage, consultez les différents [guides](../../guides/performances-and-opt/performances-and-optimizations.md).
 
 ## Compatibilité logicielle
 
-Vous trouverez ci-dessous une liste des logiciels 3D communément connus et de leur compatibilité avec les boulangers :
+Voici une liste des logiciels 3D connus et leur compatibilité avec les boulangers :
 
-| *Nom* | *État* |
+| *Nom* | *Statut* |
 | --- | --- |
-| **Mélangeur** | Compatible : aplatit les modificateurs avant l’exportation. |
-| **Maya** | Compatible : nécessite une transformation par blocage et un historique des suppressions avant l’exportation. |
-| **3DS Max** | Compatible : nécessite une xForm réinitialisée avant l’exportation. |
-| **MODO** | Compatible : recommandé d’utiliser l’exportateur Game Tab défini sur « Maillage statique irréel ». |
-| **Cinema 4D** | Compatible : aplatit les modificateurs avant l’exportation. |
-| **zBrush** | Non compatible : les maillages à faible poly doivent d’abord être traités et nettoyés dans une autre application 3D. Compatible : mailles en poly élevé pour la cuisson. |
+| **Blender** | Compatible : nécessite d’aplatir les modificateurs avant l’exportation. |
+| **Maya** | Compatible : nécessite une transformation par gel et un historique de suppression avant exportation. |
+| **3DS max** | Compatible : nécessite un xForm réinitialisé avant l&#39;export. |
+| **MODO** | Compatible : recommandé d’utiliser l’exportateur d’onglet Jeu défini sur « Maillage statique irréel ». |
+| **&#x200B;**&#x200B;| Compatible : nécessite d’aplatir les modificateurs avant l’exportation. |
+| **zBrush** | Non compatible : les maillages bas-poly doivent d&#39;abord être traités et nettoyés dans une autre application 3D. Compatible : mailles en poly pour la cuisson. |
 
 ## Format du fichier
 
-Lors de la cuisson de la géométrie, il est important de prendre en compte le format de fichier utilisé également. Le format de fichier définit la quantité d&#39;informations qui seront enregistrées dans le maillage.
+Lors de la cuisson de la géométrie, il est important de prendre également en compte le format de fichier utilisé. Le format de fichier définit la quantité d&#39;informations qui seront enregistrées dans le maillage.
 
-Le fait d&#39;avoir trop d&#39;informations peut parfois être préjudiciable et entraîner des erreurs. Nous vous recommandons généralement d’essayer différents formats de fichiers lorsque des erreurs se produisent, car cela peut être un moyen facile de résoudre les problèmes et de déterminer si le coupable est dans le boulanger lui-même ou provient du logiciel 3D.
+Avoir trop d&#39;informations peut parfois être préjudiciable et conduire à des erreurs. Nous vous recommandons généralement d’essayer différents formats de fichiers en cas d’erreur, car il peut s’agir d’un moyen facile de résoudre les problèmes et de déterminer si le coupable est le boulanger lui-même ou le logiciel 3D.
 
-Voici un aperçu rapide des deux formats de fichiers les plus courants pris en charge par les boulangers :
+Voici un aperçu rapide des deux formats de fichier les plus courants pris en charge par les boulangers :
 
 | Format du fichier | Informations |
 | --- | --- |
-| **FBX** | Autodesk FBX (Filmbox) est le format de fichier principal utilisé par Autodesk Software. Il peut être écrit sous forme de texte ou de binaire.  Il prend en charge :<ul data-preserve-html="true"><li data-preserve-html="true">UV (jeux multiples)</li><li data-preserve-html="true">Vertex, tangente et binormales</li><li data-preserve-html="true">Couleurs des vertex</li><li data-preserve-html="true">Triangle, quatre faces et N-Gon face</li><li data-preserve-html="true">Caméras</li><li data-preserve-html="true">Lumières</li><li data-preserve-html="true">Subdivisions de maillage</li><li data-preserve-html="true">Lissage de groupes</li><li data-preserve-html="true">Informations sur la matière (comme la couleur)</li><li data-preserve-html="true">Bitmap</li></ul> |
-| **OBJ** | Wavefront OBJ est un format de fichier texte très simple qui prend en charge :<ul data-preserve-html="true"><li data-preserve-html="true">UV (un seul jeu)</li><li data-preserve-html="true">Normales aux sommets</li><li data-preserve-html="true">Couleurs des sommets (uniquement si exportées à partir de l’outil Pinceau pixellisé)</li><li data-preserve-html="true">Triangle, Quad et N-Gon</li><li data-preserve-html="true">Couleur du matériau (si le fichier <strong>mtl</strong> est présent)</li></ul> |
+| **&#x200B;**&#x200B;| Autodesk FBX (Filmbox) est le format de fichier principal utilisé par le logiciel Autodesk. Il peut être écrit en texte ou en binaire.  Il prend en charge les éléments suivants :<ul data-preserve-html="true"><li data-preserve-html="true">UV (ensembles multiples)</li><li data-preserve-html="true">Vertex, tangente et binormales</li><li data-preserve-html="true">Couleurs des vertex</li><li data-preserve-html="true">Triangle face, Quad face et N-Gon face</li><li data-preserve-html="true">Caméras</li><li data-preserve-html="true">Lumières</li><li data-preserve-html="true">Subdivisions de maillage</li><li data-preserve-html="true">Lissage de groupes</li><li data-preserve-html="true">Informations sur le matériau (telles que la couleur)</li><li data-preserve-html="true">Bitmap</li></ul> |
+| **&#x200B;**&#x200B;| Wavefront OBJ est un format de fichier texte très simple qui prend en charge :<ul data-preserve-html="true"><li data-preserve-html="true">UV (un seul ensemble)</li><li data-preserve-html="true">Normales de sommet</li><li data-preserve-html="true">Couleurs de sommet (uniquement si exportées à partir de Pixological zBrush)</li><li data-preserve-html="true">Face triangulaire, face quadruple et face N-Gon</li><li data-preserve-html="true">Couleur du matériau (si un fichier <strong>mtl</strong> est présent)</li></ul> |

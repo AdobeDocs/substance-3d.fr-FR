@@ -24,7 +24,7 @@ ht-degree: 0%
 >
 > **Problème**
 > 
-> Une jointure est visible sur quelques arêtes de la géométrie, même si aucune jointure UV n&#39;est présente :
+> Une soudure est visible sur quelques arêtes de la géométrie, même si aucune soudure UV n&#39;est présente :
 > 
 > ![](../../assets/seam-every-face.jpg)
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 >
 > **Explication**
 > 
-> Si vous n&#39;utilisez pas de [cage](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/bake/cage-projection-172822982.html), le processus de cuisson lancera des rayons dans la direction des normales des sommets du maillage en bas-poly. Si chaque normale de sommet est divisée (ce qui signifie que chaque face ne partage pas les mêmes normales de sommet que la face voisine), les rayons ne seront pas envoyés dans la même direction sur les arêtes. Cela entraîne une division car les informations de chaque côté des arêtes sont différentes.
+> Si vous n&#39;utilisez pas de [cage](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/bake/cage-projection-172822982.html), le processus de Baking lancera des rayons dans la direction des normales des sommets du maillage à faible poly. Si chaque normale de sommet est fractionnée (ce qui signifie que chaque face ne partage pas les mêmes normales de sommet que la face voisine), les rayons ne seront pas envoyés dans la même direction sur les arêtes. Il en résulte un fractionnement, car les informations de chaque côté des arêtes sont différentes.
 > 
-> Ce problème est également exacerbé par le crénelage, comme expliqué dans [cette page](../../common-issues/aliasing-on-uv-seams/aliasing-on-uv-seams.md).
+> Ce problème est également exacerbé par les alias, comme expliqué dans [cette page](../../common-issues/aliasing-on-uv-seams/aliasing-on-uv-seams.md).
 
 >[!NOTE]
 >
@@ -42,5 +42,5 @@ ht-degree: 0%
 > 
 > Seules deux solutions sont possibles ici :
 > 
-> * Utilisez une [cage](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/bake/cage-projection-172822982.html) pour contrôler la direction du rayon au lieu de laisser le boulanger la calculer à partir de la géométrie en bas-poly.
-> * Fusionnez les normales des sommets du maillage low-poly (adoucissez-les / appliquez un groupe de lissage commun).
+> * Utilisez une [cage](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/bake/cage-projection-172822982.html) pour contrôler la direction du rayon au lieu de laisser le boulanger le calculer à partir de la géométrie low-poly.
+> * Fusionner les normales des sommets du maillage bas-poly ensemble (les adoucir / appliquer un groupe de lissage commun).

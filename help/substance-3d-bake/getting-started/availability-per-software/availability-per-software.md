@@ -20,24 +20,24 @@ ht-degree: 28%
 
 # Disponibilité par logiciel
 
-Certains boulangers peuvent ne pas être disponibles dans tous les logiciels. La liste ci-dessous fait référence à ceux qui sont présents par logiciel.
+Certains boulangers peuvent ne pas être disponibles dans tous les logiciels. La liste ci-dessous fait référence à ceux présents par logiciel.
 
-|  | Substance 3D Designer | Substance Automation Toolkit | Substance 3D Painter |
+|  | Substance 3D Designer | Boîte à outils d&#39;automatisation des substances | Substance 3D Painter |
 | --- | --- | --- | --- |
 | Occlusion ambiante |  | ■ |  |
-| Occlusion ambiante à partir du filet | ■ | ■ | ■ |
-| Normales courbées à partir d&#39;un filet | ■ | ■ | **■** |
-| Table des couleurs à partir d’un filet | ■ | ■ | ■ |
+| Occlusion du maillage dans l&#39;environnement | ■ | ■ | ■ |
+| Normales courbées du maillage | ■ | ■ | **■** |
+| Carte des couleurs du maillage | ■ | ■ | ■ |
 | Convertir UV en SVG | ■ | ■ |  |
 | Courbure |  | ■ | ■ |
 | Curvature à partir du maillage | ■ | ■ | ■ |
 | Curvature à partir du maillage (obsolète) |  | ■ |  |
-| Mappage d’Height à partir du filet | ■ | ■ | ■ |
-| Carte des normales à partir du maillage | ■ | ■ | ■ |
-| Masque d’opacité à partir du filet | ■ | ■ | ■ |
+| Carte de hauteur à partir du maillage | ■ | ■ | ■ |
+| Carte normale à partir du maillage | ■ | ■ | ■ |
+| Masque d’opacité du maillage | ■ | ■ | ■ |
 | Position | ■ | ■ | ■ |
 | Position à partir du maillage | ■ | ■ |  |
-| Mappage de thickness à partir du filet | ■ | ■ | ■ |
+| Carte d&#39;épaisseur à partir du maillage | ■ | ■ | ■ |
 | Texture transférée du maillage | ■ | ■ |  |
 | Direction dans l&#39;espace monde | ■ | ■ |  |
 | Normales de l&#39;espace monde | ■ | ■ | ■ |

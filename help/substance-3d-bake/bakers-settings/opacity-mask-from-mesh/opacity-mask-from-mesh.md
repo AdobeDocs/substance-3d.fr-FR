@@ -20,18 +20,18 @@ ht-degree: 11%
 
 # Masque d&#39;opacité à partir du maillage
 
-Le masque d’opacité de mesh baker calcule une texture où les rayons manquants sont convertis en image binaire en niveaux de gris. Cette texture est généralement utilisée comme texture d’opacité.
+Le masque d’opacité de mesh baker calcule une texture dans laquelle les rayons manquants sont convertis en une image binaire en niveaux de gris. Cette texture est généralement utilisée comme texture d&#39;opacité.
 
 Les propriétés de texture sont définies comme suit :
 
-* Les valeurs noires représentent les zones vides.
-* Les valeurs de blanc représentent des zones convexes.
+* Les valeurs noires représentent des zones vides.
+* Les valeurs blanches représentent des zones convexes.
 
-**Disponible dans :**
+**Disponible en :**
 
 * Painter
 * Designer
-* Automation Toolkit
+* Boîte à outils d’automatisation
 
 ## Paramètres :
 
