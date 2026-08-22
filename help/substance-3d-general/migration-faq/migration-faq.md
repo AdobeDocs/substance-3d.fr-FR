@@ -18,24 +18,24 @@ ht-degree: 0%
 
 La documentation des produits et rubriques suivants est désormais disponible sur Experience League :
 
-[Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)
-[Substance 3D Designer](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/home)
-[Substance 3D Sampler](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/home)
-[Cuisson au four avec Substance 3D](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home)
-[Connaissances générales de Substance 3D](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/home)
-[Écosystème et intégrations](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)
+[Substance 3D Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home)
+[Substance 3D Designer](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/home)
+[Substance 3D Sampler](https://experienceleague.adobe.com/fr/docs/substance-3d-sampler/using/home)
+[Cuisson au four avec Substance 3D](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/home)
+[Connaissances générales de Substance 3D](https://experienceleague.adobe.com/fr/docs/substance-3d/general-knowledge/home)
+[Écosystème et intégrations](https://experienceleague.adobe.com/fr/docs/substance-3d/ecosystem/home)
 
 +++
 
 +++ Où puis-je trouver la nouvelle documentation ?
 
 Le contenu passe de HelpX à Experience League. Vous trouverez de la documentation sur les produits et les rubriques ci-dessous sur Experience League, en cliquant sur les liens ci-dessous :
-[Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)
-[Substance 3D Designer](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/home)
-[Substance 3D Sampler](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/home)
-[Cuisson au four avec Substance 3D](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home)
-[Connaissances générales de Substance 3D](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/home)
-[Écosystème et intégrations](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)
+[Substance 3D Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/home)
+[Substance 3D Designer](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/home)
+[Substance 3D Sampler](https://experienceleague.adobe.com/fr/docs/substance-3d-sampler/using/home)
+[Cuisson au four avec Substance 3D](https://experienceleague.adobe.com/fr/docs/substance-3d/bakers/home)
+[Connaissances générales de Substance 3D](https://experienceleague.adobe.com/fr/docs/substance-3d/general-knowledge/home)
+[Écosystème et intégrations](https://experienceleague.adobe.com/fr/docs/substance-3d/ecosystem/home)
 
 +++
 

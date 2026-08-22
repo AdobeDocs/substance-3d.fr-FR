@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Écosystème et modules externes
 
-Le [format sbsar du matériau de Substance](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/getting-started/overview/what-is-a-substance-3d-file) est pris en charge par tous les principaux outils de création de contenu numérique et de jeu (DCC). Le format est publié à partir des applications Substance 3D sous forme de fichier .sbsar. Les fichiers SBSAR peuvent être chargés dans des applications DCC et des moteurs de jeu prenant en charge les matériaux de Substance via un plug-in de Substance ou une intégration native.
+Le [format sbsar du matériau de Substance](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/getting-started/overview/what-is-a-substance-3d-file) est pris en charge par tous les principaux outils de création de contenu numérique et de jeu (DCC). Le format est publié à partir des applications Substance 3D sous forme de fichier .sbsar. Les fichiers SBSAR peuvent être chargés dans des applications DCC et des moteurs de jeu prenant en charge les matériaux de Substance via un plug-in de Substance ou une intégration native.
 
 Pour plus d’informations sur l’utilisation de ces matériaux, voir :
 
