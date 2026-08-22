@@ -66,7 +66,7 @@ Les paramètres qui ont été exposés dans la Substance Designer peuvent être 
 
 Le format de fichier des textures de sortie peut être changé via les listes déroulantes.
 
-Pour plus d&#39;informations, voir [Exposition d&#39;un paramètre](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/substance-graphs/manage-parameters/exposing-a-parameter) sur la page de documentation Designer.
+Pour plus d&#39;informations, voir [Exposition d&#39;un paramètre](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/substance-graphs/manage-parameters/exposing-a-parameter) sur la page de documentation Designer.
 
 ## Paramètres techniques
 

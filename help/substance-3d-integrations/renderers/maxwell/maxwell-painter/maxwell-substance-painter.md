@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Maxwell - Substance Painter
 
-Substance Painter 2020.1 (6.1.0) prend en charge les [Modèles de sortie](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/getting-started/export/export) Maxwell pour les propriétés Métallique/Rugosité et specular/Éclat. Vous pouvez simplement exporter à l’aide du Modèle de sortie Maxwell**.\
+Substance Painter 2020.1 (6.1.0) prend en charge les [Modèles de sortie](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/getting-started/export/export) Maxwell pour les propriétés Métallique/Rugosité et specular/Éclat. Vous pouvez simplement exporter à l’aide du Modèle de sortie Maxwell**.\
 Maxwell 5.1.0** s’intègre à Substance Painter pour vous permettre d’importer facilement des textures et de configurer automatiquement un matériau Maxwell.
 
 ## Exportation de textures
