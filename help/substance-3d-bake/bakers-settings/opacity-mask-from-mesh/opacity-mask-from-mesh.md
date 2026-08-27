@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/opacity-mask-from-mesh.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/opacity-mask-from-mesh.html"
 breadcrumb-title: ''
 description: Générez des masques d’opacité en convertissant les rayons manquants en images binaires en niveaux de gris pour obtenir des effets de transparence.
 helpx_creative_field: ""

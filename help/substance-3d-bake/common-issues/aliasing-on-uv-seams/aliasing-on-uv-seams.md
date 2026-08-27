@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/aliasing-on-uv-seams.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-issues/aliasing-on-uv-seams.html"
 breadcrumb-title: ''
 description: Corrigez les artefacts de crénelage qui apparaissent sur les coutures UV pendant la cuisson en ajustant les paramètres de lissage et de remplissage.
 helpx_creative_field: ""

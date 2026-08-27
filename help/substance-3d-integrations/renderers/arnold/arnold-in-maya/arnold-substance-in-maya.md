@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/arnold/arnold-substance-in-maya.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/arnold/arnold-substance-in-maya.html"
 breadcrumb-title: ''
 description: Apprenez à utiliser les matériaux de Substance avec le moteur de rendu Arnold dans Maya à l’aide du plug-in Substance et du matériau Surface standard.
 helpx_creative_field: ""

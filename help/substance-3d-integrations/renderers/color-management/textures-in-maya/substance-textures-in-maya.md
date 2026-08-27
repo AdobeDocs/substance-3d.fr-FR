@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/color-management/substance-textures-in-maya.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/color-management/substance-textures-in-maya.html"
 breadcrumb-title: ''
 description: Configurez les paramètres d’espace colorimétrique pour les textures de Substance dans Maya afin d’assurer une gestion et un rendu précis des couleurs.
 helpx_creative_field: ""

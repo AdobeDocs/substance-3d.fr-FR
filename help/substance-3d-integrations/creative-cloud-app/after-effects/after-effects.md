@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/creative-cloud-applications/after-effects.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/creative-cloud-applications/after-effects.html"
 breadcrumb-title: ''
 description: Utilisez des matériaux de Substance dans After Effects pour créer des textures et des matériaux réalistes pour les animations graphiques et les effets visuels.
 helpx_creative_field: ""

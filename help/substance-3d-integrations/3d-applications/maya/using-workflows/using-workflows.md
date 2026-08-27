@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/using-workflows.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/using-workflows.html"
 breadcrumb-title: ''
 description: Créez et utilisez des paramètres prédéfinis de rendu pour les sorties de Substance dans Maya afin de générer automatiquement des réseaux de nuanceurs pour différents systèmes de rendu.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/position-map-from-mesh.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/position-map-from-mesh.html"
 breadcrumb-title: ''
 description: Calculer des cartes de position précises à partir de maillages à poly élevé pour capturer des informations d'emplacement de géométrie précises.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/ambient-occlusion-from-mesh.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/ambient-occlusion-from-mesh.html"
 breadcrumb-title: ''
 description: Bake des textures d'ambient occlusion précises à partir de maillages à polyvalence élevée en utilisant des techniques de raytracing pour un réalisme amélioré.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/corona/corona-for-3ds-max.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/corona/corona-for-3ds-max.html"
 breadcrumb-title: ''
 description: Utilisez des matériaux de Substance avec le rendu Corona dans 3ds Max à l’aide du workflow Specular/Brillance et des mappages requis.
 helpx_creative_field: ""

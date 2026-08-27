@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/convert-uv-to-svg.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/convert-uv-to-svg.html"
 breadcrumb-title: ''
 description: Transformez des UV de maillage dans des fichiers d’image vectorielle qui peuvent être utilisés pour créer des masques et des incrustations précis.
 helpx_creative_field: ""

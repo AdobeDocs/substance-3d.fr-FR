@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/features/geometry-cache.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/features/geometry-cache.html"
 breadcrumb-title: ''
 description: Utilisez la mise en cache de la géométrie pour conserver les données de maillage prétraitées et accélérer considérablement les opérations de boulonnage ultérieures.
 helpx_creative_field: ""

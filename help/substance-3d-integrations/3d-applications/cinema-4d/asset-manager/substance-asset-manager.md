@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/substance-asset-manager.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/cinema-4d/substance-asset-manager.html"
 breadcrumb-title: ''
 description: Utilisez le Gestionnaire d’actifs de Substance de données dans Cinema 4D pour ajouter, supprimer et organiser des matériaux de Substance de données dans votre scène.
 helpx_creative_field: ""

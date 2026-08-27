@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/downloading-and-installing-the-plugin.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/blender/downloading-and-installing-the-plugin.html"
 breadcrumb-title: ''
 description: Téléchargez et installez le module complémentaire Substance 3D pour Blender à partir du site web officiel ou du gestionnaire de modules complémentaires de Blender.
 helpx_creative_field: ""

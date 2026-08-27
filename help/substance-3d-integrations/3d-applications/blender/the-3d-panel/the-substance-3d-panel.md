@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/the-substance-3d-panel.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/blender/the-substance-3d-panel.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser le panneau Substance 3D dans Blender pour gérer les matières, les paramètres et les sorties.
 helpx_creative_field: ""
@@ -66,7 +66,7 @@ Les paramètres qui ont été exposés dans la Substance Designer peuvent être 
 
 Le format de fichier des textures de sortie peut être changé via les listes déroulantes.
 
-Pour plus d&#39;informations, voir [Exposition d&#39;un paramètre](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/substance-graphs/manage-parameters/exposing-a-parameter) sur la page de documentation Designer.
+Pour plus d&#39;informations, voir [Exposition d&#39;un paramètre](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/substance-graphs/manage-parameters/exposing-a-parameter) sur la page de documentation Designer.
 
 ## Paramètres techniques
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/blueprints-ue4/blueprintue4-aggregate-substance.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/blueprints-ue4/blueprintue4-aggregate-substance.html"
 breadcrumb-title: ''
 description: Combinez plusieurs matériaux de Substance lors de l’exécution dans Unreal Engine 4 à l’aide des nœuds d’agrégation Blueprint pour les workflows avancés.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Blueprint(UE4) : Substance globale
 
-Le nouveau nœud substance agrégé vous permet de prendre deux usines d&#39;instances substance et de créer une nouvelle usine d&#39;instances à l&#39;exécution, qui peut être utilisée pour créer une nouvelle instance de graphe. Ce qui rend cela spécial, c’est que vous pouvez connecter les textures de sortie de l’une des instances de graphique combinées aux images d’entrée de l’autre instance de graphique combinée. Pour créer une instance de graphique Substance à partir de cette nouvelle usine, consultez notre documentation sur les instances de graphique à l’exécution. [Définition d&#39;instance de matériau - UE4](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/material-instance-definition-157352129.html)
+Le nouveau nœud substance agrégé vous permet de prendre deux usines d&#39;instances substance et de créer une nouvelle usine d&#39;instances à l&#39;exécution, qui peut être utilisée pour créer une nouvelle instance de graphe. Ce qui rend cela spécial, c’est que vous pouvez connecter les textures de sortie de l’une des instances de graphique combinées aux images d’entrée de l’autre instance de graphique combinée. Pour créer une instance de graphique Substance à partir de cette nouvelle usine, consultez notre documentation sur les instances de graphique à l’exécution. [Définition d&#39;instance de matériau - UE4](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/integrations/material-instance-definition-157352129.html)
 
 1. Importez les Substances à utiliser.
 1. Créez une variable « AggregateGraphInstance » de type **Instance de Graphe Substance**.
@@ -36,6 +36,6 @@ Le nouveau nœud substance agrégé vous permet de prendre deux usines d&#39;ins
 
    ![](../../../../../assets/a2-3.png){width="800px"}
 1. Définissez les couches du matériau comme indiqué dans les documents d&#39;instance de matériau dynamique (étapes 11 à 19)\
-   [Blueprint(UE4) : instance de matériau dynamique](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/blueprint-dynamic-material-instance-152535142.html)
+   [Blueprint(UE4) : instance de matériau dynamique](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/integrations/blueprint-dynamic-material-instance-152535142.html)
 
    ![](../../../../../assets/a4-3.png){width="800px"}

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-general/adobe-standard-material/asm-specifications.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-general/adobe-standard-material/asm-specifications.html"
 breadcrumb-title: ''
 description: Téléchargez et passez en revue toutes les spécifications d’Adobe Standard Material pour comprendre la structure du modèle de matériau.
 helpx_creative_field: ""

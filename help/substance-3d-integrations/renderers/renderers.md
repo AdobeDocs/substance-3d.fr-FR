@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers.html"
 breadcrumb-title: ''
 description: Utilisez des matériaux de Substance avec des systèmes de rendu principaux tels qu’Arnold, V-Ray, Redshift et autres dans votre workflow 3D.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ Les matériaux de Substance fournis dans [Substance Source](https://source.subst
 
 Par exemple, avec Arnold ou Vray Next, vous pouvez utiliser directement des sorties métalliques/de rugosité. Cependant, avec la PxrSurface de Renderman, les sorties couleur de base/métallisées doivent être converties en couleur de face diffuse et specular. Un plug-in d’intégration de Substance de données gère automatiquement ces conversions si le rendu est pris en charge.
 
-Avec la Substance Painter, vous pouvez choisir un [Modèle de sortie](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/getting-started/export/export-window/export-window) qui créera les types de mappage appropriés nécessaires pour un moteur de rendu donné. Si le rendu n’est pas pris en charge par défaut, vous pouvez également créer des Modèles de sortie personnalisés.
+Avec la Substance Painter, vous pouvez choisir un [Modèle de sortie](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/getting-started/export/export-window/export-window) qui créera les types de mappage appropriés nécessaires pour un moteur de rendu donné. Si le rendu n’est pas pris en charge par défaut, vous pouvez également créer des Modèles de sortie personnalisés.
 
 **Modèle de sortie de Substance Painter**
 
