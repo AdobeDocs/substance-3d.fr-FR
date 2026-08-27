@@ -41,41 +41,41 @@ Les spécifications de l&#39;OpenPBR reconnaissent explicitement un défi de lon
 
 L&#39;OpenPBR est une réponse à ce problème. En définissant un seul modèle de matériau mis à la terre qui couvre les besoins de production communs - métaux, diélectriques, matériaux en couches, transmission, diffusion - il fournit une cible stable pour les échanges. Bien que cela ne garantisse pas des correspondances visuelles parfaites dans toutes les situations, cela réduit considérablement l&#39;ambiguïté par rapport aux modèles de shader propriétaires.
 
-Pour les artistes, l&#39;essentiel est que l&#39;OpenPBR vise à préserver *l&#39;intention*. Même lorsque la parité visuelle exacte n&#39;est pas possible, la structure du matériau - ce qui est métallique, ce qui est transmissif, à quel point une surface est rugueuse ou anisotrope - reste claire et transférable.
+Pour les artistes, l&#39;essentiel est que l&#39;OpenPBR vise à préserver *l&#39;intention*. Même lorsque la parité visuelle exacte n&#39;est pas possible, la structure du matériau - ce qui est métallique, ce qui est de la transmissive, à quel point une surface est rugueuse ou anisotrope - reste claire et transférable.
 
 ![](../assets/OpenPBR_meetmat.jpg)
 
 ### Relation avec la matière X
 
-OpenPBR est étroitement lié à **MaterialX**, une structure de référence pour la description des matériaux et l’aspect indépendamment du rendu. La mise en œuvre de référence d&#39;OpenPBR vit dans MaterialX, ce qui signifie que les matériaux OpenPBR peuvent être représentés en utilisant un format d&#39;échange établi déjà pris en charge sur de nombreux pipelines.
+OpenPBR est étroitement lié à **MaterialX**, une structure de référence pour la description des matériaux et l’aspect indépendamment du moteur de rendu. La mise en œuvre de référence de l&#39;OpenPBR vit dans MaterialX, ce qui signifie que les OpenPBR peuvent être représentés en utilisant un format d&#39;échange établi déjà pris en charge sur de nombreux pipelines.
 
-Cette relation est importante, car l&#39;OpenPBR lui-même n&#39;est **pas un format de fichier**. Au lieu de cela, il définit *ce* qu&#39;est un matériau, tandis que MaterialX fournit un moyen standardisé de *stocker et d&#39;exchange* de ce matériau entre les outils. En pratique, cela permet d’incorporer des matériaux d’OpenPBR dans des descriptions de scène plus larges et de les partager entre les DCC et les systèmes de rendu prenant en charge MaterialX.
+Cette relation est importante, car l&#39;OpenPBR lui-même n&#39;est **pas un format de fichier**. Au lieu de cela, il définit *ce qu&#39;est* un matériau, tandis que MaterialX fournit un moyen standardisé de *stocker et d&#39;exchange* ce matériau entre les outils. En pratique, cela permet d’intégrer des matériaux dans des descriptions de scène plus larges et de les partager entre les DCC et les systèmes de rendu prenant en charge MaterialX.
 
-Pour les artistes, cela se passe généralement sous le capot - mais cela explique pourquoi les matériaux OpenPBR sont de plus en plus décrits comme « portables » ou « interopérables » dans les pipelines modernes.
+Pour les artistes, cela se passe généralement sous le capot - mais cela explique pourquoi les OpenPBR sont de plus en plus décrits comme « portables » ou « interopérables » dans les pipelines modernes.
 
 ### Ce que signifie l&#39;interopérabilité et ce qu&#39;elle ne signifie pas
 
-Il est important d&#39;établir des attentes réalistes en matière d&#39;interopérabilité. L&#39;OpenPBR ne promet pas qu&#39;un matériau sera identique dans chaque application. Les différences d’éclairage, d’algorithmes de rendu, de gestion des couleurs et de prise en charge des fonctionnalités peuvent toujours affecter l’image finale.
+Il est important d&#39;établir des attentes réalistes en matière d&#39;interopérabilité. L’OpenPBR ne garantit pas qu’un matériau sera identique dans toutes les applications. Les différences d’éclairage, d’algorithmes de rendu, de gestion des couleurs et de prise en charge des fonctionnalités peuvent toujours affecter l’image finale.
 
-L&#39;OpenPBR fournit une base commune : un ensemble cohérent de paramètres et de comportements, une compréhension commune de la façon dont les matériaux sont construits et un chemin plus clair pour transférer des matériaux entre les outils sans les reconstruire à partir de zéro.
+L’OpenPBR fournit une base de référence commune : un ensemble cohérent de paramètres et de comportements, une compréhension commune de la construction des matériaux et un chemin plus clair pour le transfert des matériaux entre les outils sans les reconstruire à partir de zéro.
 
-Pour les artistes, cela signifie moins de surprises lorsque les ressources passent d’un service ou d’une application à l’autre, et un workflow qui met l’accent sur une logique matérielle durable plutôt que sur des astuces spécifiques à un outil.
+Pour les artistes, cela signifie moins de surprises lorsque les ressources passent d’un service ou d’une application à l’autre, et un workflow qui met l’accent sur une logique de matériau durable plutôt que sur des astuces spécifiques à un outil.
 
 ### Implications pratiques pour les artistes
 
-Au quotidien, travailler avec des OpenPBR encourage des habitudes qui favorisent naturellement l&#39;interopérabilité :
+Dans la perspective quotidienne, travailler avec des OpenPBR favorise des habitudes qui favorisent naturellement l&#39;interopérabilité :
 
-* Penser en termes de comportement de la lumière plutôt que de types de matériaux spécifiques à l&#39;application
-* Utilisation de paramètres physiquement significatifs (métallisme, rugosité, transmission, diffusion)
+* Penser en termes de comportement de la lumière plutôt qu&#39;en termes de types de matériaux spécifiques à l&#39;application
+* Utilisation de paramètres physiquement significatifs (métallurgie, rugosité, transmission, diffusion)
 * Éviter de recourir à des solutions non documentées ou spécifiques au rendu
 
 Même lorsque les matériaux ne quittent jamais une seule application, ces pratiques s’alignent sur les normes de pipeline modernes, ce qui rend les actifs plus pérennes à mesure que les outils et les systèmes de rendu évoluent.
 
-## Types de matériaux
+## types de matériau
 
 ### Matériaux définis par interaction avec la lumière
 
-L&#39;OpenPBR est un modèle monolithique (un «uber-shader») destiné à représenter une large gamme de types de matériaux ; ces types sont décrits en termes d&#39;interaction de la lumière avec eux. Plutôt que de définir des matériaux en termes de préréglages fixes tels que, par exemple, le «verre» ou la «peau», chaque matériau OpenPBR est construit à partir d&#39;un modèle de couches horizontales et verticales, ce qui permet aux artistes de mélanger des caractéristiques entièrement définies et physiquement significatives - telles que la réflexion diffuse, la réflexion du specular, la transmission, la diffusion sous la surface et la superposition. Différentes combinaisons de ces comportements produisent naturellement des matériaux familiers du monde réel.
+L&#39;OpenPBR est un modèle monolithique (un «uber-shader») destiné à représenter une large gamme de types de matériaux ; ces types sont décrits en termes d&#39;interaction de la lumière avec eux. Plutôt que de définir des matériaux en termes de préréglages fixes tels que, par exemple, le « verre » ou la « peau », chaque OpenPBR est construit à partir d&#39;un modèle de superposition horizontale et verticale, qui permet aux artistes de fusionner des caractéristiques entièrement définies et physiquement significatives - telles que la réflexion diffuse, la réflexion du specular, la transmission, la subsurface scattering et la superposition. Différentes combinaisons de ces comportements produisent naturellement des matériaux familiers du monde réel.
 
 <table>
   <tr style="border: 0;">
@@ -89,16 +89,16 @@ Cette approche utilise un modèle fixe qui définit à l&#39;avance le cadre de 
 
 ![](../assets/openpbrf/model_schematic2.png) Cliquez pour zoomer. *Figure adaptée de la spécification OpenPBR Surface, © Academy Software Foundation, utilisée sous la licence Apache 2.0*
 
-### Comportements des matériaux de base
+### Comportements de Matériau principaux
 
-Bien que l&#39;OpenPBR n&#39;impose pas de types de matériaux stricts, la plupart des matériaux du monde réel se répartissent en quelques grandes catégories de comportement. Comprendre ces catégories peut aider à établir un modèle mental solide pour les matériaux de construction.
+Bien que l&#39;OpenPBR n&#39;impose pas de types de matériau stricts, la plupart des matériaux du monde réel se répartissent en quelques grandes catégories de comportement. La compréhension de ces catégories peut aider à établir un modèle mental solide pour la construction de matériaux.
 
 ### Matériaux diélectriques (non métalliques)
 
 <table>
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/basecolor/baseColorViolet.png" alt=""/><br><em>Exemple de matériau diélectrique.</em></td>
-    <td style="border: 0;" valign="top">Les diélectriques sont des matériaux non métalliques tels que le plastique, le bois, la pierre, le tissu, le caoutchouc et la peau. Leurs caractéristiques principales sont les suivantes :<br><br><ul><li>Composante de diffusion visible</li><li>Principalement des reflets de specular incolores (blancs)</li><li>Réflectivité contrôlée principalement par l’indice de réfraction (IOR)</li><li>Aucun comportement de réflexion métallique</li></ul><br><br><strong>Paramètres clés pour les matériaux diélectriques :</strong><br><br><ul><li>La couleur de base définit la couleur globale du matériau</li><li>La couleur du specular influence la teinte des hautes lumières du specular (surtout sous un angle rasant)</li><li>Le paramètre Rugosité du specular contrôle la netteté des tons clairs du specular</li><li>Specular Poids redimensionne l’intensité globale des hautes lumières de specular </li><li>Pour les matériaux diélectriques, la réflexion diffuse domine l’aspect de la surface et est contrôlée par la couleur de base. Les reflets au specular sont limités à l'incidence normale et augmentent vers les angles de pâturage, mais restent non teintés.</li></ul></td>
+    <td style="border: 0;" valign="top">Les diélectriques sont des matériaux non métalliques tels que le plastique, le bois, la pierre, le tissu, le caoutchouc et la peau. Leurs caractéristiques principales sont les suivantes :<br><br><ul><li>Composante de diffusion visible</li><li>Principalement des reflets de specular incolores (blancs)</li><li>Réflectivité contrôlée principalement par l’indice de réfraction (IOR)</li><li>Aucun comportement de réflexion métallique</li></ul><br><br><strong>Paramètres clés pour les matériaux diélectriques :</strong><br><br><ul><li>La base color définit la couleur globale du matériau</li><li>La couleur du specular influence la teinte des hautes lumières du specular (surtout sous un angle rasant)</li><li>La Rugosité de specular contrôle la netteté des tons clairs de specular</li><li>Specular Poids redimensionne l’intensité globale des hautes lumières de specular </li><li>Pour les matériaux diélectriques, la réflexion diffuse domine l'aspect de la surface et est contrôlée par la Base color. Les reflets au specular sont limités à l'incidence normale et augmentent vers les angles de pâturage, mais restent non teintés.</li></ul></td>
   </tr>
 </table>
 
@@ -106,7 +106,7 @@ Bien que l&#39;OpenPBR n&#39;impose pas de types de matériaux stricts, la plupa
 
 <table>
   <tr style="border: 0;">
-    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness1Colored.png" alt=""/><br><em>Un example de matériau métallique.</em></td>
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness1Colored.png" alt=""/><br><em>Exemple de matériau métallique.</em></td>
     <td style="border: 0;" valign="top">Les matériaux métalliques tels que l'acier, l'aluminium, le cuivre ou l'or se comportent fondamentalement différemment des matériaux non métalliques (diélectriques). Pour les métaux, l’aspect est presque entièrement déterminé par la réflexion du specular : contrairement aux diélectriques, les métaux n’ont pas de composante diffuse et la lumière ne dispersion pas sous la surface, mais est réfléchie directement. Leurs caractéristiques principales sont les suivantes :<br><br><ul><li>Aucune composante diffuse : la couleur provient entièrement de la réflexion</li><li>Reflets de specular colorés</li><li>Les détails de la surface, en particulier la rugosité, jouent un rôle majeur dans l’apparence</li></ul><br><br><strong>Paramètres clés pour les matériaux métalliques :</strong><br><br><ul><li>Couleur de base contrôle la couleur des reflets</li><li>Le paramètre Rugosité du specular contrôle la netteté ou le flou de ces reflets</li><li>Specular Intensité de réflexion des échelles de poids</li></ul></td>
   </tr>
 </table>
@@ -133,25 +133,25 @@ Les matériaux transparents et transmissifs laissent passer la lumière. Des exe
 
 * La lumière entre dans la surface et sort du côté opposé
 * Le thickness affecte fortement l’aspect
-* Réfraction contrôlée par l’indice de réfraction (IOR) et affectée par la rugosité de la surface
+* Réfraction contrôlée par l&#39;indice de réfraction (IOR) et affectée par la rugosité de surface
 * Réfraction, absorption, diffusion et dispersion façonnent l’aspect final
 
 La transmission décrit la manière dont la lumière traverse un objet. Les zones plus épaisses apparaissent plus sombres ou plus saturées, tandis que les zones plus fines apparaissent plus claires. Des paramètres tels que Couleur de transmission, Profondeur de transmission, Couleur de Dispersion et Dispersion fonctionnent ensemble pour contrôler ce comportement.
 
-Une distinction entre les termes « transparent » et « transmissif » : « transparent » est un terme de la vie réelle, de tous les jours ; quelque chose est transparent si nous pouvons le voir à travers. « Transmissif » est synonyme de « translucidité ». Le verre givré, par exemple, permet à la lumière de le traverser (et donc, il est transmetteur), mais il n&#39;est pas transparent - nous ne pouvons pas le voir à travers.
+Une distinction entre les termes « transparent » et « transmissive » : « transparent » est un terme de la vie réelle, de tous les jours ; quelque chose est transparent si on peut le voir à travers. « Transmissive » est un synonyme de « translucency ». Le verre givré, par exemple, permet à la lumière de le traverser (et donc, c&#39;est de la transmissive), mais il n&#39;est pas transparent - nous ne pouvons pas le voir à travers.
 
 ### Matériaux souterrains
 
 <table>
   <tr style="border: 0;">
-    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/extra/subsurface-scattering/subsurfaceScattering.png" alt=""/><br><em>Exemple de matériau utilisant la diffusion de surface.</em></td>
-    <td style="border: 0;" valign="top">Les matériaux souterrains permettent à la lumière d'entrer dans la surface, de dispersion sous celle-ci et de sortir à nouveau près du point d'entrée. Les exemples courants comprennent la peau, la cire, le marbre et de nombreux matériaux organiques, tels que de nombreux types d'aliments. - les fruits, les légumes ou le fromage Saint-Nectaire, par exemple. Les caractéristiques déterminantes des matériaux souterrains sont les suivantes :<br><br><br><ul><li>Ombrage souple et diffus</li><li>Débordement de couleur dans les zones minces</li><li>L’aspect dépend du thickness</li><li>La lumière ne traverse pas l’objet</li></ul><br><br><br>La diffusion souterraine est distincte de la transmission. Alors que la transmission décrit la lumière traversant un matériau et sortant du côté opposé, la diffusion sous-superficielle décrit la lumière entrant dans une surface, diffusant à l'intérieur de cette surface, puis sortant au voisinage du point par lequel elle est entrée, principalement du même côté. Notamment, les matériaux métalliques ne supportent pas la transmission ou la diffusion sous la surface. La modification de la valeur de transmission ou de sous-surface d'un matériau entièrement métallique (c'est-à-dire un matériau dont la valeur de métallisation de base est 1) n'affectera pas son apparence.</td>
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/extra/subsurface-scattering/subsurfaceScattering.png" alt=""/><br><em>Exemple de matériau utilisant la subsurface scattering.</em></td>
+    <td style="border: 0;" valign="top">Les matériaux souterrains permettent à la lumière d’entrer dans la surface, de dispersion sous celle-ci et de sortir à nouveau près du point d’entrée. Les exemples courants comprennent la peau, la cire, le marbre et de nombreux matériaux biologiques, tels que de nombreux types d'aliments. - les fruits, les légumes ou le fromage Saint-Nectaire, par exemple. Les caractéristiques des matériaux souterrains sont les suivantes :<br><br><br><ul><li>Ombrage souple et diffus</li><li>Débordement de couleur dans les zones minces</li><li>L’aspect dépend du thickness</li><li>La lumière ne traverse pas l’objet</li></ul><br><br><br>La subsurface scattering est distincte de la transmission. Alors que la transmission décrit la lumière traversant un matériau et sortant du côté opposé, la subsurface scattering décrit la lumière entrant dans une surface, se diffusant à l'intérieur de cette surface, puis sortant au voisinage du point par lequel elle est entrée, principalement du même côté. Notamment, les matériaux métalliques ne prennent pas en charge la transmission ou la subsurface scattering. La modification de la valeur de transmission ou de sous-surface d'un matériau complètement métallique (c'est-à-dire un matériau dont la valeur de métallisation de base est 1) n'affectera pas son aspect.</td>
   </tr>
 </table>
 
-## Fusion entre les comportements de matière
+## Fusion entre les comportements de Matériau
 
-Les matériaux du monde réel sont rarement parfaitement purs. De nombreuses surfaces sont mieux décrites comme des mélanges de comportements, plutôt que comme appartenant à une seule catégorie. Par exemple, si une surface présente des signes de dirt, d’usure ou de rouille, différentes parties de la surface réagiront à la lumière de différentes manières. L&#39;OpenPBR permet de le faire en permettant un mélange régulier, d&#39;une partie d&#39;une surface à une autre.
+Les matériaux réels sont rarement parfaitement purs. De nombreuses surfaces sont mieux décrites comme des mélanges de comportements, plutôt que comme appartenant à une seule catégorie. Par exemple, si une surface présente des signes de dirt, d’usure ou de rouille, différentes parties de la surface réagiront à la lumière de différentes manières. L&#39;OpenPBR permet de le faire en permettant un mélange régulier, d&#39;une partie d&#39;une surface à une autre.
 
 ### Le métal comme mélange
 
@@ -234,11 +234,11 @@ Les **matériaux de base translucides** laissent passer la lumière, notamment l
 * La valeur Couleur de base du matériau contrôle le reflet à l’incidence normale (c’est-à-dire lorsque la lumière est réfléchie à 90 degrés de la surface).
 * La valeur Poids Specular du matériau met à l&#39;échelle l&#39;intensité globale des reflets, en affectant les angles normaux et de pâturage.
 
-Associés aux canaux suivants, les matériaux métalliques peuvent créer divers effets.
+Associés aux couches suivantes, les matériaux métalliques peuvent produire divers effets.
 
 **Émission**
 
-L&#39;émission permet à une surface d&#39;agir comme une source de lumière en émettant de la lumière directement. Bien que l&#39;émission ne soit pas un phénomène réfléchissant, elle est incluse dans l&#39;OpenPBR de sorte que les matériaux émissifs peuvent être définis de manière cohérente aux côtés des propriétés réfléchissantes et transmissives.
+L&#39;émission permet à une surface d&#39;agir comme une source de lumière en émettant de la lumière directement. Bien que l&#39;émission ne soit pas un phénomène réfléchissant, elle est incluse dans l&#39;OpenPBR de sorte que les matériaux d&#39;emissive peuvent être définis de manière cohérente parallèlement aux propriétés réfléchissantes et de transmissive.
 
 **Film fin**
 
@@ -251,29 +251,29 @@ L&#39;émission permet à une surface d&#39;agir comme une source de lumière en
 
 **Couche**
 
-Un calque Coat, s’il est présent, reproduit un calque transparent et réfléchissant positionné au-dessus de tous les autres calques, à l’exception de Fuzz. Cela permet de simuler des effets réalistes, tels que du vernis ou certains types de peinture de voiture. Un calque Coat est défini par une plage comprise entre 0 et 1. La définition de cette valeur sur 0 désactive entièrement le calque Coat.
+Un calque Coat, s’il est présent, reproduit un calque transparent et réfléchissant positionné au-dessus de tous les autres calques, à l’exception de Fuzz. Cela permet de simuler des effets réels tels qu’un vernis ou certains types de peinture de voiture. Un calque Coat est défini par une plage comprise entre 0 et 1. La définition de cette valeur sur 0 désactive entièrement le calque Coat.
 
 **Fuzz**
 
 Vous pouvez ajouter un calque Fuzz pour reproduire l’apparence de surfaces de type tissu, telles que le velours ou le satin, ou l’utiliser pour créer l’effet d’un dust sur une surface.
 
-### Concepts de flux de production de matériaux
+### Concepts de workflow Matériau
 
-#### Penser en termes de comportements légers, pas en termes d&#39;étiquettes de matériaux
+#### Penser en termes de comportements légers, pas en termes d’étiquettes de Matériau
 
-L’OpenPBR est conçu autour du comportement de la lumière, plutôt qu’autour de catégories de matériaux fixes. Au lieu de sélectionner un shader qui représente « verre », « peau » ou « métal », les artistes créent des matériaux en décrivant comment la lumière se reflète sur une surface, la traverse, se dispersion à l&#39;intérieur ou est émise par celle-ci. Cette approche encourage un changement des mentalités : les matériaux ne sont pas des types prédéfinis, mais des combinaisons de comportements physiques. Un seul matériau du monde réel peut impliquer plusieurs de ces comportements à la fois, et OpenPBR rend ces contributions explicites plutôt que de les cacher derrière des paramètres prédéfinis ou des modèles d’ombrage opaques.
+L’OpenPBR est conçu autour du comportement de la lumière, plutôt qu’autour de catégories de matériaux fixes. Au lieu de sélectionner un shader qui représente du « verre », de la « peau » ou du « métal », les artistes construisent des matériaux en décrivant comment la lumière se reflète sur une surface, la traverse, y fait des dispersions ou est émise par celle-ci. Cette approche favorise un changement des mentalités : les matériaux ne sont pas des types prédéfinis, mais des combinaisons de comportements physiques. Un seul matériau du monde réel peut impliquer plusieurs de ces comportements à la fois, et OpenPBR rend ces contributions explicites plutôt que de les cacher derrière des paramètres prédéfinis ou des ombrages opaques.
 
-#### Séparation des préoccupations : les matériaux sont indépendants de l&#39;éclairage
+#### Séparation des préoccupations : les Matériaux sont indépendants de l&#39;éclairage
 
-L’un des principes fondamentaux des workflows physiques est la séparation de la description du matériau et de l’éclairage. Les matériaux sont créés pour décrire les propriétés de surface et de volume intrinsèques, tandis que l’éclairage définit l’environnement dans lequel ces propriétés sont révélées. Cette séparation réduit l’interdépendance et rend les scènes complexes plus faciles à gérer. Un matériau OpenPBR bien écrit doit rester crédible dans une large gamme de conditions d’éclairage, sans nécessiter de réglages spécifiques à la scène. À plus petite échelle, OpenPBR poursuit cette philosophie en gardant les paramètres aussi indépendants que possible, permettant aux artistes d&#39;ajuster un aspect d&#39;un matériau sans déstabiliser involontairement les autres.
+L’un des principes fondamentaux des workflows physiques est la séparation de la description du matériau et de l’éclairage. Les matériaux sont créés pour décrire les propriétés de surface et de volume intrinsèques, tandis que l&#39;éclairage définit l&#39;environnement dans lequel ces propriétés sont révélées. Cette séparation réduit l’interdépendance et rend les scènes complexes plus gérables. Un matériau bien écrit doit rester crédible dans un large éventail de conditions d’éclairage, sans nécessiter de réglages spécifiques à la scène. À plus petite échelle, l&#39;OpenPBR poursuit cette philosophie en gardant les paramètres aussi indépendants que possible, permettant aux artistes d&#39;ajuster un aspect d&#39;un matériau sans déstabiliser involontairement les autres.
 
-#### Matériaux de construction de manière incrémentielle
+#### Création de Matériaux par incréments
 
-L&#39;OpenPBR encourage une approche progressive de la création matérielle. La plupart des workflows commencent par établir la réponse de surface (la façon dont la lumière se réfléchit depuis l&#39;objet) avant d&#39;introduire des effets de volume tels que la transmission ou la diffusion sous la surface. Les comportements secondaires, y compris le flou, l’émission ou les interférences de film mince, sont généralement superposés ultérieurement pour affiner le réalisme ou obtenir des indices visuels spécifiques. Cette approche à plusieurs niveaux permet aux artistes de diagnostiquer les problèmes plus facilement et d’éviter de compliquer excessivement les documents au début du processus. En passant des comportements principaux aux comportements secondaires, les matériaux restent plus faciles à comprendre, à déboguer et à réutiliser.
+L&#39;OpenPBR encourage une approche progressive de la création de matériau. La plupart des workflows commencent par établir la réponse de la surface (la façon dont la lumière se réfléchit de l’objet) avant d’introduire des effets de volume tels que la transmission ou la subsurface scattering. Les comportements secondaires, y compris le flou, l’émission ou les interférences de film mince, sont généralement superposés ultérieurement pour affiner le réalisme ou obtenir des indices visuels spécifiques. Cette approche à plusieurs niveaux permet aux artistes de diagnostiquer les problèmes plus facilement et d’éviter de compliquer excessivement les matériaux au début du processus. En passant des comportements principaux aux comportements secondaires, les matériaux restent plus faciles à comprendre, à déboguer et à réutiliser.
 
 #### Paramètres prédéfinis et exemples comme outils d’apprentissage
 
-L’OpenPBR comprend des paramètres prédéfinis pour les matériaux courants, mais il est préférable de les considérer comme des exemples de référence plutôt que comme des solutions finales. Examiner la manière dont les paramètres prédéfinis équilibrent des paramètres tels que la rugosité, le métal ou la profondeur de transmission peut aider les artistes à comprendre comment des résultats visuels spécifiques sont construits. Plutôt que de s’appuyer sur des paramètres prédéfinis en gros, les workflows d’OpenPBR encouragent les artistes à observer des matériaux du monde réel, à identifier les comportements de lumière sous-jacents qui sont en jeu et à recréer ces comportements à l’aide de commandes physiquement significatives.
+L’OpenPBR comprend des paramètres prédéfinis pour les matériaux courants, mais il est préférable de les considérer comme des exemples de référence plutôt que comme des solutions finales. L’examen de la façon dont les paramètres prédéfinis équilibrent des paramètres tels que la rugosité, le métallisme ou la profondeur de transmission peut aider les artistes à comprendre comment des résultats visuels spécifiques sont construits. Plutôt que de s’appuyer sur des paramètres prédéfinis en gros, les workflows d’OpenPBR encouragent les artistes à observer les matériaux du monde réel, à identifier les comportements de lumière sous-jacents qui sont en jeu et à recréer ces comportements à l’aide de commandes physiquement significatives.
 
 ## OpenPBR de couches et de paramètres
 
@@ -281,13 +281,13 @@ L’OpenPBR comprend des paramètres prédéfinis pour les matériaux courants, 
 
 ![](../assets/openpbrf/renders/specular/color/specColorYellowNoMetal.png){width="250"}
 
-*Matériau gris diélectrique (non métallique) avec une couleur jaune specular.*
+*Un matériau gris diélectrique (non métallique) avec une couleur jaune specular.*
 
 +++paramètres du specular
 
 **Poids Specular**
 
-Tandis que Couleur du Specular détermine la teinte de couleur de tout reflet à des angles de rasage, l’Épaisseur du Specular détermine l’intensité de ces reflets, entre 0 et 1. A une valeur de 0, il n&#39;y a pas du tout de réflexion aux angles de rasage ; à des valeurs plus élevées, l&#39;intensité de ces réflexions devient plus prononcée. Notez que, dans le « monde réel », chaque matériau est réfléchissant dans une certaine mesure et, s’il était recréé en 3D, aurait une valeur de poids Specular supérieure à 0. Notez également que le poids du Specular ne doit en aucun cas être considéré comme une valeur « primaire » pour le paramétrage de la réflexion d&#39;un matériau ; la rugosité du Specular (voir ci-dessous) est toujours un facteur clé dans la détermination de la réflectivité d&#39;un matériau.
+Tandis que Couleur du Specular détermine la teinte de couleur de tout reflet à des angles de rasage, l’Épaisseur du Specular détermine l’intensité de ces reflets, entre 0 et 1. A une valeur de 0, il n&#39;y a pas du tout de réflexion aux angles de rasage ; à des valeurs plus élevées, l&#39;intensité de ces réflexions devient plus prononcée. Notez que, dans le « monde réel », chaque matériau est réfléchissant dans une certaine mesure et que s’il était recréé en 3D, il aurait une valeur Poids Specular supérieure à 0. Notez également que le poids du Specular ne doit en aucun cas être considéré comme une valeur « primaire » pour le paramétrage de la réflexion d&#39;un matériau ; la Rugosité du Specular (voir ci-dessous) est toujours un facteur essentiel dans la détermination de la réflectivité d&#39;un matériau.
 
 <table>
   <tr style="border: 0;">
@@ -299,7 +299,7 @@ Tandis que Couleur du Specular détermine la teinte de couleur de tout reflet à
 
 **Couleur Specular**
 
-Cela détermine toute teinte de couleur appliquée aux reflets lorsque la lumière se réfléchit selon un angle rasant (angle presque parallèle à la surface d’un matériau). Pour les matériaux métalliques (voir Métallique ci-dessous), une teinte de couleur peut s’appliquer ; pour les matériaux non métalliques, la couleur Specular doit généralement être blanche. Les images ci-dessous montrent différentes couleurs de specular sur des matériaux métalliques et non métalliques.
+Cela détermine toute teinte de couleur appliquée aux reflets lorsque la lumière se réfléchit selon un angle rasant (angle presque parallèle à la surface d’un matériau). Pour les matériaux métalliques (voir la section Métallique ci-dessous), une teinte de couleur peut s’appliquer. Pour les matériaux non métalliques, la couleur du Specular est généralement le blanc. Les images ci-dessous montrent différentes couleurs de specular sur les matériaux métalliques et non métalliques.
 
 <table>
   <tr style="border: 0;">
@@ -404,7 +404,7 @@ Au bas du modèle de l&#39;OpenPBR, la couche de base représente l&#39;interact
   </tr>
 </table>
 
-* **Couleur de base** : détermine la « couleur principale » d&#39;un matériau, en définissant l&#39;albédo, c&#39;est-à-dire la quantité de lumière rouge, verte et bleue réfléchie, des bases métallique et diffuse (pour les bases non métalliques). Comme indiqué ci-dessus, la couleur de base détermine les couleurs réfléchies, tandis que le paramètre Épaisseur de base détermine l’intensité de ce reflet.
+* **Base color** : détermine la « couleur principale » d&#39;un matériau, en définissant l&#39;albédo (c&#39;est-à-dire la quantité de lumière rouge, verte et bleue réfléchie) des bases métallique et diffuse (pour les bases non métalliques). Comme indiqué ci-dessus, alors que la Base color détermine les couleurs réfléchies, le paramètre Épaisseur de base détermine l’intensité de ce reflet.
 
 <table>
   <tr style="border: 0;">
@@ -420,16 +420,16 @@ Au bas du modèle de l&#39;OpenPBR, la couche de base représente l&#39;interact
   <tr style="border: 0;">
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness05.png" alt=""/><br><em>Métallique = 0,5</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness1.png" alt=""/><br><em>Metalness= 1,0</em></td>
-    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness1Colored.png" alt=""/><br><em>Métallique = 1,0 avec une couleur de base jaune</em></td>
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/metalness/metalness1Colored.png" alt=""/><br><em>Métallique = 1,0 avec base color jaune</em></td>
   </tr>
 </table>
 
-* **Rugosité diffuse** : définit la micro-rugosité de surface d&#39;un matériau, allant de 0 (possédant une réflexion très lisse et uniforme) à 1 (avec une réflexion très rugueuse et diffuse), adaptée aux matériaux tels que la roche ou l&#39;écorce d&#39;arbre.
+* **Rugosité** : définit la rugosité de la micro-surface d&#39;un matériau, allant de 0 (possédant une réflexion très lisse et uniforme) à 1 (avec une réflexion très rugueuse et diffuse), adaptée aux matériaux tels que la roche ou l&#39;écorce d&#39;arbre.
 
 <table>
   <tr style="border: 0;">
-    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/diffuse-rough/diffuseRoughness0.png" alt=""/><br><em>Rugosité diffuse = 0,0</em></td>
-    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/diffuse-rough/diffuseRoughness1.png" alt=""/><br><em>Rugosité diffuse = 1,0</em></td>
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/diffuse-rough/diffuseRoughness0.png" alt=""/><br><em>Diffuse = 0,0</em></td>
+    <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/diffuse-rough/diffuseRoughness1.png" alt=""/><br><em>Diffuse = 1,0</em></td>
     <td style="border: 0;" valign="top"><img src="../assets/openpbrf/renders/base/diffuse-rough/diffuseRoughnessSplit.png" alt=""/><br><em>Côte à côte de 0,0 vs 1,0</em></td>
   </tr>
 </table>
@@ -440,11 +440,11 @@ Au bas du modèle de l&#39;OpenPBR, la couche de base représente l&#39;interact
 
 ![](../assets/openpbrf/renders/sss/radius/SSSRadius10_vers2.png){width="250"}
 
-*Matériau utilisant le canal de sous-surface. Remarquez la translucidité présente dans les mains et d&#39;autres zones fines du filet.*
+*Un matériau utilisant le canal souterrain. Remarquez le translucency présent dans les mains et d&#39;autres zones fines du maillage.*
 
 +++Paramètres du sous-sol
 
-* **Poids de la sous-surface** : cela définit la quantité de diffusion de la sous-surface utilisée, essentiellement la quantité de lumière qui pénètre dans le matériau.
+* **Poids du sous-sol** : cela définit la quantité de subsurface scattering utilisée, c&#39;est-à-dire la quantité de lumière qui pénètre dans le matériau.
 
 <table>
   <tr style="border: 0;">
@@ -454,7 +454,7 @@ Au bas du modèle de l&#39;OpenPBR, la couche de base représente l&#39;interact
   </tr>
 </table>
 
-* **Couleur de sous-surface** : définit la couleur globale de toute lumière qui réapparaît sous la surface d&#39;un matériau. Des couleurs plus claires entraînent généralement une diffusion plus vive et plus visible ; une valeur de noir ici n’entraîne aucun effet de diffusion de sous-surface.
+* **Couleur de sous-surface** : définit la couleur globale de toute lumière qui réapparaît sous la surface d&#39;un matériau. Des couleurs plus claires produisent généralement des nuages de couleurs plus clairs et plus visibles ; une valeur de noir ici n’entraîne aucun effet de subsurface scattering.
 
 <table>
   <tr>
@@ -464,7 +464,7 @@ Au bas du modèle de l&#39;OpenPBR, la couche de base représente l&#39;interact
   </tr>
 </table>
 
-* **Rayon de sous-surface** : définit la distance que peut parcourir la lumière à l&#39;intérieur d&#39;un matériau avant d&#39;être diffusée ou absorbée. Avec une valeur faible, la lumière ne parcourt qu&#39;une courte distance ; les matériaux auront ainsi un aspect dense. Avec un rayon élevé, la lumière se déplace plus loin ; les matériaux auront un aspect doux, cireux et translucide.
+* **Rayon de sous-surface** : définit la distance que peut parcourir la lumière à l&#39;intérieur d&#39;un matériau avant d&#39;être diffusée ou absorbée. Avec une valeur faible, la lumière ne parcourt qu’une courte distance, ce qui donne aux matériaux un aspect dense. Avec un rayon élevé, la lumière se déplace plus loin ; les matériaux auront un aspect doux, cireux et translucide.
 
 <table>
   <tr>
@@ -474,9 +474,9 @@ Au bas du modèle de l&#39;OpenPBR, la couche de base représente l&#39;interact
   </tr>
 </table>
 
-* **Échelle du rayon de la sous-surface** : contrôle la dépendance du canal de couleur du tracé libre moyen. En d’autres termes, la distance sur laquelle la lumière traverse le matériau indépendamment par canal RGB avant d’être absorbée ou diffusée. Cela produit la variation de couleur caractéristique vue dans les matériaux de sous-surface : dans les zones plus minces du filet, où la lumière parcourt une distance plus courte, la couleur se déplace vers le canal ayant le rayon le plus long.\\
+* **Échelle du rayon de la sous-surface** : contrôle la dépendance du canal de couleur du tracé libre moyen. En d’autres termes, la distance sur laquelle la lumière traverse le matériau indépendamment par canal RGB avant d’être absorbée ou diffusée. Cela produit la variation de couleur caractéristique vue dans les matériaux de sous-surface : dans les zones plus minces du maillage, où la lumière parcourt une distance plus courte, la couleur se déplace vers le canal ayant le rayon le plus long.\\
 
-La valeur par défaut (1, 0,5, 0,25) signifie que la lumière rouge est la plus profonde, suivie par le vert, puis le bleu, qui correspond étroitement au comportement de nombreux matériaux de sous-surface réels, y compris la peau.
+La valeur par défaut (1, 0,5, 0,25) signifie que la lumière rouge est la plus profonde, suivie du vert, puis du bleu, ce qui correspond étroitement au comportement de nombreux matériaux de sous-surface réels, y compris la peau.
 
 <table>
   <tr>
@@ -488,7 +488,7 @@ La valeur par défaut (1, 0,5, 0,25) signifie que la lumière rouge est la plus 
   </tr>
 </table>
 
-* **Anisotropie de sous-surface** : définit la direction dans laquelle la lumière préfère se dispersion à l&#39;intérieur d&#39;un matériau de sous-surface. Avec une valeur de 0, la lumière dispersion uniformément dans toutes les directions. Avec une valeur positive, la lumière aura tendance à dispersion vers l&#39;avant, dans la même direction que le rayon de lumière initial ; ceci aura typiquement pour résultat des matériaux ayant un aspect plus clair et plus translucide. Avec une valeur négative, la lumière aura tendance à revenir en arrière vers la source du faisceau lumineux ; cela donnera typiquement aux matériaux un aspect plus opaque et plus dense.
+* **Anisotropie de sous-surface** : définit la direction dans laquelle la lumière préfère dispersion à l&#39;intérieur d&#39;un matériau de sous-surface. Avec une valeur de 0, la lumière dispersion uniformément dans toutes les directions. Avec une valeur positive, la lumière aura tendance à dispersion vers l&#39;avant, dans la même direction que le rayon de lumière initial ; ceci aura typiquement pour résultat que les matériaux auront un aspect plus clair et plus translucide. Avec une valeur négative, la lumière aura tendance à dispersion vers l’arrière en direction de la source du faisceau lumineux, ce qui donnera typiquement aux matériaux un aspect plus opaque et plus dense.
 
 <table>
   <tr>
@@ -506,11 +506,11 @@ La transmission contrôle la quantité de lumière qui peut traverser un matéri
 
 ![](../assets/openpbrf/renders/transmission/color/transmission_orange.png){width="250"}
 
-*Exemple d’un matériau très transmissif avec une couleur de transmission orange.*
+*Exemple de matériau très transmissive avec une couleur de transmission orange.*
 
 +++Paramètres de transmission
 
-* **Poids** : contrôle la quantité de lumière qui peut passer à travers la surface du matériau. Souvent utilisé pour les matériaux transparents tels que les liquides ou le verre.
+* **Poids** : contrôle la quantité de lumière qui peut traverser la surface du matériau. Souvent utilisé pour les matériaux transparents tels que les liquides ou le verre.
 
 <table>
   <tr style="border: 0;">
@@ -530,7 +530,7 @@ La transmission contrôle la quantité de lumière qui peut traverser un matéri
   </tr>
 </table>
 
-* **Profondeur** : définit, en centimètres, la distance qu&#39;un rayon de lumière doit parcourir à travers un matériau avant que la couleur de transmission n&#39;atteigne sa pleine saturation. Il s&#39;agit essentiellement de la vitesse à laquelle la lumière adopte une couleur lorsqu&#39;elle passe à travers un matériau transparent (ou partiellement transparent). Pour les matériaux avec une faible Profondeur de transmission, la lumière reprendra les couleurs très rapidement, ce qui signifie que même les parties très fines du matériau semblent fortement colorées. À l&#39;inverse, avec une profondeur élevée, les sections plus épaisses paraîtront très sombres ou presque opaques, et le matériau aura un aspect « dense », comme de la résine colorée ou un liquide épais.
+* **Profondeur** : définit, en centimètres, la distance qu&#39;un rayon de lumière doit parcourir à travers un matériau avant que la couleur de transmission n&#39;atteigne sa pleine saturation. Il s&#39;agit essentiellement de la vitesse à laquelle la lumière adopte une couleur lorsqu&#39;elle passe à travers un matériau transparent (ou partiellement transparent). Pour les matériaux avec une faible Profondeur de transmission, la lumière prendra très rapidement des couleurs, ce qui signifie que même les parties très fines du matériau semblent fortement colorées. À l&#39;inverse, avec une profondeur élevée, les sections plus épaisses paraîtront très sombres ou presque opaques, et le matériau aura un aspect «dense», comme de la résine colorée ou un liquide épais.
 
 <table>
   <tr style="border: 0;">
@@ -540,7 +540,7 @@ La transmission contrôle la quantité de lumière qui peut traverser un matéri
   </tr>
 </table>
 
-* **Couleur de la Dispersion** : cela définit la couleur et l&#39;intensité de la lumière diffusée à l&#39;intérieur d&#39;un matériau transparent ou partiellement transparent. Elle définit essentiellement la «nébulosité» interne d&#39;un matériau, déterminant la manière dont la lumière se propage et se ramollit dans le matériau. La couleur dispersion est utile pour reproduire des matériaux dans lesquels la lumière ne se déplace pas proprement ou en ligne droite, comme par exemple certains plastiques, le lait ou le jus de pomme trouble, ou même pour de grandes étendues d’eau (comme la teinte bleue de l’océan).
+* **Couleur de Dispersion** : cela définit la couleur et la force de la lumière diffusée à l&#39;intérieur d&#39;un matériau transparent ou partiellement transparent. Elle définit essentiellement la «nébulosité» interne d&#39;un matériau, déterminant la manière dont la lumière se propage et s&#39;adoucit dans le matériau. La couleur dispersion est utile pour reproduire des matériaux où la lumière ne se déplace pas proprement ou en ligne droite, comme par exemple certains plastiques, le lait ou le jus de pomme trouble, ou même pour de grandes étendues d’eau (donnant la teinte bleue de l’océan, par exemple).
 
 <table>
   <tr style="border: 0;">
@@ -550,7 +550,7 @@ La transmission contrôle la quantité de lumière qui peut traverser un matéri
   </tr>
 </table>
 
-* **Anisotropie de la Dispersion** : détermine la direction de la lumière qui aura tendance à dispersion à l&#39;intérieur d&#39;un matériau. Avec une valeur de 0, la lumière dispersion uniformément dans toutes les directions. Avec une valeur positive, la lumière aura tendance à dispersion vers l’avant, dans la même direction que le rayon de lumière initial ; ceci donnera typiquement aux matériaux une apparence plus claire et plus vitreuse. Avec une valeur négative, la lumière aura tendance à dispersion vers l’arrière en direction de la source du faisceau lumineux ; cela donnera typiquement aux matériaux un aspect plus givré ou crayeux.
+* **Anisotropie de Dispersion** : détermine la direction de la lumière qui aura tendance à dispersion à l&#39;intérieur d&#39;un matériau. Avec une valeur de 0, la lumière dispersion uniformément dans toutes les directions. Avec une valeur positive, la lumière aura tendance à dispersion vers l’avant, dans la même direction que le rayon de lumière initial ; ceci aura typiquement pour résultat que les matériaux auront un aspect plus clair et plus vitreux. Avec une valeur négative, la lumière aura tendance à dispersion vers l’arrière en direction de la source du faisceau lumineux, ce qui donnera typiquement aux matériaux un aspect plus givré ou crayeux.
 
 <table>
   <tr style="border: 0;">
@@ -562,9 +562,9 @@ La transmission contrôle la quantité de lumière qui peut traverser un matéri
 
 >[!NOTE]
 >
-> L’Anisotropie de la dispersion dépend de la direction de la lumière, de sorte que le résultat de cette diffusion varie en fonction de l’emplacement de la source lumineuse par rapport au matériau éclairé.
+> L’Anisotropie de la dispersion dépend de la direction de la lumière. Le résultat de cette diffusion varie donc en fonction de l’emplacement de la source lumineuse par rapport au matériau éclairé.
 
-* **Dispersion (Abbe)** : cela définit le degré de courbure des différentes couleurs de la lumière lors du passage à travers un matériau transparent, ce qui entraîne une division des couleurs, des franges arc-en-ciel ou des bords colorés dans la lumière réfractée. Une valeur de dispersion (Abbe) de 0 désactive entièrement cet effet. Une valeur de dispersion (Abbe) faible entraîne une séparation des couleurs très visible (comme vous pouvez le voir dans un prisme), tandis qu’une valeur de dispersion (Abbe) élevée entraîne une séparation faible ou négligeable des couleurs et une réfraction globale plus nette et plus nette. (Le paramètre Dispersion (Abbe) tire son nom d’Ernst Abbe, physicien et ingénieur optique du XIXe siècle.)
+* **Dispersion (Abbe)** : cela définit le degré de courbure des différentes couleurs de la lumière lors du passage à travers un matériau transparent, entraînant un fractionnement des couleurs, des franges arc-en-ciel ou des contours colorés dans la lumière réfractée. Une valeur de Dispersion (Abbe) de 0 désactive entièrement cet effet. Une valeur de Dispersion faible (Abbe) entraîne une séparation des couleurs très visible (comme vous pouvez le voir dans un prisme), tandis qu’une valeur de Dispersion élevée (Abbe) entraîne une séparation des couleurs faible ou négligeable, et une réfraction globale plus nette et plus claire. (Le paramètre Dispersion (Abbe) tire son nom d’Ernst Abbe, physicien et ingénieur optique du XIXe siècle.)
 
 <table>
   <tr style="border: 0;">
@@ -573,7 +573,7 @@ La transmission contrôle la quantité de lumière qui peut traverser un matéri
   </tr>
 </table>
 
-* **Dispersion de transmission** : comme pour les paramètres de poids ailleurs, cette valeur définit l&#39;intensité de la dispersion de la lumière dans le matériau. Ceci est particulièrement visible sur les bords des réfractions à fort contraste.
+* **dispersion de transmission** : comme pour les paramètres de poids ailleurs, cette valeur définit l&#39;intensité de la dispersion lumineuse dans le matériau. Ceci est particulièrement visible sur les bords des réfractions à fort contraste.
 
 <table>
   <tr style="border: 0;">
@@ -587,11 +587,11 @@ La transmission contrôle la quantité de lumière qui peut traverser un matéri
 
 ### Émission
 
-L’émission contrôle si le matériau émet ou non sa propre lumière (indépendamment de la lumière réfléchie) et vous permet de définir la couleur et l’intensité de la lumière émise.
+Le paramètre Émission contrôle si le matériau émet ou non sa propre lumière (indépendamment de la lumière réfléchie) et vous permet de définir la couleur et la force de la lumière émise.
 
 ![](../assets/openpbrf/renders/emission/color/emissionColorGreen.png){width="250"}
 
-*Un matériau émissif vert vif.*
+*Un matériau d&#39;emissive vert vif.*
 
 +++Paramètres d&#39;émission
 
@@ -695,7 +695,7 @@ L’émission contrôle si le matériau émet ou non sa propre lumière (indépe
   </tr>
 </table>
 
-* Indice de réfraction (IOR) : essentiellement une définition numérique du degré de réflexion d’une surface non métallique, en fonction du comportement de la lumière à l’intérieur de la couche de revêtement.
+* Indice de réfraction (IOR) : essentiellement une définition numérique du degré de réflexion d’une surface non métallique, en fonction du comportement de la lumière à l’intérieur du revêtement.
 
 <table>
   <tr>
@@ -705,7 +705,7 @@ L’émission contrôle si le matériau émet ou non sa propre lumière (indépe
   </tr>
 </table>
 
-* Rugosité : comme mentionné lors de la discussion sur le calque de base, la rugosité de surface définit le degré de réflexion d’une surface : les surfaces lisses réfléchissent la lumière de manière très uniforme, tandis que les surfaces rugueuses la dispersion dans des directions aléatoires. Un calque de couche aura son propre degré de rugosité.
+* Rugosité : comme indiqué lors de la discussion sur le calque de base, la rugosité de surface définit le degré de réflexion d’une surface : les surfaces lisses réfléchissent la lumière de manière très uniforme, tandis que les surfaces rugueuses la dispersion dans des directions aléatoires. Un calque Coat aura son propre degré de Rugosité.
 
 <table>
   <tr>
@@ -717,9 +717,9 @@ L’émission contrôle si le matériau émet ou non sa propre lumière (indépe
 
 >[!NOTE]
 >
-> Notez que, même si un calque de base est lisse (c’est-à-dire que sa valeur de rugosité est proche de 0), la rugosité du calque Coat peut potentiellement rendre le matériau global beaucoup plus rugueux.
+> Notez que, même si un calque de base est lisse (c’est-à-dire que sa valeur de Rugosité est proche de 0), la Rugosité du calque Coat peut potentiellement rendre le matériau global beaucoup plus rugueux.
 
-* Anisotropie : l’Anisotropie décrit comment les reflets du calque de pelage varient en fonction de la direction, ce qui étire ou aligne les tons clairs le long d’une surface au lieu de les rendre circulaires. Cet effet est utilisé pour représenter la structure de surface directionnelle dans le revêtement, telle que le brossage, le striage ou les motifs d’écoulement.
+* Anisotropie : l’Anisotropie décrit la façon dont les reflets du calque de pelage varient en fonction de la direction, ce qui fait que les hautes lumières se étirent ou s’alignent le long d’une surface plutôt que d’apparaître circulaires. Cet effet est utilisé pour représenter la structure de surface directionnelle dans le revêtement, telle que le brossage, le striage ou les motifs d’écoulement.
 
 <table>
   <tr>
@@ -729,7 +729,7 @@ L’émission contrôle si le matériau émet ou non sa propre lumière (indépe
   </tr>
 </table>
 
-* Tangente d’Anisotropie : la direction de tout étirement ou strie dû à la valeur d’Anisotropie ci-dessus.
+* Tangente de l’Anisotropie : direction de tout étiré ou strie en raison de la valeur d’Anisotropie ci-dessus.
 
 <table>
   <tr>
@@ -739,9 +739,9 @@ L’émission contrôle si le matériau émet ou non sa propre lumière (indépe
   </tr>
 </table>
 
-*Différentes orientations de tangente d&#39;Anisotropie.*
+*Orientations différentes de la tangente de l&#39;Anisotropie.*
 
-* Normale de la couche : la couche de couche peut être légèrement déformée pour produire l’apparence d’une géométrie à échelle fine. Ceci peut être utilisé, par exemple, pour reproduire l&#39;apparence de rayures ou de gouttes de pluie sur un matériau.
+* Coat normal : la couche Coat peut être légèrement déformée pour produire l’apparence d’une géométrie à échelle fine. Il peut être utilisé, par exemple, pour reproduire l&#39;apparence de rayures ou de gouttes de pluie sur un matériau.
 
 +++
 
@@ -773,7 +773,7 @@ L’émission contrôle si le matériau émet ou non sa propre lumière (indépe
   </tr>
 </table>
 
-* **Rugosité** : détermine essentiellement la forme des « particules de flou » dans ce calque. Lorsque cette valeur est proche de 0, les particules sont hautes et fines ; elles sont plus visibles lorsque vous observez la surface sous un angle peu profond (broutage). À des valeurs plus élevées, les particules deviennent plus proches des sphères ; elles sont plus facilement visibles à partir d&#39;une plage d&#39;angles plus large et la surface apparaît plus rugueuse dans son ensemble.
+* **Rugosité** : détermine essentiellement la forme des « particules floues » dans ce calque. Lorsque cette valeur est proche de 0, les particules sont hautes et fines ; elles sont plus visibles lorsque vous observez la surface sous un angle peu profond (rasage). À des valeurs élevées, les particules se rapprochent des sphères ; elles sont plus facilement visibles à partir d’une plus grande plage d’angles, ce qui rend la surface globalement plus rugueuse.
 
 <table>
   <tr>
@@ -785,19 +785,19 @@ L’émission contrôle si le matériau émet ou non sa propre lumière (indépe
 
 +++
 
-## Bonnes pratiques en matière de création de matériaux
+## Bonnes pratiques pour la création de Matériaux
 
-Cette section se concentre sur les conseils pratiques pour créer des matériaux robustes et prévisibles qui se comportent bien dans les conditions d’éclairage, les scènes et les outils, à l’aide de modèles PBR modernes et unifiés tels que l’OpenPBR. C&#39;est-à-dire que la plupart des recommandations ci-dessous s&#39;appliquent à la création de matériaux PBR en général ; quelques-unes dépendent néanmoins de l&#39;ensemble de caractéristiques spécifiques des matériaux OpenPBR.
+Cette section se concentre sur les conseils pratiques pour la création de matériaux robustes et prévisibles qui se comportent bien dans les conditions d’éclairage, les scènes et les outils, à l’aide de modèles PBR modernes et unifiés tels que OpenPBR. C&#39;est-à-dire que bon nombre des recommandations ci-dessous s&#39;appliquent à la création de matériaux PBR en général ; quelques-unes dépendent néanmoins de l&#39;ensemble de caractéristiques spécifiques des matériaux.
 
 ### Commencer À Partir De Références Réelles
 
-Les matériaux basés sur la physique sont plus fiables lorsqu’ils sont ancrés dans l’observation du monde réel. Dans la mesure du possible, les décisions de matériau de base sur la référence photographique, les valeurs mesurées ou l&#39;observation directe de surfaces similaires. Cela s’applique non seulement à la couleur, mais également à la rugosité, à la réflectivité et à la variation de surface. L’utilisation de références permet d’ancrer les matériaux dans des plages plausibles, ce qui les rend plus faciles à réutiliser et moins sensibles aux changements d’éclairage ou d’environnement. Cela réduit également la tentation de compenser les problèmes d’éclairage à l’intérieur du matériau.
+Les matériaux physiques sont plus fiables lorsqu’ils sont basés sur une observation du monde réel. Dans la mesure du possible, les décisions de matériau de base sur la référence photographique, les valeurs mesurées ou l&#39;observation directe de surfaces similaires. Cela s’applique non seulement à la couleur, mais également à la rugosité, à la réflectivité et à la variation de surface. L’utilisation de références permet d’ancrer les matériaux dans des plages plausibles, ce qui les rend plus faciles à réutiliser et moins sensibles aux changements d’éclairage ou d’environnement. Cela réduit également la tentation de compenser les problèmes d’éclairage à l’intérieur du matériau.
 
-### Avoir un modèle mental de la structure physique du matériel à créer
+### Avoir un modèle mental de la structure physique du matériau à créer
 
-L’OpenPBR n’est pas simplement une liste de paramètres qui permettent aux artistes d’ajuster divers effets jusqu’à ce qu’ils obtiennent le look qu’ils souhaitent. Il repose essentiellement sur une structure de base, décrite dans la section «Vue d&#39;ensemble des couches d&#39;un matériau OpenPBR», qui suppose un matériau constitué d&#39;une structure de couches physiques similaire. Par conséquent, il est conseillé de créer des matériaux en gardant ce modèle à l&#39;esprit et en décrivant les éléments physiques de ces matériaux avec les paramètres OpenPBR. Pensez à la composition du matériau : à quoi ressemblerait une tranche verticale sous un microscope, d&#39;où viennent les couleurs et les hautes lumières, etc. Essayez autant que possible d&#39;anticiper les composants de l&#39;OpenPBR qui seront nécessaires pour obtenir l&#39;apparence souhaitée. De même, il est également possible d&#39;expérimenter l&#39;inverse, c&#39;est-à-dire de construire un matériau à partir d&#39;un ensemble de calques et de découvrir son apparence finale.
+L’OpenPBR n’est pas simplement une liste de paramètres qui permettent aux artistes d’ajuster divers effets jusqu’à ce qu’ils obtiennent le look qu’ils souhaitent. À la base, il repose sur une structure de base, décrite dans «An overview of the layers of an OpenPBR», qui suppose un matériau constitué d&#39;une structure de couches physiques similaire. Par conséquent, il est conseillé de créer des matériaux en gardant ce modèle à l&#39;esprit et en décrivant les éléments physiques de ces matériaux avec les paramètres d&#39;OpenPBR. Pensez à la composition du matériau : à quoi ressemblerait une tranche verticale sous un microscope, d’où viennent les couleurs et les hautes lumières, etc. Essayez autant que possible d&#39;anticiper les composants de l&#39;OpenPBR qui seront nécessaires pour obtenir l&#39;apparence souhaitée. De même, il est également possible d&#39;expérimenter l&#39;inverse, c&#39;est-à-dire de construire un matériau à partir d&#39;un ensemble de calques et de découvrir son apparence finale.
 
-### Créer des matériaux indépendamment de l’éclairage
+### Créer des Matériaux indépendamment de l’éclairage
 
 L’une des principales forces des workflows PBR est la séparation des problèmes entre les matériaux et l’éclairage. Les matériaux doivent décrire les propriétés de la surface et non compenser l’éclairage, l’exposition ou l’ambiance de la scène. Visez à créer des matériaux qui restent stables et crédibles dans de nombreuses conditions d&#39;éclairage, même dans de mauvaises conditions. Cette séparation facilite la gestion, le débogage et l’itération des scènes, en particulier dans les pipelines plus grands, où les matériaux et l’éclairage peuvent être gérés par différents artistes. La validation de matériaux dans divers contextes peut être très utile. Un matériau bien écrit doit tenir sous différents environnements d’éclairage, échelles et angles de caméra. Lorsque cela est possible, prévisualisez les matériaux dans plusieurs contextes, par exemple, sous un éclairage studio neutre et dans une scène plus spectaculaire. Cela permet de savoir si l’aspect d’un matériau est réellement ancré dans ses paramètres ou s’il repose sur une configuration spécifique pour être correct. Les matériaux qui sont bien validés dans différents contextes sont plus faciles à réutiliser et plus fiables dans la production.
 
@@ -899,37 +899,37 @@ Ces ressources doivent être considérées comme les principales références po
 
 ## Annexe i : Qu&#39;est-ce que le PBR ?
 
-Le rendu physique (PBR) est une approche de rendu basée sur une idée simple : plutôt que de dépendre d’une configuration d’éclairage spécifique, les matériaux doivent répondre à la lumière de manière cohérente avec le comportement des surfaces du monde réel. Les matériaux PBR sont conçus pour rester crédibles dans un large éventail d’environnements, ce qui les rend plus prévisibles, réutilisables et plus faciles à gérer dans les processus de production modernes.
+Le rendu physique (PBR) est une approche de rendu basée sur une idée simple : plutôt que de dépendre d’une configuration d’éclairage spécifique, les matériaux doivent répondre à la lumière d’une manière cohérente avec le comportement des surfaces du monde réel. Les matériaux PBR sont conçus pour rester crédibles dans un large éventail d’environnements, ce qui les rend plus prévisibles, réutilisables et plus faciles à gérer dans les processus de production modernes.
 
-L’une des conséquences directes de cette méthode d’ancrage dans le monde réel est que les workflows de PBR permettent aux artistes de copier la réalité, en termes de mesures réelles, plutôt que d’essayer de deviner avec précision ce qu’elle est. En éclairage, cela peut signifier de travailler avec des unités physiques et des intensités réelles plutôt qu’avec des valeurs arbitraires. Dans les workflows de rendu qui s’intègrent au contenu photographié ou filmé, les appareils photo et les ombrages physiques permettent de préserver les caractéristiques visuelles des objectifs et capteurs réels. Pour les matériaux, le même principe permet des techniques telles que la photogrammétrie, où les surfaces numérisées peuvent être mélangées de manière transparente avec des matériaux créés manuellement parce que les deux sont décrits en utilisant les mêmes hypothèses physiques.
+L’une des conséquences directes de cette méthode d’ancrage dans le monde réel est que les workflows de PBR permettent aux artistes de copier la réalité, en termes de mesures réelles, plutôt que d’essayer de deviner avec précision ce qu’elle est. En éclairage, cela peut signifier de travailler avec des unités physiques et des intensités réelles plutôt qu’avec des valeurs arbitraires. Dans les workflows de rendu qui s’intègrent au contenu photographié ou filmé, les caméras et les ombrages physiques permettent de préserver les caractéristiques visuelles des objectifs et capteurs réels. Pour les matériaux, le même principe permet des techniques telles que la photogrammétrie, où les surfaces numérisées peuvent être mélangées facilement avec des matériaux créés manuellement, car les deux sont décrits en utilisant les mêmes hypothèses physiques.
 
 Pour les artistes, PBR fournit un langage visuel partagé entre les outils, les moteurs et les systèmes de rendu. Un matériau créé à l’aide des principes de PBR a pour objectif de donner un aspect cohérent, qu’il soit visualisé dans un moteur en temps réel, dans un système de rendu par tracé de trajectoire ou dans des conditions d’éclairage radicalement différentes, sans réglage manuel constant. Cette cohérence est l’une des principales raisons pour lesquelles le PBR est devenu une norme dans les jeux, les effets visuels et la visualisation.
 
-Fondamentalement, la PBR repose sur quelques idées physiques fondamentales sur la lumière et les surfaces. La lumière est traitée comme une énergie qui réfléchit, dispersion ou est absorbée par une surface, et les ombrages sont conçus pour conserver cette énergie afin que les matériaux n’apparaissent pas anormalement lumineux ou réfléchissants. L’aspect de la surface est influencé par des facteurs tels que la rugosité microscopique, qui influence la netteté ou la douceur des reflets. Les flux de production PBR distinguent également clairement les métaux et les non-métaux, puisque ces types de matériaux interagissent avec la lumière de manière fondamentalement différente. PBR repose sur des paramètres qui décrivent des propriétés physiques, telles que la couleur de base, la rugosité et le caractère métallique, que le shader interprète à l’aide de modèles dérivés physiquement.
+Fondamentalement, la PBR repose sur quelques idées physiques fondamentales sur la lumière et les surfaces. La lumière est traitée comme une énergie qui réfléchit, dispersion ou est absorbée par une surface, et les ombrages sont conçus pour conserver cette énergie afin que les matériaux n’apparaissent pas anormalement lumineux ou réfléchissants. L’aspect de la surface dépend de facteurs tels que la rugosité microscopique, qui influe sur la netteté ou la douceur des reflets. Les flux de PBR distinguent également clairement les métaux et les non-métaux, puisque ces types de matériaux interagissent avec la lumière de manière fondamentalement différente. La PBR repose sur des paramètres qui décrivent les propriétés physiques, telles que la base color, la rugosité et le caractère métallique, que le shader interprète à l’aide de modèles dérivés physiquement.
 
-Tout aussi important, le PBR favorise une faible interdépendance entre les différentes parties du processus de rendu. En séparant la définition des matériaux de l’éclairage, les artistes évitent d’avoir à « corriger » les matériaux chaque fois qu’une lumière change. Cette division transforme un problème complexe en problème plus petit et plus facile à gérer : l’éclairage peut être ajusté indépendamment des matériaux, et les matériaux peuvent être créés sans connaître la configuration finale de la scène. À une échelle plus fine, les modèles modernes de PBR, y compris l’OpenPBR, visent à garder les paramètres aussi indépendants que possible, ce qui permet aux artistes d’ajuster les valeurs de manière isolée sans causer d’effets secondaires inattendus.
+Tout aussi important, le PBR favorise une faible interdépendance entre les différentes parties du processus de rendu. En séparant la définition du matériau de l’éclairage, les artistes évitent d’avoir à « réparer » les matériaux chaque fois qu’une lumière change. Cette division transforme un problème complexe en problème plus petit et plus facile à gérer : l’éclairage peut être réglé indépendamment des matériaux, et les matériaux peuvent être créés sans connaître la configuration finale de la scène. À une échelle plus fine, les modèles modernes de PBR, y compris l’OpenPBR, visent à garder les paramètres aussi indépendants que possible, ce qui permet aux artistes d’ajuster les valeurs de manière isolée sans causer d’effets secondaires inattendus.
 
-Dans la pratique, le PBR ne se limite plus à compenser les bizarreries liées à l’éclairage ou au rendu, mais s’attache à décrire les matériaux en fonction de caractéristiques réelles. Le résultat est un workflow qui favorise la cohérence par rapport aux retouches spécifiques à la scène, avec un réalisme émergeant naturellement à partir d&#39;entrées de matériau bien définies, plutôt que de astuces d&#39;éclairage artisanales.
+Dans la pratique, la PBR dévie le rôle de l’artiste de la compensation des bizarreries liées à l’éclairage ou au rendu, pour la décrire davantage en termes de caractéristiques du monde réel. Le résultat est un workflow qui favorise la cohérence par rapport aux retouches spécifiques à une scène, avec un réalisme émergeant naturellement à partir d&#39;entrées de matériau bien définies, plutôt que des astuces d&#39;éclairage artisanales.
 
 Pour plus d&#39;informations sur les caractéristiques techniques du PBR, consultez le [Guide PBR, de Wes McDermott](https://www.adobe.com/learn/substance-3d-designer/web/the-pbr-guide-part-1).
 
 ## Annexe ii : Qu&#39;est-ce que l&#39;OpenPBR ?
 
-OpenPBR est un ombrage de surface physique libre conçu pour décrire de manière cohérente et prévisible l’aspect des matériaux dans différents outils 3D, systèmes de rendu et tuyaux. Il définit un modèle de matériau unique et complet qui peut représenter une large gamme de surfaces réelles, tout en conservant la flexibilité de représenter des surfaces plus fantastiques ou artistiquement idiomatiques, en utilisant des paramètres physiquement significatifs.
+OpenPBR est un ombrage de surface physique libre conçu pour fournir une description cohérente et prévisible de l’aspect des matériaux dans différents outils 3D, systèmes de rendu et tuyaux. Il définit un modèle de matériau unique et complet qui peut représenter une large gamme de surfaces réelles, tout en conservant la flexibilité de représenter des surfaces plus fantastiques ou artistiquement idiomatiques, en utilisant des paramètres physiquement significatifs.
 
-L’objectif principal d’OpenPBR est de résoudre un problème de longue date dans les workflows 3D : l’incohérence des matériaux entre les outils et les systèmes de rendu. Historiquement, les artistes ont travaillé avec plusieurs shaders « standard » qui se comportaient de manière similaire dans l’esprit, mais différaient dans les détails, la signification des paramètres et les hypothèses physiques en fonction du logiciel ou du moteur de rendu utilisé. Même lorsque deux ombrages portaient le même nom pour des paramètres tels que « rugosité » ou « métallisation », les résultats n’étaient pas toujours cohérents. Cela compliquait le déplacement des ressources entre les outils, la collaboration entre les équipes et les studios, ou le maintien de la continuité visuelle dans les pipelines complexes.
+L’objectif principal d’OpenPBR est de résoudre un problème de longue date dans les workflows 3D : l’incohérence du matériau entre les outils et les systèmes de rendu. Historiquement, les artistes ont travaillé avec plusieurs shaders « standard » qui se comportaient de manière similaire dans l’esprit, mais différaient dans les détails, la signification des paramètres et les hypothèses physiques en fonction du logiciel ou du moteur de rendu utilisé. Même lorsque deux nuanciers partageaient les mêmes noms pour des paramètres tels que « rugosité » ou « métallisme », les résultats n’étaient pas toujours cohérents. Cela compliquait le déplacement des ressources entre les outils, la collaboration entre les équipes et les studios, ou le maintien de la continuité visuelle dans les pipelines complexes.
 
-Ces contraintes se sont fait sentir dans toute la communauté 3D, et les artistes, les studios et les développeurs ont commencé à chercher des solutions. À l&#39;origine, ces efforts continus dans la collectivité ont convergé vers des solutions communes, qui étaient un éventail d&#39;approches quelque peu disparates et variables. Ce travail, ainsi que les nombreuses discussions et décisions conjointes qui l&#39;entourent, ont été formalisés dans le cadre d&#39;une approche unifiée de la création matérielle : OpenPBR, un modèle de matériau commun, ouvertement documenté, qui peut être mis en œuvre de manière cohérente dans toutes les applications. Plutôt que d&#39;être lié à un seul logiciel, il repose sur une base commune sur laquelle différents outils peuvent s&#39;appuyer tout en préservant le même comportement physique sous-jacent. Ce modèle commun permet aux artistes de transférer plus facilement des matériaux entre les applications, aux studios de standardiser les pratiques de développement de l’aspect et aux ressources de rester visuellement stables tout au long de la production. Avant tout, l&#39;OpenPBR est fondamentalement un consensus ; même aujourd&#39;hui, la discussion est en cours et un consensus est recherché auprès d&#39;un large éventail de spécialistes du secteur 3D lors de la prise de décisions.
+Ces contraintes se sont fait sentir dans toute la communauté 3D, et les artistes, les studios et les développeurs ont commencé à chercher des solutions. À l&#39;origine, ces efforts continus dans la collectivité ont convergé vers des solutions communes, qui étaient un éventail d&#39;approches quelque peu disparates et variables. Ce travail, ainsi que les nombreuses discussions et décisions conjointes qui l&#39;entourent, ont été formalisés dans le cadre d&#39;une approche unifiée de la création de matériaux : OpenPBR, un modèle de matériau commun, ouvertement documenté, qui peut être mis en œuvre de manière cohérente entre les applications. Plutôt que d&#39;être lié à un seul logiciel, il repose sur une base commune sur laquelle différents outils peuvent s&#39;appuyer tout en préservant le même comportement physique sous-jacent. Ce modèle commun permet aux artistes de transférer plus facilement des matériaux d’une application à une autre, aux studios d’uniformiser leurs méthodes de développement de l’aspect et aux ressources de rester visuellement stables tout au long de la production. Avant tout, l&#39;OpenPBR est fondamentalement un consensus ; même aujourd&#39;hui, la discussion est en cours et un consensus est recherché auprès d&#39;un large éventail de spécialistes du secteur 3D lors de la prise de décisions.
 
-Le modèle lui-même est fondé sur les principes du rendu basé physiquement (PBR). Cela signifie que les matériaux sont décrits en termes de la façon dont la lumière interagit avec les surfaces dans le monde réel, en mettant l&#39;accent sur la conservation de l&#39;énergie, et les réponses prévisibles à l&#39;éclairage, avec des paramètres enracinés dans l&#39;optique du monde réel, qui sont organisés et exposés d&#39;une manière qui soutient le développement de l&#39;aspect pratique plutôt que la simulation scientifique. En d’autres termes, l’OpenPBR définit le comportement du matériau lui-même : signification des paramètres, interaction des différents calques et réponse du matériau sous l’éclairage. Les outils logiciels individuels sont libres de présenter ces contrôles de différentes manières, en utilisant le style d&#39;interface utilisateur qui semble le plus approprié, tant que le modèle de matériau sous-jacent reste cohérent - bien que, dans la pratique, il y ait une logique derrière le nommage, le regroupement et l&#39;ordre des paramètres, et les applications spécifiques ont largement tendance à respecter cela.
+Le modèle lui-même est fondé sur les principes du rendu basé physiquement (PBR). Cela signifie que les matériaux sont décrits en termes de la façon dont la lumière interagit avec les surfaces dans le monde réel, en mettant l&#39;accent sur la conservation de l&#39;énergie et les réponses prévisibles à l&#39;éclairage, avec des paramètres ancrés dans l&#39;optique du monde réel, qui sont organisés et exposés d&#39;une manière qui prend en charge le développement de l&#39;aspect pratique plutôt que la simulation scientifique. En d’autres termes, l’OpenPBR définit le comportement du matériau lui-même : signification des paramètres, interaction des différents calques et réponse du matériau sous l’éclairage. Les outils logiciels individuels sont libres de présenter ces contrôles de différentes manières, en utilisant le style d&#39;interface utilisateur qui semble le plus approprié, tant que le modèle de matériau sous-jacent reste cohérent - bien que, dans la pratique, il y ait une logique derrière le nommage, le regroupement et l&#39;ordre des paramètres, et les applications spécifiques ont largement tendance à respecter cela.
 
 ## Annexe iii : Contexte et motivations de l&#39;initiative OpenPBR
 
-Pour comprendre pourquoi l&#39;OpenPBR existe, il est utile d&#39;examiner comment l&#39;ombrage physique a évolué au cours de la dernière décennie. Lorsque le PBR est devenu la norme de l’industrie, la plupart des principaux outils 3D ont introduit leurs propres ombrages de surface. Ces ombrages étaient globalement similaires dans leur intention : ils visaient à représenter des matériaux du monde réel en utilisant des modèles de réflexion économiseurs d&#39;énergie et en exposant les paramètres au modèle physique sous-jacent d&#39;une manière artistiquement significative telle que la couleur de base, la rugosité, le caractère métallique, etc.
+Pour comprendre pourquoi l&#39;OpenPBR existe, il est utile d&#39;examiner comment l&#39;ombrage physique a évolué au cours de la dernière décennie. Lorsque le PBR est devenu la norme de l’industrie, la plupart des principaux outils 3D ont introduit leurs propres ombrages de surface. Ces nuanciers étaient globalement similaires dans leur intention : ils visaient à représenter des matériaux du monde réel en utilisant des modèles de réflexion économiseurs d&#39;énergie et en exposant les paramètres au modèle physique sous-jacent d&#39;une manière artistiquement significative telle que la base color, la rugosité, le caractère métallique, etc.
 
-Cela a pris beaucoup d’itérations, et le paysage 3D était initialement très fragmenté, avec différents acteurs explorant différentes façons d’exprimer les visuels, et progressant sur différents fronts. Une solution serait remplacée par une autre, jusqu&#39;à ce que des approches spécifiques apparaissent comme supérieures et que les travaux dans différents domaines commencent à converger, conduisant à l&#39;émergence de GGX, des approches de matériaux bruts métalliques et finalement de l&#39;OpenPBR.
+Cela a nécessité beaucoup d’itérations, et le paysage 3D était initialement très fragmenté, avec différents acteurs explorant différentes façons d’exprimer les visuels, et progressant sur différents fronts. Une solution serait remplacée par une autre, jusqu&#39;à ce que des approches spécifiques apparaissent comme supérieures et que les travaux dans différents domaines commencent à converger, ce qui conduit à l&#39;émergence de GGX, d&#39;approches de matériau métal brut et finalement d&#39;OpenPBR.
 
-Parallèlement, les pipelines de production sont devenus plus interconnectés. Ressources de plus en plus nécessaires pour passer d’une application à l’autre pour la modélisation, la texturation, le développement de l’aspect, l’éclairage, le rendu et l’utilisation en temps réel. Les studios ont commencé à s&#39;appuyer davantage sur des formats d&#39;échange standardisés tels que USD et MaterialX, et il est devenu évident qu&#39;un format permettant de déplacer les descriptions de matériel spécifiquement serait également avantageux.
+Parallèlement, les pipelines de production sont devenus plus interconnectés. Ressources de plus en plus nécessaires pour passer d’une application à l’autre pour la modélisation, la texturation, le développement de l’aspect, l’éclairage, le rendu et l’utilisation en temps réel. Les studios ont commencé à s&#39;appuyer davantage sur des formats d&#39;échange normalisés tels que USD et MaterialX, et il est devenu évident qu&#39;un format permettant de déplacer les descriptions de matériau serait également avantageux.
 
 L&#39;initiative OpenPBR a été créée pour relever ces défis. Il s&#39;agit d&#39;un effort de collaboration entre Adobe et Autodesk, soutenu par l&#39;Academy Software Foundation (ASWF), pour définir un modèle d&#39;ombrage de surface libre unique pouvant servir de point de référence partagé entre les outils. OpenPBR consolide et formalise les concepts de rendu basés physiquement que les artistes connaissent déjà ; ces concepts forment ensuite les bases d’un modèle unifié avec un comportement clairement défini.
 

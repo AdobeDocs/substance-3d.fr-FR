@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/substance-3d-for-unity-scripting.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/substance-3d-for-unity-scripting.html"
 breadcrumb-title: ''
 description: Utilisez l’API Substance 3D dans Unity pour écrire des scripts qui mettent à jour et modifient les paramètres de Substance à l’exécution.
 helpx_creative_field: ""
@@ -97,7 +97,7 @@ public class scifiScript: MonoBehaviour {
 ```
 
 
-Vous pouvez également utiliser SubstanceRuntimeGraph pour avoir accès aux informations d’entrée et de sortie sur votre matériau de Substance.
+Vous pouvez également utiliser SubstanceRuntimeGraph pour avoir accès aux informations d’entrée et de sortie sur votre Matériau de Substance.
 
 #### Obtenir des informations d’entrée
 

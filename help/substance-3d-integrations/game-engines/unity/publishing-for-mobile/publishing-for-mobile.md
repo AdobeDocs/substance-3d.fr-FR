@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/publishing-for-mobile.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/publishing-for-mobile.html"
 breadcrumb-title: ''
 description: Optimisez les matériaux de Substance pour les plateformes mobiles dans Unity en ajustant les paramètres et les résolutions de texture.
 helpx_creative_field: ""

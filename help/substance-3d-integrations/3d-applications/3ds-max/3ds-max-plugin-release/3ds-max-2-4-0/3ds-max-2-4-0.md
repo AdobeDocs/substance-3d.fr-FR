@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release-notes/3ds-max-2-4-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release-notes/3ds-max-2-4-0.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour du module externe 3ds Max version 2.4.0 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ Publié le 10 août 2020
 
 Ajouté :
 
-* Nouveaux échantillons de matériaux de Substance
+* Nouveaux échantillons de matériau de Substance
 
 Fixe :
 
@@ -32,6 +32,6 @@ Fixe :
 
 Problèmes connus :
 
-* Chargement d’une ancienne scène avec une image clé sur l’objet Substance et ouverture de l’éditeur de courbes sans enregistrer la scène et la rouvrir, 3dsMax se bloque. La solution consiste à enregistrer la scène dans une nouvelle version du fichier, puis à la rouvrir
+* Chargement d’une ancienne scène avec une image clé sur l’objet Substance et ouverture de l’éditeur de courbes sans enregistrer la scène et la rouvrir, 3dsMax effectue un crash. Pour contourner ce problème, enregistrez la scène dans une nouvelle version du fichier, puis rouvrez-la
 
 Cette version est publiée pour 3ds Max 2019, 2020 et 2021

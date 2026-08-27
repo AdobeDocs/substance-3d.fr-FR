@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/curvature.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/curvature.html"
 breadcrumb-title: ''
-description: Extrayez les informations de courbure du maillage pour créer des textures qui mettent en évidence les cavités et les arêtes de la géométrie.
+description: Extrayez les informations de courbure de votre maillage pour créer des textures qui mettent en évidence les cavités et les bords de votre géométrie.
 helpx_creative_field: ""
 helpx_description: bakers > Bakers Settings > Curvature
 helpx_experience_level: ""
@@ -20,25 +20,25 @@ ht-degree: 3%
 
 # Courbure
 
-Le Curvature baker permet d&#39;extraire une texture de courbure. Cette texture contient des informations sur les cavités et les arêtes liées à la géométrie.
+Le baker Curvature permet d&#39;extraire une texture de courbure. Cette texture contient des informations sur les cavités et les arêtes associées à la géométrie.
 
 Les propriétés de texture sont définies comme suit :
 
-* Les valeurs noires représentent des zones concaves.
-* Les valeurs blanches représentent des zones convexes.
+* Les valeurs noires représentent les zones concaves.
+* Les valeurs de blanc représentent des zones convexes.
 * Les valeurs de gris représentent des zones neutres (principalement plates).
 
 **Disponible dans :**
 
-* Concepteur de substance
-* Boîte à outils d&#39;automatisation des substances
+* Substance Designer
+* Substance Automation Toolkit
 * Substance Painter
 
 ## Paramètres
 
 | *Paramètre* | *Description* |
 | --- | --- |
-| **Algorithme** | Définit la manière dont les informations de courbure seront calculées sur le maillage. |
+| **Algorithme** | Définit le mode de calcul des informations de courbure sur le maillage. |
 | **Détails** | Contrôle la force des informations dans la courbure. Une valeur élevée peut produire plus de détails, mais moins subtils. |
-| **Activer les coutures** | Si cette option est activée, le boulanger essaiera de réduire les jointures entre les îles UV en copiant les texels aux bordures d&#39;un côté à l&#39;autre. |
-| **Coutures** **Intensité** | Si **Activer les coutures** est activé, ce paramètre contrôle la force de la fixation des coutures. |
+| **Activer les coutures** | Si cette option est activée, le boulanger tente de réduire les coutures entre les Îlots UV en copiant les texels au niveau des bordures d’un côté à l’autre. |
+| **Coutures** **Intensité** | Si **Activer les coutures** est activé, ce paramètre contrôle la force de la correction des coutures. |

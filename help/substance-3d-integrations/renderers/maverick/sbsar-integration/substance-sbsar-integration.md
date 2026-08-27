@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/maverick/substance-sbsar-integration.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maverick/substance-sbsar-integration.html"
 breadcrumb-title: ''
 description: Utilisez des fichiers SBSAR de Substance directement dans le moteur de rendu Maverick pour l’édition de matériaux en temps réel et le contrôle des paramètres.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Intégration SBSAR de Substance
 
-**Vous pouvez** **facilement**&#x200B;**importer** **des fichiers SBSAR** **créés** **en Substance Designer ou en Substance** **Alchemist** **à** **non-conformistes &#x200B;**&#x200B;**suivant**&#x200B;**l&#39;une** **de** **ces** **2** **méthodes**&#x200B;**:**
+**Vous pouvez** **facilement****importer** **des fichiers SBSAR** **créés** **en Substance Designer ou en Substance** **Alchemist** **à** **non-conformistes ****suivant****l&#39;une** **de** **ces** **2** **méthodes****:**
 
 **Méthode** **1:**
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    ![](../../../assets/maverickrender-sbsar-drop.jpg)
 
-   **Méthode** **2**&#x200B;**:**
+   **Méthode** **2****:**
 1. Déposez simplement votre fichier SBSAR de l’Explorateur Windows vers n’importe quel objet de la scène. Vous pouvez également déposer des fichiers SBSAR dans le panneau Matériau.
 1. Dans la boîte de dialogue Importer, vous pouvez définir certains paramètres de matière :
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
    « C:\Users\User\Documents\RandomControl\library\Shading\My Maps ».
 
-   Ensuite, vous pouvez simplement les déposer sur vos objets afin que Maverick puisse créer le matériau d&#39;emballage correspondant.
+   Ensuite, vous pouvez simplement les déposer sur vos objets afin que Maverick puisse créer le matériau d&#39;enveloppe correspondant.
 
    Vous pouvez voir une vidéo d’introduction pour SBSAR dans Maverick ici : <https://youtu.be/HosZOoMRfcM>
 

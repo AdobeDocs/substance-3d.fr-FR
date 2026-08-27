@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/optimization-guidelines.html"
 breadcrumb-title: ''
 description: Suivez les directives d’optimisation pour équilibrer la complexité des matériaux de Substance avec les performances de rendu dans Unity.
 helpx_creative_field: ""
@@ -35,6 +35,6 @@ Les nœuds dont la résolution absolue est égale ou supérieure à 4K constitue
 >   
 > Le moteur CPU de la Substance peut calculer à 4K, mais il est très lent et peut provoquer un blocage ou un éventuel blocage de l’intégration.
 
-Dans l&#39;exemple suivant, la taille de sortie d&#39;un nœud [Tile Sampler](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/substance-graphs/nodes-reference-for-substance-graphs/node-library/texture-generators/patterns/tile-sampler) est définie sur [Absolue](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/substance-graphs/output-size) 4096. Il force plusieurs nœuds en aval à calculer à 4K avant d’être réduit pour la résolution de sortie finale de 2048.
+Dans l&#39;exemple suivant, la taille de sortie d&#39;un nœud [Tile Sampler](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/substance-graphs/nodes-reference-for-substance-graphs/node-library/texture-generators/patterns/tile-sampler) est définie sur [Absolue](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/substance-graphs/output-size) 4096. Il force plusieurs nœuds en aval à calculer à 4K avant d’être réduit pour la résolution de sortie finale de 2048.
 
 ![](../../../assets/absolute.png){width="1000px"}

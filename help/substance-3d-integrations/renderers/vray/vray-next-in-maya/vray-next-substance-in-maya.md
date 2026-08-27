@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/vray/vray-next-substance-in-maya.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/vray/vray-next-substance-in-maya.html"
 breadcrumb-title: ''
-description: Utilisez des matériaux de Substance avec V-Ray Next dans Maya via des cartes exportées ou le module externe de Substance pour le rendu.
+description: Utilisez les matériaux de Substance avec V-Ray Next dans Maya via les cartes exportées ou le plug-in de Substance pour le rendu.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Renderers > Vray > Vray Next - Substance in Maya
 helpx_experience_level: ""
@@ -22,6 +22,6 @@ ht-degree: 0%
 
 ## Substance dans le plug-in Maya
 
-Pour effectuer le rendu avec Vray Next, sur le nœud de Substance, vous pouvez choisir le flux de rendu Vray Next. Cela générera toutes les textures et les connectera au matériau VRayMtl.
+Pour effectuer le rendu avec Vray Next, sur le nœud de Substance, vous pouvez choisir le flux de rendu Vray Next. Cette opération génère toutes les textures et les connecte au matériau VRayMtl.
 
 ![](../../../assets/maya-vraynext.png)

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/blender/workflows.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/workflows.html"
 breadcrumb-title: ''
-description: Apprenez à utiliser des matériaux de Substance avec les Cycles de Blender et les moteurs de rendu Eevee pour différents workflows.
+description: Apprenez à utiliser les matériaux de Substance avec les cycles du mélangeur et les moteurs de rendu Eevee pour différents workflows.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > 3D Applications > Blender > Workflows
 helpx_experience_level: ""
@@ -22,37 +22,37 @@ ht-degree: 0%
 
 ## Utilisation des cycles
 
-Par défaut, les modifications de paramètres ne sont pas automatiquement mises à jour dans la clôture 3D lorsqu’elles sont affichées dans la vue de rendu Cycles. Pour afficher les mises à jour dans la vue de rendu Cycles, activez l&#39;**option de mise à jour automatique des textures des cycles** dans les préférences pour forcer la mise à jour.
+Par défaut, les modifications de paramètres ne sont pas automatiquement mises à jour dans le viewport 3D lorsqu’elles sont affichées dans la vue de rendu Cycles. Pour afficher les mises à jour dans la vue Rendu des cycles, activez **textures de mise à jour automatique des cycles** dans Préférences pour forcer la mise à jour.
 
 ## Fichiers .sbsar multigraphiques
 
-Le module complémentaire prend en charge les fichiers .sbrar avec plusieurs graphiques Substance. Lors du chargement d’un fichier contenant plusieurs graphiques, une nouvelle liste déroulante Graphiques s’affiche dans le panneau Substance 3D. Contrairement aux autres modifications de paramètres, le changement de graphe ne met pas automatiquement à jour le matériau. Pour cette raison, le bouton **Appliquer** doit être utilisé pour réattribuer le matériau après avoir modifié les graphiques.
+Le module complémentaire prend en charge les fichiers .sbrar avec plusieurs graphes substance. Lors du chargement d’un fichier contenant plusieurs graphes, une nouvelle liste déroulante Graphes s’affiche dans le panneau Substance 3D. Contrairement aux autres modifications de paramètres, le changement de graphe ne met pas automatiquement à jour le matériau. Pour cette raison, le bouton **Appliquer** doit être utilisé pour réattribuer le matériau après avoir modifié les graphes.
 
 >[!NOTE]
 >
-> Par défaut, le bouton Appliquer ajoute la matière dans un nouvel emplacement sans remplacer les affectations de matière précédentes. Supprimez les matériaux précédents ou utilisez le menu déroulant Matériau pour réaffecter les matériaux nouvellement appliqués.
+> Par défaut, le bouton Appliquer ajoute le matériau dans un nouvel emplacement sans remplacer les affectations de matériau précédentes. Supprimez les matériaux précédents ou utilisez la liste déroulante matériau pour réattribuer les matériaux nouvellement appliqués.
 
 ![](https://helpx-prod.scene7.com/is/image/HelpxProd/blender-workflows-multigraphs?$png$&jpegSize=100&wid=168)
 
 ## Utilisation des entrées d’image
 
-Lorsque vous utilisez un matériau de Substance qui permet des entrées d’image personnalisées, un paramètre de sélection d’image dans le panneau Substance 3D vous permet d’ouvrir le navigateur de fichiers pour une image (icône de dossier) ou de sélectionner une image qui existe dans votre projet (liste déroulante de l’icône d’image).
+Lorsque vous utilisez un matériau de Substance de données qui permet des entrées d’image personnalisées, un paramètre de sélection d’image Panneau Substance 3D vous permet d’ouvrir le navigateur de fichiers pour une image (icône de dossier) ou de sélectionner une image qui existe dans votre projet (liste déroulante de l’icône d’image).
 
 La préférence Exporter le format d’image peut être utilisée pour enregistrer les entrées d’image générées dans Blender dans le dossier temporaire. Consultez la page [Préférences](../../../3d-applications/blender/preferences/preferences.md) pour plus de détails.
 
 ![](../../../assets/blender-workflows-image-inputs-steps.png)
 
-## Paramètres prédéfinis réseau du nuanceur.
+## Paramètres prédéfinis de réseau shader.
 
-Le paramètre prédéfini du shader peut être rapidement ajusté via le menu déroulant dans la section Sorties du panneau Substance 3D. Ces paramètres prédéfinis d’ombrage ajustent la façon dont les textures d’image sont appliquées. Cycles/Ever Standard utilise le mappage de coordonnées de texture UV normal. Les trois autres paramètres prédéfinis Cycles/Projection gravée utilisent le mappage de coordonnées de texture générée pour les méthodes de projection d’une boîte, d’une sphère ou d’un cylindre.
+Le paramètre prédéfini shader peut être rapidement ajusté via le menu déroulant dans la section Sorties du panneau Substance 3D. Ces paramètres prédéfinis de shader permettent d’ajuster la façon dont les textures d’image sont appliquées. Cycles/Eevee Standard utilise le mappage de coordonnées d’UV régulier. Les trois autres paramètres prédéfinis Cycles/Projection d’œil utilisent le mappage des coordonnées de texture générées pour les méthodes de projection de boîte, de sphère ou de cylindre.
 
-Le paramètre prédéfini d&#39;ombrage par défaut utilisé par les matériaux peut être sélectionné dans le module complémentaire [Préférences](../../../3d-applications/blender/preferences/preferences.md).
+Le paramètre prédéfini shader par défaut utilisé par les matériaux peut être sélectionné dans le module complémentaire [Préférences](../../../3d-applications/blender/preferences/preferences.md).
 
 ![](../../../assets/2022-08-12-12-12-33-adobeexpress-1.gif)
 
 ## Filtrage et réglage des sorties
 
-La section Sorties du panneau Substance 3D propose également des options de filtrage des sorties. Trois boutons en regard de la liste déroulante des paramètres prédéfinis de l’ombrage peuvent être utilisés pour filtrer les sorties activées (coche), les sorties d’ombrage (sphère) et toutes les sorties disponibles (lignes).
+La section Sorties du panneau Substance 3D propose également des options pour les sorties filtrage. Trois boutons en regard de la liste déroulante des paramètres prédéfinis shader peuvent être utilisés pour filtrer les sorties activées (coche), les sorties shader (sphère) et toutes les sorties disponibles (lignes).
 
 Les sorties peuvent être activées individuellement en cochant la case. Lorsqu’une sortie est activée, une sortie correspondante dans le groupe de nœuds de texture est créée. Si cette sortie est prise en charge par le nœud de matériau Principled BSDF, elle y est automatiquement connectée. L&#39;Height se connecte à un nœud de displacement et l&#39;Occlusion ambiante se combine avec la couleur de base dans un nœud MixRGB.\
 Le menu déroulant Format de fichier en regard de la coche peut être utilisé pour définir le type de fichier sous lequel la texture de sortie est enregistrée.

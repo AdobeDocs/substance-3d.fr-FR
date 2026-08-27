@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/octane.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/octane.html"
 breadcrumb-title: ''
 description: Effectuez le rendu des matériaux de Substance avec Octane à l’aide du rendu autonome ou des plug-ins DCC dans 3ds Max et MODO.
 helpx_creative_field: ""
@@ -20,10 +20,10 @@ ht-degree: 0%
 
 # Octane
 
-Octane peut être utilisé pour effectuer le rendu des sorties de Substance à l’aide du moteur de rendu autonome ou via les plug-ins DCC. Grâce à un matériau de Substance Live DB, Octane Standalone prend en charge les sorties de Substance basées sur la couleur de base, métallique et la rugosité.
+Octane peut être utilisé pour effectuer le rendu des sorties de Substance à l’aide du moteur de rendu autonome ou via les plug-ins DCC. Grâce à un matériau de Substance de données Live DB, Octane Standalone prend en charge les sorties de Substance selon la base color, la métallique et la rugosité.
 
 **Octane autonome**\
-Sous **Base de données en direct > Matières > Divers**, recherchez la matière « **Substance PBR** ».
+Sous **Base de données en direct > Matériaux > Divers**, recherchez le matériau « **Substance PBR** ».
 
 ![](../../assets/octane-1.png)
 

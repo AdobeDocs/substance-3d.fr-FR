@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/opacity-mask-from-mesh.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/opacity-mask-from-mesh.html"
 breadcrumb-title: ''
 description: Générez des masques d’opacité en convertissant les rayons manquants en images binaires en niveaux de gris pour obtenir des effets de transparence.
 helpx_creative_field: ""
@@ -20,18 +20,18 @@ ht-degree: 11%
 
 # Masque d&#39;opacité à partir du maillage
 
-Le masque d’opacité de mesh baker calcule une texture dans laquelle les rayons manquants sont convertis en une image binaire en niveaux de gris. Cette texture est généralement utilisée comme texture d&#39;opacité.
+Le masque d’opacité de mesh baker calcule une texture où les rayons manquants sont convertis en image binaire en niveaux de gris. Cette texture est généralement utilisée comme texture d’opacité.
 
 Les propriétés de texture sont définies comme suit :
 
-* Les valeurs noires représentent des zones vides.
-* Les valeurs blanches représentent des zones convexes.
+* Les valeurs noires représentent les zones vides.
+* Les valeurs de blanc représentent des zones convexes.
 
-**Disponible en :**
+**Disponible dans :**
 
 * Painter
 * Designer
-* Boîte à outils d’automatisation
+* Automation Toolkit
 
 ## Paramètres :
 

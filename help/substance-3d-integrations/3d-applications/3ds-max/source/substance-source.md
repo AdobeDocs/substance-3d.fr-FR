@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/3ds-max/substance-source.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/substance-source.html"
 breadcrumb-title: ''
 description: Accédez et utilisez des matériaux de Substance de la bibliothèque de Substances Sources directement dans les projets 3ds Max.
 helpx_creative_field: ""
@@ -20,10 +20,10 @@ ht-degree: 5%
 
 # Substance Source
 
-Vous pouvez utiliser des matériaux de Substance de Substance Source dans le plug-in 3ds Max v2.
+Vous pouvez utiliser des matériaux de Substance à partir de Substance Source dans le module 3ds Max v2.
 
 1. Dans le menu Substance en haut de l’interface utilisateur 3ds max, choisissez Substance Source.
 1. Un navigateur s’ouvre et vous permet de vous connecter à votre abonnement Source pour télécharger des fichiers .sbsar.
-1. Importez le fichier .sbsar dans 3ds Max à l’aide du module externe Substance.
+1. Importez le fichier .fichier sbsar dans 3ds Max à l’aide du module externe Substance.
 
    ![](../../../assets/max12.png)

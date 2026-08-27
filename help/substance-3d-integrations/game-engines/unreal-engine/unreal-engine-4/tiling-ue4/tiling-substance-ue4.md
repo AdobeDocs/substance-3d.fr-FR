@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/tiling-substance-ue4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/tiling-substance-ue4.html"
 breadcrumb-title: ''
 description: Juxtaposer les textures de Substance dans Unreal Engine 4 en ajoutant des nœuds de coordonnées de texture et des paramètres scalaires aux matériaux.
 helpx_creative_field: ""

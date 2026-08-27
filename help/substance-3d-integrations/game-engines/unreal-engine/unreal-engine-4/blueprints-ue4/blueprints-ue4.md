@@ -26,7 +26,7 @@ Cette section explique comment utiliser les matériaux de Substance et les [plan
 
 ## Table des matières
 
-* [Blueprint(UE4) : paramètres des matériaux de Substance](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/integrations/blueprint-substance-material-parameters-151584792.html)
-* [Blueprint(UE4) : Instance de matériau dynamique](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/integrations/blueprint-dynamic-material-instance-152535142.html)
-* [Blueprint(UE4) : Substance globale](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/integrations/blueprint-aggregate-substance-159451574.html)
-* [Blueprint(UE4) : Référence du nœud](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/integrations/blueprint-node-reference-151584784.html)
+* [Blueprint(UE4) : paramètres des matériaux de Substance](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/blueprint-substance-material-parameters-151584792.html)
+* [Blueprint(UE4) : Instance de matériau dynamique](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/blueprint-dynamic-material-instance-152535142.html)
+* [Blueprint(UE4) : Substance globale](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/blueprint-aggregate-substance-159451574.html)
+* [Blueprint(UE4) : Référence du nœud](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/blueprint-node-reference-151584784.html)

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/blender/release-notes/add-on-0-9-3/add-on-2-0-0-plus.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/release-notes/add-on-0-9-3/add-on-2-0-0-plus.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour pour le module complémentaire Blender version 2.0.0 et ultérieure pour en savoir plus sur les nouvelles fonctionnalités et améliorations.
 helpx_creative_field: ""
@@ -30,21 +30,21 @@ ht-degree: 0%
 
 <b>Mise à jour :</b>
 
-* Mise à niveau vers la dernière version de Connector
-* Ajout d’une fonctionnalité permettant de recevoir des paramètres prédéfinis à l’aide du connecteur
+* Mise à niveau vers la dernière version de Connecteur
+* Ajout d’une fonctionnalité permettant de recevoir des paramètres prédéfinis à l’aide du Connecteur
 * Amélioration de la fonctionnalité de préconfiguration d’importation : désormais, toutes les instances d’un SBSAR qui incluent le matériau ajouteront la préconfiguration
-* Fonctionnalité de connecteur standardisée
+* Fonctionnalité de Connecteur standardisée
 
 <b>Fixe :</b>
 
-* Bogue de persistance où l’image d’entrée ne fonctionnait pas après l’enregistrement du fichier de fusion
-* Problème avec le réseau de nuanceurs ne fonctionnant pas lors de la mise à jour du paramètre prédéfini de nuanceur
+* Bogue de persistance dans lequel l’image d&#39;entrée ne fonctionnait pas après l’enregistrement du fichier de fusion
+* Problème de réseau shader ne fonctionnant pas lors de la mise à jour du paramètre prédéfini shader
 * URL incorrecte dans le bouton de téléchargement du plug-in
-* Mosaïque inversée dans Octane
+* Répétition inversée en octane
 * Valeurs d’entrée non fonctionnelles avec des systèmes de rendu tiers
 * Problème en raison duquel le paramètre de valeur d’entrée flottante n’a pas été créé
 * Les espaces colorimétriques du moteur de rendu ne fonctionnent pas correctement
-* Paramètres prédéfinis de nuanceur ne filtrant pas par le moteur de rendu disponible
+* paramètres prédéfinis shader non filtrage par le moteur de rendu disponible
 
 ## Module complémentaire 2.1.1
 

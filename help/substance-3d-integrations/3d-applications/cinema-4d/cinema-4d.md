@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/cinema-4d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d.html"
 breadcrumb-title: ''
 description: Installez et utilisez le plug-in Substance pour Cinema 4D afin d’importer et d’utiliser des matériaux de Substance dans vos projets.
 helpx_creative_field: ""
@@ -24,10 +24,10 @@ ht-degree: 0%
 >
 > Le plug-in Substance est installé en mode natif dans la version Cinema 4D R18 et les versions ultérieures et développé par Maxon.
 
-Le plug-in Substance se compose essentiellement de deux composants : **fichiers de Substance** et un **nuanceur de Substance**.
+Le plug-in Substance se compose essentiellement de deux composants : **fichiers Substance** et un **shader Substance**.
 
 * Les actifs de Substance représentent les Substances réelles au sein de la Cinema 4D. Ils sont gérés dans le Gestionnaire d’actifs de Substance.
-* Substance shader connecte les canaux de sortie des ressources de Substance aux canaux de matériau de Cinema 4D.
+* Substance shader connecte les canaux de sortie des ressources de Substance aux canaux de matériau.
 
 ## Table des matières
 

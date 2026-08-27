@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/blender/shortcuts-and-navigation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/shortcuts-and-navigation.html"
 breadcrumb-title: ''
 description: Découvrez les raccourcis clavier du module complémentaire Substance 3D dans Blender et personnalisez les combinaisons de touches pour plus d’efficacité.
 helpx_creative_field: ""

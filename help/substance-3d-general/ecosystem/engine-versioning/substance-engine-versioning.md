@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-general/ecosystem/substance-engine-versioning.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/substance-engine-versioning.html"
 breadcrumb-title: ''
-description: Utilisez cette référence pour vérifier quelle version du moteur de Substance est compatible avec votre logiciel et assurer la compatibilité matérielle.
+description: Utilisez cette référence pour vérifier quelle version du moteur de Substance est compatible avec votre logiciel et assurer la compatibilité du matériau.
 helpx_creative_field: ""
 helpx_description: General Knowledge > Ecosystem > Substance engine versioning
 helpx_experience_level: ""
@@ -22,9 +22,9 @@ ht-degree: 19%
 
 Cette page regroupe les informations relatives à la version du moteur de Substance de données utilisée dans chaque logiciel et outil.
 
-Les matériaux et les modèles de Substance créés dans le logiciel de Substance ne peuvent être utilisés que dans des applications prenant en charge la même version de substance engine ou une version plus récente, sans quoi de nouvelles fonctionnalités seraient incompatibles.
+Les matériaux de Substance créés dans le logiciel de Substance ne peuvent être utilisés que dans des applications prenant en charge la même version du moteur substance ou une version plus récente, sans quoi de nouvelles fonctionnalités seraient incompatibles.
 
-Les tableaux de cette page permettent de savoir si un document de Substance ou un modèle de procédure de Substance est utilisable avec la version actuelle de votre logiciel. Il se peut qu’ils ne mentionnent pas toutes les versions publiées, mais uniquement celles dans lesquelles une mise à jour a été effectuée. Donc, si une version n&#39;est pas mentionnée, cela signifie que la version précédente est celle qui s&#39;applique.
+Les tableaux de cette page permettent de savoir si un matériau de Substance ou un modèle procédural de Substance est utilisable avec la version actuelle de votre logiciel. Il se peut qu’ils ne mentionnent pas toutes les versions publiées, mais uniquement celles dans lesquelles une mise à jour a été effectuée. Donc, si une version n&#39;est pas mentionnée, cela signifie que la version précédente est celle qui s&#39;applique.
 
 <table>
 <tr style="border: 0;">
@@ -78,7 +78,7 @@ Icône ![Substance 3D Painter](../../assets/pt-appicon-noshadow-256.png "Substan
 </tr>
 </table>
 
-| Version du logiciel | version du moteur de Substance | Version Bakers | Version Anorigami |
+| Version du logiciel | Version du moteur de Substance | version Baker | Version Anorigami |
 | --- | --- | --- | --- |
 | <b>9.1.0</b> 7 novembre 2023 | 9.0.3 |  |  |
 | <b>7.4.2</b> | 8.3.0 | 2.5.5 | 0.8.0 |
@@ -107,7 +107,7 @@ Icône ![Substance 3D Designer](../../assets/ds-appicon-noshadow-256.png "Substa
 </tr>
 </table>
 
-| Version du logiciel | version du moteur de Substance | Version Bakers |
+| Version du logiciel | Version du moteur de Substance | version Baker |
 | --- | --- | --- |
 | <b>13.1.0</b> 12 décembre 2023 | 9.0.3 | 2.5.7 |
 | <b>13.0.2</b> 27 juillet 2023 | 9.0.1 | 2.5.7 |
@@ -124,7 +124,7 @@ Icône ![Substance 3D Designer](../../assets/ds-appicon-noshadow-256.png "Substa
 
 +++Anciennes versions
 
-| Version du logiciel | version du moteur de Substance | Version Bakers |
+| Version du logiciel | Version du moteur de Substance | version Baker |
 | --- | --- | --- |
 | <b>9.3.3</b> 14 février 2020 | 7.2.9 | 2.3.1 |
 | <b>9.2.3</b> 26 novembre 2019 | 7.2.0 | 2.2.4 |
@@ -153,7 +153,7 @@ Icône ![Substance 3D Sampler](../../assets/sa-appicon-noshadow-256.png "Substan
 </tr>
 </table>
 
-| Version du logiciel | version du moteur de Substance |
+| Version du logiciel | Version du moteur de Substance |
 | --- | --- |
 | <b>3.2.1 Yakitori</b> 6 mars 2022 | 8.3.0 |
 | <b>3.2.0 Yakitori</b> 25 janvier 2022 | 8.3.0 |
@@ -181,7 +181,7 @@ Icône ![Substance 3D Stager](../../assets/sg-appicon-noshadow-256.png "Substanc
 </tr>
 </table>
 
-| Version du logiciel | version du moteur de Substance | Version de la structure |
+| Version du logiciel | Version du moteur de Substance | Version de la structure |
 | --- | --- | --- |
 | <b>1.1.1</b> 14 décembre 2021 | 8.1.0 | 1.4.0 |
 | <b>1.1.0</b> 24 novembre 2021 | 8.1.0 | N.D. |
@@ -191,7 +191,7 @@ Icône ![Substance 3D Stager](../../assets/sg-appicon-noshadow-256.png "Substanc
 
 ## Plug-ins Substance
 
-| Plugin | version du moteur de Substance | Version de la structure |
+| Plugin | Version du moteur de Substance | Version de la structure |
 | --- | --- | --- |
 | <b>Maya</b> 2.2.2 | 8.4.2 | N.D. |
 | <b>3ds Max</b> 2.4.6 | 8.0.3 | N.D. |

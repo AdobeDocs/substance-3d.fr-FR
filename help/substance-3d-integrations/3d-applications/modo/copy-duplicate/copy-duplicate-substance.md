@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/modo/copy-duplicate-substance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/copy-duplicate-substance.html"
 breadcrumb-title: ''
 description: Copiez, instanciez ou dupliquez des matériaux de Substance dans MODO pour réutiliser efficacement des matériaux sur plusieurs objets.
 helpx_creative_field: ""

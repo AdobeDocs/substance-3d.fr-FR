@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/unity-plugin-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/unity-plugin-overview.html"
 breadcrumb-title: ''
 description: Découvrez le plug-in Substance 3D pour Unity, notamment la prise en charge des versions, les fonctionnalités et les fonctionnalités d’intégration.
 helpx_creative_field: ""
@@ -30,20 +30,20 @@ La version 3.0.0 du plug-in Adobe Substance 3D pour Unity prend actuellement en 
 
 ## Importation d&#39;une matière de Substance
 
-1. Cliquez avec le bouton droit de la souris dans la fenêtre Projet et choisissez Importer un fichier, ou faites glisser la matière de Substance à importer dans le panneau Vue du projet.
-1. Recherchez le matériau de Substance à importer. Les matériaux de Substance ont l’extension de fichier « .sbsar ».
+1. Cliquez avec le bouton droit de la souris dans la fenêtre Projet et choisissez Importer la ressource, ou faites glisser le Matériau de Substance à importer dans le panneau Vue du projet.
+1. Recherchez le Matériau de Substance à importer. Les Matériaux de Substance portent l’extension de fichier « .sbsar ».
 1. Le matériau de Substance sera importé dans votre projet Unity.
 
    1. L’actif sbsar crée un fichier d’importation principal et un dossier contenant les textures de sortie et un matériau Unity généré.
-1. Vous pouvez ensuite glisser-déposer la matière sur un filet dans la vue Scène, puis modifier les paramètres dans l’Inspecteur.
+1. Vous pouvez ensuite glisser-déposer le matériau sur un maillage dans la vue Scène, puis modifier les paramètres dans l’Inspecteur.
 
    ![](../../../assets/window-overview.png){width="1000px"}
 
 >[!NOTE]
 >
-> **Conversion de mappage normal**
+> **Conversion de Maps normal**
 > 
-> La Substance dans le plug-in Unity convertit automatiquement DirectX en OpenGL. Lorsque vous utilisez des matériaux de [Substance Source](https://source.substance3d.com/), vous n&#39;avez pas besoin de changer l&#39;orientation normale en OGL. Si vous créez votre propre matériau en Substance Designer, assurez-vous de travailler avec le nuanceur de DirectX par défaut, car le plug-in traitera automatiquement la conversion normale. Pour plus d’informations, voir Utilisation des normales dans Unity.
+> La Substance dans le plug-in Unity convertit automatiquement DirectX en OpenGL. Lorsque vous utilisez des matériaux de [Substance Source](https://source.substance3d.com/), il n&#39;est pas nécessaire de changer l&#39;orientation normale en OGL. Si vous créez votre propre matériau en Substance Designer, assurez-vous de travailler avec le shader par défaut, car le module externe se chargera automatiquement de la conversion. Pour plus d’informations, voir Utilisation des normales dans Unity.
 
 ## Modification des paramètres
 

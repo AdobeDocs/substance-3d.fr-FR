@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/generated-textures-packing.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/generated-textures-packing.html"
 breadcrumb-title: ''
-description: Découvrez comment Substance génère des textures dans Unity et configurez le packing de texture pour des entrées de nuanceur optimales.
+description: Découvrez comment Substance génère des textures dans Unity et configurez le packing de texture pour des entrées de shader optimales.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Game Engines > Unity > Generated Textures (Packing)
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Textures générées (Packing)
+title: Textures générées (par Packing)
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
@@ -18,9 +18,9 @@ ht-degree: 6%
 ---
 
 
-# Textures générées (Packing)
+# Textures générées (par Packing)
 
-Les textures générées affichent les sorties de la Substance calculées par la Substance Engine pour créer des textures. Ces textures sont entrées dans les entrées du nuanceur. Par défaut, seules les entrées de base utilisées par le shader sont créées. Si l’option « Générer toutes les sorties » est activée, toutes les textures seront affichées ici.
+Les Textures générées affichent les sorties de la Substance qui sont calculées par la Substance Engine pour créer des textures. Ces textures sont introduites dans les apports en shader. Par défaut, seules les entrées de base utilisées par le shader sont créées. Si « Générer toutes les sorties » est activé, toutes les textures seront affichées ici.
 
 ![](../../../assets/screen-shot-2022-03-29-at-1-24-16-pm-copy.png)
 
@@ -31,7 +31,7 @@ Lorsque « Générer toutes les sorties » est activé
 ## Utilisation
 
 1. La sélection d’une icône de texture entraîne la sélection de la texture dans la fenêtre Projet. Cela ne fonctionne pas pour les matériaux d’exécution, car les textures ne sont pas générées dans le dossier du projet.
-1. Le fonctionnement du bouton sRVB est similaire à celui de l’option sRVB (texture colorée) dans les Paramètres d’importation de texture. Elle permet de définir si une texture doit être interprétée en espace gamma (sRVB) ou linéairement. Le module externe Substance gère automatiquement cette interprétation, mais il peut être remplacé si nécessaire.
+1. Le bouton sRVB fonctionne de la même manière que l’option sRVB (texture des couleurs) dans les paramètres d’importation de Texture. Elle permet de définir si une texture doit être interprétée dans un espace gamma (sRVB) ou linéaire. Le module externe Substance gère automatiquement cette interprétation, mais il peut être remplacé si nécessaire.
 
    | Sortie de Substance | sRVB |
    | --- | --- |
@@ -47,18 +47,18 @@ Lorsque « Générer toutes les sorties » est activé
 
 ## Couches packings
 
-Vous pouvez compresser une texture dans la couche alpha d’une autre texture à l’aide du menu déroulant. Chaque texture générée dispose d’un menu déroulant qui contient une liste de toutes les textures générées par les matériaux de Substance. Choisissez simplement une texture dans la liste pour la compresser dans la couche alpha de la texture. L’option Source correspond à la couche alpha de la texture.
+Vous pouvez compresser une texture dans le canal Alpha d’une autre texture à l’aide du menu déroulant. Chaque texture générée a un menu déroulant qui contient une liste de toutes les sorties de texture générées par les matériaux de Substance. Choisissez simplement un mappage dans la liste pour le compresser dans le canal Alpha de la texture. L’option Source correspond au canal Alpha de la texture.
 
-Dans cette image, j’ai sélectionné le mappage d’height :
+Dans cette image, j’ai sélectionné la map height :
 
 ![](../../../assets/screen-shot-2022-03-29-at-2-48-33-pm.png)
 
-Dans l’image ci-dessous, vous pouvez voir que la sortie height est compressée dans la couche alpha de la table de correspondance des couleurs de base.
+Dans l’image ci-dessous, vous pouvez voir que la sortie height est compressée dans le canal Alpha de la feuille de base color.
 
 ![](https://helpx-prod.scene7.com/is/image/HelpxProd/screen-shot-2022-03-29-at-2-53-20-pm-copy?$png$&jpegSize=200&wid=1248)
 
-## Mappage de texture de sortie
+## Mappage des Textures de sortie
 
-En outre, la texture de sortie peut être affectée individuellement aux entrées de surface des matériaux Unity via la section Correspondance de texture de sortie. Les textures de sortie générées par le fichier .sbsar seront affichées dans la colonne de gauche et les entrées Unity Surface disponibles apparaissent dans la colonne de droite. Ces dernières peuvent être modifiées via les listes déroulantes.
+En outre, la texture de sortie peut être affectée individuellement aux entrées de surface des matériaux d’unité via la section Correspondance de Texture de sortie. Les textures de sortie générées par le fichier .sbsar seront affichées dans la colonne de gauche et les entrées Unity Surface disponibles apparaissent dans la colonne de droite. Ces dernières peuvent être modifiées via les listes déroulantes.
 
 ![](../../../assets/image2023-3-27-14-30-24.png)

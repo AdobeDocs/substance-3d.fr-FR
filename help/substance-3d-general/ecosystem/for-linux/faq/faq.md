@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-general/ecosystem/substance-for-linux/faq.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/substance-for-linux/faq.html"
 breadcrumb-title: ''
 description: Trouvez les réponses aux questions courantes sur la gestion des licences Substance 3D et l’accès aux logiciels via le portail Accès au téléchargement Adobe.
 helpx_creative_field: ""
@@ -97,7 +97,7 @@ Si vous recevez un message d’erreur lié à une adresse e-mail ou à un mot de
 
 
 
-Si vous rencontrez un autre type d&#39;erreur, [contactez notre assistance Entreprise](https://helpx.adobe.com/fr/enterprise/using/support-for-enterprise.html).
+Si vous rencontrez un autre type d&#39;erreur, [contactez notre assistance Entreprise](https://helpx.adobe.com/enterprise/using/support-for-enterprise.html).
 
 
 
@@ -118,20 +118,20 @@ L’historique des commandes fournisseur est uniquement accessible via le portai
 
 * Cliquez sur Rechercher.
 
-[Plus d&#39;informations sur LWS sont disponibles ici](https://helpx.adobe.com/fr/x-productkb/policy-pricing/volume-licensing-site.html).
+[Plus d&#39;informations sur LWS sont disponibles ici](https://helpx.adobe.com/x-productkb/policy-pricing/volume-licensing-site.html).
 
 
 
 +++
 
 +++Qui puis-je contacter si j’ai besoin de plus d’aide ?
-Si vous avez besoin d’aide supplémentaire, vous pouvez contacter notre équipe d’assistance aux entreprises. Votre administrateur devra [se connecter au portail Admin Console Adobe et ouvrir un dossier de support](https://helpx.adobe.com/fr/enterprise/using/support-for-enterprise.html).
+Si vous avez besoin d’aide supplémentaire, vous pouvez contacter notre équipe d’assistance aux entreprises. Votre administrateur devra [se connecter au portail Admin Console Adobe et ouvrir un dossier de support](https://helpx.adobe.com/enterprise/using/support-for-enterprise.html).
 
 Si vous avez besoin d’aide supplémentaire, vous pouvez contacter votre CSM Adobe.
 
 +++
 
 +++Je ne peux pas activer le logiciel avec le fichier de clé de licence d’ADA.
-[Des instructions d&#39;activation détaillées sont disponibles ici](../../../ecosystem/for-linux/substance-for-linux.md). Si ces solutions ne résolvent pas votre problème, [contactez l’équipe d’assistance aux entreprises](https://helpx.adobe.com/fr/enterprise/using/support-for-enterprise.html).
+[Des instructions d&#39;activation détaillées sont disponibles ici](../../../ecosystem/for-linux/substance-for-linux.md). Si ces solutions ne résolvent pas votre problème, [contactez l’équipe d’assistance aux entreprises](https://helpx.adobe.com/enterprise/using/support-for-enterprise.html).
 
 +++

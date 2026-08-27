@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-4-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-4-0.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour pour le plug-in Maya version 2.4.0 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -26,6 +26,6 @@ ht-degree: 0%
 
 <b>Fixe :</b>
 
-* Correction d’un problème critique dans Maya 2023 en raison duquel la création d’un réseau avec des fichiers sbsar à partir du moteur de Substance de données version 9 ou antérieure entraînait le blocage de l’application, assurant ainsi une création de réseau stable avec ces fichiers.
+* Correction d’un problème critique dans Maya 2023 en raison duquel la création d’un réseau avec des fichiers sbsar à partir du moteur de Substance version 9 ou antérieure provoquait le crash de l’application, assurant ainsi une création de réseau stable avec ces fichiers.
 
 Maya 2.4.0 est publié pour Maya 2020, 2022 et 2023 sur Linux, macOS et Windows

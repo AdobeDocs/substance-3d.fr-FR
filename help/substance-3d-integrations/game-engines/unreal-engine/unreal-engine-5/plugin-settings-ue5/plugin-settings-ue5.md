@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/plugin-settings-ue5.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/plugin-settings-ue5.html"
 breadcrumb-title: ''
 description: Configurez les paramètres du plug-in Substance dans Unreal Engine 5 via les paramètres du projet pour personnaliser le comportement du plug-in.
 helpx_creative_field: ""
@@ -42,6 +42,6 @@ Cela limite le nombre de substances asynchrones pouvant être transmises au mote
 
 ## Rendu asynchrone/synchronisé
 
-Le rendu de synchronisation est un appel de rendu bloquant. Une instance de graphique de Substance est alors transmise au moteur de Substance de données pour être recalculée, mais l’exécution s’arrête jusqu’à ce que le moteur de Substance de données ait terminé de traiter la Substance de données avant de poursuivre l’exécution du code. Le résultat sera également mis à jour sur votre écran dès que le processus sera terminé.
+Le rendu de synchronisation est un appel de rendu bloquant. Cela transmettra une instance de graphe de Substance au moteur de Substance à recalculer, mais l&#39;exécution s&#39;arrêtera jusqu&#39;à ce que le moteur de Substance ait terminé le traitement de la Substance avant de poursuivre l&#39;exécution du code. Le résultat sera également mis à jour sur votre écran dès que le processus sera terminé.
 
-Async ajoute votre graphique à une file d’attente et envoie plusieurs graphiques au moteur de Substance de données à la fois (définis dans les paramètres de Substance de données) dans la mise à jour du plug-in. Contrairement au rendu de synchronisation, dès qu’ils sont envoyés, le programme continue de fonctionner comme d’habitude au lieu d’attendre que le moteur de Substance de données soit terminé. Lorsque le moteur de Substance a terminé ce lot, il renvoie les résultats, nous les appliquons aux sorties et nous lançons un autre lot.
+Async ajoutera votre graphe à une file d’attente et enverra plusieurs graphes au moteur de Substance à la fois (définis dans les paramètres de Substance) dans la mise à jour du plug-in. Contrairement au rendu de synchronisation, dès qu’ils sont envoyés, le programme continue de fonctionner comme d’habitude au lieu d’attendre que le moteur de Substance soit terminé. Lorsque le moteur de Substance a terminé ce lot, il renvoie les résultats, nous les appliquons aux sorties et nous lançons un autre lot.

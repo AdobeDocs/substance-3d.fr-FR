@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release-notes/3ds-max-2-3-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release-notes/3ds-max-2-3-1.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour du module externe 3ds Max version 2.3.1 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -29,16 +29,16 @@ Pour certains problèmes non résolus dans cette version, un autre est prévu pr
 Cette version est actuellement disponible pour 3ds Max 2018, 2019, 2020 et 2021.
 
 * Chargez d’abord les looks sbsar dans le dossier des images du projet
-* La boîte de dialogue de compatibilité du système de rendu s’affiche désormais uniquement pour VRay RT et VUE File Renderer
-* Glisser-déposer pour l’éditeur de matériaux Slate désactivé pour supprimer les problèmes avec le lot Max
+* La boîte de dialogue de compatibilité du système de rendu apparaît uniquement pour les systèmes de rendu de fichiers VRay RT et VUE
+* Glisser-déposer pour l’éditeur de Matériau d’ardoise désactivé pour supprimer les problèmes avec le lot Max
 * La boîte de dialogue de rendu ne s’affiche plus en mode silencieux 3ds Max
 * Des scripts Python plus petits sont désormais compatibles avec Python 3
 * Ajout de la prise en charge du lanceur de Substances pour envoyer des ressources de Substance Source à 3ds Max. Cela nécessitera des modifications dans le lanceur, mais la prise en charge du plug-in sera disponible au fur et à mesure de l’ajout de la fonctionnalité.
 * Le script de rendu Redshift utilise désormais les nouveaux noms de nœuds définis dans Redshift 2.6.24
-* Max ne se bloque plus lorsqu’un chemin vide est attribué au Substance 2 SubstanceFilePath
+* Max n’effectue plus de crashs lorsqu’un chemin vide est attribué à SubstanceFilePath Substance 2
 * Supprimer la collision de nom du type SubstanceOutput avec l’ancien plug-in
 * Classe SubstanceOutput renommée en Substance 2Output
 * Classe du Gestionnaire de menus de Substance renommée en Substance 2MenuManager
-* Les ID de bloc de paramètre sont désormais effacés de force lorsqu’une scène est ouverte, ce qui supprime les collisions entre les fichiers de scène. Cela devrait résoudre les problèmes de blocs de paramètres non valides lors de la charge lors de l’alternance entre les scènes. L’importation peut encore présenter des problèmes, car elle nécessite des modifications plus complexes
+* Les ID de bloc de paramètre sont désormais effacés de force lorsqu&#39;une scène est ouverte, ce qui supprime les collisions entre les fichiers de scène. Cela devrait résoudre les problèmes de blocs de paramètres non valides lors de la charge lors de l&#39;alternance entre les scènes. L’importation peut encore présenter des problèmes, car elle nécessite des modifications plus complexes
 * Le plug-in est maintenant installé en dehors de 3ds Max. Tous les chemins ont été remplacés par des chemins relatifs à partir de l’emplacement de chargement.
 * Le plug-in utilise désormais le système de plug-in d&#39;application Autodesk.

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/cinema-4d/substance-asset-manager.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/substance-asset-manager.html"
 breadcrumb-title: ''
-description: Utilisez le Gestionnaire d’actifs de Substance dans Cinema 4D pour ajouter, supprimer et organiser des matériaux de Substance dans votre scène.
+description: Utilisez le Gestionnaire d’actifs de Substance de données dans Cinema 4D pour ajouter, supprimer et organiser des matériaux de Substance de données dans votre scène.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > 3D Applications > Cinema 4D > Substance Asset Manager
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Gestionnaire d’actifs de Substance
 
-La fenêtre Gestionnaire d’actifs de Substance répertorie toutes les Substances chargées dans une scène. Vous pouvez y ajouter, supprimer et réorganiser des Substances.
+La fenêtre Gestionnaire d&#39;actifs de Substance répertorie toutes les Substances chargées dans une scène. Vous pouvez y ajouter, supprimer et réorganiser des Substances.
 
 La sélection (clic gauche) d’une Substance dans le Gestionnaire d’actifs de Substance ouvre la Substance dans le Gestionnaire d’attributs de Cinema 4D. Vous pouvez y modifier les paramètres et les entrées de Substance des images clés comme tout autre paramètre dans Cinema 4D.
 
@@ -50,23 +50,23 @@ Sélectionne toutes les Substances répertoriées dans le Gestionnaire d’actif
 
 Désélectionne toutes les Substances répertoriées dans Asset Manager. Il est possible d’obtenir le même résultat en appuyant sur les touches Maj+Ctrl+a, pendant que la souris survole le Gestionnaire d’actifs.
 
-## Sélectionner parmi les matériaux sélectionnés
+## Sélectionner à partir du ou des Matériaux sélectionnés
 
-Sélectionne toutes les Substances référencées par les matériaux *sélectionnés* actuellement.
+Sélectionne toutes les Substances référencées par les matériaux actuellement *sélectionnés*.
 
-## Sélectionner parmi les matériaux marqués
+## Sélectionner parmi les Matériaux marqués
 
-Sélectionne toutes les Substances référencées par les matériaux *marqués* actuels. Dans Cinema 4D, un matériau est marqué si un objet ou une étiquette utilisant ce matériau est sélectionné.
+Sélectionne toutes les Substances référencées par les matériaux *marqués* actuels. Dans Cinema 4D, un matériau est marqué si un objet ou une balise utilisant ce matériau est sélectionné.
 
-## Sélectionner une ou plusieurs matières
+## Sélectionner un ou plusieurs Matériaux
 
-Sélectionne toutes les matières qui font référence aux Substances actuellement sélectionnées.
+Sélectionne tous les matériaux qui font référence aux Substances actuellement sélectionnées.
 
 ## Menu Actions
 
-## Créer une ou plusieurs matières
+## Créer un ou plusieurs Matériaux
 
-Créez de nouvelles matières de Cinema 4D à partir des Substances actuellement sélectionnées. Les canaux de matériau seront automatiquement initialisés avec des shaders de Substance se référant aux canaux de sortie respectifs des Substances.
+Créez de nouveaux Cinema 4D à partir des Substances actuellement sélectionnées. Les canaux de matériau seront automatiquement initialisés avec des shaders de Substance se référant aux canaux de sortie respectifs des Substances.
 
 ## Substance(s) en double
 
@@ -83,7 +83,7 @@ Supprime les Substances actuellement sélectionnées de la scène. Il est possib
 
 ## Supprimer les Substances inutilisées
 
-Supprime toutes les Substances qui ne sont actuellement référencées par aucune matière.
+Supprime toutes les Substances actuellement non référencées par un matériau.
 
 ## menu Substance Engine
 
@@ -94,7 +94,7 @@ Le contenu de ce menu dépend du système d’exploitation sur lequel le Cinema 
 En cliquant avec le bouton droit de la souris sur une Substance sélectionnée, le menu contextuel s’affiche. Leur fonctionnalité est identique aux fonctions portant le même nom dans les menus susmentionnés :
 
 * Supprimer
-* Créer une ou plusieurs matières
+* Créer un ou plusieurs Matériaux
 * Dupliquer la Substance
 * Substance de réimportation
 * Sélectionner toutes les Substances

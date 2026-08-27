@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-1-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-1-1.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour du module externe Maya version 2.1.1 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -20,4 +20,4 @@ ht-degree: 0%
 
 # Maya 2.1.1
 
-Correction : le plug-in substanceLink ne se bloque plus lors du déchargement
+Correction : le plug-in substanceLink ne se crash plus lorsqu’il est déchargé

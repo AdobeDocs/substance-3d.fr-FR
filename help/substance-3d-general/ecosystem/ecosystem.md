@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-general/ecosystem.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem.html"
 breadcrumb-title: ''
 description: Explorez les ressources et informations partagées entre toutes les applications Substance 3D pour améliorer votre workflow.
 helpx_creative_field: ""

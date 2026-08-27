@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-1-9.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-1-9.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour pour le plug-in Maya version 2.1.9 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -23,4 +23,4 @@ ht-degree: 0%
 1. 1.9 - Publié avec Maya 2022 et contenu dans le programme d’installation de Maya
 
 * Prise en charge ajoutée de Maya 2022
-* Correction d’un problème en raison duquel les calculs de rendu asynchrones n’étaient parfois pas détectés
+* Correction d’un problème en raison duquel les calculs de rendu asynchrones n’étaient parfois pas récupérés

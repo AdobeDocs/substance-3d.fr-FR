@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/physical-size-in-maya.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/physical-size-in-maya.html"
 breadcrumb-title: ''
-description: Utilisez les paramètres de taille physique de Maya pour appliquer des matériaux de Substance à l’échelle réelle pour une visualisation précise.
+description: Utilisez les paramètres de taille physique de Maya pour appliquer des matériaux de Substance à l’échelle réelle afin d’obtenir une visualisation précise.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > 3D Applications > Maya > Physical Size in Maya
 helpx_experience_level: ""
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Taille physique en Maya
 
-La fonction taille physique de Maya vous permet d&#39;utiliser des matériaux numériques de la même taille que leurs équivalents physiques, et de les répéter ou de les répéter sur vos modèles à la bonne taille. Cela peut être extrêmement utile pour la conception et la visualisation de la mode, des vêtements de sport et des intérieurs, ainsi que la conception de costumes pour le film et les jeux.
+La fonction taille physique de Maya vous permet d&#39;utiliser des matériaux numériques de la même taille que leurs homologues physiques, et de les répéter ou de les répéter sur vos modèles à la bonne taille. Cela peut être extrêmement utile pour la conception et la visualisation de la mode, des vêtements de sport et des intérieurs, ainsi que la conception de costumes pour le film et les jeux.
 
-Après avoir créé le nœud de rendu de votre choix dans Maya, vous pouvez simplement activer la fonctionnalité de taille physique sur l&#39;interface utilisateur Substance qui créera un nœud de projection triplanaire après chaque sortie de Substance et adaptera la taille des projections à la taille physique du matériau enregistré pendant la capture.
+Après avoir créé le nœud de rendu de votre choix dans Maya, vous pouvez simplement activer la fonctionnalité de taille physique sur l&#39;interface utilisateur de Substance qui créera un nœud de projection triplanaire après chaque sortie de Substance et adaptera la taille des projections à la taille physique du matériau enregistré pendant la capture.
 
 Consultez le tutoriel ci-dessous pour obtenir des informations détaillées sur l’utilisation de la fonctionnalité.
 

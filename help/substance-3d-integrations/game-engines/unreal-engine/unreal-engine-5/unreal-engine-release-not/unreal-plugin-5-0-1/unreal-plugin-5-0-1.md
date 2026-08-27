@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/unreal-engine-5-release-notes/unreal-plugin-5-0-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/unreal-engine-5-release-notes/unreal-plugin-5-0-1.html"
 breadcrumb-title: ''
-description: Consultez les notes de mise à jour d’Unreal Engine 5 version 5.0.1 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
+description: Consultez les notes de mise à jour d’Unreal Moteur 5 plugin version 5.0.1 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Unreal Engine 5 Release Notes > Unreal plugin 5.0.1
 helpx_experience_level: ""
@@ -22,14 +22,14 @@ ht-degree: 0%
 
 Mis à jour/ajouté :
 
-* Prise en charge d’Unreal Engine version 5.0.0 ou ultérieure
-* Documentation du plug-in Unreal Engine 5
-* Prise en charge du nouveau modèle de matériau triplan
+* Prise en charge de la version 5.0.0 ou ultérieure d’Unreal Moteur
+* Documentation du plug-in Moteur 5 irréel
+* Prise en charge du nouveau modèle de matériau Tri-planaire
 * Prise en charge de la nouvelle fonctionnalité « Taille physique »
 * *Réorganisation* du modèle standard de Substance et du modèle de réfraction de Substance
-* Possibilité de modifier la valeur XYZ pour l’espace univers
+* Possibilité de modifier la valeur XYZ de l’espace monde
 * Script Python
-* Définir automatiquement les nœuds de matériau de taille physique avec les valeurs des sorties Substance
+* Définition automatique des nœuds de matériau de taille physique avec les valeurs des sorties Substance
 
 Supprimé :
 
@@ -37,7 +37,7 @@ Supprimé :
 
 Fixe :
 
-* Le projet UE5 packagé se bloque lorsque les paramètres du matériau sont ajustés via des plans directeurs
+* Crashs de projet UE5 assemblés lorsque les paramètres du matériau sont ajustés via des plans directeurs
 * Le plug-in ferme la fenêtre des paramètres lorsque la sortie de l’instance de Graphe Substance est décochée
 * Correction du décalage de rendu occasionnel qui entraînait des modifications retardées des paramètres
 

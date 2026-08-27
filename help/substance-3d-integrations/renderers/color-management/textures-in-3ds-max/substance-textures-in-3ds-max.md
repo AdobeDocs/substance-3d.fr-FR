@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/color-management/substance-textures-in-3ds-max.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/color-management/substance-textures-in-3ds-max.html"
 breadcrumb-title: ''
 description: Découvrez comment le module externe Substance gère les paramètres gamma des textures dans 3ds Max pour assurer une gestion correcte des couleurs.
 helpx_creative_field: ""

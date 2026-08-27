@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release-notes/3ds-max-2-4-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/3ds-max-plugin-release-notes/3ds-max-2-4-1.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour du module externe 3ds Max version 2.4.1 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -31,7 +31,7 @@ Publié le 18 décembre 2020
 
 * Substance\_link.dll consommant un grand nombre de cycles de processeur
 * Erreur d’assertion lors de l’exportation d’un paramètre prédéfini de Substance
-* Blocage lors de la création d’un paramètre prédéfini lorsqu’il n’y en a pas
-* Blocage avec le dénoiseur pour le rendu Corona
+* Crash lors de la création d’un paramètre prédéfini lorsqu’il n’y en a pas
+* Crash avec dénoiseur pour système de rendu Corona
 
 Cette version est publiée pour 3ds Max 2019, 2020 et 2021

@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/settings.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/settings.html"
 breadcrumb-title: ''
-description: Configurez les paramètres du plug-in de Substance dans Maya via l’étagère de Substance ou le menu pour personnaliser le comportement.
+description: Configurez les paramètres du plug-in de Substance dans Maya via l’Étagère de Substance ou le menu pour personnaliser le comportement.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > 3D Applications > Maya > Settings
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Paramètres
 
-Le menu des paramètres de Substance est accessible via le panneau Substance ou le menu Substance. Les paramètres de ce menu sont stockés dans un fichier de configuration modifiable « substance.cfg ».
+Le menu Paramètres de Substance est accessible via l’Étagère Substance ou le menu Substance. Les paramètres de ce menu sont stockés dans un fichier de configuration modifiable « substance.cfg ».
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Le menu des paramètres de Substance est accessible via le panneau Substance ou 
 
 ## Résolution par défaut
 
-Définit la résolution par défaut pour un nœud de Substance lorsque le fichier sbsar est chargé.
+Définit la résolution par défaut d&#39;un nœud de Substance lorsque le fichier sbsar est chargé.
 
 ## Workflow de rendu
 
@@ -51,17 +51,17 @@ Définition de préférences spécifiques à la Substance Engine et globales à 
 
 ### Type de moteur
 
-La Substance Engine est disponible en tant que CPU et GPU Engine. Le changement de moteur nécessitera le redémarrage de Maya. Le moteur GPU permet des résolutions plus élevées que le moteur CPU.
+La Substance Engine est disponible en tant que moteur CPU et GPU. Le changement de moteur nécessitera le redémarrage de Maya. Le moteur GPU permet des résolutions plus élevées que le moteur CPU.
 
 >[!WARNING]
 >
-> Il peut y avoir des différences de calcul entre le processeur et le GPU. Pour obtenir des résultats cohérents, il est donc préférable de définir le type sur le même moteur utilisé dans la Substance Designer.
+> Il peut y avoir des différences de calcul entre le processeur et le moteur GPU. Pour obtenir des résultats cohérents, il est donc préférable de définir le type sur le même moteur utilisé dans la Substance Designer.
 
-Les cœurs du processeur et la mémoire du moteur sont des paramètres pour la quantité de ressources que le moteur de Substance de données est autorisé à utiliser.
+Les cœurs du processeur et la mémoire du Moteur sont des paramètres pour la quantité de ressources que le moteur de Substance de données est autorisé à utiliser.
 
 ### Blocage des rendus
 
-Cette option vous permet de définir si le calcul du moteur de Substance de données bloquera les processus de l&#39;interface utilisateur Maya. Lorsque cette option est activée, le moteur de Substance de données est prioritaire et bloque les processus de l’interface utilisateur Maya. Lorsque cette option est désactivée, les processus de l’interface utilisateur Maya ne sont pas bloqués par les calculs du moteur de Substance.
+Cette option vous permet de définir si le calcul du moteur de Substance bloquera les processus de l’interface utilisateur Maya. Lorsque cette option est activée, le moteur de Substance est prioritaire et bloque les processus de l’interface utilisateur Maya. Lorsque cette option est désactivée, les processus de l’interface utilisateur Maya ne sont pas bloqués par les calculs du moteur de Substance.
 
 ## Sorties du cache sur le disque
 
