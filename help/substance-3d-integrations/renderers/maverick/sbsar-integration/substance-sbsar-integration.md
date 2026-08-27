@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Intégration SBSAR de Substance
 
-**Vous pouvez** **facilement****importer** **des fichiers SBSAR** **créés** **en Substance Designer ou en Substance** **Alchemist** **à** **non-conformistes ****suivant****l&#39;une** **de** **ces** **2** **méthodes****:**
+**Vous pouvez** **facilement**&#x200B;**importer** **des fichiers SBSAR** **créés** **en Substance Designer ou en Substance** **Alchemist** **à** **non-conformistes &#x200B;**&#x200B;**suivant**&#x200B;**l&#39;une** **de** **ces** **2** **méthodes**&#x200B;**:**
 
 **Méthode** **1:**
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
    ![](../../../assets/maverickrender-sbsar-drop.jpg)
 
-   **Méthode** **2****:**
+   **Méthode** **2**&#x200B;**:**
 1. Déposez simplement votre fichier SBSAR de l’Explorateur Windows vers n’importe quel objet de la scène. Vous pouvez également déposer des fichiers SBSAR dans le panneau Matériau.
 1. Dans la boîte de dialogue Importer, vous pouvez définir certains paramètres de matière :
 

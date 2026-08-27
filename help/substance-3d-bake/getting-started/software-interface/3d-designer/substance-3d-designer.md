@@ -73,7 +73,7 @@ Le boulanger est l’endroit où vous pouvez choisir la texture cuite que vous s
 * **Ajout d&#39;un nouveau boulanger :** Cliquez sur le bouton « Ajouter un boulanger ».
 * **Suppression d&#39;un boulanger :** sélectionnez le boulanger dans la liste, puis cliquez sur le bouton « Supprimer le boulanger ».
 * **Placement d&#39;un boulanger en haut :** sélectionnez le boulanger dans la liste, puis cliquez sur le bouton « Placer en haut ».
-* **Descendre un boulanger :**Sélectionnez le boulanger dans la liste, puis cliquez sur le bouton « Push down ».
+* **Descendre un boulanger :**&#x200B;Sélectionnez le boulanger dans la liste, puis cliquez sur le bouton « Push down ».
 
 Chaque boulanger hérite par défaut des valeurs par défaut (voir ci-dessus). La taille (résolution) peut par exemple être remplacée en cliquant sur la cellule sur la ligne du boulanger. Cela est vrai pour les autres paramètres de la ligne.
 

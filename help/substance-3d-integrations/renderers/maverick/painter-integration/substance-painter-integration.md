@@ -30,20 +30,20 @@ ht-degree: 0%
 
 Vous pouvez facilement importer votre projet de Substance Painter dans Maverick en procédant comme suit :
 
-**Dans Substance** **Painter****:**
+**Dans Substance** **Painter**&#x200B;**:**
 
 1. Exportez votre maillage.
 1. Exportez vos textures dans le même dossier que celui où se trouve le maillage, à l’aide de l’un des paramètres prédéfinis Maverick (voir l’image) :
 
    ![](../../../assets/maverickrender-exportpresets-substancepainter.jpg)
 
-   *Choisissez* *«**Paramètre prédéfini**Maverick**» dans le* cas général ** cas*.
+   *Choisissez* *«**Paramètre prédéfini**&#x200B;Maverick&#x200B;**» dans le* cas général &#x200B;** cas*.
 
-   *Choisissez* *«**Maverick* *Avancé* *préréglage**» si* *vous avez**peint* *une* *carte **spécifique**telle* *que* *anisotropie* *ou* *revêtement**.*
+   *Choisissez* *«**Maverick* *Avancé* *préréglage**» si* *vous avez&#x200B;**peint* *une* *carte &#x200B;** spécifique&#x200B;**telle* *que* *anisotropie* *ou* *revêtement**.*
 
-   *Choisissez* *«**Maverick**avec **Displacement**préconfiguration**» si**votre* modèle *a une *carte **de displacement**pertinente*. Ce* *paramètre prédéfini**exportera* *l&#39;* *height **map**in**32 bits pour* *Maverick* *capturer toute la **géométrie** de haute **qualité**.*
+   *Choisissez* *«**Maverick**&#x200B;avec **Displacement**&#x200B;préconfiguration&#x200B;**» si**&#x200B;votre* modèle *a une *carte **de displacement**&#x200B;pertinente*. Ce* *paramètre prédéfini&#x200B;**exportera* *l&#39;* *height &#x200B;** map&#x200B;**in**&#x200B;32 bits pour* *Maverick* *capturer toute la **géométrie** de haute **qualité**.*
 
-   **In** **Maverick****:**
+   **In** **Maverick**&#x200B;**:**
 1. Cliquez sur l’icône de Substance Painter :
 
    ![](../../../assets/maverickrender-substancepainter-icon.jpg)
@@ -57,7 +57,7 @@ Vous pouvez facilement importer votre projet de Substance Painter dans Maverick 
    ![](../../../assets/maverickrender-substancepainter-import.jpg)
 1. Continuez et vous obtiendrez votre modèle correctement organisé par jeu de textures et avec ses matériaux automatiquement créés et appliqués. Tout est prêt pour la phase d&#39;éclairage.
 
-   **Si** **vous ****modifiez****vos** **textures dans la Substance** **Painter****, exportez** **les ****à nouveau****,** **écrasez** **les** **précédentes ****les****.** **Ensuite****, dans** **Maverick ****, utilisez l&#39;icône de mise à jour**Cartes********** :**
+   **Si** **vous &#x200B;**&#x200B;**modifiez**&#x200B;**vos** **textures dans la Substance** **Painter**&#x200B;**, exportez** **les &#x200B;**&#x200B;**à nouveau**&#x200B;**,** **écrasez** **les** **précédentes &#x200B;**&#x200B;**les**&#x200B;**.** **Ensuite**&#x200B;**, dans** **Maverick &#x200B;**&#x200B;**, utilisez l&#39;icône de mise à jour**&#x200B;Cartes&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B; :**
 
    ![](https://helpx-prod.scene7.com/is/image/HelpxProd/maverickrender-updatemaps-icon?$pjpeg$&jpegSize=200&wid=1065){width="800px"}
 
