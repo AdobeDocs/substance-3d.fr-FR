@@ -29,9 +29,9 @@ Version 2.3.3 :
 * Fichier de module externe renommé de SubstanceMax.dlt en substanceMax.dlt
 * Informations de version et de description ajoutées à substance\_link.dll
 * Correction d’un problème avec la version de vérification de Redshift, qui devrait désormais fonctionner avec Redshift 3
-* Correction d’un crash lors de l’annulation/la restauration après le chargement d’un fichier sbsar dans le nœud Substance
+* Crash fixe lors de l’annulation/la restauration après le chargement d’un fichier sbsar dans le nœud Substance
 * La régression fixe avec la boîte de dialogue Paramètres ne fonctionne pas
-* Correction d’un blocage lors du chargement d’un fichier sbsar contenant des caractères non latins
+* Crash fixe lors du chargement d’un fichier sbsar contenant des caractères non latins
 
 Notre pipeline de rejets a également été complètement refait, alors vous devriez pouvoir vous attendre à des rejets beaucoup plus fréquents, par rapport aux rejets plus importants et très éloignés que nous avons faits dans le passé.
 

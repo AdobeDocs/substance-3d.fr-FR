@@ -39,11 +39,11 @@ ht-degree: 0%
 ### Correctifs de bogues :
 
 * Correction d’un bug en raison duquel l’ouverture de la Substance Source sur le système d’exploitation Mac donnait une erreur Linux
-* Réduction du temps nécessaire pour changer de plate-forme. La conversion de texture pour les plates-formes mobiles est désormais effectuée sur build plutôt que lors du changement de plate-forme cible.
+* Réduction du temps nécessaire pour changer de plate-forme. La conversion des textures pour les plates-formes mobiles est désormais effectuée sur build plutôt que lors du changement de plate-forme cible.
 * Erreur d’échec d’assertion lors de l’importation de sbsar
 * La mise à niveau de projets à l’aide de .NET 3.5 provoque la rupture des matériaux Substance
 * Source de Substance non prise en charge dans la boîte de dialogue de Linux apparaissant sous OS X
-* Le changement de nom du graphique détruit les préréglages et le fichier de scène en mode de sérialisation ForceText
+* Le changement de nom de graphe détruit le fichier de préconfigurations et de scène en mode de sérialisation ForceText
 * Les matériaux de Substance avec plusieurs sorties utilisant la même utilisation interrompront le plug-in ne prend pas en charge les sorties personnalisées dans sbsar
 
 ### Problèmes connus :

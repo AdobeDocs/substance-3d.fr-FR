@@ -34,5 +34,5 @@ Apprenez et découvrez des informations pertinentes pour l&#39;[écosystème Sub
 ### Adobe Standard Material
 
 * [Spécifications ASM](../adobe-standard-material/asm-specifications/asm-specifications.md) : cette page regroupe les spécifications du modèle Adobe Standard Material (ASM).
-* [Documentation technique ASM](../adobe-standard-material/asm-technical-doc/asm-technical-documentation.md) — Cette page regroupe les informations techniques sur les matériaux standard Adobe.
+* [Documentation technique ASM](../adobe-standard-material/asm-technical-doc/asm-technical-documentation.md) — Cette page regroupe les informations techniques sur l&#39;Adobe Standard Material.
 

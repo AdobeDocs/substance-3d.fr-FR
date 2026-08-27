@@ -26,6 +26,6 @@ ht-degree: 0%
 
 <b>Fixe :</b>
 
-* Correction d’un problème critique dans Maya 2023 en raison duquel la création d’un réseau avec des fichiers sbsar à partir du moteur de Substance de données version 9 ou antérieure entraînait le blocage de l’application, assurant ainsi une création de réseau stable avec ces fichiers.
+* Correction d’un problème critique dans Maya 2023 en raison duquel la création d’un réseau avec des fichiers sbsar à partir du moteur de Substance version 9 ou antérieure provoquait le crash de l’application, assurant ainsi une création de réseau stable avec ces fichiers.
 
 Maya 2.4.0 est publié pour Maya 2020, 2022 et 2023 sur Linux, macOS et Windows

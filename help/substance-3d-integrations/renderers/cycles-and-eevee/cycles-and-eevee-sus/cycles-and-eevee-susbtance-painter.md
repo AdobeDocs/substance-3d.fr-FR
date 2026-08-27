@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/cycles-and-eevee/cycles-and-eevee-susbtance-painter.html"
 breadcrumb-title: ''
-description: Exportez les textures de Substance Painter pour les Cycles de Blender et les moteurs de rendu Eevee à l’aide des paramètres de sortie appropriés.
+description: Exportez les textures de Substance Painter pour les cycles du mélangeur et les systèmes de rendu Eevee en utilisant les paramètres de sortie appropriés.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Renderers > Cycles and Eevee > Cycles and Eevee - Susbtance Painter
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Un modèle personnalisé peut être créé pour exporter des textures vers Blender.
 
-1. Le gabarit Rugosité du métal PBR étant sélectionné, cliquez sur le bouton Dupliquer pour effectuer une copie.
+1. Le modèle de Rugosité PBR Metal étant sélectionné, cliquez sur le bouton Dupliquer pour effectuer une copie.
 1. Modifiez le type Normal sur la copie de DirectX vers OpenGL en faisant glisser l&#39;option de Conversion des cartes vers le carré RBG normal et en sélectionnant « De RBG ».
 1. Renommez le paramètre prédéfini si nécessaire
 

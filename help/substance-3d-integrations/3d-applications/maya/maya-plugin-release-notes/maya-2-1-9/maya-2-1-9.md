@@ -23,4 +23,4 @@ ht-degree: 0%
 1. 1.9 - Publié avec Maya 2022 et contenu dans le programme d’installation de Maya
 
 * Prise en charge ajoutée de Maya 2022
-* Correction d’un problème en raison duquel les calculs de rendu asynchrones n’étaient parfois pas détectés
+* Correction d’un problème en raison duquel les calculs de rendu asynchrones n’étaient parfois pas récupérés

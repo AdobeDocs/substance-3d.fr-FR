@@ -24,7 +24,7 @@ Publié le 10 août 2020
 
 Ajouté :
 
-* Nouveaux échantillons de matériaux de Substance
+* Nouveaux échantillons de matériau de Substance
 
 Fixe :
 
@@ -32,6 +32,6 @@ Fixe :
 
 Problèmes connus :
 
-* Chargement d’une ancienne scène avec une image clé sur l’objet Substance et ouverture de l’éditeur de courbes sans enregistrer la scène et la rouvrir, 3dsMax se bloque. La solution consiste à enregistrer la scène dans une nouvelle version du fichier, puis à la rouvrir
+* Chargement d’une ancienne scène avec une image clé sur l’objet Substance et ouverture de l’éditeur de courbes sans enregistrer la scène et la rouvrir, 3dsMax effectue un crash. Pour contourner ce problème, enregistrez la scène dans une nouvelle version du fichier, puis rouvrez-la
 
 Cette version est publiée pour 3ds Max 2019, 2020 et 2021

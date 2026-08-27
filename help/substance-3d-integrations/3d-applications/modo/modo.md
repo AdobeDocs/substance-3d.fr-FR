@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/modo.html"
 breadcrumb-title: ''
-description: Installez et utilisez le plug-in Substance pour MODO afin d’importer et d’utiliser des matériaux de Substance dans vos projets 3D.
+description: Installez et utilisez le plug-in Substance pour MODO afin d’importer et d’utiliser des matériaux Substance dans vos projets 3D.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > 3D Applications > MODO
 helpx_experience_level: ""
@@ -31,7 +31,7 @@ ht-degree: 1%
 * [Présentation de la Substance dans MODO](../../3d-applications/modo/in-modo-overview/substance-in-modo-overview.md)
 * [Installation de Modo](../../3d-applications/modo/modo-installation/modo-installation.md)
 * [Paramètres](../../3d-applications/modo/parameters/parameters.md)
-* [Matières personnalisées](../../3d-applications/modo/custom-materials/custom-materials.md)
+* [Matériaux personnalisés](../../3d-applications/modo/custom-materials/custom-materials.md)
 * [Utilisation des normales](../../3d-applications/modo/working-with-normals/working-with-normals.md)
 * [Utilisation d’Emissive](../../3d-applications/modo/working-with-emissive/working-with-emissive.md)
 * [Bosse et Displacement](../../3d-applications/modo/bump-and-displacement/bump-and-displacement.md)

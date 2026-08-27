@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/modo/animating-substances.html"
 breadcrumb-title: ''
-description: Animez les paramètres de matériau de Substance dans le temps dans MODO pour créer des effets et des variations de matériau dynamiques.
+description: Animez les paramètres du matériau de Substance dans le temps dans MODO pour créer des effets et des variations de matériau dynamiques.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > 3D Applications > MODO > Animating Substances
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Animation de textures Substance
 
-Les paramètres avancés peuvent être animés comme n’importe quel autre canal dans MODO. Si vous utilisez la variable Temps de Substance Engine ($time) pour animer une substance, vous pouvez accéder à cette variable de moteur spécifique sur les canaux utilisateur de la Substance.\
+Les paramètres avancés peuvent être animés comme n’importe quel autre canal dans MODO. Si vous utilisez la variable Heure de Substance Engine ($time) pour animer une substance, vous pouvez accéder à cette variable de moteur spécifique sur les canaux utilisateur de la Substance.\
 En animant ce canal, vous pouvez piloter une animation si la Substance est créée à l’aide de la variable $time.
 
 ![](https://helpx-prod.scene7.com/is/image/HelpxProd/time-3?$png$&jpegSize=100&wid=510)

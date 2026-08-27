@@ -31,7 +31,7 @@ Publié le 18 décembre 2020
 
 * Substance\_link.dll consommant un grand nombre de cycles de processeur
 * Erreur d’assertion lors de l’exportation d’un paramètre prédéfini de Substance
-* Blocage lors de la création d’un paramètre prédéfini lorsqu’il n’y en a pas
-* Blocage avec le dénoiseur pour le rendu Corona
+* Crash lors de la création d’un paramètre prédéfini lorsqu’il n’y en a pas
+* Crash avec dénoiseur pour système de rendu Corona
 
 Cette version est publiée pour 3ds Max 2019, 2020 et 2021

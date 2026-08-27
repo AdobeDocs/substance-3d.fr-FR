@@ -483,7 +483,7 @@ Texture2D value ) [inline]
 ```
 
 
-Mettez à jour Substance Texture2D Input.
+Mettez à jour l’entrée Substance Texture 2D.
 
 **Paramètres**
 

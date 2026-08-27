@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/color-management/substance-textures-in-maya.html"
 breadcrumb-title: ''
-description: Configurez les paramètres d’espace colorimétrique pour les textures de Substance dans Maya pour assurer une gestion et un rendu des couleurs précis.
+description: Configurez les paramètres d’espace colorimétrique pour les textures de Substance dans Maya afin d’assurer une gestion et un rendu précis des couleurs.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Renderers > Color Management > Substance textures in Maya
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Textures de Substance en maya
+title: textures de Substance en Maya
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Textures de Substance en maya
+# textures de Substance en Maya
 
 L&#39;espace colorimétrique que vous définissez pour les mappages dépend des paramètres et des règles établis dans les [paramètres de gestion des couleurs Maya](https://help.autodesk.com/view/MAYAUL/2020/ENU/?guid=GUID-B260195C-A0FE-4F51-9EA2-099B61B7725A).
 

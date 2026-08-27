@@ -97,7 +97,7 @@ public class scifiScript: MonoBehaviour {
 ```
 
 
-Vous pouvez également utiliser SubstanceRuntimeGraph pour avoir accès aux informations d’entrée et de sortie sur votre matériau de Substance.
+Vous pouvez également utiliser SubstanceRuntimeGraph pour avoir accès aux informations d’entrée et de sortie sur votre Matériau de Substance.
 
 #### Obtenir des informations d’entrée
 

@@ -20,4 +20,4 @@ ht-degree: 0%
 
 # Maya 2.1.1
 
-Correction : le plug-in substanceLink ne se bloque plus lors du déchargement
+Correction : le plug-in substanceLink ne se crash plus lorsqu’il est déchargé

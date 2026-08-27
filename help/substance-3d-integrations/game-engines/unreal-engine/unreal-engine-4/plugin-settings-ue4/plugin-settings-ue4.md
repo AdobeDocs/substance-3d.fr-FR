@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/plugin-settings-ue4.html"
 breadcrumb-title: ''
-description: Configurez les paramètres du plug-in Substance dans Unreal Engine 4 via les paramètres du projet pour personnaliser le comportement du plug-in.
+description: Configurez les paramètres du plug-in Substance dans Unreal Moteur 4 via les paramètres du projet pour personnaliser le comportement du plug-in.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Plugin Settings - UE4
 helpx_experience_level: ""
@@ -32,7 +32,7 @@ Les cœurs du processeur correspondent au nombre de cœurs que le moteur de Subs
 
 ## Cuisiner
 
-Le comptage des niveaux de mélange supprimé pendant la cuisson modifiera la façon dont les textures sont créées pour un pack. Ce paramètre peut considérablement améliorer les temps de chargement et réduire la taille du package, car les niveaux de texture plus élevés n’auront plus besoin d’être chargés. La plus faible résolution / les plus petites LOD seront chargées et la plus élevée sera définie par défaut par l&#39;UE4. Les substances sont ensuite traitées par le moteur de substance et mises à jour au moment de l&#39;exécution avec les valeurs de niveau de détail à haute résolution.
+Le comptage des niveaux de mélange supprimé pendant la cuisson modifiera la façon dont les textures sont créées pour un pack. Ce paramètre peut considérablement améliorer les temps de chargement et réduire la taille du package, car les niveaux de texture plus élevés n’auront plus besoin d’être chargés. La plus faible résolution / les plus petites LOD seront chargées et la plus élevée sera définie par défaut par l&#39;UE4. Les substances sont ensuite traitées par le moteur de substances et mises à jour au moment de l&#39;exécution avec les limites d&#39;efficacité à haute résolution.
 
 La Substance Engine peut être CPU ou GPU. Le moteur GPU vous permettra de créer des textures 4K. Le moteur CPU est limité à 2 K.
 
@@ -40,7 +40,7 @@ La Substance Engine peut être CPU ou GPU. Le moteur GPU vous permettra de crée
 
 Le mode de génération de Substance (SGM) contrôle la façon dont les textures sont générées. Il s’agit d’un paramètre global pour les Substances. Le SGM peut être modifié par Substance sur Substance Factory.
 
-**SGM Baked** : cuit les textures de substance. Vous perdez la possibilité de modifier les paramètres lors de l’exécution.
+**SGM Bake** : Bake les textures de substance. Vous perdez la possibilité de modifier les paramètres lors de l’exécution.
 
 **SGM lors de la synchronisation de chargement** : bloque l&#39;application pendant le chargement des Substances.
 

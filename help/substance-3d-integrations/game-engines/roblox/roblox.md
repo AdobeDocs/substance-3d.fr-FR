@@ -75,15 +75,15 @@ Commencez par *installer* le modèle Roblox.
 
 ### Détecter le modèle
 
-Ensuite, demandez à Designer de *consulter* le dossier des modèles pour rechercher des modèles de graphique.
+Ensuite, demandez à Designer de *consulter* le dossier des modèles pour rechercher des modèles de graphe.
 
 * Dans Designer, accédez à **Modifier > Préférences...**
 * Dans la fenêtre [Préférences](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/workspace/preferences/preferences-window), accédez à **Projets > Projet utilisateur > Général**
 * Dans la liste **Répertoires de modèles**, cliquez sur le bouton **+**
 * Accédez au répertoire `templates` et cliquez sur **Sélectionner un dossier**
 * Cliquez sur le bouton **OK**
-* Accédez à **Fichier > Nouveau > Graphique de Substance...**
-* Vérifiez que le modèle `Roblox` est répertorié en bas de la liste des modèles dans la fenêtre [Nouveau graphique de Substance](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html)
+* Accédez à **Fichier > Nouveau > graphe de Substance...**
+* Vérifiez que le modèle `Roblox` est répertorié en bas de la liste des modèles dans la fenêtre [Nouveau graphe de Substance](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -100,12 +100,12 @@ Ensuite, demandez à Designer de *consulter* le dossier des modèles pour recher
 
 ### Exporter les textures
 
-Créez un graphique à l’aide du modèle Roblox et exportez-y des images bitmap une fois que vous avez terminé de travailler sur un matériau.
+Créez un graphe à l’aide du modèle Roblox et exportez les bitmaps en dehors de ce graphe une fois que vous avez terminé de travailler sur un matériau.
 
-* Dans la fenêtre [Nouveau graphique de Substance](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html), sélectionnez le modèle `Roblox`
-* Définissez un identificateur et d&#39;autres paramètres pour le graphique et cliquez sur **OK**
-* Travaillez sur votre matière dans la [vue graphique](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/workspace/graph-view/the-graph-view). Reportez-vous [ici](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/getting-started/workflow-overview) pour commencer à utiliser le workflow
-* Une fois que vous avez terminé, accédez à **Outils > Exporter les bitmaps...** dans la *barre d’outils* de la vue Graphique
+* Dans la fenêtre [Nouveau graphe de Substance](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html), sélectionnez le modèle `Roblox`
+* Définissez un identifiant et d&#39;autres paramètres pour le graphe et cliquez sur **OK**
+* Travaillez sur votre matériau dans la [Vue du graphe](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/workspace/graph-view/the-graph-view). Reportez-vous [ici](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/getting-started/workflow-overview) pour commencer à utiliser le workflow
+* Une fois que vous avez terminé, accédez à **Outils > Exporter les bitmaps...** dans la *barre d’outils* de la Vue du graphe de données
 * Dans la fenêtre [Exporter les bitmaps](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/substance-graphs/exporting-bitmaps), définissez un chemin **Destination** valide, assurez-vous que *toutes* les sorties sont *sélectionnées* et cliquez sur **Exporter**
 * Vérifiez que les textures sont correctement exportées vers le chemin de **destination**
 
@@ -122,11 +122,11 @@ Créez un graphique à l’aide du modèle Roblox et exportez-y des images bitma
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-### Création de matériaux dans Roblox
+### Création d’un matériau dans Roblox
 
-Dans Roblox, créez une variante de matériau et attribuez les textures exportées depuis Designer.
+Dans Roblox, créez une variante de Matériau et attribuez les textures exportées depuis Designer.
 
-* Sélectionnez l&#39;onglet **Modèle** et cliquez sur **Gestionnaire de matériaux**
+* Sélectionnez l&#39;onglet **Modèle** et cliquez sur **Gestionnaire de Matériaux**
 * Sélectionnez un *modèle de matériau* et cliquez sur le bouton **Créer une variante**
 * Dans la fenêtre **Créer une variante**, définissez un nom pour le matériau
 * Pour *chaque couche de matière*, cliquez sur le bouton **Importer** et sélectionnez la texture correspondante exportée depuis Designer

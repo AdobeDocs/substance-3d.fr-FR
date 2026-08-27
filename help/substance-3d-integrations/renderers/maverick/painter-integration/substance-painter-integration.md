@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/maverick/substance-painter-integration.html"
 breadcrumb-title: ''
-description: Intégrez la Substance Painter au moteur de rendu Maverick pour des workflows de matériaux transparents et une visualisation du produit.
+description: Intégrez la Substance Painter au moteur de rendu Maverick pour des workflows de matériau et une visualisation du produit transparents.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Renderers > Maverick > Substance Painter Integration
 helpx_experience_level: ""
@@ -32,8 +32,8 @@ Vous pouvez facilement importer votre projet de Substance Painter dans Maverick 
 
 **Dans Substance** **Painter**&#x200B;**:**
 
-1. Exportez votre filet.
-1. Exportez vos textures dans le même dossier que le maillage, en utilisant l’un des paramètres prédéfinis Maverick (voir l’image) :
+1. Exportez votre maillage.
+1. Exportez vos textures dans le même dossier que celui où se trouve le maillage, à l’aide de l’un des paramètres prédéfinis Maverick (voir l’image) :
 
    ![](../../../assets/maverickrender-exportpresets-substancepainter.jpg)
 
@@ -47,17 +47,17 @@ Vous pouvez facilement importer votre projet de Substance Painter dans Maverick 
 1. Cliquez sur l’icône de Substance Painter :
 
    ![](../../../assets/maverickrender-substancepainter-icon.jpg)
-1. Sélectionnez le fichier de maillage exporté depuis Substance Painter.
+1. Sélectionnez le fichier de maillage exporté à partir de la Substance Painter.
 1. Suivez les instructions de la boîte de dialogue Importer :
 
-   * Dans la première boîte de dialogue, vous pouvez définir certains paramètres de matière.
+   * Dans la première boîte de dialogue, vous pouvez définir certains paramètres de matériau.
    * Dans la deuxième page de dialogue, vous pouvez choisir l’ambiance dans laquelle votre modèle apparaîtra.
-   * Dans la troisième page de dialogue, vous pouvez choisir l’échelle et l’orientation de l’axe de votre modèle.
+   * Dans la troisième page de dialogue, vous pouvez choisir l&#39;échelle et l&#39;orientation de l&#39;axe de votre modèle.
 
    ![](../../../assets/maverickrender-substancepainter-import.jpg)
-1. Continuez et vous obtiendrez votre modèle correctement organisé par ensemble de textures et avec ses matériaux automatiquement créés et appliqués. Tout est prêt pour la phase d&#39;éclairage.
+1. Continuez et vous obtiendrez votre modèle correctement organisé par jeu de textures et avec ses matériaux automatiquement créés et appliqués. Tout est prêt pour la phase d&#39;éclairage.
 
-   **Si** **vous &#x200B;**&#x200B;**modifiez**&#x200B;**vos** **textures dans Substance** **Painter**&#x200B;**, exportez** **les &#x200B;**&#x200B;**à nouveau**&#x200B;**,** **écrasez** **les** **précédentes &#x200B;**&#x200B;**celles**&#x200B;**.** **Ensuite**&#x200B;**, dans** **Maverick &#x200B;**&#x200B;**, utilisez l&#39;icône de mise à jour**&#x200B;Cartes&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B; :**
+   **Si** **vous &#x200B;**&#x200B;**modifiez**&#x200B;**vos** **textures dans la Substance** **Painter**&#x200B;**, exportez** **les &#x200B;**&#x200B;**à nouveau**&#x200B;**,** **écrasez** **les** **précédentes &#x200B;**&#x200B;**les**&#x200B;**.** **Ensuite**&#x200B;**, dans** **Maverick &#x200B;**&#x200B;**, utilisez l&#39;icône de mise à jour**&#x200B;Cartes&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B; :**
 
    ![](https://helpx-prod.scene7.com/is/image/HelpxProd/maverickrender-updatemaps-icon?$pjpeg$&jpegSize=200&wid=1065){width="800px"}
 

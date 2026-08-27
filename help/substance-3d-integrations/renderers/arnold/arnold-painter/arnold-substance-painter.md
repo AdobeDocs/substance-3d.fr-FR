@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/arnold/arnold-substance-painter.html"
 breadcrumb-title: ''
-description: Utilisez des modèles de sortie de Substance Painter pour le moteur de rendu Arnold avec la matière aiStandard pour le rendu physique.
+description: Utilisez des modèles de sortie de Substance Painter pour le moteur de rendu Arnold avec aiStandard matériau pour le rendu physique.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Renderers > Arnold > Arnold - Substance Painter
 helpx_experience_level: ""
@@ -29,13 +29,13 @@ Substance Painter 2020.1 (6.1.0) est livré avec [Modèles de sortie](https://ex
 | Exportation de Substance Painter | Arnold AiStandardSurface |
 | --- | --- |
 | Couleur de base | Base/Couleur |
-| Rugosité | Specular / Rugosité |
+| Rugosité | SPECULAR / RUGOSITÉ |
 | Metalness | Base/Métal |
-| Normale | (**Maya**) Géométrie/Mappage de relief/bump2d (Utiliser comme normales d&#39;espace tangentes) (**3ds** **Max**) Bitmap → Normal |
-| Hauteur | (**Maya**) Displacement Shader / displacement (**3ds** **Max**) Modificateur d&#39;objet → Propriétés Arnold → Displacement → Utiliser la carte |
+| Normale | (**Maya**) Géométrie/Mappage de relief/bump2d (Utiliser comme normales de Repère tangent) (**3ds** **Max**) Bitmap → Normal |
+| Hauteur | (**Maya**) Shader/displacement Displacement (**3ds** **Max**) Modificateur d&#39;objet → Propriétés Arnold → Displacement → Utiliser la carte |
 | Émissif | Émission/ Couleur (Poids des émissions = 1,0) |
-| Niveau d’Anisotropie (non inclus dans le Modèle de sortie Arnold par défaut) | (**Maya**) Manteau/Anisotropie (**3ds** **Max**) Manteau/Anisotropie |
-| Niveau d’Anisotropie (non inclus dans le Modèle de sortie Arnold par défaut) | (**Maya**) Couche/Rotation (**3ds** **Max**) Couche/Rotation |
+| Anisotropy level (non incluse dans le Modèle de sortie Arnold par défaut) | (**Maya**) Manteau/Anisotropie (**3ds** **Max**) Manteau/Anisotropie |
+| Anisotropy level (non incluse dans le Modèle de sortie Arnold par défaut) | (**Maya**) Couche/Rotation (**3ds** **Max**) Couche/Rotation |
 
 >[!NOTE]
 >

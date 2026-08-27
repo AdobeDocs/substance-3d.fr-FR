@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Exemple de script C&#35;
+# Exemple de script C#&#x200B;
 
 ## Modification des paramètres
 
@@ -103,7 +103,7 @@ public class scifiScript : MonoBehaviour
 ```
 
 
-## Dupliquer le graphique
+## Dupliquer le graphe
 
 ```
 using System.Collections; 

@@ -55,7 +55,7 @@ ht-degree: 0%
 
    « C:\Users\User\Documents\RandomControl\library\Shading\My Maps ».
 
-   Ensuite, vous pouvez simplement les déposer sur vos objets afin que Maverick puisse créer le matériau d&#39;emballage correspondant.
+   Ensuite, vous pouvez simplement les déposer sur vos objets afin que Maverick puisse créer le matériau d&#39;enveloppe correspondant.
 
    Vous pouvez voir une vidéo d’introduction pour SBSAR dans Maverick ici : <https://youtu.be/HosZOoMRfcM>
 

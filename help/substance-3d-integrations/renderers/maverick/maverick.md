@@ -23,8 +23,8 @@ ht-degree: 0%
 **Maverick** est une application autonome axée sur la visualisation de produits qui permet aux concepteurs, aux ingénieurs et aux spécialistes du marketing de donner vie à leurs projets avec une vitesse, une qualité et une facilité d&#39;utilisation sans précédent.\
 Le rendu **Maverick** est entièrement basé sur le GPU, impartial et physiquement correct.
 
-**Maverick** a développé des workflows en un clic pour importer facilement des maquettes de Substance Painter et des matériaux de Substance Designer, afin qu&#39;elles puissent être facilement éclairées et rendues dans une qualité photoréaliste.\
-Avec l&#39;intégration de SBSAR dans **Maverick**, nos clients auront désormais accès à des matériaux de haute qualité qui seront d&#39;une grande aide dans les industries dans lesquelles la plupart d&#39;entre eux opèrent, telles que la bijouterie, le design industriel, l&#39;automobile et la visualisation.
+**Maverick** a développé des workflows en un clic pour importer facilement des modèles à partir de Substances Painter et des matériaux à partir de Substances Designer, afin qu&#39;ils puissent être facilement éclairés et rendus en qualité photoréaliste.\
+Avec l&#39;intégration de SBSAR dans **Maverick**, nos clients auront désormais accès à des matériaux de haute qualité qui seront d&#39;une grande aide dans les secteurs dans lesquels la plupart d&#39;entre eux opèrent, tels que la bijouterie, le design industriel, l&#39;automobile et la visualisation.
 
 ## Table des matières
 

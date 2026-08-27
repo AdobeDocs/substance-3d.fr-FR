@@ -22,6 +22,6 @@ ht-degree: 0%
 
 Vous pouvez supprimer les matériaux de Substance avant ou après la suppression du dossier Adobe et du fichier Adobe.meta.
 
-1. Fermez Unity. Unity doit être fermé pour supprimer le plug-in. Si le projet est ouvert et que le plug-in est supprimé, la dll du moteur sera réimportée.
+1. Fermez Unity. Unity doit être fermé pour supprimer le plug-in. Si le projet est ouvert et que le plug-in est supprimé, il continuera à réimporter la dll de moteur.
 1. À l’aide d’un explorateur de fichiers, accédez au dossier Actifs et supprimez le dossier Adobe et le fichier Adobe.meta.
 1. Redémarrez Unity.

@@ -22,15 +22,15 @@ ht-degree: 0%
 
 La fenêtre des préférences d’Adobe Substance 3D vous permet de définir des options définies par l’utilisateur pour le plug-in.
 
-**Générer toutes les sorties de graphique** : génère toujours toutes les sorties de graphique par graphique.
+**Générer toutes les sorties du graphe** : génère toujours toutes les sorties du graphe par graphe.
 
-**Résolution de texture** : résolution par défaut pour les textures générées par graphique
+**Résolution de Texture** : résolution par défaut pour les textures générées par graphe
 
 **Résolution maximale du processeur** : résolution maximale de texture prise en charge lors de l’utilisation du moteur du processeur.
 
 **Actifs Substance 3D** : lien vers la page Substance 3D Assets.
 
-**Ressources de la communauté 3D Substance** : lien vers la page Ressources de la communauté Substance 3D.
+**Ressources de la communauté Substance 3D** : lien vers la page Ressources des communautés Substance 3D.
 
 **À propos** - Affiche les informations de version du plug-in.
 

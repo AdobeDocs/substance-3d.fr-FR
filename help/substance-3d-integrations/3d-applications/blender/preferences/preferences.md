@@ -57,7 +57,7 @@ Les préférences du module complémentaire se trouvent dans la fenêtre des pr�
 
 <b>Discord Server</b> : ouvre le serveur Discord Ecosystem et Plug-ins dans le navigateur.
 
-<b>Mosaïque</b> : ajustez les mosaïques X, Y et Z du matériau. Le verrou peut être utilisé pour dissocier les valeurs et les ajuster individuellement.
+<b>Répétition</b> : ajustez les répétitions X, Y et Z du matériau. Le verrou peut être utilisé pour dissocier les valeurs et les ajuster individuellement.
 
 <b>Résolution</b> : résolution par défaut pour les textures générées. Le verrou peut être utilisé pour dissocier afin de définir leurs résolutions indépendamment.
 
@@ -65,9 +65,9 @@ Les préférences du module complémentaire se trouvent dans la fenêtre des pr�
 
 <b>Format d&#39;exportation d&#39;image</b> : lorsque des images générées dans Blender sont utilisées comme entrées d&#39;image pour un matériau de Substance, ce format est utilisé pour enregistrer cette image dans le dossier temporel.
 
-<b>Groupes d&#39;entrée réduits par défaut</b> : les groupes d&#39;entrée du matériau de la Substance peuvent être développés ou réduits par défaut.
+<b>Groupes d&#39;entrée réduits par défaut</b> : les groupes d&#39;entrée du matériau de Substance sont développés ou réduits par défaut.
 
-<b>Ne mettre à jour que les textures par défaut</b> : active/désactive les paramètres de Substance de mise à jour météorologique n&#39;affectant que les textures de sortie dans le réseau d&#39;Ombrages du mélangeur. La désactivation de cette option réinitialise les connexions de nœuds après le réglage des paramètres. Il est recommandé d&#39;activer cette option lors de l&#39;ajout de nœuds supplémentaires à un matériau, sinon ils seront déconnectés après le réglage des paramètres.
+<b>Mettre à jour uniquement les textures par défaut</b> : active/désactive les paramètres de Substance de mise à jour météorologique qui n&#39;affectent que les textures de sortie dans le réseau d&#39;Ombrages du mélangeur. La désactivation de cette option réinitialise les connexions de nœuds après le réglage des paramètres. Il est recommandé d&#39;activer cette option lors de l&#39;ajout de nœuds supplémentaires à un matériau, sinon ils seront déconnectés après le réglage des paramètres.
 
 <b>Moteur distant de Substances </b> : définit le matériel utilisé par le moteur distant de Substances.
 

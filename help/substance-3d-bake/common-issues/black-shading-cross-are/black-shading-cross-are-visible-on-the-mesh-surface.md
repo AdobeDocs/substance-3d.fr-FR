@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-issues/black-shading-cross-are-visible-on-the-mesh-surface.html"
 breadcrumb-title: ''
-description: Correction des artefacts d'ombrage noir visibles sur les surfaces maillées en corrigeant l'espace tangent et les calculs normaux.
+description: Corrigez les artefacts en ombrage noir visibles sur les surfaces du maillage en corrigeant l’espace de tangente et les calculs normaux.
 helpx_creative_field: ""
 helpx_description: bakers > Common Issues > Black shading cross are visible on the mesh surface
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Les ombres noires sont visibles sur la surface du maillage
+title: Des croix en ombrage noir sont visibles sur la surface du filet
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
@@ -18,21 +18,21 @@ ht-degree: 0%
 ---
 
 
-# La croix d&#39;ombrage noire est visible sur la surface du maillage
+# Croix en ombrage noire visible sur la surface du maillage
 
-Les artefacts d&#39;ombrage noir apparaissent sur plusieurs zones du maillage lorsque l&#39;éclairage est faible.
+Des artefacts en ombrage noir apparaissent sur plusieurs zones du maillage lorsque l’éclairage est insuffisant.
 
 ![](../../assets/black-shading-cross.jpg)
 
 
 ## Explication
 
-Une croix ombrée noire signifie généralement que la carte normale ne correspond pas au maillage, généralement parce que la géométrie du maillage a changé ou a été calculée d&#39;une manière différente du calcul effectué par le boulanger. Par exemple : la triangulation du maillage est différente entre le boulanger et la fenêtre d’affichage qui effectue le rendu du maillage et de sa texture normale.
+Une croix ombrée noire signifie généralement que la map normal ne correspond pas au maillage, généralement parce que la géométrie du maillage a changé ou a été calculée d’une manière différente du calcul effectué par le baker. Par exemple : la triangulation du maillage est différente entre le baker et le viewport qui rend le maillage et sa map normal.
 
 ## Solution
 
-Assurez-vous que l&#39;application affichant le maillage et sa texture normale sont synchronisées avec la manière dont la texture a été cuite. Cela implique :
+Assurez-vous que l’application affichant le maillage et sa map normal sont synchronisées avec la façon dont la texture a été bake. Cela implique :
 
-* Vérifiez que l&#39;espace tangent est identique entre la visionneuse et le boulanger.
-* Vérifiez que le format Normal est identique entre la vue et le boulanger.
-* Vérifiez que la Triangulation est identique entre la visionneuse et le boulanger. Voir [cette page](../../guides/triangulating-before-bak/triangulating-before-baking.md) pour plus d’informations.
+* Vérifiez que le Repère tangent est identique entre le lecteur et le baker.
+* Vérifiez que le format Normal est identique entre la vue et le baker.
+* Vérifiez que la triangulation est identique entre le visualiseur et le baker. Voir [cette page](../../guides/triangulating-before-bak/triangulating-before-baking.md) pour plus d&#39;informations.
