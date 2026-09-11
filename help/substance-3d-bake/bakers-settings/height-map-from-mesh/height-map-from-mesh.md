@@ -30,5 +30,5 @@ Le baker Map height à partir du maillage vous permet de créer une map height �
 
 | *Paramètre* | *Description* |
 | --- | --- |
-| ****Normalisation**** | Définit la façon dont la plage de valeurs height doit être enregistrée dans la texture.Valeurs possibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Par rapport à la distance des rayons</strong> :</li><li data-preserve-html="true"><strong>Par rapport au maillage low poly (par Tuile UV)</strong> (par défaut)</li><li data-preserve-html="true"><strong>Par rapport à Min/Max (par Tuile UV)</strong></li><li data-preserve-html="true"><strong>Manuel</strong></li></ul> |
+| **&#x200B;**&#x200B;Normalisation&#x200B;**&#x200B;** | Définit la façon dont la plage de valeurs height doit être enregistrée dans la texture.Valeurs possibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Par rapport à la distance des rayons</strong> :</li><li data-preserve-html="true"><strong>Par rapport au maillage low poly (par Tuile UV)</strong> (par défaut)</li><li data-preserve-html="true"><strong>Par rapport à Min/Max (par Tuile UV)</strong></li><li data-preserve-html="true"><strong>Manuel</strong></li></ul> |
 | **Diviseur d&#39;échelle** | Définissez la valeur d’height à multiplier ou à diviser.Disponible uniquement lorsque la **normalisation** est définie sur **Manuel**. |

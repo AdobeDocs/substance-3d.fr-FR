@@ -26,7 +26,7 @@ ht-degree: 0%
 > 
 > Message d’erreur possible :
 > 
-> > > > 
+> &#x200B;> > > 
 > 
 > [ Baking ] Échec du Baking (Map de couleur à partir du maillage)\
 > Couleurs de vertex introuvables

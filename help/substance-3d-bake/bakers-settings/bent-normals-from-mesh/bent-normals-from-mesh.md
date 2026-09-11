@@ -33,7 +33,7 @@ Les Bents normals du baker maillage calculent une texture qui décrit la directi
 | *Paramètre* | *Description* |
 | --- | --- |
 | **Rayons secondaires** | Montant des rayons d&#39;occlusion. Une valeur élevée produira moins de bruit mais sera plus longue à calculer. |
-| **Distance d&#39;occlusion Min** | Distance minimale à laquelle les rayons d&#39;occlusion atteindront la géométrie en poly élevé**.** |
+| **Distance d&#39;occlusion Min** | Distance minimale à laquelle les rayons d&#39;occlusion atteindront la géométrie en poly élevé&#x200B;**.** |
 | **Distance d&#39;occlusion max** | Distance maximale à laquelle les rayons d&#39;occlusion atteindront la géométrie du poly élevé. |
 | **Par rapport au cadre de sélection** | Si cette option est activée, les calculs de distance des rayons sont basés sur l&#39;espace normalisé (0 à 1) du maillage à faible poly. Si cette option est désactivée, le calcul de distance de rayon est basé sur les unités spécifiées dans le maillage low-poly lors de son exportation (mètres, centimètres, etc.). |
 | **Angle de répartition** | Angle de diffusion maximal des rayons d&#39;occlusion. La valeur par défaut est 180. |

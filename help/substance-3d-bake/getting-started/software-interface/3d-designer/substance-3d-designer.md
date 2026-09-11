@@ -73,7 +73,7 @@ Par baker, vous pouvez choisir la texture bakée que vous souhaitez générer. P
 * **Ajout d&#39;un nouveau baker :** Cliquez sur le bouton « Ajouter un Baker ».
 * **Suppression d&#39;un baker :** sélectionnez le baker dans la liste, puis cliquez sur le bouton « Supprimer le baker ».
 * **Déplacement d&#39;un baker vers le haut :** sélectionnez le baker dans la liste, puis cliquez sur le bouton « Déplacer vers le haut ».
-* **Descente d&#39;un baker :**Sélectionnez le baker dans la liste, puis cliquez sur le bouton « Push down ».
+* **Descente d&#39;un baker :**&#x200B;Sélectionnez le baker dans la liste, puis cliquez sur le bouton « Push down ».
 
 Par défaut, chaque baker hérite des valeurs par défaut (voir ci-dessus). La taille (résolution) peut par exemple être remplacée en cliquant sur la cellule sur la ligne du baker. Cela est vrai pour les autres paramètres de la ligne.
 
