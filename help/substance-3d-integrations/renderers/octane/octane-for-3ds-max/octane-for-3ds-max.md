@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/octane/octane-for-3ds-max.html"
 breadcrumb-title: ''
-description: Utilisez des matériaux de Substance avec le rendu Octane dans 3ds Max via des matériaux Live DB et des paramètres de sortie appropriés.
+description: Utilisez des matériaux de Substance avec le moteur de rendu Octane dans 3ds Max via des matériaux de base de données dynamiques et des paramètres de sortie appropriés.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Renderers > Octane > Octane for 3ds Max
 helpx_experience_level: ""
@@ -22,6 +22,6 @@ ht-degree: 0%
 
 ## Substance dans le plug-in 3ds Max
 
-À l&#39;aide du plug-in [3ds Max](../../../3d-applications/3ds-max/3ds-max.md), vous pouvez choisir Octane dans le menu Substance pour configurer automatiquement la matière Octane avec les entrées de texture Substance.
+À l&#39;aide du plug-in [3ds Max](../../../3d-applications/3ds-max/3ds-max.md), vous pouvez choisir Octane dans le menu Substance pour configurer automatiquement le matériau Octane avec les entrées de texture de Substance.
 
 ![](https://helpx-prod.scene7.com/is/image/HelpxProd/octane?$png$&jpegSize=200&wid=852)

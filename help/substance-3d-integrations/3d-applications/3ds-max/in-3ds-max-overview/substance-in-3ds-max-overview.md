@@ -29,13 +29,13 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > Vous pouvez également glisser-déposer le fichier .sbsar dans l’éditeur d’ardoise pour créer automatiquement le nœud et importer la barre d’état système.
-1. Si une Substance contient plusieurs graphes, vous pouvez choisir celui que vous voulez sortir en tant que matière dans le menu déroulant Graphe sélectionné.
+   > Vous pouvez également glisser-déposer le fichier .fichier sbsar dans l’éditeur d’ardoise pour créer automatiquement le nœud et importer la barre verticale.
+1. Si une Substance contient plusieurs graphes, vous pouvez choisir le graphe que vous voulez sortir en tant que matériau dans le menu déroulant Graphe sélectionné.
 
    ![](https://helpx-prod.scene7.com/is/image/HelpxProd/max8?$png$&jpegSize=100&wid=341)
 
    ![](../../../assets/max1.png)
-1. Une fois le nœud de Substance sélectionné, accédez au menu Substance et choisissez un moteur de rendu pris en charge. La matière sera créée et prête à être appliquée à l&#39;objet. Les textures de Substance sont liées au matériau de rendu.
+1. Une fois le nœud de Substance sélectionné, accédez au menu Substance et choisissez un moteur de rendu pris en charge. Le matériau sera créé et prêt à être appliqué à l’objet. Les textures de Substance sont liées au matériau de rendu.
 
    | Moteurs de rendu pris en charge |
    | --- |
@@ -49,7 +49,7 @@ ht-degree: 0%
 ## Modification de la résolution :
 
 1. Définissez la résolution souhaitée pour les textures de Substance calculées dans les Paramètres de sortie de Substance.
-1. Pour une résolution allant jusqu&#39;à 8K, assurez-vous d&#39;utiliser le GPU, qui est défini dans les [Paramètres de Substance](../../../3d-applications/3ds-max/settings-1/substance-settings.md).
+1. Pour une résolution allant jusqu&#39;à 8K, assurez-vous d&#39;utiliser le moteur GPU, qui est défini dans les [Paramètres de Substance](../../../3d-applications/3ds-max/settings-1/substance-settings.md).
 
    ![](../../../assets/max6.png)
 
@@ -68,8 +68,8 @@ Vous pouvez définir un canal spécifique pour la vignette du nœud de Substance
 
    ![](../../../assets/max7.png)
 
-## Substances de mosaïque :
+## Substances de répétition :
 
-Vous pouvez utiliser les propriétés Coordonnées pour afficher en mosaïque les textures de Substance et définir les couches de texture.
+Vous pouvez utiliser les propriétés Coordonnées pour afficher en mosaïque les textures de Substance et définir les couches de courbe de transfert.
 
 ![](../../../assets/max10.png)

@@ -22,5 +22,5 @@ ht-degree: 0%
 
 1. 1.8 - Version pour Maya PR121
 
-* Modifier le calcul de rendu pour effectuer une mise à jour plus immédiate lors de l’utilisation du rendu asynchrone
+* Modifier le calcul de rendu pour le mettre à jour plus immédiatement lors de l’utilisation du rendu asynchrone
 * Correction d’un bug en raison duquel l’interface utilisateur des paramètres prédéfinis ne se mettait pas à jour en raison de l’échec de la commande d’ajout de script prédéfini

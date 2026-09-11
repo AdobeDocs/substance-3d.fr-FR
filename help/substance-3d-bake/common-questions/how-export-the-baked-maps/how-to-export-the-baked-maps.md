@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-questions/how-to-export-the-baked-maps.html"
 breadcrumb-title: ''
-description: Découvrez comment exporter des textures précuites depuis Substance Designer et Painter pour les utiliser dans d’autres applications.
+description: Découvrez comment exporter des textures bakées depuis Substance Designer et Painter pour les utiliser dans d’autres applications.
 helpx_creative_field: ""
 helpx_description: "bakers > Common Questions > How to export the baked maps "
 helpx_experience_level: ""
@@ -24,13 +24,13 @@ ht-degree: 0%
 >
 > **Question**
 > 
-> Comment puis-je exporter les textures que j’ai cuites à partir de mon maillage pour les utiliser dans une autre application ?
+> Comment puis-je exporter les textures que j’ai bakées à partir de mon maillage pour les utiliser dans une autre application ?
 
 >[!NOTE]
 >
 > **Solution : Substance Designer**
 > 
-> Les fichiers de sortie des Bakers doivent être situés à côté du graphique de Substance auquel le maillage est lié. Cliquez avec le bouton droit de la souris et choisissez « Explorer » pour afficher les fichiers dans la fenêtre de l’explorateur de l’application.
+> Les fichiers de sortie des Bakers doivent être situés à côté du graphe de Substance de données auquel le maillage est lié. Cliquez avec le bouton droit de la souris et choisissez « Explorer » pour afficher les fichiers dans la fenêtre de l’Explorateur de l’application.
 
 >[!NOTE]
 >
@@ -38,11 +38,11 @@ ht-degree: 0%
 > 
 > Les fichiers de sortie des Bakers sont enregistrés dans le fichier de projet (\*.spp). Pour les exporter, vous pouvez :
 > 
-> * Utilisez la boîte de dialogue **Fichier > Exporter les textures** et choisissez le paramètre prédéfini d&#39;exportation « Mappages de maillage »
-> * Cliquez avec le bouton droit de la souris sur une texture cuite dans l&#39;étagère et sélectionnez « Exporter ».
+> * Utilisez la boîte de dialogue **Fichier > Exporter les Textures** et choisissez le paramètre prédéfini d&#39;exportation « Maps de maillage »
+> * Cliquez avec le bouton droit de la souris sur la texture a bakée dans l’Étagère et sélectionnez « Exporter ».
 
 >[!NOTE]
 >
 > **Solution : Substance Automation Toolkit**
 > 
-> Par défaut, les fichiers de sortie des Bakers sont enregistrés à côté du filet. Le dossier de sortie peut être modifié via un argument spécifique dans la ligne de commande.
+> Par défaut, les fichiers de sortie des Bakers sont enregistrés à côté du maillage. Le dossier de sortie peut être modifié via un argument spécifique dans la ligne de commande.

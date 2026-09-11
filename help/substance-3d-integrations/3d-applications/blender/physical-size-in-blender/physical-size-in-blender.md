@@ -20,14 +20,14 @@ ht-degree: 0%
 
 # Taille physique dans le mélangeur
 
-La taille physique des matériaux de Substance permet de les mettre à l’échelle en fonction de leur taille dans le monde. Les dimensions sont définies dans les applications de Substance comme Designer et affichées dans la section Taille physique du panneau des plug-ins.
+La taille physique dans les matériaux de Substance permet de mettre les matériaux à l’échelle en fonction de leur taille dans le monde. Les dimensions sont définies dans les applications de Substance comme Designer et affichées dans la section Taille physique du panneau des plug-ins.
 
 ![](../../../assets/blender-physical-size.png)
 
-Lorsque la Taille physique est activée, les matériaux se mosaïquent en fonction de leur taille réelle en centimètres. Le carrelage du matériau restera le même quelle que soit l’échelle des objets. La fonction peut être activée en basculant vers le nuanceur de Tailles physiques dans le panneau du module complémentaire. Après avoir ajusté l’échelle d’un objet, l’échelle doit être appliquée en appuyant sur Ctrl/Cmd+A pour appliquer avec précision la texture de la Taille physique.
+Lorsque la Taille physique est activée, les matériaux s’affichent en mosaïque en fonction de leur taille réelle, en centimètres. La répétition du matériau reste la même quelle que soit l’échelle des objets. La fonction peut être activée en basculant vers le shader Taille physique dans le panneau du module complémentaire. Après avoir ajusté l’échelle d’un objet, l’échelle doit être appliquée en appuyant sur Ctrl/Cmd+A pour afficher la Texture de Taille physique avec précision.
 
 ## Réglage de la Taille physique
 
-Les valeurs du nœud de mappage peuvent être ajustées pour un contrôle artistique de la mosaïque de Tailles physiques. En outre, un objet tel que Empty peut être utilisé pour l&#39;entrée Coordonnées de texture afin de contrôler le mappage de texture à l&#39;aide des transformations de l&#39;objet d&#39;entrée (voir l&#39;exemple ci-dessous).
+Les valeurs du nœud de mappage peuvent être ajustées pour un contrôle artistique de la répétition de la Taille physique. En outre, un objet tel que Empty peut être utilisé pour l&#39;entrée Coordonnées de Texture afin de contrôler le mappage de texture à l&#39;aide des transformations de l&#39;objet d&#39;entrée (voir l&#39;exemple ci-dessous).
 
 ![](../../../assets/blender-physical-szie-empty.gif)

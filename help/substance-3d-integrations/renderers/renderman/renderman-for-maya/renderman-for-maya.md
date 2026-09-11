@@ -22,6 +22,6 @@ ht-degree: 0%
 
 ## Substance dans le plug-in Maya
 
-Le plug-in Substance in Maya prend en charge pxrSurface via le processus de rendu Renderman. L&#39;utilisation de ce flux de travail créera un shader pxrSurface et convertira les sorties de Substance pour une utilisation avec le matériau.
+Le plug-in Substance in Maya prend en charge pxrSurface via le processus de rendu Renderman. L&#39;utilisation de ce workflow créera un shader pxrSurface et convertira les sorties de Substance pour une utilisation avec le matériau.
 
 ![](../../../assets/renderman-1.png)

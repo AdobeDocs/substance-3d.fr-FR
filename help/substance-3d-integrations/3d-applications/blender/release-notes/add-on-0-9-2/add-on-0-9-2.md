@@ -22,4 +22,4 @@ ht-degree: 0%
 
 ***Notes de mise à jour pour la version 0.9.2*** de l’extension
 
-* *Correction de la copie des fichiers Blender dans le dossier de textures.*
+* *Correction de la copie des fichiers Blender dans le dossier texture.*

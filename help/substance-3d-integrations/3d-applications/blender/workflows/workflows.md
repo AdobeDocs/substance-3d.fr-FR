@@ -54,17 +54,17 @@ Le paramètre prédéfini shader par défaut utilisé par les matériaux peut ê
 
 La section Sorties du panneau Substance 3D propose également des options pour les sorties filtrage. Trois boutons en regard de la liste déroulante des paramètres prédéfinis shader peuvent être utilisés pour filtrer les sorties activées (coche), les sorties shader (sphère) et toutes les sorties disponibles (lignes).
 
-Les sorties peuvent être activées individuellement en cochant la case. Lorsqu’une sortie est activée, une sortie correspondante dans le groupe de nœuds de texture est créée. Si cette sortie est prise en charge par le nœud de matériau Principled BSDF, elle y est automatiquement connectée. L&#39;Height se connecte à un nœud de displacement et l&#39;Occlusion ambiante se combine avec la couleur de base dans un nœud MixRGB.\
+Les sorties peuvent être activées individuellement en cochant la case. Lorsqu&#39;une sortie est activée, une sortie correspondante dans le groupe de nœuds de texture de données est créée. Si cette sortie est prise en charge par le nœud de matériau Principled BSDF, elle y est automatiquement connectée. L&#39;Height se connecte à un nœud de displacement et l&#39;Ambient occlusion se combine à la base color dans un nœud MixRGB.\
 Le menu déroulant Format de fichier en regard de la coche peut être utilisé pour définir le type de fichier sous lequel la texture de sortie est enregistrée.
 
 En outre, les préférences de sortie de fichier par défaut peuvent être modifiées dans le module complémentaire [Préférences](../../../3d-applications/blender/preferences/preferences.md).
 
-## Permutation de matériaux sur des objets
+## Permutation de Matériaux sur des objets
 
-Cliquez sur l&#39;icône en forme de sphère dans le panneau des propriétés de matériau de Blender pour ouvrir une liste de matériaux dans votre projet Blender. Les matériaux de Substance qui ont été créés dans le panneau apparaîtront également dans la liste. La sélection d&#39;un matériau dans cette liste remplace le matériau actif dans cet emplacement de matériau.
+Cliquez sur l&#39;icône en forme de sphère dans le panneau des propriétés de matériau de Blender pour ouvrir une liste de matériaux dans votre projet Blende. Les matériaux de Substance qui ont été créés dans le panneau apparaîtront également dans la liste. La sélection d&#39;un matériau dans cette liste remplace le matériau actif dans cet emplacement de matériau.
 
 ## Displacement
 
-Displacement du filet à partir des textures pris en charge dans le moteur de rendu Cycles, mais pas dans Eevee. Pour voir le displacement, assurez-vous que la sortie Height est activée. Le module complémentaire définit automatiquement le paramètre de displacement du matériau sur **Displacement et relief**. L’affichage de la matière sur un objet affiche désormais le displacement dans la vue de rendu. L’échelle du displacement peut être ajustée dans le panneau Matériau ou sur le nœud de displacement.
+Displacement du maillage des textures prises en charge dans le moteur de rendu Cycles, mais pas dans Eevee. Pour voir le displacement, assurez-vous que la sortie Height est activée. Le module complémentaire définit automatiquement le paramètre de displacement du matériau sur **Displacement et relief**. L’affichage du matériau sur un objet affiche désormais le displacement dans la vue de rendu. L’échelle du displacement peut être ajustée dans le panneau matériau ou sur le nœud de displacement.
 
-Pour obtenir de meilleurs résultats, utilisez des niveaux de subdivision supérieurs ou des maillages à poly élevé pour les matériaux présentant des détails de displacement complexes.
+Pour obtenir de meilleurs résultats, utilisez des niveaux de subdivision plus élevés ou des maillages à poly élevé pour les matériaux présentant des détails de displacement complexes.

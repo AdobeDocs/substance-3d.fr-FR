@@ -24,7 +24,7 @@ Le mapping **Décalage de relief** donne à une surface une illusion de profonde
 
 <https://docs.unrealengine.com/latest/INT/Engine/Rendering/Materials/HowTo/BumpOffset/>
 
-Pour utiliser la sortie height, vous devez double-cliquer sur la sortie dans l&#39;instance de Substance Factory pour créer l&#39;height. L’Height n’est pas activé par défaut. Vous pouvez ensuite faire glisser cette sortie height dans votre matière.
+Pour utiliser la sortie height, vous devez double-cliquer sur la sortie dans l&#39;instance de Substance Factory pour créer l&#39;height. L’Height n’est pas activé par défaut. Vous pouvez ensuite faire glisser cette sortie height dans votre matériau.
 
 ![](../../../../assets/height-1.png){width="600px"}
 

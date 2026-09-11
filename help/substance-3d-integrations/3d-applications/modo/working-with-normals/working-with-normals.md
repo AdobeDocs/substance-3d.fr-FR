@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/modo/working-with-normals.html"
 breadcrumb-title: ''
-description: Configurez les paramètres d'orientation de la texture normale dans MODO pour vous assurer que le rendu de texture normale avec les matériaux de Substance est correct.
+description: Configurez les paramètres d’orientation des maps normal dans MODO pour vous assurer que le rendu des maps normal avec les matériaux de Substance est correct.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > 3D Applications > MODO > Working with Normals
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Utilisation des données normales : définition de l’orientation correcte
 
-Les Substances Stock sont conçues pour utiliser l’orientation normale DX. Cependant, MODO utilise OGL. Vous pouvez retourner la normale en définissant le paramètre Format normal sur 1,0. Le module externe de Substance interprète uniquement les paramètres définis dans la Substance. Vous pouvez rencontrer une Substance qui n&#39;a pas le paramètre « normal\_format », car il appartient à l&#39;auteur de la Substance d&#39;ajouter ce contrôle aux Substances personnalisées. Si vous rencontrez une Substance qui n’a pas ce paramètre, vous pouvez retourner la couche verte sur le calque Texture de la carte normale pour fixer l’orientation.
+Les Substances Stock sont conçues pour utiliser l’orientation normale DX. Cependant, MODO utilise OGL. Vous pouvez retourner la normale en définissant le paramètre Format normal sur 1,0. Le module externe de Substance interprète uniquement les paramètres définis dans la Substance. Vous pouvez rencontrer une Substance qui n&#39;a pas le paramètre « normal\_format », car il appartient à l&#39;auteur de la Substance d&#39;ajouter ce contrôle aux Substances personnalisées. Si vous rencontrez une Substance qui n’a pas ce paramètre, vous pouvez retourner la couche verte sur le calque de Texture de la map normal pour corriger l’orientation.
 
 >[!NOTE]
 >

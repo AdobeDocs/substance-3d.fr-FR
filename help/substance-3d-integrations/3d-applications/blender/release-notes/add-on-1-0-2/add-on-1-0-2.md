@@ -27,4 +27,4 @@ ht-degree: 0%
 
 ***Section Préférences : Ajoutée/Mise À Jour :***
 
-* *Ajout d’un lien vers les préférences d’épingles vers les forums de la communauté Adobe et le canal Discord.*
+* *Ajout d’un lien vers les préférences d’épingle vers les forums de la communauté Adobe et le canal Discord.*

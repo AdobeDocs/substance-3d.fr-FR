@@ -24,11 +24,11 @@ ht-degree: 18%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-Certains boulangers prennent en charge l’accélération matérielle du lancer de rayons sur le GPU, ce qui augmente généralement la vitesse de calcul d’un facteur de 25 ou plus.
+Certains bakers prennent en charge l’accélération matérielle du raytracing sur le GPU, qui augmente généralement la vitesse du calcul d’un facteur de 25 ou plus.
 
 ## Configuration matérielle requise
 
-Le lancer de rayons est automatiquement activé si le système répond aux exigences suivantes :
+Le raytracing sera automatiquement activé si le système répond aux exigences suivantes :
 
 * Un GPU compatible est installé\* (série RTX, Titan V ou GeForce 10xx)
 * Les pilotes GPU sont à jour
@@ -52,9 +52,9 @@ Vous pouvez obtenir la mise à jour via la [page dédiée](https://support.micro
 >
 > En cas de problème, vous pouvez désactiver le GPU raytracing dans les préférences de l’application.
 
-## Boulangers pris en charge
+## Bakers pris en charge
 
-Les tableaux ci-dessous répertorient la prise en charge des GPU raytracings pour chaque boulanger, en fonction de la version de Substance 3D bakers :
+Les tableaux ci-dessous répertorient la prise en charge des GPU raytracings pour chaque baker, en fonction de la version de Substance 3D baker :
 
 +++Version 3 et versions ultérieures
 

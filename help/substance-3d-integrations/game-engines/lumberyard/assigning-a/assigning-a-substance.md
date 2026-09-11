@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/lumberyard/assigning-a-substance.html"
 breadcrumb-title: ''
-description: Attribuez des matériaux de Substance aux objets dans Lumberyard à l'aide de l'éditeur de matériaux comme avec d'autres matériaux.
+description: Affectez des matériaux de Substance aux objets dans Lumberyard à l'aide de l'éditeur de Matériaux comme les autres matériaux.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Game Engines > Lumberyard > Assigning a Substance
 helpx_experience_level: ""
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Attribution d’une Substance
 
-Vous utilisez l&#39;éditeur de matériaux pour attribuer le matériau Substance comme vous le feriez pour tout autre matériau dans Lumberyard.
+Vous utilisez l’éditeur de Matériau pour attribuer le matériau Substance comme tout autre matériau dans Lumberyard.
 
-1. Cliquez sur le bouton Éditeur de matériaux pour ouvrir l&#39;éditeur et accéder à l&#39;emplacement dans le dossier des matériaux où vous avez copié le fichier substance.
-1. Sélectionnez l&#39;objet et la matière, puis cliquez sur le bouton « Assigner un élément aux objets sélectionnés » en haut de l&#39;éditeur de matériaux.
+1. Cliquez sur le bouton Éditeur de Matériau pour ouvrir l’éditeur et accéder à l’emplacement du dossier matériau où vous avez copié le fichier substance.
+1. Sélectionnez l’objet et le matériau, puis cliquez sur le bouton « Affecter un élément aux objets sélectionnés » en haut de l’éditeur de Matériau.
 
 ![](../../../assets/assign-7.png)

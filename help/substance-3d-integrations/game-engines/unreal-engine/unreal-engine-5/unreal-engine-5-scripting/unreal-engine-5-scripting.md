@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/unreal-engine-5-scripting.html"
 breadcrumb-title: ''
-description: Utilisez l’API de script Substance Unreal Engine 5 pour gérer par programme les matériaux de Substance dans vos projets.
+description: Utilisez l’API de script Substance Unreal Moteur 5 pour gérer par programmation les matériaux de Substance dans vos projets.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Unreal Engine 5 Scripting
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Scripts Unreal Engine 5
+title: Scripts Unreal Moteur 5
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
@@ -18,28 +18,28 @@ ht-degree: 0%
 ---
 
 
-# Scripts Unreal Engine 5
+# Scripts Unreal Moteur 5
 
-La Substance dans le plug-in Unreal Engine peut être scriptée. Les méthodes sont répertoriées et annotées dans le fichier SubstanceGraphInstance.h du plug-in, qui se trouve normalement dans le répertoire suivant lors de l’installation du plug-in à partir du marketplace :
+La Substance dans le plug-in Unreal Moteur peut être scriptée. Les méthodes sont répertoriées et annotées dans le fichier SubstanceGraphInstance.h du plug-in, qui se trouve normalement dans le répertoire suivant lors de l’installation du plug-in à partir du marketplace :
 
-* **Installation du moteur** : [emplacement UE\_5.X.X]\Engine\Plugins\Marketplace\Substance\Source\SubstanceCore\Classes\SubstanceGraphInstance.h
+* **Installation par Moteur** : [emplacement UE\_5.X.X]\Engine\Plugins\Marketplace\Substance\Source\SubstanceCore\Classes\SubstanceGraphInstance.h
 * **Installation du projet** : [emplacement du dossier du projet]\Plugins\Runtime\Substance\Source\SubstanceCore\Classes\SubstanceGraphInstance.h
 
   ![](../../../../assets/substancegraphinstance.png)
 
 `BlueprintCallable` indique que la méthode est également utilisable dans l&#39;éditeur Blueprint.
 
-## Scripts dans l&#39;éditeur Python d&#39;Unreal Engine
+## Scripts dans l&#39;éditeur Python d&#39;Unreal Moteur
 
-Lorsque vous utilisez les méthodes répertoriées dans le fichier SubstanceGraphInstance.h dans l’éditeur Python d’Unreal Engine, elles doivent être converties de Pascal Case à Snake Case (avec des minuscules et un trait de soulignement entre chaque mot). Par exemple, `SetInputColor` devient `set_input_color`.
+Lorsque vous utilisez les méthodes répertoriées dans le fichier SubstanceGraphInstance.h dans l’éditeur Python d’Unreal Moteur, elles doivent être converties de Pascal Case à Snake Case (avec des minuscules et un trait de soulignement entre chaque mot). Par exemple, `SetInputColor` devient `set_input_color`.
 
-L’éditeur Python dans Unreal Engine est accessible via Fenêtre > Journal de sortie et en définissant le menu déroulant inférieur gauche sur Python.
+L’éditeur Python en Moteur irréel est accessible via Fenêtre > Journal de sortie, et en définissant le menu déroulant inférieur gauche sur Python.
 
 ## Exemples de scripts
 
 Vous trouverez ci-dessous un ensemble d’exemples de scripts qui peuvent être utilisés dans l’éditeur Python.
 
-## Création d&#39;une matière de Substance
+## Création d’un Matériau de Substance
 
 ```
 ## Python example on creating a Substance material.
@@ -96,7 +96,7 @@ for graph_desc in graph_descs:
 ```
 
 
-## Création d&#39;un graphique unique d&#39;un matériau de Substance
+## Création d’un seul graphe d’un Matériau de Substance
 
 ```
 ## Python example on creating a Substance material.
@@ -147,7 +147,7 @@ graph.save_all_outputs(True)
 ```
 
 
-## Créez plusieurs instances d&#39;un matériau de Substance avec différents paramètres.
+## Créez plusieurs instances d’un Matériau de Substance avec différents paramètres.
 
 ```
 ## Python example on creating mulitple Substance materials.

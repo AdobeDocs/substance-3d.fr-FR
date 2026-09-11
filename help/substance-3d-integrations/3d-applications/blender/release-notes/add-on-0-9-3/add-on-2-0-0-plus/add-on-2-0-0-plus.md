@@ -52,23 +52,23 @@ Cette mise à jour inclut la prise en charge de Blender 4.0+ et plusieurs nouvel
 
 <b>Ajouté/Mis À Jour :</b>
 
-* Ajout de la fonctionnalité Substance Connector (prend en charge les fichiers SBSAR et USD).
+* Ajout de la fonctionnalité Substance Connector (prise en charge des fichiers SBSAR et USD).
 * Prise en charge de Blender 4.0+.
 * Prise en charge de SRE version 2.1.0.
 * Dans les préférences du module complémentaire :
   * Possibilité de choisir le chemin d’installation des outils d’intégration de Substance.
   * Bouton permettant de réinitialiser les outils d’intégration au chemin par défaut.
   * Bouton pour ouvrir le dossier Outils d’intégration.
-  * Ajout Appliquer le type pour attribuer une matière (Insérer : définissez-le comme matière principale, Ajouter : ajoutez-le au bas de la liste).
+  * Ajout du type Appliquer pour affecter un matériau (Insérer : le définir comme matériau principal, Ajouter : l’ajouter au bas de la liste).
   * Ajout d’une case à cocher pour sélectionner le comportement par défaut des groupes d’entrée (réduits/développés).
   * Ajout d’une case à cocher pour sélectionner le comportement par défaut de la seule propriété de mise à jour des textures.
-  * Démarrez automatiquement le Substance Remote Engine lors de l’ouverture de Blender (il est important de l’activer si vous utilisez Connector).
+  * Démarrez automatiquement le Moteur Substance Remote lors de l&#39;ouverture de Blender (il est important de l&#39;activer si vous utilisez Connecteur).
 * Dans le module complémentaire :
-  * Ajout de textures de mise à jour uniquement (permet de modifier les paramètres sans refaire le graphique des nœuds).
+  * Ajout de textures de mise à jour uniquement (permet de modifier les paramètres sans refaire le graphe des nœuds).
   * Ajout des boutons Développer tous les groupes et Réduire tous les groupes.
-  * Ajout d’un groupe Image d’entrée pour regrouper toutes les images d’entrée si nécessaire dans un SBSAR.
+  * Ajout d&#39;un groupe d&#39;Images d&#39;entrée pour regrouper toutes les images d&#39;entrée si nécessaire dans un SBSAR.
   * Les entrées de paramètres sont désormais affichées dans le même ordre que Designer.
-  * Ajout d’une prévisualisation sous forme de vignettes pour chaque matériau de Substance.
+  * Ajout d’un aperçu en miniature de chaque matériau de Substance.
 
 <b>Fixe :</b>
 
@@ -80,7 +80,7 @@ Cette mise à jour inclut la prise en charge de Blender 4.0+ et plusieurs nouvel
 
 ## Module complémentaire 2.0.0
 
-Substance 3D Addon 2.0 est une mise à jour transformative pour les utilisateurs de Blender, avec une architecture de plug-in entièrement refactorisée. Cette refonte se concentre sur une intégration transparente, des performances améliorées et une base flexible pour les futures extensions. Il ne s’agit pas seulement d’une mise à niveau, mais d’une refonte de la façon dont les matériaux de Substance sont manipulés dans Blender, pour répondre aux besoins en constante évolution des professionnels de la 3D.
+Substance 3D Addon 2.0 est une mise à jour transformative pour les utilisateurs de Blender, avec une architecture de plug-in entièrement refactorisée. Cette refonte se concentre sur une intégration transparente, des performances améliorées et une base flexible pour les futures extensions. Il ne s’agit pas seulement d’une mise à niveau, mais d’une refonte de la façon dont les matériaux de Substance sont gérés au sein de Blender, pour répondre aux besoins changeants des professionnels de la 3D.
 
 <b>Principaux aspects de la version 2.0:</b>
 
@@ -103,22 +103,22 @@ Substance 3D Addon 2.0 est une mise à jour transformative pour les utilisateurs
 * [BLD] Correction des problèmes de communication entre les outils d&#39;intégration et Blender
 * [BLD] Échec de l&#39;installation/du démarrage des outils d&#39;intégration
 * [BLD] Les outils d&#39;intégration ne se terminent pas lorsque vous fermez Blender
-* [BLD] Matière non mise à jour lors de la modification du type de fichier d&#39;un mappage
+* [BLD] Matériau non mis à jour lors de la modification du type de fichier d&#39;un mappage
 * [SRE] Toutes les cartes des matériaux sont exportées en permanence
-* [SRE] Les outils d’intégration exportent des cartes de normales avec des marches d’escalier
+* [SRE] Outils d’intégration pour exporter des maps normal avec escalier
 * [SRE] Le chargement de la Substance ne se termine jamais
 * [SRE] Les unités de Taille physique ne sont pas ajustées à la scène
 * [BLD] Les paramètres prédéfinis générés dans Blender ne fonctionnent pas avec d’autres intégrations
-* [BLD] La matière ne se met pas à jour dans Cycles
+* [BLD] Le Matériau ne se met pas à jour dans Cycles
 * [BLD] Les limites souples et dures des entrées sont ignorées
 * [BLD] L&#39;intensité des couleurs ne se met pas à jour correctement lors du réglage d&#39;un paramètre
 * [SRE] Échec de la désinstallation des outils d’intégration
-* [SRE] Nous avons résolu le problème de duplication de plusieurs matériaux qui entraînait une erreur.
+* [SRE] Nous avons résolu le problème de duplication de matériaux à plusieurs reprises qui provoquait une erreur.
 * [SRE] L’espace colorimétrique des nœuds d’image correspond désormais correctement aux préférences de l’utilisateur.
 
 <b>Problèmes connus :</b>
 
 * Lors de l’utilisation de Blender v4.0+, les sockets ne sont pas dans l’ordre après avoir été activés et désactivés plusieurs fois
 * Appuyez sur Ctrl+Z pour annuler les modifications et risquez de provoquer des erreurs
-* Le chargement d’un fichier vide ou d’un dossier au lieu d’un fichier .sbsar peut interrompre le plug-in
+* Le chargement d’un fichier vide ou d’un dossier au lieu d’un fichier .fichier sbsar peut interrompre le plug-in
 * Prise en charge du mode sans tête du mélangeur

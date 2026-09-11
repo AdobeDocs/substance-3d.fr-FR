@@ -24,6 +24,6 @@ La fonction de taille physique du plug-in [Substance 3D](https://www.adobe.com/f
 
 Cette fonctionnalité est actuellement disponible uniquement pour les workflows HDRP.
 
-Lorsque la Taille physique est activée, les matériaux se mosaïquent en fonction de leur taille réelle en centimètres. La répétition du matériau reste la même quelle que soit l’échelle de l’objet.
+Lorsque la Taille physique est activée, les matériaux s’affichent en mosaïque en fonction de leur taille réelle, en centimètres. La répétition du matériau reste la même quelle que soit l’échelle de l’objet.
 
 La fonctionnalité peut être activée en activant « Utiliser la Taille physique » dans l’interface utilisateur du panneau des plug-ins. Les valeurs de Taille physique peuvent être remplacées pour un contrôle artistique sur la répétition du matériau.

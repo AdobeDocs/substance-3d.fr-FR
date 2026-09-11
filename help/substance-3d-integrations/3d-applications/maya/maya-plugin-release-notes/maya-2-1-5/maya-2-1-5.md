@@ -26,6 +26,6 @@ Liste des modifications :
 
 * Les fichiers sbsar doivent maintenant être affichés et peuvent être définis dans l’éditeur de chemin de fichier
 * Les chemins d’accès aux fichiers doivent être définis par rapport à Maya lors du partage d’un projet
-* Envoyer vers à partir de Substance Launcher va maintenant copier le fichier sbsar dans le répertoire du projet
+* L’option Envoyer vers à partir du lanceur de Substances copie désormais le fichier sbsar dans le répertoire du projet
 
 Cette version est publiée pour Maya 2017, 2018, 2019 et 2020 sur Linux, MacOS et Windows, et Maya LT 2018, 2019 et 2020 sur MacOS et Windows

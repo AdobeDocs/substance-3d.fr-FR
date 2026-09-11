@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/procedural-sampling.html"
 breadcrumb-title: ''
-description: Contrôlez la taille d'échantillonnage de texture procédurale en Maya pour optimiser la qualité et les performances des matériaux de Substance.
+description: Contrôlez la taille de l'échantillonnage de texture procédural en Maya pour optimiser la qualité et les performances des matériaux de Substance.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > 3D Applications > Maya > Procedural Sampling
 helpx_experience_level: ""
@@ -20,6 +20,6 @@ ht-degree: 0%
 
 # Échantillonnage procédural
 
-Les paramètres d’échantillonnage procédural vous permettent de contrôler la taille des échantillons de textures procédurales du plug-in, tels que Browninan, Noise, Fractal, Mandelbrot, etc. Ces paramètres sont spécifiques au matériau de Substance dont l’entrée d’image utilise une texture procédurale.
+Les paramètres d&#39;échantillonnage procédural vous permettent de contrôler à quelle taille le plug-in échantillonne les textures procédurales telles que Browninan, Bruit, Fractal, Mandelbrot, etc. Ces paramètres sont spécifiques au Matériau de Substance dont l’entrée d’image utilise une texture procédurale.
 
 ![](../../../assets/procedural.png)

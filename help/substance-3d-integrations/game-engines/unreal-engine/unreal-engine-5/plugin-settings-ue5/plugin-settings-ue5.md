@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/plugin-settings-ue5.html"
 breadcrumb-title: ''
-description: Configurez les paramètres du plug-in Substance dans Unreal Engine 5 via les paramètres du projet pour personnaliser le comportement du plug-in.
+description: Configurez les paramètres du plug-in Substance dans Unreal Moteur 5 via les paramètres du projet pour personnaliser le comportement du plug-in.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Plugin Settings - UE5
 helpx_experience_level: ""
@@ -26,19 +26,19 @@ Pour accéder aux paramètres, accédez à Modifier > Paramètres du projet, fai
 
 ## Budget matériel
 
-Le budget mémoire est la quantité maximale de mémoire à utiliser pour le moteur de Substance de données. Peut être augmenté pour améliorer la vitesse de traitement des Substances, mais consommera plus de ressources système. (Pas toujours une augmentation utile au niveau du projet).
+Le budget mémoire est la quantité maximale de mémoire à utiliser pour le moteur de Substance. Peut être augmenté pour améliorer la vitesse de traitement des Substances, mais consommera plus de ressources système. (Pas toujours une augmentation utile au niveau du projet).
 
 Les cœurs du processeur déterminent le nombre de cœurs que le moteur de Substance de données peut utiliser. Cela inclut les cœurs physiques et les hyper-threads. (Si le nombre attribué est supérieur aux cœurs disponibles sur un système, tous les cœurs disponibles seront utilisés par défaut.
 
 ## Cuisiner
 
-Le comptage des niveaux de mélange supprimé pendant la cuisson modifiera la façon dont les textures sont créées pour un pack. Ce paramètre peut considérablement améliorer les temps de chargement et réduire la taille du package, car les niveaux de texture plus élevés n’auront plus besoin d’être chargés. La plus faible résolution / plus petite LOD sera chargée et la plus élevée sera définie par défaut par UE5. Les Substances sont ensuite traitées par le moteur de Substance et mises à jour au moment de l&#39;exécution avec les LOD haute résolution.
+Le comptage des niveaux de mip supprimé pendant la cuisson modifiera la façon dont les textures sont créées pour un pack. Ce paramètre peut considérablement améliorer les temps de chargement et réduire la taille du pack, car les niveaux mip de texture plus importants n’auront plus besoin d’être chargés. La plus faible résolution / plus petite LOD sera chargée et la plus élevée sera définie par défaut par UE5. Les Substances sont ensuite traitées par le moteur de Substance et mises à jour au moment de l&#39;exécution avec les LOD haute résolution.
 
-La Substance Engine peut être CPU ou GPU. Le moteur GPU vous permettra de créer des textures 4K. Le moteur CPU est limité à 2 K.
+La Substance Engine peut être CPU ou GPU. Le moteur GPU vous permettra de créer des textures 4K. Le moteur du processeur est plafonné à 2K.
 
 ## Optimisation :
 
-Cela limite le nombre de substances asynchrones pouvant être transmises au moteur Substance par lot. Des valeurs basses accélèrent la rapidité d’exécution d’une tâche asynchrone et sa mise à jour, les valeurs élevées effectuant des rendus par lots et traitant plusieurs Substances à la fois. Plus le nombre de mises à jour est élevé, plus la texture devient saccadée, car l’intervalle de temps entre les mises à jour est long.
+Cela limite le nombre de substances asynchrones pouvant être transmises au moteur de substances par lot. Des valeurs basses accélèrent la rapidité d’exécution d’une tâche asynchrone et sa mise à jour, les valeurs élevées effectuant des rendus par lots et traitant plusieurs Substances à la fois. (Plus le nombre est élevé, plus les mises à jour de texture deviennent saccadées, car le temps entre les mises à jour est plus long).
 
 ## Rendu asynchrone/synchronisé
 

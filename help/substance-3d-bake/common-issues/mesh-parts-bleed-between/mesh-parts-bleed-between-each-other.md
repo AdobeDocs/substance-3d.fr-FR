@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-issues/mesh-parts-bleed-between-each-other.html"
 breadcrumb-title: ''
-description: Utilisez la fonction Correspondance par nom ou ajustez les distances pour empêcher les parties du maillage de se fondre les unes dans les autres lors du bake.
+description: Utilisez la fonction Correspondance par nom ou ajustez les distances pour empêcher les parties du maillage de se fondre les unes dans les autres lors du baking.
 helpx_creative_field: ""
 helpx_description: bakers > Common Issues > Mesh parts bleed between each other
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Les parties du filet se perdent entre elles
+title: Les pièces du maillage se purgent entre elles
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Les parties du filet se perdent entre elles
+# Les pièces du maillage se purgent entre elles
 
 >[!WARNING]
 >
@@ -32,7 +32,7 @@ ht-degree: 0%
 >
 > **Explication**
 > 
-> Le processus de bake envoie des rayons de la surface du maillage à faible poly pour atteindre le maillage à fort poly afin de créer une correspondance. Parfois, les rayons vont trop loin et touchent la mauvaise géométrie, créant le saignement et les artefacts.
+> Le processus de baking envoie des rayons de la surface du maillage à faible poly pour atteindre le maillage à fort poly afin de créer une correspondance. Parfois, les rayons vont trop loin et touchent la mauvaise géométrie, créant le saignement et les artefacts.
 
 >[!NOTE]
 >

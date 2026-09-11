@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/redshift/redshift-for-maya.html"
 breadcrumb-title: ''
-description: Utilisez des matériaux de Substance avec le rendu Redshift dans Maya via les cartes exportées ou le plug-in Substance.
+description: Utilisez les matériaux de Substance avec le rendu Redshift dans Maya via les mappages exportés ou le plug-in Substance.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Renderers > Redshift > Redshift for Maya
 helpx_experience_level: ""
@@ -22,6 +22,6 @@ ht-degree: 0%
 
 ## Substance dans le plug-in Maya
 
-Vous pouvez utiliser le [processus de rendu](https://docs.substance3d.com/display/integrations/Using+Workflows) Redshift pour créer automatiquement un réseau de nuanceurs.
+Vous pouvez utiliser le [processus de rendu](https://docs.substance3d.com/display/integrations/Using+Workflows) Redshift pour créer automatiquement un réseau shader.
 
 ![](https://helpx-prod.scene7.com/is/image/HelpxProd/rs-1?$png$&jpegSize=100&wid=420)

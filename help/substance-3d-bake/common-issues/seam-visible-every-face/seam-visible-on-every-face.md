@@ -7,7 +7,7 @@ helpx_description: bakers > Common Issues > Seam visible on every face
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Couture visible sur chaque face
+title: Seam visible sur chaque face
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Couture visible sur chaque face
+# Seam visible sur chaque face
 
 >[!WARNING]
 >
@@ -32,7 +32,7 @@ ht-degree: 0%
 >
 > **Explication**
 > 
-> Si vous n&#39;utilisez pas de [cage](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/bake/cage-projection-172822982.html), le processus de Bake lancera des rayons dans la direction des normales de vertex du maillage en bas-poly. Si chaque normale de vertex est divisée (ce qui signifie que chaque face ne partage pas les mêmes normales de vertex que la face voisine), les rayons ne seront pas envoyés dans la même direction sur les . Cela entraîne une division car les informations de chaque côté des arêtes sont différentes.
+> Si vous n&#39;utilisez pas de [cage](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/bake/cage-projection-172822982.html), le processus de Baking lancera des rayons dans la direction des normales de vertex du maillage en bas-poly. Si chaque normale de vertex est divisée (ce qui signifie que chaque face ne partage pas les mêmes normales de vertex que la face voisine), les rayons ne seront pas envoyés dans la même direction sur les . Cela entraîne une division car les informations de chaque côté des arêtes sont différentes.
 > 
 > Ce problème est également exacerbé par le crénelage, comme expliqué dans [cette page](../../common-issues/aliasing-on-uv-seams/aliasing-on-uv-seams.md).
 

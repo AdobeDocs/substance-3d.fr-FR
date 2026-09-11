@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-questions/is-dithering-applied-to-baked-textures.html"
 breadcrumb-title: ''
-description: Comprendre si le dithering est appliqué à des textures bake et comment il affecte la qualité de la texture.
+description: Comprendre si le dithering est appliqué à des textures bakées et comment il affecte la qualité de la texture.
 helpx_creative_field: ""
 helpx_description: "bakers > Common Questions > Is dithering applied to baked textures "
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 'Application du dithering aux textures bake '
+title: 'Application du dithering aux textures bakées '
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Le dithering est-il appliqué aux textures bake ?
+# Le dithering est-il appliqué aux textures bakées ?
 
 >[!WARNING]
 >

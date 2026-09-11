@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/apply-workflow-to-maps.html"
 breadcrumb-title: ''
-description: Appliquez rapidement des textures exportées depuis Substance Painter ou d’autres applications aux matériaux dans Maya à l’aide des workflows.
+description: Appliquez rapidement les textures exportées de Substance Painter ou d’autres applications aux matériaux dans Maya à l’aide de workflows.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > 3D Applications > Maya > Apply Workflow To Maps
 helpx_experience_level: ""
@@ -26,6 +26,6 @@ L&#39;option **Workflow** vous permet de choisir le moteur de rendu avec lequel 
 
 ![](../../../assets/applymaps.png)
 
-Utilisez **Sélectionner plusieurs mappages** pour sélectionner plusieurs mappages à appliquer en fonction de la convention de noms répertoriée à gauche. *Par exemple, \_rugosité sera mappée à la couche de rugosité.*
+Utilisez **Sélectionner plusieurs mappages** pour sélectionner plusieurs mappages à appliquer en fonction de la convention de noms répertoriée à gauche. *Par exemple, \_rugosité sera mappée au canal de rugosité.*
 
-Des textures individuelles peuvent être ajoutées en cliquant sur le bouton du dossier et en sélectionnant la texture.
+Des mappages individuels peuvent être ajoutés en cliquant sur le bouton du dossier et en sélectionnant la texture.

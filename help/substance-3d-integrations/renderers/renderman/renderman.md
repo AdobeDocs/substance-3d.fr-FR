@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Renderman
 
-Les matériaux de surface pxrSurface ou pxrDisney vous permettent d’effectuer le rendu de sorties PBR à partir de Substance Designer et de Substance Painter. Bien que pxrDisney soit plus simple puisqu&#39;il prend directement en charge les sorties couleur de base/rugosité/métallique, il s&#39;agit désormais d&#39;un matériau hérité dans Renderman et [pxrSurface](https://rmanwiki.pixar.com/display/REN/PxrSurface) est la méthode préférée.
+A l&#39;aide des matériaux de surface pxrSurface ou pxrDisney, vous pouvez effectuer le rendu des sorties PBR à partir de Substance Designer et Substance Painter. Bien que pxrDisney soit plus simple puisqu&#39;il prend directement en charge les sorties basecolor/rugosité/métallique, il s&#39;agit désormais d&#39;un matériau hérité dans Renderman et [pxrSurface](https://rmanwiki.pixar.com/display/REN/PxrSurface) est la méthode privilégiée.
 
 Pour plus d&#39;informations sur pxrSurface, reportez-vous à la documentation Renderman. <https://rmanwiki.pixar.com/display/REN/PxrSurface>
 

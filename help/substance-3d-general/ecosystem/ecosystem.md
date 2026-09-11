@@ -26,5 +26,5 @@ Les pages suivantes regroupent les informations communes aux applications de l�
 * [Substance 3D pour Linux](../ecosystem/for-linux/substance-for-linux.md)
 * [Formats d’importation et d’exportation](../ecosystem/import-and-export-formats/import-and-export-formats.md)
 * [Versions héritées](../ecosystem/legacy-versions/legacy-versions.md)
-* [contrôle de version du moteur de Substance](../ecosystem/engine-versioning/substance-engine-versioning.md)
+* [contrôle de version d’un moteur de Substance](../ecosystem/engine-versioning/substance-engine-versioning.md)
 * [Icônes Substance 3D pour les artistes](../ecosystem/susbtance-3d-app-icons/susbtance-3d-app-icons.md)

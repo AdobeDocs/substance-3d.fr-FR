@@ -7,7 +7,7 @@ helpx_description: Ecosystems and Plugins > Renderers > Color Management > Subst
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Textures de Substance dans 3ds Max
+title: textures de Substance dans 3ds Max
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
@@ -18,10 +18,10 @@ ht-degree: 0%
 ---
 
 
-# Textures de Substance dans 3ds Max
+# textures de Substance dans 3ds Max
 
 La Substance dans le plug-in 3ds Max prend en charge le paramètre gamma des sorties.
 
-Lors de l’importation de textures, vous devez définir le gamma sur Override1.0 pour les images représentant des données non colorées telles que les données métalliques, de rugosité, normales, d’height et de displacement.
+Lors de l’importation de textures, vous devez définir le gamma sur Override1.0 pour les images représentant des données non chromatiques telles que métallique, rugosité, normal, height et displacement.
 
 ![](../../../assets/3ds-override.png)

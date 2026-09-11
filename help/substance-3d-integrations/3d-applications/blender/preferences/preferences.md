@@ -69,19 +69,19 @@ Les préférences du module complémentaire se trouvent dans la fenêtre des pr�
 
 <b>Mettre à jour uniquement les textures par défaut</b> : active/désactive les paramètres de Substance de mise à jour météorologique qui n&#39;affectent que les textures de sortie dans le réseau d&#39;Ombrages du mélangeur. La désactivation de cette option réinitialise les connexions de nœuds après le réglage des paramètres. Il est recommandé d&#39;activer cette option lors de l&#39;ajout de nœuds supplémentaires à un matériau, sinon ils seront déconnectés après le réglage des paramètres.
 
-<b>Moteur distant de Substances </b> : définit le matériel utilisé par le moteur distant de Substances.
+<b>Moteur distant de Substance </b> : définit le matériel utilisé par le Moteur distant de Substance.
 
-<b>Appliquer automatiquement la matière</b> : lorsqu&#39;un matériau de Substance est créé, attachez automatiquement le matériau aux objets sélectionnés dans un nouvel emplacement de matériau.
+<b>Appliquer automatiquement le matériau</b> : lorsqu&#39;un matériau de Substance est créé, associez automatiquement le matériau aux objets sélectionnés dans un nouvel emplacement de matériau.
 
-<b>Mettre automatiquement en surbrillance la matière des objets sélectionnés</b> : modifiez la matière en surbrillance dans le panneau Substance 3D si un objet avec cette matière est sélectionné.
+<b>Mettre automatiquement en surbrillance le matériau des objets sélectionnés</b> : modifiez le matériau en surbrillance dans le panneau Substance 3D si un objet avec ce matériau est sélectionné.
 
-<b>Cycles : mise à jour automatique des textures</b> : force la texture à se mettre à jour dans la fenêtre 3D lors de l’utilisation de la vue de rendu Cycles.
+<b>textures de mise à jour automatique des cycles</b> : force la texture à la mise à jour dans le Viewport 3D lors de l’utilisation de la vue de rendu des cycles.
 
-<b>Supprimer la confirmation de suppression de préconfiguration</b> : supprime la fenêtre de confirmation qui apparaît lors de la suppression des préconfigurations de matériau.
+<b>Supprimer la confirmation de suppression du paramètre prédéfini</b> : supprime la fenêtre de confirmation qui apparaît lors de la suppression de paramètres prédéfinis de matériau.
 
-<b>Créer un matériau avec l’option Faux utilisateur activée</b> : selon le temps, le matériau est créé avec l’option « Faux utilisateur » activée ou désactivée. Les données du mélangeur marquées comme faux utilisateur ne sont pas vidées après la fermeture, même lorsque les données ne sont pas utilisées.
+<b>Créer un matériau avec un faux utilisateur activé</b> : selon le temps, le matériau est créé avec « faux utilisateur » activé ou désactivé. Les données du mélangeur marquées comme faux utilisateur ne sont pas vidées après la fermeture, même lorsque les données ne sont pas utilisées.
 
-<b>Démarrer automatiquement le moteur distant de Substance de données </b> : basculez si le moteur distant de Substance de données est initialisé au démarrage de Blender. Si cette option est désactivée, le moteur distant démarrera uniquement lorsqu&#39;un utilisateur chargera un bouton ou utilisera le raccourci de chargement.
+<b>Démarrer automatiquement le Moteur distant de Substance de données </b> : basculez si le Moteur distant de Substance de données est initialisé au démarrage de Blender. Si cette option est désactivée, le moteur distant démarre uniquement lorsqu’un utilisateur charge le bouton ou utilise le raccourci de charge.
 
 >[!NOTE]
 >
@@ -93,20 +93,20 @@ Les préférences du module complémentaire se trouvent dans la fenêtre des pr�
 
 <b>Copier les fichiers .sbsar lors de l&#39;enregistrement dans</b> : lorsque cette option est activée, les fichiers .sbsar sont copiés dans le chemin relatif spécifié lors de l&#39;enregistrement du fichier. Cela peut faciliter le partage de projets entre appareils.
 
-<b>Lors de l&#39;enregistrement, copier les textures dans</b> : lorsqu&#39;un fichier est enregistré pour la première fois, les textures du dossier temporaire sont copiées à cet emplacement. La variable $matname est utilisée pour créer des sous-dossiers pour chaque matière.
+<b>Lors de l&#39;enregistrement, copier les textures vers</b> : lorsqu&#39;un fichier est enregistré pour la première fois, les textures du dossier temporaire sont copiées à cet emplacement. La variable $matname est utilisée pour créer des sous-dossiers pour chaque matériau.
 
-<b>Paramètre prédéfini de shader</b> : définit le paramètre prédéfini de shader par défaut utilisé lors de la création de matériaux Blender à partir de fichiers de substances. Peut être défini sur Standard pour la projection basée sur les UV ou la projection pour la projection basée sur les boîtes, sphères et cylindres.
+<b>Paramètre prédéfini Shader</b> : définit le paramètre prédéfini shader par défaut utilisé lors de la création de matériaux Blender à partir de fichiers substances. Peut être défini sur Standard pour le mappage basé sur l&#39;UV ou projection pour le mappage basé sur la projection de la boîte, de la sphère et du cylindre.
 
 <b>Niveau intermédiaire du Displacement</b> : la valeur par défaut est la base du displacement dans le nœud de Displacement. Les valeurs supérieures à la valeur par défaut déplacent les surfaces vers l&#39;extérieur et les valeurs inférieures à la valeur par défaut les déplacent vers l&#39;intérieur.
 
 <b>Échelle de Displacement</b> : valeur d&#39;échelle par défaut dans le nœud de Displacement.
 
-<b>Intensité d&#39;émission</b> : valeur par défaut de la force d&#39;émission dans le nœud BSDF basé sur des principes.
+<b>Intensité de l&#39;Emissive</b> : valeur par défaut pour la Force des émissions dans le nœud Principled BSDF.
 
-<b>Fusion de projection</b> : définit la quantité de fusion entre les angles pour les ombrages de méthode de projection.
+<b>Fusion de Projection</b> : définit la quantité de fusion entre les angles pour les ombrages de méthode de projection.
 
-<b>Mélange AO</b> - Lorsque l&#39;Occlusion ambiante est activée en tant que sortie, cette valeur détermine la valeur de facteur par défaut du nœud MixRGB utilisé pour combiner la couleur de base et les textures de l&#39;Occlusion ambiante.
+<b>Mélange AO</b> - Lorsque l&#39;Ambient occlusion est activé en tant que sortie, cette valeur détermine la valeur de facteur par défaut du nœud MixRGB utilisé pour combiner les textures de Base color et d&#39;Ambient occlusion.
 
 <b>Sorties</b> : les sorties individuelles des matériaux peuvent être activées ou désactivées. L’espace colorimétrique, le format de fichier et la profondeur des couleurs par défaut des sorties individuelles peuvent également être ajustés.
 
-<b>Raccourcis </b> : personnalisez les touches de raccourci utilisées pour afficher un menu flottant, charger un matériau de Substance et appliquer le matériau actif. Les mises à jour de raccourcis nécessitent un redémarrage pour prendre effet.
+<b>Raccourcis </b> : personnalisez les touches de raccourci utilisées pour afficher un menu flottant, charger un matériau de Substance et appliquer le matériau actif. Les mises à jour Raccourci nécessitent un redémarrage pour prendre effet.

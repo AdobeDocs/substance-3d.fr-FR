@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/redshift.html"
 breadcrumb-title: ''
-description: Utilisez des matériaux de Substance avec le rendu Redshift dans Maya et 3ds Max, y compris la prise en charge des workflows métalliques.
+description: Utilisez des matériaux de Substance avec le rendu Redshift dans Maya et 3ds Max, avec prise en charge métallique des workflows.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Renderers > Redshift
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Redshift
 
-Le matériau Redshift dans la version 2.5.43 prend en charge le flux de travail métallique. Pour le rendu avec Redshift, vous pouvez utiliser des mappages exportés à partir de Substance Painter ou du plug-in Substance dans [Maya](https://www.substance3d.com/ecosystem-plug-ins/substance-in-maya/).
+Le matériau Redshift de la version 2.5.43 prend en charge le workflow métallique. Pour le rendu avec Redshift, vous pouvez utiliser des mappages exportés à partir de Substance Painter ou du plug-in Substance dans [Maya](https://www.substance3d.com/ecosystem-plug-ins/substance-in-maya/).
 
 Substance Painter 2020.1 (6.1.0) est livré avec le Redshift ([rsMaterial](https://docs.redshift3d.com/display/RSDOCS/Material)) [Modèle de sortie](https://docs.substance3d.com/display/SPDOC/Export) ainsi qu’une sortie héritée pour Redshift 3.
 

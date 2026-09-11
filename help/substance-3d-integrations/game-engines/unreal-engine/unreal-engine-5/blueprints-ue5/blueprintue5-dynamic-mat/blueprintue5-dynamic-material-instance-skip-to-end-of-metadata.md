@@ -23,10 +23,10 @@ ht-degree: 0%
 1. Créez une variable de type Substance Instance Factory et définissez la valeur par défaut sur Imported Substance Factory.
 1. Ajoutez un nœud Create Instance de graphe et branchez l&#39;instance de Substance Factory dans l&#39;entrée Factory avec un matériau parent servant de modèle (il peut s&#39;agir de l&#39;un des matériaux\_substance par défaut inclus avec le plug-in).
 1. Créez une autre variable pour stocker l’objet Instance de Graphe Substance créé à l’étape précédente.
-1. Utilisez la fonction « Obtenir une instance de matériau dynamique » à partir de l’instance de graphe pour créer ou obtenir une instance de matériau existante. Si les champs Nom et Matériau parent restent vides, les paramètres utilisés lors de la génération de l’instance à l’étape 2 seront utilisés.
-1. Créez une variable de type Matière. Il s&#39;agira de l&#39;instance de matériau dynamique (MID). Définissez la valeur renvoyée par « Get Dynamic Matériau Instance » sur la variable.
+1. Utilisez la fonction « Obtenir une instance de Matériau dynamique » de l&#39;instance de graphe pour créer ou obtenir une instance de matériau existante. Si les champs Nom et Matériau parent restent vides, les paramètres utilisés lors de la génération de l’instance à l’étape 2 seront utilisés.
+1. Créez une variable de type Matériau. Il s’agira de l’instance de Matériau dynamique (MID). Définissez la valeur renvoyée par « Get Dynamic Matériau Instance » sur la variable.
 
    ![](../../../../../assets/dynamic-material-annotated-1.png)
-1. Ajoutez un nœud Définir matière et définissez la valeur de la variable MID comme entrée matière. Pour la cible, définissez-la sur l’objet auquel vous souhaitez appliquer la matière.
+1. Ajoutez un nœud de Matériau Set et définissez la valeur de la variable MID comme entrée de Matériau. Pour la cible, définissez-la sur l’objet auquel vous souhaitez appliquer le matériau.
 1. Facultatif : définissez les paramètres Substance souhaités (cet exemple utilise une instance de graphe Substance préexistante et copie les valeurs sur la nouvelle).
 1. Créez un nœud de rendu Async ou Sync et connectez les instances à Render à la variable d’instance de Graphe Substance.

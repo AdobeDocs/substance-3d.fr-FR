@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-general/adobe-standard-material/metal-material-references.html"
 breadcrumb-title: ''
-description: Utilisez des valeurs de couleur et des tables de données précises pour simuler des matériaux métalliques réalistes avec le modèle de matériau Adobe Standard.
+description: Utilisez des valeurs chromatiques et des tables de données précises pour simuler des matériaux métalliques réalistes avec le modèle d’Adobe Standard Material.
 helpx_creative_field: ""
 helpx_description: General Knowledge > Adobe Standard Material > Metal material references
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Références de matériau métallique
+title: Références de matériau Metal
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
@@ -18,13 +18,13 @@ ht-degree: 54%
 ---
 
 
-# Références de matériau métallique
+# Références de matériau Metal
 
-Utilisez les tableaux suivants pour simuler avec précision des matériaux réalistes avec leurs données **couleur de base** (F0) et **Specular edge color** (teinte F82) correspondantes. Cette table est créée pour être utilisée avec le modèle **Adobe Standard Material**. Pour plus d&#39;informations, consultez la [documentation technique des matériaux standard Adobe](../../adobe-standard-material/asm-technical-doc/asm-technical-documentation.md).
+Utilisez les tableaux suivants pour simuler avec précision des matériaux réels avec leurs données **Base color** (F0) et **Specular edge color** (teinte F82) correspondantes. Cette table a été créée pour être utilisée avec le modèle **Adobe Standard Material**. Pour plus d&#39;informations, consultez la [documentation technique de l&#39;Adobe Standard Material](../../adobe-standard-material/asm-technical-doc/asm-technical-documentation.md).
 
 ## sRVB 8 bits
 
-| Métal | Couleur de base (F0) | Specular edge color (teinte F82) |
+| Métal | Base color (F0) | Specular edge color (teinte F82) |
 | --- | --- | --- |
 | Ag | (254, 253, 251) | (254, 255, 255) |
 | Al | (245, 246, 246) | (245, 248, 250) |
@@ -44,7 +44,7 @@ Utilisez les tableaux suivants pour simuler avec précision des matériaux réal
 
 Les couleurs sont désignées par un ensemble de valeurs Rouge, Vert et Bleu.
 
-| Métal | Couleur de base (F0) | Specular edge color (teinte F82) |
+| Métal | Base color (F0) | Specular edge color (teinte F82) |
 | --- | --- | --- |
 | Ag | (0.9868, 0.9830, 0.9667) | (0.9929, 0.9961, 1.0000) |
 | Al | (0.9157, 0.9226, 0.9236) | (0.9090, 0.9365, 0.9596) |

@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/cinema-4d/attribute-manager.html"
 breadcrumb-title: ''
-description: Utilisez le Gestionnaire d’attributs de Cinema 4D pour configurer les propriétés des ressources de Substance et les paramètres de matériau.
+description: Utilisez le Gestionnaire d’attributs de Cinema 4D pour configurer les propriétés des actifs de Substance de données et les paramètres de matériau.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > 3D Applications > Cinema 4D > Attribute Manager
 helpx_experience_level: ""
@@ -37,11 +37,11 @@ Si les entrées d’une Substance sont regroupées, ces groupes s’affichent co
 
 ## Paramètre Filename
 
-En utilisant le paramètre Filename dans le Gestionnaire d’attributs, l’emplacement de fichier des actifs de Substance de données peut être modifié après leur chargement dans une scène.
+En utilisant le paramètre Filename dans le Gestionnaire d’attributs, l’emplacement de fichier des actifs de Substance de données peut être modifié après leur chargement dans une scène de données.
 
 ![](../../../assets/cinema-4d-10.png){width="500px"}
 
-Cela peut être utile non seulement pour déplacer des fichiers de Substance de données, mais également lors de l’échange d’une Substance de données avec une autre complètement différente.
+Cela peut être utile non seulement pour redéfinir l&#39;emplacement des fichiers de Substance de données, mais également lors de l’échange d’une Substance de données avec une toute autre.
 
 Dans ce cas, il sera demandé à l’utilisateur si des références à des canaux de sortie de Substance précédents doivent être remappées sur la nouvelle Substance.
 

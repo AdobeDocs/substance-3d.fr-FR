@@ -25,6 +25,6 @@ Publié le 18 décembre 2020
 **Fixe :**
 
 * Le moteur de rendu interactif n’est pas mis à jour lors de la modification des options dans le nœud Coordonnées de la Substance
-* Les curseurs de nombre entier sont réinitialisés lors de la modification
+* Les curseurs d’Entier sont réinitialisés lors de la modification
 
 Cette version est publiée pour 3ds Max 2019, 2020 et 2021

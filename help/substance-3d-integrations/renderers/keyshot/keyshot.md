@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/keyshot.html"
 breadcrumb-title: ''
-description: Utilisez des matériaux de Substance dans le rendu Keyshot pour la visualisation du produit avec les textures graphiques exportées.
+description: Utilisez les matériaux de Substance dans le rendu Keyshot pour la visualisation du produit avec les cartes de texture exportées.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Renderers > Keyshot
 helpx_experience_level: ""
@@ -20,25 +20,25 @@ ht-degree: 8%
 
 # Keyshot
 
-*Keyshot 6.1.72*[&#x200B; Télécharger Un Exemple De Scène](https://www.dropbox.com/s/rvjsbbcx7c74aah/keyshot.zip?dl=0)
+*Keyshot 6.1.72*[&#x200B; Téléchargez Un Exemple De Scène](https://www.dropbox.com/s/rvjsbbcx7c74aah/keyshot.zip?dl=0)
 
 ## Exportation de Substance Painter
 
-1. Pour Keyshot, vous devrez configurer un paramètre prédéfini d’exportation en utilisant Diffus, Réflexion, Métallique, Rugosité et Normal (X direct).
+1. Pour Keyshot, vous devrez configurer un paramètre prédéfini d’exportation à l’aide de Diffuse, Réflexion, Métallique, Rugosité et Normal (X direct).
 
    ![](https://helpx-prod.scene7.com/is/image/HelpxProd/key-01?$png$&jpegSize=300&wid=1794)
 
-## Configuration avancée des matériaux
+## Configuration avancée du Matériau
 
 Vous utiliserez 2 matériaux avancés. L&#39;un sera pour métallique et l&#39;autre pour diélectrique.
 
-1. Définissez la matière sur Avancé et dessinez un graphique de la matière.
+1. Définissez le matériau sur Avancé et graphe le matériau.
 
    **Métallique :**\
    a. Réglez l’indice de réfraction sur 10\
    b. Définissez les mappages comme indiqué dans le tableau ci-dessous
 
-   | texture Substance Painter | Canal de matériau avancé |
+   | texture de Substance Painter | Canal de Matériau avancé |
    | --- | --- |
    | Diffuse | Diffuse |
    | Métallique | Opacité |
@@ -46,19 +46,19 @@ Vous utiliserez 2 matériaux avancés. L&#39;un sera pour métallique et l&#39;a
    | Rugosité | Rugosité |
    | Réflexion | Spéculaire |
 
-1. Créer un matériau avancé
+1. Création d’un Matériau avancé
 
    **Diélectrique :**\
    a. Réglez l’indice de réfraction sur 1,5\
    b. Définissez les mappages comme indiqué dans le tableau ci-dessous
 
-   | texture Substance Painter | Canal de matériau avancé |
+   | texture de Substance Painter | Canal de Matériau avancé |
    | --- | --- |
    | Diffuse | Diffuse |
    | Normale | Saut \*Normal Activé |
    | Rugosité | Rugosité |
    | Réflexion | Spéculaire |
 
-1. Prenez la sortie du matériau avancé métallique et ajoutez-la au + du matériau avancé diélectrique. Cela créera un champ Étiquette sur le matériau.
+1. Prenez la sortie du Matériau avancé Métallique et ajoutez-la au + du Matériau avancé diélectrique. Un champ Libellé est alors créé en matériau.
 
    ![](../../assets/key-02.png)

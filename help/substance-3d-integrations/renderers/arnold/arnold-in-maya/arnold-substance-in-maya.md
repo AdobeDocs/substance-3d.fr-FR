@@ -22,6 +22,6 @@ ht-degree: 0%
 
 ## Substance dans le plug-in Maya
 
-Vous pouvez utiliser le flux de travail de rendu Arnold[Render](../../../3d-applications/maya/using-workflows/using-workflows.md) pour créer automatiquement un réseau de nuanceurs.
+Vous pouvez utiliser le workflow de rendu Arnold[Render](../../../3d-applications/maya/using-workflows/using-workflows.md) pour créer automatiquement un réseau shader.
 
 ![](../../../assets/render-workflow.png)

@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> Assurez-vous de consulter la page [Directives d&#39;optimisation](../../game-engines/unity/optimization-guidelines/optimization-guidelines.md) avant de créer des documents de Substance personnalisés.
+> Assurez-vous de consulter la page [Directives d&#39;optimisation](../../game-engines/unity/optimization-guidelines/optimization-guidelines.md) avant de créer des matériaux de Substance personnalisés.
 
 ## Table des matières
 

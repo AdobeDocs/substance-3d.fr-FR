@@ -28,11 +28,11 @@ ht-degree: 0%
 * Une option permettant de modifier l’emplacement du dossier « substance » dans le plug-in Maya a été fournie.
 * Mise à jour du système d&#39;importation de workflow du plug-in Maya pour assurer la compatibilité avec la mise à jour d&#39;Autodesk vers Python 3.12.
 * Mise à jour des icônes du plug-in de Substance avec les dernières icônes.
-* Ajout de la prise en charge de l’envoi et de la réception de paramètres prédéfinis via Connecteur dans le plug-in.
+* Ajout de la prise en charge de l’envoi et de la réception de paramètres prédéfinis avec Connecteur dans le plug-in.
 
 <b>Fixe :</b>
 
-* Résolution d’un problème en raison duquel le chargement/déchargement du plug-in de Substance pour Maya produisait un écran d’erreur et se bloquait.
-* Correction des problèmes de mise en cache, en particulier la vérification de la référence correcte des fichiers .exr et la réduction des blocages liés à la mise en cache dans les scènes volumineuses.
-* Résolution du problème en raison duquel l’aperçu du matériau dans la fenêtre Exemple ne s’affichait pas lorsqu’un fichier SBSAR était chargé dans le plug-in Maya.
-* Résolution du problème où le connecteur ne parvient pas à recevoir le fichier SBSAR si au moins un fichier SBSAR est déjà dans Hypershade.
+* Résolution d’un problème en raison duquel le chargement/déchargement du plug-in de Substance pour Maya générait un écran d’erreur et des crashs.
+* Correction des problèmes de mise en cache, en particulier la vérification de la référence correcte des fichiers .exr et la réduction des blocages liés à la mise en cache dans les grandes scènes.
+* Résolution du problème en raison duquel l’aperçu du matériau dans la fenêtre Exemple n’était pas affiché lorsqu’un Fichier sbsar était chargé dans le plug-in Maya.
+* Résolution du problème de Connecteur ne recevant pas de Fichier sbsar si au moins un SBSAR est déjà dans Hypershade.

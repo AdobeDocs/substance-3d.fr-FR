@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/blueprints-ue4.html"
 breadcrumb-title: ''
-description: Utilisez les nœuds Blueprint dans Unreal Engine 4 pour contrôler les matériaux de Substance lors de l’exécution des workflows de matériaux dynamiques.
+description: Utilisez les nœuds Blueprint dans le Moteur irréel 4 pour contrôler les matériaux de Substance à l’exécution pour les workflows de matériau dynamique.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Blueprints - UE4
 helpx_experience_level: ""
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 ![](https://helpx-prod.scene7.com/is/image/HelpxProd/blueprints?$pjpeg$&jpegSize=200&wid=1196){width="1000px"}
 
-Cette section explique comment utiliser les matériaux de Substance et les [plans](https://docs.unrealengine.com/en-US/Engine/Blueprints/GettingStarted/index.html) dans Unreal Engine.
+Cette section explique comment utiliser les matériaux de Substance et les [plans](https://docs.unrealengine.com/en-US/Engine/Blueprints/GettingStarted/index.html) dans Unreal Moteur.
 
 ## Table des matières
 
-* [Blueprint(UE4) : paramètres des matériaux de Substance](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/integrations/blueprint-substance-material-parameters-151584792.html)
-* [Blueprint(UE4) : Instance de matériau dynamique](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/integrations/blueprint-dynamic-material-instance-152535142.html)
+* [Blueprint(UE4) : paramètres de matériau de Substance](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/integrations/blueprint-substance-material-parameters-151584792.html)
+* [Blueprint(UE4) : instance de Matériau dynamique](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/integrations/blueprint-dynamic-material-instance-152535142.html)
 * [Blueprint(UE4) : Substance globale](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/integrations/blueprint-aggregate-substance-159451574.html)
 * [Blueprint(UE4) : Référence du nœud](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/integrations/blueprint-node-reference-151584784.html)

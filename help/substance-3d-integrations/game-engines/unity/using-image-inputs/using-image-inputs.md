@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/using-image-inputs.html"
 breadcrumb-title: ''
-description: Utilisez les textures d’image comme paramètres d’entrée pour les matériaux de Substance dans Unity pour améliorer la personnalisation des matériaux.
+description: Utilisez les textures d’image comme paramètres d'entrée pour les matériaux de Substance dans Unity afin d’améliorer la personnalisation des matériaux.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Game Engines > Unity > Using Image Inputs
 helpx_experience_level: ""
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Pour utiliser une image dans un paramètre d&#39;entrée pour une Substance :
 
-1. Dans la fenêtre de l’inspecteur du Graphe Substance, vous pouvez sélectionner des textures dans votre projet à affecter aux entrées d’image.
+1. Dans la fenêtre de l’inspecteur du Graphe Substance, vous pouvez sélectionner les textures de votre projet à affecter aux entrées d’image.
 
    ![](../../../assets/imageinput-inspector.png)
-1. Notez que la sélection d&#39;une texture entraîne la vérification du champ de textures « Lecture/Écriture activée », car cela est nécessaire pour lire les données de texture dans le matériau de Substance
+1. Notez que la sélection d&#39;une texture entraîne la vérification du champ textures « Lecture/Écriture activée », car cela est nécessaire pour lire les données de texture dans le matériau Substance
 
    ![](../../../assets/imageinput-texture.png)

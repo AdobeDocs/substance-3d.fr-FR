@@ -20,15 +20,15 @@ ht-degree: 0%
 
 # Rendu de l’espace colorimétrique
 
-Les textures de Substance sont conçues pour être utilisées avec un shader basé sur Physique. Pour obtenir de meilleurs résultats, vous devez définir l’espace colorimétrique sur Linéaire dans les Paramètres d’Unity Player.
+Les textures de Substance sont conçues pour être utilisées avec un shader à base physique. Pour obtenir de meilleurs résultats, vous devez définir l’espace colorimétrique sur Linéaire dans les Paramètres d’Unity Player.
 
 1. Accédez à Modifier > Paramètres du projet > Lecteur.
-1. Dans la section Rendu, définissez l’espace colorimétrique sur Linéaire. (Unity utilise par défaut l’espace gamma, ce qui est incorrect et donnera une couleur de texture incorrecte).
+1. Dans la section Rendu, définissez l’espace colorimétrique sur Linéaire. (Unity utilise par défaut l’espace gamma, qui est incorrect et donnera une couleur de texture incorrecte).
 
    >[!NOTE]
    >
    > **Informations**
    > 
-   > Les options sRVB des textures sont désactivées si le paramètre d’espace colorimétrique dans Unity est défini sur Gamma
+   > Les options sRVB sur les textures sont désactivées si le paramètre d’espace colorimétrique dans Unity est défini sur Gamma
 
    ![](../../../assets/rendering-4.png){width="600px"}

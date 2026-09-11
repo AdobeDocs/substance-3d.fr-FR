@@ -20,12 +20,12 @@ ht-degree: 0%
 
 # Raccourcis et navigation
 
-Une liste de raccourcis se trouve en bas des préférences du module complémentaire. Les combinaisons de touches de chaque raccourci peuvent être personnalisées en saisissant les touches souhaitées dans le champ Touche. Il est également possible d’activer les touches Ctrl, Maj et Alt pour chaque raccourci.
+Une liste de raccourcis se trouve en bas des préférences du module complémentaire. Les combinaisons de touches de chaque raccourci peuvent être personnalisées en saisissant les touches souhaitées dans le champ Touche. Vous pouvez également activer Ctrl, Maj et Alt pour chaque raccourci.
 
 Les combinaisons de touches par défaut sont les suivantes :
 
 * **Menu flottant** - CTRL + MAJ + U
 * **Charger SBSAR** - CTRL + MAJ + L
-* **Appliquer la matière actuelle** - CTRL + MAJ + U
+* **Appliquer le Matériau actuel** - CTRL + MAJ + U
 
 ![](https://helpx-prod.scene7.com/is/image/HelpxProd/blender-shortcuts?$png$&jpegSize=200&wid=960)

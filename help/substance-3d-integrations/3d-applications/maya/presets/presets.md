@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Préréglages
 
-Dans la section Paramètres prédéfinis, vous pouvez gérer entièrement les paramètres prédéfinis incorporés dans le fichier sbsar de Substance ou créer de nouveaux paramètres prédéfinis.
+Dans la section Paramètres prédéfinis, vous pouvez gérer entièrement les paramètres prédéfinis intégrés du fichier sbsar Substance ou en créer de nouveaux.
 
 ![](../../../assets/presets-15.png)
 

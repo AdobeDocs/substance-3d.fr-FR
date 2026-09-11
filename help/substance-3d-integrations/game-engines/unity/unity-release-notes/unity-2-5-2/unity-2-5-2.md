@@ -32,9 +32,9 @@ Fixe :
 * Les propriétés de matériau seront reportées lors de la mise à niveau vers HDRP et/ou URP à partir de Standard
 * Les scripts modifiant les matériaux de Substance fonctionneront comme prévu lors du déploiement sur mobile
 * La couche rouge n’est plus copiée dans l’Alpha et l’Alpha par défaut est Blanc
-* Blocage lors de la modification des paramètres de la cible dans Mac
-* Erreur NullReferenceException supprimée lors de la création d&#39;une matière Unity
-* Erreur supprimée lors de la fermeture du mode de lecture après la modification des propriétés de mosaïque
+* Crash modification des paramètres de cible dans Mac
+* Erreur NullReferenceException supprimée lors de la création du Matériau Unity
+* Erreur supprimée lors de la fermeture du mode de lecture après la modification des propriétés de répétition
 * Activation de l’instanciation GPU
-* Les matières utilisant la transparence ne disparaissent pas ou ne deviennent pas incorrectement noires lorsque le mode de lecture est existant
+* Les matériaux utilisant la transparence ne disparaissent pas ou ne deviennent pas incorrectement noirs lorsque le mode de lecture est actif
 * Les matériaux de Substance ne seront pas détruits dans le projet HDRP lors de la mise à niveau du plug-in

@@ -22,8 +22,8 @@ ht-degree: 0%
 
 ## Correctifs/Mises à jour :
 
-* Lors de l’utilisation de la valeur HDRP, la valeur métallique sur le matériau HDRP généré est définie sur 0. Correction de la valeur par défaut à 1.0.
+* Lors de l’utilisation du Matériau HDRP, la valeur métallique sur le fichier HDRP généré est définie sur 0. Correction de la valeur par défaut à 1.0.
 * La sortie du masque HDRP a été définie sur sRGB - Correction pour désactiver sRGB
-* La lecture/écriture n’est plus activée sur les textures non Substance
+* La lecture/écriture n’est plus activée sur les textures Sans substance
 * Android prend désormais correctement en charge 64 bits.
 * Substance Source fixe non chargée sur le système d’exploitation Mac

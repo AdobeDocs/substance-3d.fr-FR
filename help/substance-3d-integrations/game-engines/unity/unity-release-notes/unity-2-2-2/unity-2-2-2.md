@@ -26,6 +26,6 @@ ht-degree: 0%
 
 ### Plug-in principal :
 
-* Correction d’un bug en raison duquel l’interface utilisateur graphique de texture par défaut Unity était écrasée lors de l’installation du plug-in Substance In Unity
+* Correction d’un bug en raison duquel l’interface utilisateur graphique de texture par défaut d’Unity était écrasée lorsque le plug-in Substance In Unity était installé
   * Correction d’un bug en raison duquel EditorApplication.delayCall était défini et entraînait des problèmes avec d’autres plug-ins.
   * Correction d’un crash qui se produisait lors de l’utilisation de caractères non latins dans un nom de projet.

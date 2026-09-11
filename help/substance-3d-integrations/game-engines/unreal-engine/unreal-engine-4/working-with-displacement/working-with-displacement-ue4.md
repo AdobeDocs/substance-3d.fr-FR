@@ -24,7 +24,7 @@ Pour utiliser displacement, vous devez activer la tessellation sur votre matéri
 
 ![](../../../../assets/tess.png){width="600px"}
 
-Pour utiliser la sortie height, vous devez double-cliquer sur la sortie dans l&#39;instance de Substance Factory pour créer l&#39;height. L’Height n’est pas activé par défaut. Vous pouvez ensuite faire glisser cette sortie height dans votre matière.
+Pour utiliser la sortie height, vous devez double-cliquer sur la sortie dans l&#39;instance de Substance Factory pour créer l&#39;height. L’Height n’est pas activé par défaut. Vous pouvez ensuite faire glisser cette sortie height dans votre matériau.
 
 ![](../../../../assets/height-1.png){width="800px"}
 

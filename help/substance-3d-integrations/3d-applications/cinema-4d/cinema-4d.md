@@ -34,7 +34,7 @@ Le plug-in Substance se compose essentiellement de deux composants : **fichiers 
 * [Configuration](../../3d-applications/cinema-4d/set-up/set-up.md)
 * [Utilisation du plug-in Substance](../../3d-applications/cinema-4d/using-the-plugin/using-the-substance-plugin.md)
 * [Gestionnaire d’actifs de Substance](../../3d-applications/cinema-4d/asset-manager/substance-asset-manager.md)
-* [Ombrage de Substance](../../3d-applications/cinema-4d/shader/substance-shader.md)
+* [Shader de Substance](../../3d-applications/cinema-4d/shader/substance-shader.md)
 * [Gestionnaire d’attributs](../../3d-applications/cinema-4d/attribute-manager/attribute-manager.md)
 * [Commentaires visuels sur les Substances animées](../../3d-applications/cinema-4d/visual-feedback-animated/visual-feedback-of-animated-substances.md)
 

@@ -7,7 +7,7 @@ helpx_description: bakers > Common Issues > Black shading cross are visible on t
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Des croix en ombrage noir sont visibles sur la surface du filet
+title: Des croix en ombrage noir sont visibles sur la surface du maillage
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
@@ -31,7 +31,7 @@ Une croix ombrée noire signifie généralement que la map normal ne correspond 
 
 ## Solution
 
-Assurez-vous que l’application affichant le maillage et sa map normal sont synchronisées avec la façon dont la texture a été bake. Cela implique :
+Assurez-vous que l’application affichant le maillage et sa map normal sont synchronisées avec la façon dont la texture a été bakée. Cela implique :
 
 * Vérifiez que le Repère tangent est identique entre le lecteur et le baker.
 * Vérifiez que le format Normal est identique entre la vue et le baker.

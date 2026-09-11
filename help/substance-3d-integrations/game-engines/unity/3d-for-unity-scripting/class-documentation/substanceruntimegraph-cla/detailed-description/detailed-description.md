@@ -20,4 +20,4 @@ ht-degree: 0%
 
 # Description détaillée
 
-Classe qui fournit une fonctionnalité d’exécution pour modifier les entrées et effectuer le rendu des graphiques Substance, permettant à Substance ←GraphSO de générer ses actifs à l’exécution.
+Classe qui fournit une fonctionnalité d’exécution permettant de modifier les entrées au niveau des graphes Substance et d’en effectuer le rendu, permettant à Substance ←GraphSO de générer ses actifs à l’exécution.

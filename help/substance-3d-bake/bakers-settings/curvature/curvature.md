@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/curvature.html"
 breadcrumb-title: ''
-description: Extrayez les informations de courbure de votre maillage pour créer des textures qui mettent en évidence les cavités et les bords de votre géométrie.
+description: Extrayez les informations de courbure de votre maillage pour créer des textures qui mettent en évidence les cavités et les arêtes de votre géométrie.
 helpx_creative_field: ""
 helpx_description: bakers > Bakers Settings > Curvature
 helpx_experience_level: ""
@@ -20,9 +20,9 @@ ht-degree: 3%
 
 # Courbure
 
-Le baker Curvature permet d&#39;extraire une texture de courbure. Cette texture contient des informations sur les cavités et les arêtes associées à la géométrie.
+Le baker de Courbure permet d&#39;extraire une texture de courbure. Cette texture contient des informations sur les cavités et les arêtes associées à la géométrie.
 
-Les propriétés de texture sont définies comme suit :
+Les propriétés de la texture sont définies comme suit :
 
 * Les valeurs noires représentent les zones concaves.
 * Les valeurs de blanc représentent des zones convexes.
@@ -38,7 +38,7 @@ Les propriétés de texture sont définies comme suit :
 
 | *Paramètre* | *Description* |
 | --- | --- |
-| **Algorithme** | Définit le mode de calcul des informations de courbure sur le maillage. |
-| **Détails** | Contrôle la force des informations dans la courbure. Une valeur élevée peut produire plus de détails, mais moins subtils. |
-| **Activer les coutures** | Si cette option est activée, le boulanger tente de réduire les coutures entre les Îlots UV en copiant les texels au niveau des bordures d’un côté à l’autre. |
-| **Coutures** **Intensité** | Si **Activer les coutures** est activé, ce paramètre contrôle la force de la correction des coutures. |
+| **Algorithme** | Définit la façon dont les informations de courbure seront calculées sur le maillage. |
+| **Détails** | Contrôle la force des informations de la courbure. Une valeur élevée peut produire plus de détails, mais moins subtils. |
+| **Activer les Seams** | Si cette option est activée, le baker tente de réduire les seams entre les Îlots UV en copiant les texels des bordures d’un côté à l’autre. |
+| **Seams** **Intensité** | Si l&#39;option **Activer les Seams** est activée, ce paramètre contrôle la force de la correction du seam. |

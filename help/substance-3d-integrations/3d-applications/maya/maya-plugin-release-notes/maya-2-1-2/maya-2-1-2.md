@@ -26,7 +26,7 @@ Aujourd’hui, nous avons publié la version 2.1.2 du plug-in.
 
 La seule modification qu’il contient est la suivante :
 
-* Correction d’une erreur dans Maya LT lors de la création du réseau de nuanceurs Stingray.
+* Correction d’une erreur dans Maya LT lors de la création du réseau Stingray shader.
 
 Cette fonctionnalité a également été publiée avec Maya 2020.2 et est contenue dans le programme d’installation Maya.
 

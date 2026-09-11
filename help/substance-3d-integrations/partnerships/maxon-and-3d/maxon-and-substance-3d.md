@@ -27,7 +27,7 @@ Adobe s’est associé à Maxon pour offrir les formidables outils de conception
 
 Artiste : Peter Tarka
 
-En matière de conception et de visualisation 3D, Maxon One et Adobe Substance 3D offrent ensemble une gamme d’avantages remarquables. Maxon One fournit une suite d’outils créatifs, notamment Cinema 4D, Forger, Red Giant, Redshift, Universe et ZBrush, ainsi qu’une collection croissante de ressources Capsules. Adobe Substance 3D donne aux artistes des outils tels que Modeler, Sampler, Designer, Painter, Stager, et leur donne accès à l’immense bibliothèque de ressources. L’association de ces progiciels leaders du secteur rationalise les workflows, améliore la productivité et permet la création de visuels et d’expériences immersives époustouflants.
+En matière de conception et de visualisation 3D, Maxon One et Adobe Substance 3D offrent ensemble une gamme d’avantages remarquables. Maxon One propose une suite d’outils créatifs, notamment Cinema 4D, Forger, Red Giant, Redshift, Universe et ZBrush, ainsi qu’une collection croissante de ressources de Capsules. Adobe Substance 3D donne aux artistes des outils tels que Modeler, Sampler, Designer, Painter, Stager, et leur donne accès à l’immense bibliothèque de ressources. L’association de ces progiciels leaders du secteur rationalise les workflows, améliore la productivité et permet la création de visuels et d’expériences immersives époustouflants.
 
 ## Un achat unique avec une valeur énorme
 

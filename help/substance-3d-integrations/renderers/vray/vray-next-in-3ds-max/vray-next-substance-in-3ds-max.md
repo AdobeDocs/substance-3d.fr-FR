@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/vray/vray-next-substance-in-3ds-max.html"
 breadcrumb-title: ''
-description: Utilisez des matériaux de Substance avec V-Ray Next dans 3ds Max via des cartes exportées ou le module externe de Substance pour le rendu.
+description: Utilisez les matériaux de Substance avec V-Ray Next dans 3ds Max via les cartes exportées ou le module externe de Substance pour le rendu.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Renderers > Vray > Vray Next - Substance in 3ds Max
 helpx_experience_level: ""
@@ -22,6 +22,6 @@ ht-degree: 0%
 
 ## Substance dans le plug-in 3ds Max
 
-Vous pouvez utiliser le paramètre prédéfini Vray pour créer automatiquement un réseau de nuanceurs à l’aide d’un matériau Vray.
+Vous pouvez utiliser le paramètre prédéfini Vray pour créer automatiquement un réseau shader à l’aide d’un matériau Vray.
 
 ![](../../../assets/max-vray.png)

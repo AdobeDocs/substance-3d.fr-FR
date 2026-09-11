@@ -25,7 +25,7 @@ ht-degree: 0%
 * Remarque : *La version 0.91+ du plug-in n’est pas rétrocompatible avec les versions précédentes du plug-in !*
 * Réarchitecture de la base de code interne pour améliorer les performances et la stabilité du plug-in
 * Interface utilisateur remaniée pour améliorer l’expérience globale de l’utilisateur
-* Ajout d’une interface utilisateur permettant de modifier la mosaïque par défaut
+* Interface utilisateur ajoutée pour permettre de modifier la répétition par défaut
 * Ajout de la prise en charge de la mise à jour des textures dans la vue de rendu des cycles
 * Ajout de la gestion des erreurs dans la console pour notifier si une substance ne se charge pas
 * Mise à jour du menu flottant avec des actions rapides
@@ -35,20 +35,20 @@ ht-degree: 0%
 * Paramètre Exporter le format d’image : lorsque des images générées dans Blender sont utilisées comme entrées d’image pour un matériau de Substance, ce format est utilisé pour enregistrer cette image dans le dossier Temporel.
 * Chemin de la bibliothèque Sbsar ; spécifie le dossier qui est ouvert par défaut lorsque le bouton Charger est utilisé pour rechercher un fichier substance.
 * Un chemin d’exportation de texture par défaut (dossier temporel) qui émule le chemin utilisé par Substance 3d Painter pour gérer les exportations de fichiers non enregistrées
-* Chemin relatif de la texture identique à celui indiqué ci-dessus, avec la possibilité d’utiliser des touches telles que $matName pour créer des sous-dossiers
+* Texture du chemin relatif comme ci-dessus, avec la possibilité d’utiliser des touches telles que $matName pour créer des sous-dossiers
 * Fichier sbsar relatif au chemin de création d&#39;un sous-dossier qui compresse les fichiers sbsar utilisés dans votre fichier de fusion lorsque vous enregistrez votre projet
-* Possibilité de définir dynamiquement différents réseaux de nuanceurs dans les préférences : dans le réseau de nuanceurs, possibilité de définir différentes variables par nuanceur en fonction des besoins du nuanceur
-* Dans la section Sorties du réseau de nuanceurs, vous avez la possibilité de définir si une sortie est activée par défaut
+* Possibilité de définir dynamiquement différents réseaux shader dans les préférences - Dans le réseau shader, possibilité de définir différentes variables par shader en fonction des besoins en shader
+* Dans la section Sorties du réseau shader, vous pouvez définir si une sortie est activée par défaut
 * Possibilité de définir l’espace colorimétrique (cela prendra en charge les workflows ACE, Linear Exr et Blender, pas seulement srvb)
 * Sélection par défaut du format d’image et de la résolution
-* Sortie générique permettant de définir les valeurs pour les utilisations de sortie non définies dans le shader, par exemple si vous avez une autre sortie qui n’est pas utilisée par défaut par le shader, par exemple un masque.
-* Un filtre pour modifier le type de sorties(1 Uniquement les sorties activées, 2 Toutes les sorties qui se trouvent dans le shader et dans la Substance, 3 Toutes les sorties disponibles dans la Substance)
+* Sortie générique permettant de configurer les valeurs pour les utilisations de sortie non définies dans le shader, par exemple si vous disposez d’une autre sortie qui n’est pas utilisée par défaut par le shader, par exemple un masque.
+* Un filtre pour modifier le type de sorties (1 Seules les sorties activées, 2 Toutes les sorties qui sont en shader et en Substance, 3 Toutes les sorties disponibles dans la Substance)
 * Prise en charge des raccourcis personnalisés (modifié)
 
 **Section Du Panneau Substance 3D : Ajoutée/Mise À Jour :**
 
-* Possibilité d’ajuster et de verrouiller la valeur des paramètres de mosaïque et de résolution
-* Mise à jour de l’interface utilisateur des paramètres prédéfinis : liste déroulante du type de nuanceur pour modifier le type de graphique souhaité par les utilisateurs.
-* Modification du paramètre d’entrée d’image sur l’entrée d’image standard utilisée dans Blender. Vous pouvez désormais utiliser des images de mélangeur et pas seulement des fichiers
+* Possibilité d’ajuster et de verrouiller la valeur des paramètres de répétition et de résolution
+* Mise à jour de l’interface utilisateur des paramètres prédéfinis : la liste déroulante Type de shader permet de modifier le type de graphe souhaité par les utilisateurs.
+* Le paramètre d&#39;entrée de l’image a été remplacé par l’entrée d’image standard utilisée dans Blender. Vous pouvez désormais utiliser des images de mélangeur et pas seulement des fichiers
 * Possibilité de travailler dans plusieurs instances de Blender à tout moment
-* Prise en charge de la mise en surbrillance automatique des matériaux dans le panneau Substance 3D lorsque le matériau est sélectionné dans la clôture
+* Prise en charge de la mise en évidence automatique des matériaux dans le panneau Substance 3D lorsque le matériau est sélectionné dans le viewport

@@ -28,7 +28,7 @@ La version 3.0.0 du plug-in Adobe Substance 3D pour Unity prend actuellement en 
 
 1. Le plug-in peut être téléchargé à partir du magasin de ressources Unity : <https://assetstore.unity.com/packages/tools/utilities/substance-3d-for-unity-beta-213208>
 
-## Importation d&#39;une matière de Substance
+## Importation d’un Matériau de Substance
 
 1. Cliquez avec le bouton droit de la souris dans la fenêtre Projet et choisissez Importer la ressource, ou faites glisser le Matériau de Substance à importer dans le panneau Vue du projet.
 1. Recherchez le Matériau de Substance à importer. Les Matériaux de Substance portent l’extension de fichier « .sbsar ».

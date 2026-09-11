@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/substance-3d-for-unity-scripting/class-documentation/substanceruntimegraph-class.html"
 breadcrumb-title: ''
-description: Documentation de référence pour la classe SubstanceRuntimeGraph utilisée pour les opérations de graphique d’exécution dans Unity.
+description: Documentation de référence pour la classe SubstanceRuntimeGraph utilisée pour les opérations de graphe d’exécution dans Unity.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Game Engines > Unity > Substance 3D for Unity Scripting > Class Documentation > SubstanceRuntimeGraph Class
 helpx_experience_level: ""
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 ## Référence de classe Adobe.Substance.Runtime.SubstanceRuntimeGraph
 
-Classe qui fournit une fonctionnalité d’exécution pour modifier les entrées et effectuer le rendu des graphiques Substance, permettant à Substance ←GraphSO de générer ses actifs à l’exécution.
+Classe qui fournit une fonctionnalité d’exécution permettant de modifier les entrées au niveau des graphes Substance et d’en effectuer le rendu, permettant à Substance ←GraphSO de générer ses actifs à l’exécution.
 
-Diagramme d&#39;héritage pour Adobe.Substance.Runtime.SubstanceRuntimeGraph :
+Diagramme d&#39;Héritage pour Adobe.Substance.Runtime.SubstanceRuntimeGraph :
 
 ![](../../../../../assets/image2022-10-14-17-53-23-1.png)
 
@@ -35,21 +35,21 @@ Diagramme d&#39;héritage pour Adobe.Substance.Runtime.SubstanceRuntimeGraph :
 ```
 
 
-Attache un nouvel objet graphe à ce gestionnaire d&#39;exécution.
+Attache un nouvel objet de graphe à ce gestionnaire d&#39;exécution.
 
 ```
 • void SetInputFloat (string inputName, float value)
 ```
 
 
-Mettre à jour l&#39;entrée flottante de la Substance
+Mettre à jour l&#39;entrée du Flottant de Substance
 
 ```
 • float GetInputFloat (string inputName)
 ```
 
 
-Obtenir l’entrée Substance flottante
+Obtenir une entrée de Flottant de Substance
 
 ```
 • void SetInputVector2 (string inputName, Vector2 value)
@@ -112,14 +112,14 @@ Obtenir la couleur de Substance
 ```
 
 
-Mettre à jour l&#39;entrée booléenne de la Substance
+Mettre à jour l’entrée de Booléen de Substance
 
 ```
 • bool GetInputBool (string inputName)
 ```
 
 
-Obtenir la saisie booléenne de Substance.
+Obtenir une entrée de Booléen de Substance.
 
 ```
 • void SetInputInt (string inputName, int value)
@@ -203,7 +203,7 @@ Renvoie la description d’entrée complète du nom d’entrée cible.
 ```
 
 
-Mettez à jour Substance Texture2D Input.
+Mettez à jour l’entrée Substance Texture 2D.
 
 ```
 • Vector2Int GetTexturesResolution ()
@@ -217,7 +217,7 @@ Renvoie la résolution de sortie de la texture d&#39;instance.
 ```
 
 
-Définit la résolution de sortie de la texture d’instance.
+Définit la résolution de sortie de la texture d&#39;instance.
 
 ```
 • bool HasInput (string inputName)
@@ -231,14 +231,14 @@ Renvoie true si cette instance de substance a une entrée avec un nom donné.
 ```
 
 
-Renvoie une liste contenant toutes les textures de sortie de l’instance Substance.
+Retourne une liste avec toutes les textures de sortie pour l&#39;instance substance.
 
 ```
 •  Texture2D GetOutputTexture (string outputName)
 ```
 
 
-Renvoie la texture de sortie pour un nom de sortie donné.
+Renvoie la texture de sortie d’un nom de sortie donné.
 
 ```
 • void Render ()
@@ -259,14 +259,14 @@ Effectue le rendu de l’instance de substance de manière asynchrone.
 ```
 
 
-Utilise un fichier XML prédéfini pour définir les paramètres d’entrée du graphique.
+Utilise un fichier XML prédéfini pour définir les paramètres d&#39;entrée de graphe.
 
 ```
 • string CreatePresetFromCurrentState ()
 ```
 
 
-Enregistre l’état actuel du graphique dans un fichier XML prédéfini.
+Enregistre l’état actuel du graphe dans un fichier XML prédéfini.
 
 ## Attributs publics
 
@@ -309,4 +309,4 @@ Supprime le gestionnaire SDK Substance.
 ```
 
 
-Matière principale générée par l’instance de substance.
+Matériau principal généré par l’instance de substance.

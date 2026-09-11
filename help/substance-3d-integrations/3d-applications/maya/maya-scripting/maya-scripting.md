@@ -33,7 +33,7 @@ Cliquez sur le bouton « i » pour afficher les commandes disponibles
 Ce script charge un fichier sbsar et applique le workflow de rendu Arnold au maillage sélectionné. Pour utiliser le script, suivez l’exemple répertorié ici.
 
 1. copiez et collez le code dans un onglet Python de l’éditeur de script.
-1. Sélection et maillage dans la clôture
+1. Sélection et maillage dans le viewport
 1. Sélectionnez le texte dans l’onglet Python et appuyez sur « Ctrl + Entrée »
 1. Dans la fenêtre, recherchez un fichier sbsar.
 

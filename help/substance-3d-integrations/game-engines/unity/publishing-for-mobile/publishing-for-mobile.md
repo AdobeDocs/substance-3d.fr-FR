@@ -22,9 +22,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> **Taille de la texture sur les appareils mobiles**
+> **Taille de Texture sur les appareils mobiles**
 > 
-> La résolution de la texture définie dans l’éditeur Unity sera la taille publiée dans le binaire de l’application. La réduction de la résolution du matériau de Substance permet de créer des textures avec des fichiers plus petits.
+> La résolution du jeu de textures dans l’éditeur Unity sera la taille publiée dans le binaire de l’application. La diminution de la résolution du matériau de Substance permet de créer des textures avec des fichiers plus petits.
 
 ## Plates-formes
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. Assurez-vous que le module iOS est téléchargé pour la version d’Unity correspondante.
 1. Dans Unity, remplacez la cible de build par iOS.
-1. Ouvrez les paramètres du lecteur et modifiez le champ « Identification - Identificateur de lot » pour lui donner un aspect plus unique. (par exemple : com.Adobe.iosProject)
+1. Ouvrez les paramètres du lecteur et modifiez le champ « Identification - Identifiant de l’offre groupée » pour un élément plus unique. (par exemple : com.Adobe.iosProject)
 1. Construisez et exécutez le jeu.
 1. Dans Xcode, cliquez sur l’appareil iOS et remplacez le menu déroulant « Signature - Équipe » par votre ID d’équipe de développement.
 1. Sur l’appareil iOS, accédez à Paramètres - Général - Gestion des appareils et cliquez sur Approbation sur l’ID de l’équipe de développement qui s’affiche.
@@ -43,6 +43,6 @@ ht-degree: 0%
 
 1. Assurez-vous que le module Android est téléchargé pour la version d’Unity correspondante.
 1. Dans Unity, remplacez la cible de build par Android.
-1. Ouvrez les paramètres du lecteur et modifiez le champ « Identification - Identificateur de lot » pour lui donner un aspect plus unique. (par exemple : com.Adobe.androidProject)
+1. Ouvrez les paramètres du lecteur et modifiez le champ « Identification - Identifiant de l’offre groupée » pour un élément plus unique. (par exemple : com.Adobe.androidProject)
 1. Construisez et exécutez le jeu.
 1. Le jeu doit être exécuté sur l&#39;appareil Android.

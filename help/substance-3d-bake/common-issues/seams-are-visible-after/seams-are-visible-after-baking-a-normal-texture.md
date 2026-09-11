@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-issues/seams-are-visible-after-baking-a-normal-texture.html"
 breadcrumb-title: ''
-description: Éliminez les seams visibles dans les textures normales bake en ajustant la marge intérieure, le lissage et la mise en page des UV.
+description: Éliminez les seams visibles dans les textures normales bakées en ajustant la marge intérieure, le lissage et la mise en page des UV.
 helpx_creative_field: ""
 helpx_description: bakers > Common Issues > Seams are visible after baking a normal texture
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Les coutures sont visibles après cuisson d’une texture normale
+title: Les seams sont visibles après avoir baké une texture normale
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
@@ -18,19 +18,19 @@ ht-degree: 0%
 ---
 
 
-# Les coutures sont visibles après cuisson d’une texture normale
+# Les seams sont visibles après avoir baké une texture normale
 
 >[!WARNING]
 >
 > **Problème**
 > 
-> Les seams de map normal sont visibles aux UV du maillage même après une bake propre.
+> Les seams de map normal sont visibles aux UV du maillage même après un baking net.
 
 >[!NOTE]
 >
 > **Explication**
 > 
-> Même après une bake parfaite, les seams peuvent toujours être visibles. La raison principale est qu&#39;une information de surface approximative normale dans une texture. Parfois, la texture manque de précision ou doit trop compenser entre la géométrie poly basse et haute pour être suffisamment précise. Dans d&#39;autres cas, le rendu de la géométrie avec sa map normal peut affecter son aspect.
+> Même après un baking parfait, les seams peuvent toujours être visibles. La raison principale est qu&#39;une information de surface approximative normale dans une texture. Parfois, la texture manque de précision ou doit trop compenser entre la géométrie poly basse et haute pour être suffisamment précise. Dans d&#39;autres cas, le rendu de la géométrie avec sa map normal peut affecter son aspect.
 
 >[!NOTE]
 >

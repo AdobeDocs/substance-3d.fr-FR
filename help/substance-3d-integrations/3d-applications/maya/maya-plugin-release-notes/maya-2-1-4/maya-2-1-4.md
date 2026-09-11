@@ -24,6 +24,6 @@ Publié le 26 juin 2020
 
 Liste des modifications :
 
-* L’utilisation de fichiers image avec moins de quatre canaux comme entrées d’image ne se bloque plus
+* L’utilisation de fichiers image avec moins de quatre canaux comme entrées d’image n’a plus de crash
 
 Cette version est publiée pour Maya 2017, 2018, 2019 et 2020 sur Linux, MacOS et Windows, et Maya LT 2018, 2019 et 2020 sur MacOS et Windows

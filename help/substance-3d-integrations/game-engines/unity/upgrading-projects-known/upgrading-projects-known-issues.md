@@ -1,7 +1,7 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/upgrading-projects-known-issues.html"
 breadcrumb-title: ''
-description: Découvrez comment mettre à niveau les projets Unity avec des supports de Substance et les problèmes connus à éviter pendant la migration.
+description: Découvrez comment mettre à niveau les projets Unity avec des matériaux de Substance et des problèmes connus à éviter pendant la migration.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Game Engines > Unity > Upgrading ProjectsKnown Issues
 helpx_experience_level: ""
@@ -32,4 +32,4 @@ ht-degree: 1%
 * Erreur « *Échec de l’assertion sur l’expression » lors de la navigation dans les dossiers du panneau.*
   * Il s’agit d’une erreur qui se produit du côté d’Unity lorsque des modifications sont apportées à l’interface utilisateur, généralement des modifications de vignettes, qui doivent être un message inoffensif.
 * *Les entrées d&#39;image semblent verrouillées sur 8 bits*
-  * Ce problème est résolu dans la version 3.8.0-3. Le flux de travail correct serait que les utilisateurs changent le format par défaut d&#39;Unity pour la texture en RGBA64. Le plug-in s’occupera d’envoyer correctement ces informations à la Substance Engine.
+  * Ce problème est résolu dans la version 3.8.0-3. Le workflow correct serait que les utilisateurs changent le format par défaut d&#39;Unity pour la texture en RGBA64. Le plug-in s’occupera d’envoyer correctement ces informations à la Substance Engine.
