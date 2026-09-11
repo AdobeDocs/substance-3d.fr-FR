@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/guides/performances-and-optimizations.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/guides/performances-and-optimizations.html"
 breadcrumb-title: ''
 description: Découvrez comment optimiser la configuration matérielle et la préparation du maillage pour obtenir des performances de baking plus rapides.
 helpx_creative_field: ""
@@ -66,4 +66,4 @@ Les crashs peuvent être provoqués par plusieurs facteurs, l’un d’entre eux
 * lors du baking de maillages denses avec le baker Ambient occlusion
 * lors de l&#39;utilisation des bakers accélérés DXR avec des maillages très denses en high poly (plus de 60 millions de triangles)
 
-Vous trouverez des informations supplémentaires sur le TDR et un guide étape par étape sur la façon de modifier ses paramètres associés ici : [crash des pilotes GPU avec calculs longs (crash TDR)](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html)
+Vous trouverez des informations supplémentaires sur le TDR et un guide étape par étape sur la façon de modifier ses paramètres associés ici : [crash des pilotes GPU avec calculs longs (crash TDR)](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/gpu-drivers-crash-with-long-computations-128745489.html)

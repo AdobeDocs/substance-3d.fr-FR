@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/guides/triangulating-before-baking.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/guides/triangulating-before-baking.html"
 breadcrumb-title: ''
 description: Découvrez comment la triangulation de maillage affecte les résultats de baking et les meilleures pratiques pour préparer votre géométrie.
 helpx_creative_field: ""

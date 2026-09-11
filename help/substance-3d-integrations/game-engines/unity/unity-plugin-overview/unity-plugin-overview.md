@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/unity-plugin-overview.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/unity-plugin-overview.html"
 breadcrumb-title: ''
 description: Découvrez le plug-in Substance 3D pour Unity, notamment la prise en charge des versions, les fonctionnalités et les fonctionnalités d’intégration.
 helpx_creative_field: ""

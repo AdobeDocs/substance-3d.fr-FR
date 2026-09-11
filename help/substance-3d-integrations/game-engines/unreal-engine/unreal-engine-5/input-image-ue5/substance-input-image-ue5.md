@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/substance-input-image-ue5.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/substance-input-image-ue5.html"
 breadcrumb-title: ''
 description: Utilisez des textures d'image comme paramètres d'entrée pour les matériaux de Substance dans le Moteur 5 irréel afin de créer des matériaux modulaires.
 helpx_creative_field: ""

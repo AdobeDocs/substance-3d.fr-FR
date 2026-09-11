@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/home.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/home.html"
 breadcrumb-title: ''
 description: Découvrez comment utiliser Substance Bakers pour calculer des informations basées sur le maillage dans des fichiers de texture et améliorer votre workflow de texturation.
 helpx_creative_field: ""
@@ -122,7 +122,7 @@ Cette documentation couvre les <b>fondamentaux du baking</b> et les <b>problème
 ### Problèmes courants
 
 * [Crénelage sur les UV](../common-issues/aliasing-on-uv-seams/aliasing-on-uv-seams.md)
-* [La sortie du baker est entièrement noire ou vide](https://helpx.adobe.com/substance-3d/unlisted/documentation/bake/baker-output-is-fully-black-159451835.html)
+* [La sortie du baker est entièrement noire ou vide](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/bake/baker-output-is-fully-black-159451835.html)
 * [Échec du Baking avec la Map de couleur à partir du maillage](../common-issues/baking-failed-with-color/baking-failed-with-color-map-from-mesh.md)
 * [Des croix en ombrage noir sont visibles sur la surface du maillage](../common-issues/black-shading-cross-are/black-shading-cross-are-visible-on-the-mesh-surface.md)
 * [Les pièces du maillage se purgent entre elles](../common-issues/mesh-parts-bleed-between/mesh-parts-bleed-between-each-other.md)

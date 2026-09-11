@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-issues/black-shading-cross-are-visible-on-the-mesh-surface.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-issues/black-shading-cross-are-visible-on-the-mesh-surface.html"
 breadcrumb-title: ''
 description: Corrigez les artefacts en ombrage noir visibles sur les surfaces du maillage en corrigeant l’espace de tangente et les calculs normaux.
 helpx_creative_field: ""

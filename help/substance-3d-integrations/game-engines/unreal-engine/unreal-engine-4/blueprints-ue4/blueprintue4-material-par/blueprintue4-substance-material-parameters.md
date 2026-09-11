@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/blueprints-ue4/blueprintue4-substance-material-parameters.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/blueprints-ue4/blueprintue4-substance-material-parameters.html"
 breadcrumb-title: ''
 description: Modifiez les paramètres de matériau de Substance à l’exécution dans Moteur irréel 4 à l’aide des nœuds Blueprint pour le contrôle de matériau dynamique.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## Modification d’un paramètre flottant :
 
-Vous allez utiliser le [nœud de Flottant d&#39;entrée](https://helpx.adobe.com/substance-3d/unlisted/documentation/integrations/blueprint-node-reference-151584784.html) pour modifier les paramètres float, color(float4) et Booléen substance.
+Vous allez utiliser le [nœud de Flottant d&#39;entrée](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/integrations/blueprint-node-reference-151584784.html) pour modifier les paramètres float, color(float4) et Booléen substance.
 
 1. Créez une variable avec un type « Instance de Graphe Substance » comme Référence.
 1. Créez un nœud de Flottant d’entrée Set et définissez la cible comme variable Instance de Graphe Substance.

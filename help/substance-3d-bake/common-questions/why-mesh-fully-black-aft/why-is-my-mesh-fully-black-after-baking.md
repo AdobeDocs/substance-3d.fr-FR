@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-bake/common-questions/why-is-my-mesh-fully-black-after-baking.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/common-questions/why-is-my-mesh-fully-black-after-baking.html"
 breadcrumb-title: ''
 description: Dépannez les raisons pour lesquelles votre maillage apparaît entièrement noir après le baking et découvrez comment résoudre les causes courantes.
 helpx_creative_field: ""
@@ -38,5 +38,5 @@ ht-degree: 0%
 > 
 > Il existe deux solutions possibles :
 > 
-> * Corrigez votre configuration de baking pour éviter les textures noires. Voir : [La sortie Baker est entièrement noire ou vide](https://helpx.adobe.com/substance-3d/unlisted/documentation/bake/baker-output-is-fully-black-159451835.html)
-> * Supprimez la texture noire des [paramètres de Jeu de textures](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/interface/texture-set/texture-set-settings).
+> * Corrigez votre configuration de baking pour éviter les textures noires. Voir : [La sortie Baker est entièrement noire ou vide](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/bake/baker-output-is-fully-black-159451835.html)
+> * Supprimez la texture noire des [paramètres de Jeu de textures](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/interface/texture-set/texture-set-settings).

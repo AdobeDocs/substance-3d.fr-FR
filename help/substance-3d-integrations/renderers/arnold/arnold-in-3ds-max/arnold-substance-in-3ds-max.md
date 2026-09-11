@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/arnold/arnold-substance-in-3ds-max.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/arnold/arnold-substance-in-3ds-max.html"
 breadcrumb-title: ''
 description: Utilisez des matériaux de Substance avec le moteur de rendu Arnold dans 3ds Max à l’aide du module externe Substance et du matériau Surface standard.
 helpx_creative_field: ""

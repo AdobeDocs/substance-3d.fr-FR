@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/rendering-color-space.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/rendering-color-space.html"
 breadcrumb-title: ''
 description: Configurez les paramètres d’espace colorimétrique d’Unity pour assurer un rendu correct des matériaux de Substance avec des nuanceurs basés physiquement.
 helpx_creative_field: ""

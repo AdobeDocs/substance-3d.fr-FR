@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/bump-and-displacement.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/modo/bump-and-displacement.html"
 breadcrumb-title: ''
 description: Utilisez les cartes de relief et de displacement des matériaux de Substance dans MODO pour ajouter des détails de surface et de la profondeur à vos modèles.
 helpx_creative_field: ""

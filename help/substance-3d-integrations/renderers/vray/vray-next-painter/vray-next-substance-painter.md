@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/vray/vray-next-substance-painter.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/vray/vray-next-substance-painter.html"
 breadcrumb-title: ''
 description: Exportez les textures de Substance Painter pour le rendu V-Ray Next à l’aide de modèles de sortie et des paramètres de workflow appropriés.
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ Sous les Paramètres de Shader, vous pouvez configurer le shader Vray pour trava
 
 >[!NOTE]
 >
-> Si votre projet a été configuré pour utiliser l&#39;[UDIM de Tuiles UV hérité](https://helpx.adobe.com/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html). Utilisez le modèle de sortie UDIM Vray Next.
+> Si votre projet a été configuré pour utiliser l&#39;[UDIM de Tuiles UV hérité](https://helpx.adobe.com/fr/substance-3d/unlisted/documentation/spdoc/uv-tile-udim-legacy-144310352.html). Utilisez le modèle de sortie UDIM Vray Next.
 
 ![](../../../assets/vray-mtl-shader.png){width="800px"}
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/apply-workflow-to-maps.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/apply-workflow-to-maps.html"
 breadcrumb-title: ''
 description: Appliquez rapidement les textures exportées de Substance Painter ou d’autres applications aux matériaux dans Maya à l’aide de workflows.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/cycles-and-eevee.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/cycles-and-eevee.html"
 breadcrumb-title: ''
 description: Utilisez les matériaux de Substance avec les cycles du mélangeur et les systèmes de rendu Eevee via les mappages exportés ou le module complémentaire de Substance.
 helpx_creative_field: ""

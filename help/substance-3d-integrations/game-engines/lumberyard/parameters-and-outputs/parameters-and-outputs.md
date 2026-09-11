@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/lumberyard/parameters-and-outputs.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/lumberyard/parameters-and-outputs.html"
 breadcrumb-title: ''
 description: Modifiez les paramètres du matériau de Substance et configurez les sorties dans Lumberyard à l'aide de l'éditeur de Matériau Procédural.
 helpx_creative_field: ""

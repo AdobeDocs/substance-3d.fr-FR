@@ -1,5 +1,5 @@
 ---
-helpx_url: 'https://helpx.adobe.com/substance-3d-bake/features/matching-by-name.html'
+helpx_url: 'https://helpx.adobe.com/fr/substance-3d-bake/features/matching-by-name.html'
 breadcrumb-title: ''
 description: Utilisez la fonction Correspondance par nom (Matching by Name) pour isoler les maillages à poly-faible et à poly-élevé et empêcher le saignement de la géométrie pendant le baking.
 helpx_creative_field: ''
@@ -91,7 +91,7 @@ La correspondance par nom peut être activée dans les [paramètres communs](../
 Les suffixes par défaut sont \_low et \_high et peuvent être modifiés comme suit :
 
 * **Substance Painter** : dans la [fenêtre de Baking](../../getting-started/software-interface/3d-painter/substance-3d-painter.md), dans les paramètres courants.
-* **Substance Designer** : dans les [paramètres du projet](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/workspace/preferences/project-settings), sous les paramètres de Baking.
+* **Substance Designer** : dans les [paramètres du projet](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/workspace/preferences/project-settings), sous les paramètres de Baking.
 
 ## Maillages à haute densité de zBrush
 
