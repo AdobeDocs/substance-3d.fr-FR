@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/toolbag.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/toolbag.html"
 breadcrumb-title: ''
-description: Utilisez la rugosité de la Substance et les sorties métalliques dans Toolbag 2 pour un aperçu et un rendu de la matière en temps réel.
+description: Utilisez la rugosité de Substance et les sorties métallique dans la Boîte à outils 2 pour un aperçu et un rendu du matériau en temps réel.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Renderers > Toolbag
 helpx_experience_level: ""
@@ -20,17 +20,17 @@ ht-degree: 5%
 
 # Toolbag
 
-Cette page explique comment utiliser les sorties Rugosité/Métal pour Toolbag 2.
+Cette page explique comment utiliser les sorties rugosité/métallique pour Toolbag 2.
 
 Toolbag prend en charge les workflows specular/brillance et métallique/rugosité.
 
-Substance 3D Painter utilise l’ombrage PBR métallique par défaut, mais vous pouvez également l’utiliser avec l’ombrage specular/brillance. Ce workflow explique comment utiliser les sorties métalliques pour Toolbag 2. Toolbag prend en charge le workflow métallique.
+Substance 3D Painter utilise le shader PBR métallique par défaut, mais vous pouvez également l’utiliser avec specular/brillance shader. Ce workflow explique comment utiliser les sorties métallique pour Toolbag 2. Toolbag prend en charge le workflow métallique.
 
-[Télécharger un exemple de scène](https://www.dropbox.com/s/qyed3un2zhtuibj/toolbag.zip?dl=0)
+[Télécharger un exemple de Scène](https://www.dropbox.com/s/qyed3un2zhtuibj/toolbag.zip?dl=0)
 
 ## Exporter depuis Painter
 
-1. Lors de l’utilisation de l’ombrage PBR métallique par défaut, nous pouvons exporter à l’aide du paramètre prédéfini d’exportation Couches du document + Normal + AO par défaut.  ***\*Les canaux du document exportent le mappage normal en fonction de la configuration du projet. Toolbag requiert OGL Mappage normal. Vous pouvez changer le format normal dans la configuration du projet.***
+1. Lorsque vous utilisez le shader PBR métallique par défaut, nous pouvons exporter à l’aide du paramètre prédéfini d’exportation Couches du document + Normal + AO par défaut.  ***\*Les canaux du document exportent la Map normal en fonction de la configuration du projet. Toolbag requiert une Map normal OGL. Vous pouvez changer le format normal dans la configuration du projet.***
 1. Vous pouvez également créer une configuration d’exportation personnalisée qui utilise la brillance
 
    ![](../../assets/settings-export.png){width="600px"}
@@ -38,13 +38,13 @@ Substance 3D Painter utilise l’ombrage PBR métallique par défaut, mais vous 
 
    ![](../../assets/settings-normal-format.png)
 
-## Configuration des matériaux
+## Configuration du matériau
 
 1. Définir la Réflectivité sur Métal
 1. Définir la réflexion sur GGX
-1. Ajoutez les textures aux couches appropriées comme indiqué dans le graphique suivant :
+1. Ajoutez les textures aux canaux appropriés comme indiqué dans le graphique ci-dessous :
 
-   | Texture Substance 3D Painter | Espace colorimétrique | Matériau de la trousse à outils |
+   | Texture Substance 3D Painter | Espace colorimétrique | Matériau Toolbag |
    | --- | --- | --- |
    | Couleur de base | sRVB | Albédo |
    | Rugosité | sRGB désactivé | Microsurface - Lissage - Clic sur Inverser |

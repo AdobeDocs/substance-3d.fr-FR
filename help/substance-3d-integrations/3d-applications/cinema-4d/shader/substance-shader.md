@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/cinema-4d/substance-shader.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/substance-shader.html"
 breadcrumb-title: ''
 description: Découvrez comment les nuanceurs de Substances relient les actifs de Substance aux matériaux pour les workflows de rendu.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: Ecosystems and Plugins > 3D Applications > Cinema 4D > Substa
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Ombrage de Substance
+title: Shader de Substance
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Ombrage de Substance
+# Shader de Substance
 
 Un shader de Substance est le lien entre un actif de Substance de données et un matériau.
 

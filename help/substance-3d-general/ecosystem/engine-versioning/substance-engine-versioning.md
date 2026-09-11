@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-general/ecosystem/substance-engine-versioning.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/substance-engine-versioning.html"
 breadcrumb-title: ''
 description: Utilisez cette référence pour vérifier quelle version du moteur de Substance est compatible avec votre logiciel et assurer la compatibilité du matériau.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: General Knowledge > Ecosystem > Substance engine versioning
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: contrôle de version du moteur de Substance
+title: contrôle de version d’un moteur de Substance
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
@@ -18,7 +18,7 @@ ht-degree: 19%
 ---
 
 
-# contrôle de version du moteur de Substance
+# contrôle de version d’un moteur de Substance
 
 Cette page regroupe les informations relatives à la version du moteur de Substance de données utilisée dans chaque logiciel et outil.
 

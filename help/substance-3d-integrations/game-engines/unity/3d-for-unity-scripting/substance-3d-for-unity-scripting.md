@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/substance-3d-for-unity-scripting.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/substance-3d-for-unity-scripting.html"
 breadcrumb-title: ''
 description: Utilisez l’API Substance 3D dans Unity pour écrire des scripts qui mettent à jour et modifient les paramètres de Substance à l’exécution.
 helpx_creative_field: ""
@@ -36,7 +36,7 @@ Contient des composants partagés pour interagir avec le SDK Substance et géné
 
 #### Adobe.Substance.Editor
 
-Contient des classes spécifiques à l&#39;éditeur pour gérer l&#39;affichage des informations sur les objets de Substance Unity ainsi que le pipeline d&#39;importation pour quand des fichiers sbsar sont ajoutés au projet. La classe SubstanceEditorEngine est un singleton qui gère la durée de vie du moteur Substance et de toutes ses instances gérées.
+Contient des classes spécifiques à l&#39;éditeur pour gérer l&#39;affichage des informations sur les objets de Substance Unity ainsi que le pipeline d&#39;importation pour quand des fichiers sbsar sont ajoutés au projet. La classe SubstanceEditorEngine est un singleton qui gère la durée de vie du moteur substance et de toutes ses instances gérées.
 
 #### Adobe.Substance.Runtime
 
@@ -44,11 +44,11 @@ Cette classe a des composants qui géreront la création et la gestion des objet
 
 ## Utilisation du runtime
 
-Pour que les entrées d’instance de Substance soient modifiées lors de l’exécution, il est nécessaire d’ajouter un matériau SubstanceRuntime←- à votre scène (idéalement au même GameObject que votre matériau Substance). Cette classe agit comme un assistant pour configurer le matériau à l&#39;aide de Adobe.Substance.Runtime.SubstanceRuntime singleton qui gère l&#39;instanciation des objets du SDK Substance à l&#39;exécution.
+Pour que les entrées d’instance de Substance soient modifiées lors de l’exécution, il est nécessaire d’ajouter un Matériau SubstanceRuntime←- à votre scène (idéalement au même GameObject que votre matériau Substance). Cette classe agit comme un assistant pour configurer le matériau à l&#39;aide de Adobe.Substance.Runtime.SubstanceRuntime singleton qui gère l&#39;instanciation des objets du SDK Substance à l&#39;exécution.
 
 ## Exemples de code
 
-L’exemple suivant montre comment modifier les paramètres d’entrée lors de l’exécution à l’aide de SubstanceRuntimeGraph.
+L’exemple suivant montre comment modifier les paramètres d&#39;entrée à l’exécution à l’aide de SubstanceRuntimeGraph.
 
 ### Modification des paramètres
 

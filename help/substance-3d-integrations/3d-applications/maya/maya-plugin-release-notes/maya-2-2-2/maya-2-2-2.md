@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-2-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-2-2.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour pour le plug-in Maya version 2.2.2 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Liste des modifications :
 
-* Substance 3D Remote Engine mis à jour vers la version 8.4.2
+* Substance 3D Remote Moteur mis à jour vers la version 8.4.2
 * Prise en charge ajoutée de Maya 2023
 * Prise en charge ajoutée d’Arnold 7.1.0/MtoA 5.1.0 dans Maya 2023
 * Le workflow Arnold utilisant l’option « Appliquer le workflow aux mappages » identifie désormais correctement le mappage « metalness » à partir du modèle Arnold de Painter

@@ -1,13 +1,13 @@
 ---
 helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/unreal-engine-4-plugin-release-notes.html"
 breadcrumb-title: ''
-description: Consultez les notes de mise à jour de toutes les versions du plug-in Substance 3D pour Unreal Engine 4 pour rester informé des nouvelles fonctionnalités.
+description: Consultez les notes de mise à jour de toutes les versions du module Substance 3D pour Unreal Moteur 4 pour rester informé des nouvelles fonctionnalités.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Unreal Engine 4 plugin release notes
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Notes de mise à jour du plug-in Unreal Engine 4
+title: Notes de mise à jour sur le plug-in Unreal Moteur 4
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Notes de mise à jour du plug-in Unreal Engine 4
+# Notes de mise à jour sur le plug-in Unreal Moteur 4
 
 **Bien que nous prenions activement en charge UE 4.27 et versions ultérieures, nous vous recommandons d’utiliser UE 5.0.0 et versions ultérieures.**
 

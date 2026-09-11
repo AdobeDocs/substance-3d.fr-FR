@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-1-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-1-2.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour pour le plug-in Maya version 2.1.2 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ Aujourd’hui, nous avons publié la version 2.1.2 du plug-in.
 
 La seule modification qu’il contient est la suivante :
 
-* Correction d’une erreur dans Maya LT lors de la création du réseau de nuanceurs Stingray.
+* Correction d’une erreur dans Maya LT lors de la création du réseau Stingray shader.
 
 Cette fonctionnalité a également été publiée avec Maya 2020.2 et est contenue dans le programme d’installation Maya.
 

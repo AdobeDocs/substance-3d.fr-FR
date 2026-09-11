@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/substance-3d-for-unity-scripting/class-documentation/substanceruntimegraph-class/member-function-documentation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/substance-3d-for-unity-scripting/class-documentation/substanceruntimegraph-class/member-function-documentation.html"
 breadcrumb-title: ''
 description: Documentation détaillée de toutes les fonctions membres de la classe SubstanceRuntimeGraph dans les scripts Unity.
 helpx_creative_field: ""
@@ -29,13 +29,13 @@ void Adobe.Substance.Runtime.SubstanceRuntimeGraph.AttachGraph
 ```
 
 
-Attache un nouvel objet graphe à ce gestionnaire d&#39;exécution.
+Attache un nouvel objet de graphe à ce gestionnaire d&#39;exécution.
 
 **Paramètres**
 
 |  |  |
 | --- | --- |
-| graphe | Graphique Substance cible. |
+| graphe | Graphe de la substance cible. |
 
 ### CreatePresetFromCurrentState()
 
@@ -44,11 +44,11 @@ string Adobe.Substance.Runtime.SubstanceRuntimeGraph.CreatePresetFromCurrentStat
 ```
 
 
-Enregistre l’état actuel du graphique dans un fichier XML prédéfini.
+Enregistre l’état actuel du graphe dans un fichier XML prédéfini.
 
 **Retours**
 
-Paramètre prédéfini créé à l’aide de l’état actuel des entrées de graphique.
+Paramètre prédéfini créé à l’aide de l’état actuel des entrées de graphe.
 
 ### GetGeneratedTextures()
 
@@ -57,7 +57,7 @@ List< Texture2D > Adobe.Substance.Runtime.SubstanceRuntimeGraph.GetGeneratedText
 ```
 
 
-Renvoie une liste contenant toutes les textures de sortie de l’instance Substance.
+Retourne une liste avec toutes les textures de sortie pour l&#39;instance substance.
 
 **Retours**
 
@@ -70,7 +70,7 @@ bool Adobe.Substance.Runtime.SubstanceRuntimeGraph.GetInputBool ( string inputNa
 ```
 
 
-Obtenir la saisie booléenne de Substance.
+Obtenir une entrée de Booléen de Substance.
 
 **Paramètres**
 
@@ -130,7 +130,7 @@ float Adobe.Substance.Runtime.SubstanceRuntimeGraph.GetInputFloat ( string input
 ```
 
 
-Obtenir l’entrée Substance flottante
+Obtenir une entrée de Flottant de Substance
 
 **Paramètres**
 
@@ -310,7 +310,7 @@ Texture2D Adobe.Substance.Runtime.SubstanceRuntimeGraph.GetOutputTexture ( strin
 ```
 
 
-Renvoie la texture de sortie pour un nom de sortie donné.
+Renvoie la texture de sortie d’un nom de sortie donné.
 
 **Paramètres**
 
@@ -363,7 +363,7 @@ void Adobe.Substance.Runtime.SubstanceRuntimeGraph.LoadPreset ( string presetXML
 ```
 
 
-Utilise un fichier XML prédéfini pour définir les paramètres d’entrée du graphique.
+Utilise un fichier XML prédéfini pour définir les paramètres d&#39;entrée de graphe.
 
 **Paramètres**
 
@@ -393,7 +393,7 @@ bool value ) [inline]
 ```
 
 
-Mettre à jour l&#39;entrée booléenne de la Substance
+Mettre à jour l’entrée de Booléen de Substance
 
 **Paramètres**
 
@@ -429,7 +429,7 @@ float value ) [inline]
 ```
 
 
-Mettre à jour l&#39;entrée flottante de la Substance
+Mettre à jour l&#39;entrée du Flottant de Substance
 
 **Paramètres**
 
@@ -616,7 +616,7 @@ void Adobe.Substance.Runtime.SubstanceRuntimeGraph.SetTexturesResolution ( Vecto
 ```
 
 
-Définit la résolution de sortie de la texture d’instance.
+Définit la résolution de sortie de la texture d&#39;instance.
 
 **Paramètres**
 

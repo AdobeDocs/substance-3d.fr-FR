@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-0-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-0-3.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour pour le plug-in Maya version 2.0.3 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -23,13 +23,13 @@ ht-degree: 0%
 La version 2.0.3 du plug-in est maintenant disponible sur le [site web](https://www.substance3d.com/ecosystem-plug-ins/substance-in-maya/).
 
 Modifications :\
-\* Le workflow VRay définit désormais le matériau Vray pour utiliser la rugosité\
+\* Le workflow VRay définit désormais le Matériau Vray pour utiliser la rugosité\
 \* Mise à jour de certains liens vers le nouveau site substance3d.\
 \* Ajout de la version de Substance Engine au menu à propos\
 \* Ajout de commandes de script pour interroger la version de la Substance Engine\
-\* $pixelsize input ne se bloque plus\
+\* $pixelsize input n’a plus de crashs\
 \* Les entrées de valeur définies dans Designer sont désormais visibles sur le nœud, comme les entrées d’image\
-\* Le script de workflow Redshift définit désormais brdf sur ggx et le nœud de relief pour utiliser les normales de l’espace tangent\
+\* Le script de workflow Redshift définit désormais brdf sur ggx et le nœud de relief pour utiliser les normales de l’espace de tangente\
 \* Nouveau script de workflow Renderman pour mieux correspondre à l’utilisation prévue\
 \* La commande substanceSetWorkflow accepte désormais correctement un argument de chaîne\
 \* Prise en charge ajoutée pour Maya 2020

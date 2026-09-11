@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/features/tangent-space.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/features/tangent-space.html"
 breadcrumb-title: ''
-description: Découvrez comment Substance Baker gère les calculs d’espace tangent et personnalise l’algorithme pour votre workflow.
+description: Découvrez comment Substance Bakers gère les calculs d’espace de tangente et personnalise l’algorithme pour votre workflow.
 helpx_creative_field: ""
 helpx_description: bakers > Features > Tangent Space
 helpx_experience_level: ""
@@ -20,18 +20,18 @@ ht-degree: 2%
 
 # Repère tangent
 
-Substance Bakers peut charger les Tangentes et les Binormales présentes sur le maillage en bas-poly ou les recalculer. Lors de leur recalcul, il est possible de définir un algorithme d&#39;espace tangent personnalisé (par défaut, il s&#39;agit de MikkTSpace).
+Substance Bakers peut charger les Tangentes et les Binormals présents sur le maillage à faible niveau de poly ou les recalculer. Lors de leur recalcul, il est possible de définir un algorithme de Repère tangent personnalisé (par défaut, c&#39;est MikkTSpace).
 
-## Liste des plug-ins d’espace tangent
+## Liste des plug-ins Repère tangent
 
 ## Substance Painter
 
-En Substance Painter, le plug-in Tangent Space ne peut pas être modifié, il sera toujours **MikkTSpace**. Cependant, il existe un paramètre pour modifier légèrement son comportement afin de le rendre compatible avec d&#39;autres applications :
+Dans la Substance Painter, le Plugin de repère tangent ne peut pas être modifié, il sera toujours **MikkTSpace**. Cependant, il existe un paramètre pour modifier légèrement son comportement afin de le rendre compatible avec d&#39;autres applications :
 
 | *Paramètre* | *Compatible* *Application* |
 | --- | --- |
-| **Calculer l&#39;espace tangent par fragment : désactivé** | Compatible avec xNormal, Unity 5.3 ou version plus récente. |
-| **Calculer l&#39;espace tangent par fragment : activé** | Compatible avec Unreal Engine 4, Blender et Unity HDRP workflow. |
+| **Espace de tangente de calcul par fragment : désactivé** | Compatible avec xNormal, Unity 5.3 ou version plus récente. |
+| **Espace de tangente de calcul par fragment : activé** | Compatible avec Unreal Moteur 4, Blender et Unity HDRP workflow. |
 
 ## Substance Designer
 
@@ -39,23 +39,23 @@ Substance Designer prend en charge l’algorithme suivant :
 
 | *Nom de fichier* | *Description* |
 | --- | --- |
-| **mikktspace.dll** | MikkTSpace, algorithme Tangent Space basé sur les travaux de Morten S. Mikkelsen.Compatible avec xNormal, Unity 5.3 ou version plus récente. |
-| **mikkunrealtspace.dll** | MikkTSpace, algorithme Tangent Space basé sur les travaux de Morten S. Mikkelsen.Compatible avec Unreal Engine 4, Blender et Unity HDRP workflow. |
-| **unitytspace.dll** | Algorithme de l&#39;espace tangent basé sur Unity 4. |
+| **mikktspace.dll** | MikkTSpace, algorithme de Repère tangent basé sur les travaux de Morten S. Mikkelsen.Compatible avec xNormal, Unity 5.3 ou version plus récente. |
+| **mikkunrealtspace.dll** | MikkTSpace, algorithme de Repère tangent basé sur les travaux de Morten S. Mikkelsen.Compatible avec Unreal Moteur 4, Blender et Unity HDRP workflow. |
+| **unitytspace.dll** | Algorithme de repère tangent basé sur Unity 4. |
 
 >[!NOTE]
 >
-> Il est possible d’écrire un plug-in Tangent Space personnalisé. Un fichier d&#39;en-tête nommé **tangentspaceplugin.h** est disponible dans le dossier d&#39;installation sous **Substance Designer/SDK/tangentspace** et peut être utilisé comme interface.
+> Il est possible d&#39;écrire un Plugin de repère tangent personnalisé. Un fichier d&#39;en-tête nommé **tangentspaceplugin.h** est disponible dans le dossier d&#39;installation sous **Substance Designer/SDK/tangentspace** et peut être utilisé comme interface.
 
-## Définition d’un espace tangent personnalisé
+## Définition d’un Repère tangent personnalisé
 
 ## Substance Painter
 
-Substance Painter ne prend pas en charge les plug-ins Tangent Space personnalisés pour le moment. Cela signifie que si les tangentes et les binormales ne sont pas présentes sur le maillage low-poly (utilisé pour créer le projet), elles seront recalculées en fonction de l&#39;algorithme MikkTSpace.
+Substance Painter ne prend pas en charge les plug-ins de Repère tangent personnalisés pour le moment. Cela signifie que si des Tangentes et des binormaux ne sont pas présents sur le maillage low-poly (utilisé pour la création du projet), ils seront recalculés en fonction de l&#39;algorithme MikkTSpace.
 
 ## Substance Designer
 
-Pour définir l’algorithme d’espace tangent en Substance Designer, procédez comme suit :
+Pour définir l’algorithme d’espace de tangente dans la Substance Designer, procédez comme suit :
 
 1. Sélectionnez **Modifier** > **Préférences**.
 
@@ -70,7 +70,7 @@ Pour définir l’algorithme d’espace tangent en Substance Designer, procédez
 
 ## Substance Automation Toolkit
 
-Lorsque vous utilisez Automation Toolkit, il est possible de spécifier le plug-in Tangent Space avec un argument de ligne de commande spécifique :
+Lors du baking avec Automation Toolkit, il est possible de spécifier le Plugin de repère tangent avec un argument de ligne de commande spécifique :
 
 ```
 sbsbaker normal-from-mesh --tangent-space-plugin "C:/Substance Designer/plugins⁄tangentspace⁄mikktspace.dll" ...

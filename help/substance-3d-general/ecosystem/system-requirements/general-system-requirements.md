@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-general/ecosystem/general-system-requirements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-general/ecosystem/general-system-requirements.html"
 breadcrumb-title: ''
 description: Vérifiez la configuration requise pour les applications Substance 3D pour vous assurer que votre matériel répond aux spécifications minimales, recommandées ou optimales.
 helpx_creative_field: ""
@@ -79,23 +79,23 @@ Pour plus de détails, examinez les exigences de chaque application :
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[Icône ![Substance 3D Sampler](../../assets/sa-appicon-noshadow-256.png){width="64px"}](https://experienceleague.adobe.com/fr/docs/substance-3d-sampler/using/getting-started/system-requirements)
+[Icône ![Substance 3D Sampler](../../assets/sa-appicon-noshadow-256.png){width="64px"}](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/getting-started/system-requirements)
 
-[Substance 3D Sampler](https://experienceleague.adobe.com/fr/docs/substance-3d-sampler/using/getting-started/system-requirements)
-
-</td>
-<td style="border: 0;" valign="top">
-
-[Icône ![Substance 3D Designer](../../assets/ds-appicon-noshadow-256.png){width="64px"}](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/getting-started/system-requirements)
-
-[Substance 3D](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/getting-started/system-requirements) [Designer](https://experienceleague.adobe.com/fr/docs/substance-3d-designer/using/getting-started/system-requirements)
+[Substance 3D Sampler](https://experienceleague.adobe.com/en/docs/substance-3d-sampler/using/getting-started/system-requirements)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[Icône ![Substance 3D Painter](../../assets/pt-appicon-noshadow-256.png){width="64px"}](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/getting-started/system-requirements)
+[Icône ![Substance 3D Designer](../../assets/ds-appicon-noshadow-256.png){width="64px"}](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/getting-started/system-requirements)
 
-[Substance 3D Painter](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/getting-started/system-requirements)
+[Substance 3D](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/getting-started/system-requirements) [Designer](https://experienceleague.adobe.com/en/docs/substance-3d-designer/using/getting-started/system-requirements)
+
+</td>
+<td style="border: 0;" valign="top">
+
+[Icône ![Substance 3D Painter](../../assets/pt-appicon-noshadow-256.png){width="64px"}](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/getting-started/system-requirements)
+
+[Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/getting-started/system-requirements)
 
 </td>
 </tr>

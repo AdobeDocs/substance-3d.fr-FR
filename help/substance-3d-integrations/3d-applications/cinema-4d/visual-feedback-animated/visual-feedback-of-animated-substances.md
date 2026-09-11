@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/cinema-4d/visual-feedback-of-animated-substances.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/visual-feedback-of-animated-substances.html"
 breadcrumb-title: ''
-description: Activez la prévisualisation animée dans Cinema 4D pour voir le retour visuel des matériaux de Substance animés dans la clôture.
+description: Activez l’aperçu animé dans Cinema 4D pour voir le retour visuel des matériaux de Substance animés dans le viewport.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > 3D Applications > Cinema 4D > Visual Feedback of Animated Substances
 helpx_experience_level: ""
@@ -20,22 +20,22 @@ ht-degree: 3%
 
 # Commentaires visuels sur les Substances animées
 
-Pour avoir un retour visuel d’une Substance animée dans la fenêtre d’affichage de Cinema 4D, l’option Aperçu animé doit être activée pour ces matériaux.
+Pour avoir un retour visuel d’une Substance animée dans le viewport de Cinema 4D, l’option Aperçu animé doit être activée pour ces matériaux.
 
-Cette option se trouve dans l’éditeur de matériaux sous Éditeur (voir ci-dessous). Si un matériau a été créé à l&#39;aide de la commande Créer un(des) matériau(x) , cette option est activée par défaut.
+Cette option se trouve dans l’éditeur de Matériau sous Éditeur (voir ci-dessous). Si un matériau a été créé à l’aide de la commande Créer un ou plusieurs Matériaux, cette option est activée par défaut.
 
 ![](../../../assets/cinema-4d-13.png){width="500px"}
 
 
-## Création de matière(s)
+## Création de matériau(s)
 
-La commande Créer des matériaux dans le Gestionnaire d&#39;actifs de Substance permet de créer facilement et rapidement des matériaux de Cinema 4D à l&#39;aide d&#39;une Substance.
+La commande Créer un(des) Matériau(s) du Gestionnaire d&#39;actifs de Substance vous permet de créer facilement et rapidement des matériaux à l&#39;aide d&#39;une Substance.
 
 Par conséquent, le mappage de canaux suivant sera utilisé :
 
 |  |  |
 | --- | --- |
-| **Canal De Sortie De Substance** | **Canal de matériau Cinema 4D** |
+| **Canal De Sortie De Substance** | **Canal Cinema 4D** |
 | Diffuse | Couleur |
 | Émissif | Luminance |
 | Reflet | Réflectance |
@@ -46,15 +46,15 @@ Par conséquent, le mappage de canaux suivant sera utilisé :
 | Hauteur | Displacement |
 | Normale | Normale |
 
-Cette relation n&#39;est utilisée que pour la commande Créer matières et la matière qui a été créée peut être modifiée par la suite. Il peut être utile d’utiliser cette commande pour créer rapidement un matériau de base, que vous pourrez ensuite affiner en ne réglant que quelques couches.
+Cette relation est uniquement utilisée pour la commande Create Matériau(s) et le matériau qui a été créé peut être modifié par la suite. Il peut être utile d’utiliser cette commande pour créer rapidement un matériau de base, que vous pourrez ensuite affiner en ne réglant que quelques couches.
 
-Dans le nuanceur de Substances, vous n’êtes pas limité aux quelques canaux de sortie répertoriés ci-dessus, mais en fait vous pouvez utiliser n’importe quel canal de sortie fourni par une Substance.
+Dans le Shader de Substance, vous n’êtes pas limité aux quelques canaux de sortie répertoriés ci-dessus, mais en fait vous pouvez utiliser n’importe quel canal de sortie fourni par une Substance.
 
-## Création manuelle de matériau(x) de Substance
+## Création manuelle de matériau(s) de Substance
 
-Au lieu d’utiliser la commande Créer une ou plusieurs matières, vous pouvez également créer des matières manuellement à l’aide de l’ombrage de Substance.
+Au lieu d’utiliser la commande Créer un ou plusieurs Matériaux, vous pouvez également créer des matériaux manuellement à l’aide du shader Substance.
 
-Sélectionnez simplement l’ombrage de Substance dans une couche de matériau et faites glisser la Substance à utiliser. L’étape suivante consiste à sélectionner le canal de sortie de la Substance à utiliser dans cet ombrage, et vous avez terminé.
+Sélectionnez simplement le shader Substance dans un canal matériau et faites glisser la Substance à utiliser. L’étape suivante consiste à sélectionner le canal de sortie de la Substance à utiliser dans ce shader, et vous avez terminé.
 
 Comme si :
 
@@ -62,14 +62,14 @@ Comme si :
 
 Cette méthode offre une grande liberté de création et vous permet d’effectuer les opérations suivantes :
 
-* Attribuez des canaux de sortie de Substance à des canaux de matériau Cinema 4D arbitraires. Il n&#39;est pas nécessaire de vous limiter à les utiliser uniquement dans les canaux prévus.
-* Affectez une seule couche de sortie de Substance à plusieurs couches de matériau de Cinema 4D.
-* Affectez des canaux de sortie de plusieurs Substances à un seul matériau de Cinema 4D.
+* Affectez des canaux de sortie de Substance à des canaux de matériau arbitraires. Il n&#39;est pas nécessaire de vous limiter à les utiliser uniquement dans les canaux prévus.
+* Attribuez une seule Substance de sortie à plusieurs canaux de matériau.
+* Affectez des canaux de sortie de plusieurs Substances à un seul Cinema 4D.
 
 ## Restrictions
 
-* Les images clés des paramètres d’entrée de Substance sont affichées dans le panneau Montage, mais pas dans le Powerslider de Cinema 4D (le curseur Montage sous les fenêtres).
+* Les images clés sur les paramètres d&#39;entrée de Substance sont affichées dans le montage, mais pas dans le PowerSlider de Cinema 4D (le curseur Montage sous les viewports).
 * En raison d’une limitation, aucun profil colorimétrique personnalisé ne doit être utilisé sur les canaux de sortie de Substance.
 * Dans certaines circonstances, les entrées d’image des Substances se rompent\
-  La commande Fusionner... de Cinema 4D, qui combine deux scènes en une seule. Cela se produit si la scène à fusionner comporte des Substances situées dans son répertoire de projet avec des entrées d’image faisant référence à des images du répertoire de projet. Dans ce cas, les entrées d’image devront ensuite être réassociées manuellement.
+  La commande Fusionner... de Cinema 4D, qui associe deux scènes en une seule. Cela se produit si la scène à fusionner comporte des Substances situées dans son répertoire de projet avec des entrées d’image faisant référence à des images du répertoire de projet. Dans ce cas, les entrées d’image devront ensuite être réassociées manuellement.
 * Si les Substances se trouvent dans le dossier du projet (ou ailleurs dans le chemin de recherche global), elles ne fonctionnent pas dans Cineware. Dans ce cas, ils sont rendus rouges, comme si la Substance était manquante. Pour contourner ce problème, les archives de Substance de données doivent être stockées en dehors du répertoire du projet, de sorte qu’elles soient référencées par un chemin absolu. Vous pouvez utiliser le paramètre Filename pour modifier l’emplacement du fichier, une fois que les fichiers ont été déplacés en dehors du chemin du projet.

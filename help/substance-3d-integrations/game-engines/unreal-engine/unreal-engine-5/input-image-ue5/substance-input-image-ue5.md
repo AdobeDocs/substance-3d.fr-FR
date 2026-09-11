@@ -1,13 +1,13 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/substance-input-image-ue5.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-5/substance-input-image-ue5.html"
 breadcrumb-title: ''
-description: Utilisez les textures d’image comme paramètres d’entrée pour les matériaux de Substance dans Unreal Engine 5 pour créer des matériaux modulaires.
+description: Utilisez des textures d'image comme paramètres d'entrée pour les matériaux de Substance dans le Moteur 5 irréel afin de créer des matériaux modulaires.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 5 > Substance Input Image - UE5
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Image d’entrée de Substance - UE5
+title: Image d'entrée de Substance - UE5
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
@@ -18,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# Image d’entrée de Substance - UE5
+# Image d&#39;entrée de Substance - UE5
 
-Des Substances peuvent être créées avec des entrées permettant de fournir une image à traiter dans le matériau. Cela vous permet de créer des matériaux modulaires qui peuvent prendre des données ou des motifs de maillage cuits comme entrée pour modifier ou confirmer le matériau à la ressource.
+Des Substances peuvent être créées avec des entrées permettant de fournir une image à traiter dans le matériau. Cela vous permet de créer des matériaux modulaires qui peuvent prendre des données ou des motifs de maillage bakés comme entrée pour modifier ou confirmer le matériau de la ressource.
 
 * Vous pouvez utiliser UTexture2D avec une entrée de Substance.
 

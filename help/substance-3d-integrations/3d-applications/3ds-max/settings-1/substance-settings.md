@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/3ds-max/substance-settings.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/substance-settings.html"
 breadcrumb-title: ''
 description: Configurez les paramètres du plug-in de Substance dans 3ds Max, notamment le mode moteur et les options de résolution par défaut.
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Dans le menu Substance en haut de l’interface utilisateur 3ds max, vous pouvez modifier divers paramètres, tels que le mode moteur et la résolution par défaut.
 
-1. **Moteur sélectionné** : basculement entre les moteurs GPU et CPU. Le moteur GPU vous permet de calculer des textures jusqu’à 8K en résolution. Le moteur CPU est actuellement limité à 2 K.
+1. **Moteur sélectionné** : basculement entre les moteurs GPU et CPU. Le moteur GPU vous permet de calculer des textures allant jusqu’à 8K en résolution. Le moteur du processeur est actuellement plafonné à 2K.
 1. **Résolution d&#39;entrée par défaut X** : définit la résolution X par défaut lors de la création des Substances. Peut être modifié par Substance
 1. **Résolution d&#39;entrée par défaut Y** : définit la résolution Y par défaut lors de la création des Substances. Peut être modifié par Substance.
 1. **Verrouiller le rapport de résolution par défaut** : définit l&#39;état par défaut pour verrouiller les résolutions X et Y d&#39;une Substance. Peut être modifié par Substance.

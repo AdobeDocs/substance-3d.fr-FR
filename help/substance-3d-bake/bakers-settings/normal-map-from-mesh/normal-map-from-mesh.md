@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/normal-map-from-mesh.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/normal-map-from-mesh.html"
 breadcrumb-title: ''
-description: Créez des cartes normales de l'espace tangent ou de l'espace du monde à partir de maillages à poly élevé à l'aide de la carte normale de Mesh baker.
+description: Créez un espace de tangente ou des cartes de normale de l'espace monde à partir de maillages à poly élevé à l’aide du baker Map normal depuis le maillage.
 helpx_creative_field: ""
 helpx_description: bakers > Bakers Settings > Normal Map from Mesh
 helpx_experience_level: ""
@@ -20,15 +20,15 @@ ht-degree: 7%
 
 # Map normal depuis le maillage
 
-La carte normale de mesh baker vous permet de créer une carte normale de l&#39;espace tangent ou de l&#39;espace du monde à partir d&#39;un maillage poly élevé.**Disponible en :**
+Le baker Map normal à partir du maillage vous permet de créer un espace de tangente ou une carte de normale de l&#39;espace monde à partir d’un maillage high poly.**Disponible dans :**
 
 * Substance Painter
-* Concepteur de substance
-* Boîte à outils d&#39;automatisation des substances
+* Substance Designer
+* Substance Automation Toolkit
 
 ## Paramètres
 
 | *Paramètre* | *Description* |
 | --- | --- |
-| **Type de carte** | Contrôle le type de texture normale que le boulanger doit produire.Valeurs possibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Espace mondial</strong></li><li data-preserve-html="true"><strong>Espace tangent</strong> (par défaut)</li></ul>*Dans Substance Painter, ce paramètre ne peut pas être contrôlé et est défini sur Espace tangent.* |
-| **Orientation normale** | Définit le format de la texture normale si le paramètre **type de map** est défini sur Espace tangent. Valeurs possibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>OpenGL </strong></li><li data-preserve-html="true"><strong>DirectX</strong> (par défaut)</li></ul>*Dans Substance Painter, ce paramètre est contrôlé par les [&#x200B; paramètres du projet](https://experienceleague.adobe.com/fr/docs/substance-3d-painter/using/interface/project-configuration).* |
+| **Type de mappage** | Détermine le type de texture normale que le baker doit générer.Valeurs possibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>Espace monde</strong></li><li data-preserve-html="true"><strong>Repère tangent</strong> (par défaut)</li></ul>*En Substance Painter, ce paramètre ne peut pas être contrôlé et est défini sur Repère tangent.* |
+| **Orientation normale** | Définit le format de la texture normale si le paramètre **type de mappage** est défini sur Repère tangent. Valeurs possibles :<ul data-preserve-html="true"><li data-preserve-html="true"><strong>OpenGL</strong></li><li data-preserve-html="true"><strong>DirectX</strong> (par défaut)</li></ul>*En Substance Painter, ce paramètre est contrôlé par les [paramètres du projet](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/interface/project-configuration).* |

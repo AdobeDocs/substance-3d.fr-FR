@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/modo/copy-duplicate-substance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/copy-duplicate-substance.html"
 breadcrumb-title: ''
 description: Copiez, instanciez ou dupliquez des matériaux de Substance dans MODO pour réutiliser efficacement des matériaux sur plusieurs objets.
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## Instancier
 
-Pour créer une instance d&#39;une Substance, vous devez sélectionner le groupe de matériaux de la Substance, cliquer avec le bouton droit de la souris et choisir Instance. Cette opération crée une instance du groupe de matériaux de Substance qui peut être appliquée à d&#39;autres maillages. Pour apporter des modifications, vous devez ajuster les propriétés de Substance sur l&#39;élément de Substance source, qui est la Substance\
+Pour créer l&#39;instance d&#39;une Substance, vous devez sélectionner le groupe de Matériaux de la Substance, cliquer avec le bouton droit de la souris et choisir Instance. Cette opération crée une instance du groupe de Matériaux de Substance qui peut être appliquée à d&#39;autres maillages. Pour apporter des modifications, vous devez ajuster les propriétés de Substance sur l&#39;élément de Substance source, qui est la Substance\
 les instances à partir desquelles la création a été effectuée.
 
 ![](../../../assets/inst.png)

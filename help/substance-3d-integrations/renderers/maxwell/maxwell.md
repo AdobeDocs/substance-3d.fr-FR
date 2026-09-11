@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/maxwell.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/maxwell.html"
 breadcrumb-title: ''
-description: Utilisez des matériaux de Substance avec le rendu Maxwell dans Maya et Painter pour les workflows de rendu basés sur le mode physique.
+description: Utilisez des matériaux de Substance avec le moteur de rendu Maxwell dans Maya et Painter pour les workflows de rendu physiques.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Renderers > Maxwell
 helpx_experience_level: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Pour le rendu avec [Maxwell](https://maxwellrender.com/), vous pouvez utiliser des mappages exportés à partir de Substance Painter ou du plug-in de Substance dans [Maya](https://www.substance3d.com/ecosystem-plug-ins/substance-in-maya/).
 
-Substance Painter 2020.1 (6.1.0) est livré avec Maxwell [Modèles de sortie](https://docs.substance3d.com/display/SPDOC/Export) pour la rugosité métallique et le specular/brillance à utiliser avec **Maxwell 5.1.0**.
+La version Substance Painter 2020.1 (6.1.0) est livrée avec Maxwell [Modèles de sortie](https://docs.substance3d.com/display/SPDOC/Export) pour la métallique/rugosité et le specular/brillance à utiliser avec **Maxwell 5.1.0**.
 
 ## Table des matières
 

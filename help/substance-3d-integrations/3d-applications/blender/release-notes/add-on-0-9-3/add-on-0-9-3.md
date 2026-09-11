@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/blender/release-notes/add-on-0-9-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/release-notes/add-on-0-9-3.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour du module complémentaire Blender version 0.9.3 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -30,8 +30,8 @@ ht-degree: 0%
 
 **Section Préférences : Ajoutée/Mise À Jour :**
 
-* Cycles/Ever Taille physique comme paramètre prédéfini disponible dans la liste déroulante du nuanceur par défaut.
-* Contrôles de la fusion de projection par défaut de Taille physique.
+* Cycles/Ever Taille physique comme paramètre prédéfini disponible dans la liste déroulante shader par défaut.
+* Contrôles de fusion de projection par défaut de Taille physique.
 * Lien de support modifié pour pointer vers le serveur Discord.
 * Corrigez l’affichage de la version actuelle correcte de SRE dans les préférences du module complémentaire.
 * Affichez toutes les versions compatibles du module complémentaire si une mise à jour est nécessaire.
@@ -39,6 +39,6 @@ ht-degree: 0%
 
 **Section Du Panneau Substance 3D : Ajoutée/Mise À Jour :**
 
-* La Taille physique d&#39;un matériau s&#39;affiche (en mètres) sous les Paramètres du graphique.
-* La Taille physique Cycles/Eevee est disponible dans la liste déroulante du shader.
+* La Taille physique d’un matériau s’affiche (en mètres) sous Paramètres du Graphe.
+* La Taille physique Cycles/Eevee est disponible dans le menu déroulant shader.
 * Masquez les groupes de paramètres si tous les paramètres sont invisibles.

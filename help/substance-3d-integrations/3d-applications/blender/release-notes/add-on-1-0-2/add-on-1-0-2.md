@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/blender/release-notes/add-on-1-0-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/release-notes/add-on-1-0-2.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour du module complémentaire Blender version 1.0.2 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -27,4 +27,4 @@ ht-degree: 0%
 
 ***Section Préférences : Ajoutée/Mise À Jour :***
 
-* *Ajout d’un lien vers les préférences d’épingles vers les forums de la communauté Adobe et le canal Discord.*
+* *Ajout d’un lien vers les préférences d’épingle vers les forums de la communauté Adobe et le canal Discord.*

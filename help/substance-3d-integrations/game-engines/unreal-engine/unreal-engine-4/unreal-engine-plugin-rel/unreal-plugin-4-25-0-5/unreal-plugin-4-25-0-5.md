@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/unreal-engine-4-plugin-release-notes/unreal-plugin-4-25-0-5.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/unreal-engine-4-plugin-release-notes/unreal-plugin-4-25-0-5.html"
 breadcrumb-title: ''
-description: Consultez les notes de mise à jour d'Unreal Engine 4 version 4.25.0.5 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
+description: Consultez les notes de mise à jour sur la version 4.25.0.5 du plug-in Unreal Moteur 4 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Unreal Engine 4 plugin release notes > Unreal plugin 4.25.0.5
 helpx_experience_level: ""
@@ -28,5 +28,5 @@ Ajouté :
 
 Fixe :
 
-* UE4 se bloque sur Mac lors de la fermeture de l’éditeur avec le plug-in UE4 Substance installé
-* La modification du paramètre de texte dans une instance de Graphe Substance provoque un gel et éventuellement un blocage
+* CRASHS UE4 sur Mac lors de la fermeture de l’éditeur avec le plug-in UE4 Substance installé
+* La modification du paramètre de texte dans une instance de Graphe Substance entraîne un gel, puis un crash

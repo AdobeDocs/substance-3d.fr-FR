@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/corona/corona-substance-painter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/corona/corona-substance-painter.html"
 breadcrumb-title: ''
-description: Exportez les textures de Substance Painter pour le rendu Corona à l’aide du workflow Specular/brillance et des conversions appropriées.
+description: Exportez les textures de Substance Painter pour le rendu Corona en utilisant le flux de travail Specular/Brillance et les conversions appropriées.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Renderers > Corona > Corona - Substance Painter
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Corona - Substance Painter
 
-Pour le rendu avec Corona, vous pouvez utiliser des mappages exportés à partir de Substance Painter ou du plug-in Substance. Corona utilise le workflow Specular/brillance avec une carte 1/IOR. Vous aurez besoin des mappages suivants :
+Pour le rendu avec Corona, vous pouvez utiliser des mappages exportés à partir de Substance Painter ou du plug-in Substance. Corona utilise le workflow Specular/Brillance avec une carte 1/IOR. Vous aurez besoin des mappages suivants :
 
 * Diffuse
 * Réflexion (Specular)

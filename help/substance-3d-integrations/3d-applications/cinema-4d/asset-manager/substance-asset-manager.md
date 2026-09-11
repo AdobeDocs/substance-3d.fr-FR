@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/cinema-4d/substance-asset-manager.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/cinema-4d/substance-asset-manager.html"
 breadcrumb-title: ''
 description: Utilisez le Gestionnaire d’actifs de Substance de données dans Cinema 4D pour ajouter, supprimer et organiser des matériaux de Substance de données dans votre scène.
 helpx_creative_field: ""
@@ -99,14 +99,14 @@ En cliquant avec le bouton droit de la souris sur une Substance sélectionnée, 
 * Substance de réimportation
 * Sélectionner toutes les Substances
 * Désélectionner toutes les Substances
-* Sélectionner une ou plusieurs matières
+* Sélectionner un ou plusieurs Matériaux
 
 ## Glisser-déposer
 
 Vous pouvez interagir avec le Gestionnaire d’actifs de Substance de données par glisser-déposer. Plusieurs options sont disponibles :
 
-* Chargez des Substances dans la scène par glisser-déposer à partir de l’Explorateur ou du Finder en les déposant simplement sur le Gestionnaire d’actifs de Substance.
-* Vous pouvez faire glisser des Substances dans le champ de lien des shaders de Substance pour connecter un shader et un actif de Substance.
+* Chargez des Substances dans la scène de données par glisser-déposer à partir de l’Explorateur ou du Finder en les déposant simplement sur le Gestionnaire d’actifs de Substance de données.
+* Vous pouvez faire glisser des Substances dans le champ de liaison des shaders de Substance afin de connecter un shader et un actif de Substance.
 * Si vous êtes en mode Non trié (voir ci-dessous), vous pouvez réorganiser les Substances dans le Gestionnaire d’actifs en les faisant glisser vers un nouvel emplacement.
 
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/scripting-in-unity-deprecated/api-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/scripting-in-unity-deprecated/api-overview.html"
 breadcrumb-title: ''
 description: Présentation de référence de l’API Substance Unity obsolète pour les projets hérités et les besoins en matière de scripts.
 helpx_creative_field: ""
@@ -29,17 +29,17 @@ Using Substance.Game
 
 Substance.Game est l&#39;assembly qui contient les classes utilisées pour le script. Ces classes sont les suivantes :
 
-**Substance.Game.**&#x200B;**Substance** : fait référence au fichier sbsar
+**Substance.Game.****Substance** : fait référence au fichier sbsar
 
-**Substance.Game.SubstanceGraph** : graphique individuel dans le sbsar.*(anciennement ProceuralMaterial dans Unity 2017)*
+**Substance.Game.SubstanceGraph** : graphe individuel dans le sbsar.*(anciennement ProceuralMaterial dans Unity 2017)*
 
 ## Processus de script
 
 1. Création d’une instance de SubstanceGraph
-1. Définissez les paramètres de l’instance de graphe.
-1. Placer la Substance dans la file d&#39;attente de rendu : QueueForRender() ajoutera le graphique Substance à une file d&#39;attente. Cette liste sera traitée lors du prochain appel à RenderAsync ou RenderSync.
+1. Définissez les paramètres sur l’instance de graphe.
+1. Mettre la Substance en file d’attente pour le rendu : QueueForRender() ajoute le graphe substance à une file d’attente. Cette liste sera traitée lors du prochain appel à RenderAsync ou RenderSync.
 
-### Paramètres d&#39;instance de graphique
+### Paramètres d’Instance de graphe
 
 ```
 // panel color 
@@ -60,9 +60,9 @@ mySubstance.SetInputFloat("wear_level", wearLevel);
 ```
 
 
-La valeur entre guillemets est le paramètre Identificateur défini dans la Substance Designer.
+La valeur entre guillemets est l’Identifiant de paramètre défini dans la Substance Designer.
 
-Dans l’Inspecteur Unity, vous pouvez passer la souris sur un paramètre pour afficher une info-bulle présentant le nom de l’identificateur défini dans la Substance Designer.
+Dans l’Inspecteur Unity, vous pouvez passer la souris sur un paramètre pour afficher une info-bulle indiquant le nom de l’Identifiant défini dans la Substance Designer.
 
 ![](../../../../assets/tooltip-6.png)
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/unity-release-notes/unity-2-5-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/unity-release-notes/unity-2-5-3.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour du plug-in Unity version 2.5.3 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -24,11 +24,11 @@ Publié le 4 novembre 2020
 
 Fixe :
 
-* Blocage lors de la modification du packing pour la carte Specular
-* Specular Map n’est pas un Smoothness packing dans le canal Alpha dans le projet 3D Standard
-* Blocage lors du redémarrage du projet HDRP/HRP après la suppression du dossier Bibliothèque
-* Ombrage et propriétés de matériau manquants pour les matériaux dupliqués
-* Changements de caractères de fin de ligne dans les fichiers de séquence et de précomposition.
+* Crash lors de la modification du packing pour la carte Specular
+* Specular Map n’est pas packing Smoothness dans Canal Alpha dans Projet 3D standard
+* Crash lors du redémarrage du projet HDRP/HRP après la suppression du dossier Bibliothèque
+* Propriétés de shader et de matériau attribuées manquantes aux matériaux dupliqués
+* Modifications des caractères de fin de ligne dans les fichiers de scène et de préfabrication.
 
 Problèmes connus :
 

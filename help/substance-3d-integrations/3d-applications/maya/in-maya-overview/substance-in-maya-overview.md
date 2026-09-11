@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/substance-in-maya-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/substance-in-maya-overview.html"
 breadcrumb-title: ''
 description: Découvrez le plug-in Substance pour Maya et apprenez à importer et à utiliser des matériaux Substance dans votre workflow.
 helpx_creative_field: ""
@@ -43,7 +43,7 @@ Le plug-in Substance vous permet de charger un matériau de Substance créé dan
 1. La liste déroulante Graphe sélectionné s’affiche si la Substance contient plusieurs graphes. Le graphe choisi sera utilisé pour créer le matériau.
 1. Le bouton Informations sur le Graphe affiche les attributs de graphe définis dans la Substance Designer.
 1. Définissez la résolution en choisissant une valeur dans la liste déroulante Largeur et Height. Le verrouillage des taux est activé par défaut.
-1. Activer les sorties du cache sur le disque afin de bake les sorties de Substance de données sur le disque afin qu’elles puissent être utilisées avec des systèmes de rendu tels qu’Arnold. Le fichier mis en cache sera relu par le plug-in à l’aide d’un nœud de fichier Maya.
+1. Activer les sorties du cache sur le disque afin de baker les sorties de Substance sur le disque afin qu&#39;elles puissent être utilisées avec des systèmes de rendu tels qu&#39;Arnold. Le fichier mis en cache sera relu par le plug-in à l’aide d’un nœud de fichier Maya.
 
    ![](../../../assets/outputsettings.png)
 1. Choisissez un flux de production pour le moteur de rendu que vous utilisez et cliquez sur le bouton Créer un réseau Shader. Un réseau shader est créé pour le workflow de rendu. Vous pouvez maintenant appliquer le matériau dans la scène.

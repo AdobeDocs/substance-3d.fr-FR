@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/lumberyard.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/lumberyard.html"
 breadcrumb-title: ''
-description: Utilisez des matériaux de Substance dans le moteur de jeu Amazon Lumberyard avec prise en charge de plug-ins natifs pour les workflows de matériaux.
+description: Utilisez des matériaux de Substance dans le moteur de jeu Amazon Lumberyard avec prise en charge de plug-ins natifs pour les workflows de matériau.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Game Engines > Lumberyard
 helpx_experience_level: ""
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 La Substance Engine fonctionne dans les versions intégrées Lumberyard pour Windows, Mac, PS4 et Xbox One. Le plug-in Substance est également compatible avec toutes les versions de Lumberyard Editor (Windows et Mac).
 
-Le plug-in est intégré nativement au moteur.
+Le plug-in est intégré nativement dans le moteur.
 
 ## Table des matières
 
 * [Importation d’une Substance](../../game-engines/lumberyard/importing-a/importing-a-substance.md)
 * [Attribution d’une Substance](../../game-engines/lumberyard/assigning-a/assigning-a-substance.md)
 * [Paramètres et sorties](../../game-engines/lumberyard/parameters-and-outputs/parameters-and-outputs.md)
-* [API Flow Graph](../../game-engines/lumberyard/flow-graph-api/flow-graph-api.md)
+* [API de Graphe](../../game-engines/lumberyard/flow-graph-api/flow-graph-api.md)

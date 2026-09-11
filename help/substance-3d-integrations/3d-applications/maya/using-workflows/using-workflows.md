@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/using-workflows.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/using-workflows.html"
 breadcrumb-title: ''
-description: Créez et utilisez des paramètres prédéfinis de rendu pour les sorties de Substance dans Maya afin de générer automatiquement des réseaux de nuanceurs pour différents systèmes de rendu.
+description: Créez et utilisez des paramètres prédéfinis de rendu pour les sorties de Substance dans Maya afin de générer automatiquement des réseaux de shader pour différents systèmes de rendu.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > 3D Applications > Maya > Using Workflows
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Utilisation des workflows
 
-Sous Workflows, vous pouvez choisir ou créer des paramètres prédéfinis de rendu pour les sorties de Substance. Ces paramètres prédéfinis sont des réseaux de nuanceurs pour un moteur de rendu tel qu’Arnold ou Vray.
+Sous Workflows, vous pouvez choisir ou créer des paramètres prédéfinis de rendu pour les sorties de Substance. Ces paramètres prédéfinis sont des réseaux shader pour un moteur de rendu tel qu’Arnold ou Vray.
 
 >[!NOTE]
 >
@@ -35,20 +35,20 @@ Sous Workflows, vous pouvez choisir ou créer des paramètres prédéfinis de re
 
 ![](../../../assets/workflows-4.png)
 
-Pour utiliser un workflow, il vous suffit de choisir le paramètre prédéfini dans la liste déroulante, puis de cliquer sur le bouton Créer un réseau de nuanceurs.
+Pour utiliser un workflow, il vous suffit de choisir le paramètre prédéfini dans la liste déroulante, puis de cliquer sur le bouton Créer un réseau Shader.
 
 ![](../../../assets/workflow.gif)
 
 ## Création d’un workflow
 
-Vous pouvez créer votre propre workflow et l’ajouter à la liste Workflow de rendu. Lors de l’ajout d’un nouveau workflow, tous les nœuds créés après le nœud de Substance de données sont enregistrés dans le workflow. Cela vous permet de créer un nombre illimité de nœuds ombrages pour créer un réseau de nuanceurs personnalisé complet qui peut être enregistré comme flux de travail prédéfini.
+Vous pouvez créer votre propre workflow et l’ajouter à la liste Workflow de rendu. Lors de l’ajout d’un nouveau workflow, tous les nœuds créés après le nœud de Substance de données sont enregistrés dans le workflow. Cela vous permet de créer un nombre illimité de nœuds d’ombrage pour créer un réseau de shader personnalisé complet qui peut être enregistré en tant que workflow prédéfini.
 
 ## ![](../../../assets/saved-workflow.png) Gestion des workflows
 
 ### Enregistrement de workflows personnalisés
 
 1. Créez manuellement des sorties de Substance et connectez-les à un matériau tel que aiStandardSurface.
-   1. Vous pouvez utiliser n&#39;importe quel Maya ou rendre des nœuds spécifiques pour construire le réseau de nuanceurs.
+   1. Vous pouvez utiliser n’importe quel Maya ou effectuer le rendu de nœuds spécifiques pour créer le réseau shader.
 1. Cliquez sur le bouton **Créer un workflow** et saisissez un nom pour le paramètre prédéfini de workflow.
 
 ### Duplication de workflows

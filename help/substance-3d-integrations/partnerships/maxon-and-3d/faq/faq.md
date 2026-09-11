@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/partnerships/maxon-and-substance-3d/faq.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/partnerships/maxon-and-substance-3d/faq.html"
 breadcrumb-title: ''
 description: Trouvez les réponses aux questions fréquemment posées sur le partenariat et l’intégration entre Substance 3D et Maxon One.
 helpx_creative_field: ""
@@ -59,7 +59,7 @@ L’offre comprend un abonnement d’un an à Maxon One et à la collection Adob
   * Red Giant
   * Zbrush
   * Faux
-  * La bibliothèque complète de ressources Capsule
+  * Bibliothèque complète de ressources de Capsule
 
 * Cinema 4D
 
@@ -71,7 +71,7 @@ L’offre comprend un abonnement d’un an à Maxon One et à la collection Adob
 
 * Faux
 
-* La bibliothèque complète de ressources Capsule
+* Bibliothèque complète de ressources de Capsule
 
 * La collection Substance 3D d’Adobe comprend :
   * Substance 3D Modeler
@@ -96,7 +96,7 @@ L’offre comprend un abonnement d’un an à Maxon One et à la collection Adob
 +++
 
 +++Comment renouveler mon abonnement après la première année ?
-Votre abonnement à Maxon One sera automatiquement renouvelé pour une autre année au prix normal (1199 USD par an ou équivalent régional).
+Votre abonnement Maxon One sera automatiquement renouvelé pour une autre année au prix normal (1 199 $ USD par an, ou équivalent régional).
 
 La Collection Substance 3D d’Adobe se renouvellera automatiquement uniquement si vous saisissez une carte de crédit valide lors de l’utilisation de votre code promo ou si vous ajoutez une carte de crédit à votre page de gestion de compte sur account.adobe.com avant la date d’expiration de la période d’abonnement.
 

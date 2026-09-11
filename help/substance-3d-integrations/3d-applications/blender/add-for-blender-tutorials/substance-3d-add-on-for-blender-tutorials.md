@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/blender/substance-3d-add-on-for-blender-tutorials.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/blender/substance-3d-add-on-for-blender-tutorials.html"
 breadcrumb-title: ''
 description: Accédez à des tutoriels vidéo et à des ressources d’apprentissage à maîtriser à l’aide du module complémentaire Substance 3D dans Blender.
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/modo/modo-plugin-release-notes/modo-v-2-7-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo/modo-plugin-release-notes/modo-v-2-7-0.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour du module externe MODO version 2.7.0 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # Modo v. 2.7.0
 
-* De nombreux correctifs
+* De nombreux correctifs de crash
 * Prise en charge des fichiers flottants 32 bits
-* Textures 4k dans le moteur CPU et 8 k dans le moteur GPU
+* textures 4k dans le moteur CPU et textures 8k dans le moteur GPU
 * nouveau format LPK pour la version du plug-in
 * nouveau menu Kit pour le plug-in Substance
 * Prise en charge de glTF / Principled shader pour MODO 12.0
@@ -35,7 +35,7 @@ ht-degree: 0%
 
   Les nouvelles commandes disponibles sont les suivantes :
 
-  **substance.getsbsname** Convertissez l&#39;identificateur d&#39;un objet substance en son nom interne
+  **substance.getsbsname** Convertissez l&#39;identifiant d&#39;un objet substance en son nom interne
 
   Tous ces éléments attendent un nom interne propre acquis auprès de substance.getsbsname :
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/curvature-from-mesh-deprecated.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-bake/bakers-settings/curvature-from-mesh-deprecated.html"
 breadcrumb-title: ''
 description: Référence de la Courbure obsolète du baker de Maillage. Utilisez plutôt la Courbure mise à jour du baker Maillage.
 helpx_creative_field: ""
@@ -7,7 +7,7 @@ helpx_description: bakers > Bakers Settings > Curvature from Mesh (deprecated)
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Courbure à partir du filet (obsolète)
+title: Courbure du Maillage (obsolète)
 user-guide-description: ''
 user-guide-title: ''
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
@@ -18,9 +18,9 @@ ht-degree: 0%
 ---
 
 
-# Courbure à partir du filet (obsolète)
+# Courbure du Maillage (obsolète)
 
-La courbure du boulanger de maillage génère une texture de courbure à partir de maillages à poly élevé. Il est plus lent que le boulanger de base [courbure](../../bakers-settings/curvature/curvature.md), mais produit des résultats plus précis.
+La Courbure provenant du baker de maillage génère une texture de courbure provenant de maillages à poly élevé. Il est plus lent que le baker de base de [courbure](../../bakers-settings/curvature/curvature.md), mais produit des résultats plus précis.
 
 **Disponible dans :**
 

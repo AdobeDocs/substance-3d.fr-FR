@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/substance-3d-for-unity-scripting/class-documentation/substanceruntime-class.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/substance-3d-for-unity-scripting/class-documentation/substanceruntime-class.html"
 breadcrumb-title: ''
-description: Documentation de référence pour la classe SubstanceRuntime utilisée pour les opérations matérielles de Substance d’exécution dans Unity.
+description: Documentation de référence pour la classe SubstanceRuntime utilisée pour les opérations de matériau de Substance d’exécution dans Unity.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Game Engines > Unity > Substance 3D for Unity Scripting > Class Documentation > SubstanceRuntime Class
 helpx_experience_level: ""
@@ -22,8 +22,8 @@ ht-degree: 1%
 
 ## Référence de classe Adobe.Substance.Runtime.SubstanceRuntime
 
-Classe Singleton qui gère l&#39;initialisation du moteur de Substance de données et qui est utilisée pour obtenir des gestionnaires natifs vers des instances substance.\
-Diagramme d&#39;héritage pour Adobe.Substance.Runtime.SubstanceRuntime :
+Classe Singleton qui gère l&#39;initialisation du moteur de Substance de données et qui est utilisée pour obtenir des gestionnaires natifs vers des instances de substance.\
+Schéma d’Héritage pour Adobe.Substance.Runtime.SubstanceRuntime :
 
 ![](../../../../../assets/image2022-6-22-14-35-28.png)
 
@@ -47,7 +47,7 @@ Instance singleton.
 
 ### Description détaillée
 
-Classe Singleton qui gère l&#39;initialisation du moteur de Substance de données et qui est utilisée pour obtenir des gestionnaires natifs vers des instances substance.
+Classe Singleton qui gère l&#39;initialisation du moteur de Substance de données et qui est utilisée pour obtenir des gestionnaires natifs vers des instances de substance.
 
 ### Documentation sur les fonctions de membre
 

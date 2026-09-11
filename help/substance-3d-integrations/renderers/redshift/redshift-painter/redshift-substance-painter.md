@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/redshift/redshift-substance-painter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/redshift/redshift-substance-painter.html"
 breadcrumb-title: ''
-description: Exportez les textures de Substance Painter pour le rendu Redshift à l’aide des modèles de sortie et des paramètres de matière appropriés.
+description: Exportez les textures de Substance Painter pour le rendu Redshift à l’aide de modèles de sortie et des paramètres de matériau appropriés.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Renderers > Redshift > Redshift - Substance Painter
 helpx_experience_level: ""
@@ -20,18 +20,18 @@ ht-degree: 2%
 
 # Redshift - Substance Painter
 
-Substance Painter 2020.1 (6.1.0) prend en charge Redshift [Modèles de sortie](https://docs.substance3d.com/display/SPDOC/Export) pour la rugosité métallique (rsMaterial). Vous pouvez simplement exporter à l’aide du modèle Redshift pour produire des textures compatibles avec les matériaux Redshift.
+Substance Painter 2020.1 (6.1.0) prend en charge Redshift [Modèles de sortie](https://docs.substance3d.com/display/SPDOC/Export) pour métallique/rugosité (rsMaterial). Vous pouvez simplement exporter en utilisant le modèle Redshift pour produire des textures compatibles avec les matériaux Redshift.
 
 ![](../../../assets/rs-export.png)
 
-## Configuration de la matière Redshift
+## Configuration du Matériau Redshift
 
-| Exportation de Substance Painter | Matière Redshift |
+| Exportation de Substance Painter | Matériau Redshift |
 | --- | --- |
-| Couleur | Diffus/Couleur |
+| Couleur | Diffuse/Couleur |
 | Rugosité | Réflexion/Rugosité (BRDF = GGX) |
 | Metalness | Réflexion/Métallique (Type de Fresnel = Métallique) |
-| Normale | Globale / Carte de relief / rsBumpMap (Type de carte d&#39;entrée = Espace tangent normal - Échelle d&#39;Height = 1,0) |
+| Normale | Globale / Carte de relief / rsBumpMap (Type de Map d&#39;entrée = Normale du Repère tangent - Échelle d’Height = 1,0) |
 | DisplaceHeightField | Displacement Shader / rsDisplacement TexMap (Codage de mappage = Champ Height) |
 | EmissionColor | Total/Émissions (Poids des émissions = 1,0) |
 

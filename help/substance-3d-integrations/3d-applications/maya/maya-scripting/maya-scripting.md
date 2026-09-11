@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/maya-scripting.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/maya-scripting.html"
 breadcrumb-title: ''
 description: Utilisez l’API Substance Maya pour créer des scripts de création et de gestion de matériaux de Substance dans vos workflows Maya.
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ Cliquez sur le bouton « i » pour afficher les commandes disponibles
 Ce script charge un fichier sbsar et applique le workflow de rendu Arnold au maillage sélectionné. Pour utiliser le script, suivez l’exemple répertorié ici.
 
 1. copiez et collez le code dans un onglet Python de l’éditeur de script.
-1. Sélection et maillage dans la clôture
+1. Sélection et maillage dans le viewport
 1. Sélectionnez le texte dans l’onglet Python et appuyez sur « Ctrl + Entrée »
 1. Dans la fenêtre, recherchez un fichier sbsar.
 

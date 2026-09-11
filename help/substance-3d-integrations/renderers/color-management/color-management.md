@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/color-management.html"
 breadcrumb-title: ''
 description: Découvrez la gestion des couleurs et la correction gamma lors de l’utilisation de matériaux de Substance avec différents systèmes de rendu.
 helpx_creative_field: ""
@@ -28,40 +28,40 @@ Nous adopterons une approche simpliste en affirmant que le rendu d&#39;espace li
 
 ## Gestion des couleurs
 
-L&#39;objectif de ce document est de détailler le processus de travail avec les textures exportées à partir de **Substance Painter** et de **Substance Designer** dans le [logiciel 3D](https://www.adobe.com/fr/products/substance3d/3d-augmented-reality.html) et les moteurs de rendu.
+L&#39;objectif de ce document est de détailler le processus d&#39;utilisation des textures exportées à partir de **Substance Painter** et de **Substance Designer** dans le [logiciel 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) et les moteurs de rendu.
 
-La bonne façon d’interpréter une image utilisée comme entrée dans une couche de matériau dépend de la façon dont l’image est utilisée dans la scène. L&#39;espace colorimétrique, le codage et le fait que les valeurs de couleur soient proportionnelles à la **luminance à référence scène** ou à la **luminance à référence affichage** jouent également un rôle important.
+La bonne façon d’interpréter une image utilisée comme entrée d’une couche de matériau dépend de la façon dont l’image est utilisée dans la scène. L&#39;espace colorimétrique, le codage et le fait que les valeurs de couleur soient proportionnelles à la **luminance à référence de scène** ou à la **luminance à référence d&#39;affichage** jouent également un rôle important.
 
-* Les images utilisées pour représenter des **données non colorées** ne doivent pas être transformées. Il s&#39;agit généralement de cartes **normales**, **de rugosité**, **métalliques**, **de displacement** et **ambiantes** **d&#39;occlusion**.
-* Les images qui représentent les couleurs que nous voyons peuvent avoir plusieurs scénarios. Par exemple, les images déjà **linéaires de scène** n&#39;ont généralement pas besoin d&#39;être converties, telles que les images **HDR** stockées dans des formats tels que **OpenEXR** et **HDR**.
-* Les images créées pour l&#39;affichage (**référencées pour l&#39;affichage**) devront être supprimées de leur gamma. Il s&#39;agit notamment de la plupart des formats tels que **PNG**, **JPEG** et **BMP**. Ces images sont **de base** **couleur**, **diffuses**, **specular** et **émissives**.
+* Les images utilisées pour représenter des **données non colorées** ne doivent pas être transformées. Il s&#39;agit généralement des cartes **normales**, **rugosités**, **métalliques**, **displacements** et **ambiantes** **occlusions**.
+* Les images qui représentent les couleurs que nous voyons peuvent avoir plusieurs scénarios. Par exemple, les images qui sont déjà **linéaires à la scène** n&#39;ont généralement pas besoin d&#39;être converties, telles que les images **HDR** stockées dans des formats tels que **OpenEXR** et **HDR**.
+* Les images créées pour l&#39;affichage (**référencées pour l&#39;affichage**) devront être supprimées de leur gamma. Il s&#39;agit notamment de la plupart des formats tels que **PNG**, **JPEG** et **BMP**. Ces images sont de **base**, de **couleur**, de **diffusion**, de **specular** et d&#39;**emissive**.
 
 Bien qu&#39;il s&#39;agisse d&#39;une simplification excessive, il peut être utile de considérer le processus comme suit :
 
-* « référencé par la scène (ex. linear) » : n’applique pas de conversion
-* « référencé (ex. sRGB) » : appliquer la transformation inverse pour « linéariser » l&#39;image pour un calcul correct
+* « scène référencée (ex. linear) » : n’applique pas de conversion
+* « référencé (ex. sRGB) » : appliquer le transforme inverse pour « linéariser » l&#39;image pour un calcul correct
 
 >[!NOTE]
 >
 > La fonction de décodage sRVB (EOTF), convertissant l&#39;espace gamma en espace linéaire, est utilisée en Substance Painter et en Substance Designer et est définie par la norme IEC 61966-2-1:1999
 
-La Substance Designer peut être configurée pour utiliser [OpenColorIO](https://opencolorio.org/) pour la gestion des couleurs. Cela vous permet d&#39;avoir des transformations de couleur *cohérentes* et un affichage des images dans plusieurs applications. Dans ce mode, la Substance Designer fonctionnera en interne avec des couleurs **RGB linéaires**. Étant donné que 8 nombres de bits par pixel ne sont généralement pas suffisants pour représenter des couleurs linéaires, il est recommandé d&#39;utiliser la profondeur *au moins* **16 bits** pour les textures de couleur dans le [graphique](https://docs.substance3d.com/display/SDDOC/Graph+View).
+La Substance Designer peut être configurée pour utiliser [OpenColorIO](https://opencolorio.org/) pour la gestion des couleurs. Cela vous permet d&#39;avoir des transformes de couleurs et un affichage d&#39;image *cohérents* dans plusieurs applications. Dans ce mode, la Substance Designer fonctionnera en interne avec des couleurs **RGB linéaires**. Étant donné que le nombre de bits par pixel 8 n&#39;est généralement pas suffisant pour représenter des couleurs linéaires, il est recommandé d&#39;utiliser la profondeur *au moins* **16 bits** pour les textures de couleurs dans le [graphe](https://docs.substance3d.com/display/SDDOC/Graph+View).
 
 ![](https://helpx-prod.scene7.com/is/image/HelpxProd/sd-cm?$png$&jpegSize=200&wid=686)
 
-Lorsque nous avons introduit [ACES](https://www.oscars.org/science-technology/sci-tech-projects/aces), nous disposons désormais de deux espaces colorimétriques différents : le sRVB linéaire (la version sans gamma de sRVB) et le [ACEScg](https://acescolorspace.com/), qui est un espace colorimétrique à large gamme (« référencé scène » ou linéaire) mieux adapté au rendu CG.
+Lorsque nous avons introduit la norme [ACE](https://www.oscars.org/science-technology/sci-tech-projects/aces), nous disposons désormais de deux espaces colorimétriques différents : le sRVB linéaire (la version sans gamma de sRVB) et le [ACEScg](https://acescolorspace.com/), qui est un espace colorimétrique à large gamme (« référencé scène » ou linéaire) mieux adapté au rendu CG.
 
 *Graphique de tracé de gamme -<https://acescolorspace.com/>*
 
-La Substance Designer prend également en charge **Adobe Color Engine (ACE)**. Avec **ACE**, vous pouvez choisir votre espace colorimétrique de travail entre **sRGB**, **sRGB linéaire** et **ACEScg**. Lors de l&#39;utilisation de **sRGB**, **ACE** est quasiment identique au mode hérité. Lorsque vous utilisez un espace colorimétrique linéaire, **ACE** ressemble plus ou moins à [OpenColorIO](https://opencolorio.org/index.html).
+Substance Designer prend également en charge **Adobe Color Engine (ACE)**. Avec **ACE**, vous pouvez choisir votre espace colorimétrique de travail entre **sRGB**, **sRGB linéaire** et **ACEScg**. Lors de l&#39;utilisation de **sRGB**, **ACE** est à peu près identique au mode hérité. Lorsque vous utilisez un espace colorimétrique linéaire, **ACE** est plus ou moins comme [OpenColorIO](https://opencolorio.org/index.html).
 
 ## Plug-ins Substance
 
-Lors de l’utilisation de matériaux de Substance via le module externe d’intégration de Substance, les sorties sont automatiquement marquées pour la valeur linéaire/gamma via l’intégration et la gestion des couleurs de l’application hôte. Toutefois, il est important de bien comprendre le processus : lorsque des cartes de Substance sont utilisées comme images bitmap exportées plutôt que comme matériaux de Substance, vous devrez peut-être marquer manuellement les textures comme **gamma-encodées** ou **brutes** en fonction du moteur de rendu que vous utilisez. Les fichiers .png, .jpg, .tga ou .tif 8 ou 16 bits sont généralement codés en gamma, tandis que les fichiers **sRGB OETF** et .exr sont linéaires.
+Lors de l’utilisation de matériaux de Substance via le module externe d’intégration de Substance, les sorties sont automatiquement marquées pour la valeur linéaire/gamma via l’intégration et la gestion des couleurs de l’application hôte. Toutefois, il est important de bien comprendre le processus : lorsque des mappages de Substance de données sont utilisés comme images bitmap exportées plutôt que comme matériaux de Substance de données, vous devrez peut-être marquer manuellement les textures en tant que **données codées en gamma** ou **données brutes**, selon le système de rendu que vous utilisez. Les fichiers .png, .jpg, .tga ou .tif 8 ou 16 bits sont généralement codés en gamma, tandis que les fichiers **sRGB OETF** et .exr sont linéaires.
 
 ## Applications 3D
 
-### Utilisation des textures
+### Utilisation des Textures
 
-* [Textures de Substance en maya](../../renderers/color-management/textures-in-maya/substance-textures-in-maya.md)
-* [Textures de Substance dans 3ds Max](../../renderers/color-management/textures-in-3ds-max/substance-textures-in-3ds-max.md)
+* [textures de Substance en Maya](../../renderers/color-management/textures-in-maya/substance-textures-in-maya.md)
+* [textures de Substance dans 3ds Max](../../renderers/color-management/textures-in-3ds-max/substance-textures-in-3ds-max.md)

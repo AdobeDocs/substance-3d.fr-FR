@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/substance-3d-assets-library-usage.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/substance-3d-assets-library-usage.html"
 breadcrumb-title: ''
-description: Accédez et utilisez des documents de Substance de haute qualité provenant de la bibliothèque de ressources et des ressources de la communauté dans les projets Unity.
+description: Accédez et utilisez des matériaux de Substance de haute qualité de la bibliothèque de ressources et des ressources de la communauté dans les projets Unity.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Game Engines > Unity > Substance 3D Assets Library Usage
 helpx_experience_level: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Utilisation de la bibliothèque Substance 3D Assets
 
-Accédez à plus de 1 000 matériaux 4K personnalisables et prêts à l&#39;exportation de haute qualité avec des préréglages sur la [bibliothèque de ressources Substance 3D](https://helpx.adobe.com/fr/substance-3d/unlisted/assets.html). Vous pouvez explorer les ressources apportées par la communauté dans la [bibliothèque des ressources de la communauté](https://helpx.adobe.com/fr/substance-3d/unlisted/community-assets.html).
+Accédez à plus de 1 000 matériaux 4K personnalisables et prêts à l&#39;exportation de haute qualité avec des paramètres prédéfinis dans la [bibliothèque de ressources Substance 3D](https://helpx.adobe.com/substance-3d/unlisted/assets.html). Vous pouvez explorer les ressources apportées par la communauté dans la [bibliothèque des ressources de la communauté](https://helpx.adobe.com/substance-3d/unlisted/community-assets.html).
 
 Vous pouvez télécharger des matériaux à partir de la bibliothèque de ressources et les utiliser dans Unity.
 

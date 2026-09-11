@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/renderers/redshift/redshift-for-3ds-max.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/renderers/redshift/redshift-for-3ds-max.html"
 breadcrumb-title: ''
-description: Utilisez des matériaux de Substance avec le rendu Redshift dans 3ds Max via des cartes exportées ou le plug-in Substance.
+description: Utilisez les matériaux de Substance avec le rendu Redshift dans 3ds Max via les mappages exportés ou le plug-in Substance.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Renderers > Redshift > Redshift for 3ds Max
 helpx_experience_level: ""
@@ -22,6 +22,6 @@ ht-degree: 0%
 
 ## Substance dans le plug-in 3ds Max
 
-Le plug-in Substance prend en charge Redshift via le paramètre prédéfini de rendu Redshift. L’utilisation de ce paramètre prédéfini permet de configurer automatiquement les sorties de Substance connectées à un matériau Redshift.
+Le plug-in Substance prend en charge Redshift via le paramètre prédéfini de rendu Redshift. L’utilisation de ce paramètre prédéfini configurera automatiquement les sorties de Substance connectées à un matériau Redshift.
 
 ![](../../../assets/redshift-max.png)

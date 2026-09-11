@@ -1,7 +1,7 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/unreal-engine-4-plugin-release-notes/unreal-plugin-4-25-0-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unreal-engine/unreal-engine-4/unreal-engine-4-plugin-release-notes/unreal-plugin-4-25-0-4.html"
 breadcrumb-title: ''
-description: Consultez les notes de mise à jour d'Unreal Engine 4 version 4.25.0.4 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
+description: Consultez les notes de mise à jour sur la version 4.25.0.4 du plug-in Unreal Moteur 4 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > Game Engines > Unreal Engine > Unreal Engine 4 > Unreal Engine 4 plugin release notes > Unreal plugin 4.25.0.4
 helpx_experience_level: ""
@@ -25,5 +25,5 @@ Publié le 6 novembre 2020 sur Epic Games Marketplace
 Correctifs :
 
 * Substance Painter de la fonctionnalité Live Link lors de l’utilisation des versions 6.2.0 et 6.2.1 de Painter
-* Blocage lors de la mise à jour de plusieurs substances provenant de projets hérités
+* Crash lors de la mise à jour de plusieurs substances issues de projets existants
 * Avertissements de compilation

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/game-engines/unity/substance-3d-for-unity-scripting/class-documentation/substanceruntimegraph-class/detailed-description.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/game-engines/unity/substance-3d-for-unity-scripting/class-documentation/substanceruntimegraph-class/detailed-description.html"
 breadcrumb-title: ''
 description: Description détaillée de la fonctionnalité de classe SubstanceRuntimeGraph pour les opérations de Substance d’exécution dans Unity.
 helpx_creative_field: ""
@@ -20,4 +20,4 @@ ht-degree: 0%
 
 # Description détaillée
 
-Classe qui fournit une fonctionnalité d’exécution pour modifier les entrées et effectuer le rendu des graphiques Substance, permettant à Substance ←GraphSO de générer ses actifs à l’exécution.
+Classe qui fournit une fonctionnalité d’exécution permettant de modifier les entrées au niveau des graphes Substance et d’en effectuer le rendu, permettant à Substance ←GraphSO de générer ses actifs à l’exécution.

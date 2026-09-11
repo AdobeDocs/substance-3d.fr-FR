@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/modo.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/modo.html"
 breadcrumb-title: ''
 description: Installez et utilisez le plug-in Substance pour MODO afin d’importer et d’utiliser des matériaux Substance dans vos projets 3D.
 helpx_creative_field: ""
@@ -39,5 +39,5 @@ ht-degree: 1%
 * [Animation de Substances](../../3d-applications/modo/animating-substances/animating-substances.md)
 * [Copier/Dupliquer la Substance](../../3d-applications/modo/copy-duplicate/copy-duplicate-substance.md)
 * [Environnement et configuration du rendu](../../3d-applications/modo/environment-and-rendering/environment-and-rendering-setup.md)
-* [Modo Switch Engine](../../3d-applications/modo/modo-switch-engine/modo-switch-engine.md)
-* [Textures du mode mosaïque](../../3d-applications/modo/tiling-modo-textures/tiling-modo-textures.md)
+* [Moteur de changement d’ambiance](../../3d-applications/modo/modo-switch-engine/modo-switch-engine.md)
+* [Répétition des textures d’ambiance](../../3d-applications/modo/tiling-modo-textures/tiling-modo-textures.md)

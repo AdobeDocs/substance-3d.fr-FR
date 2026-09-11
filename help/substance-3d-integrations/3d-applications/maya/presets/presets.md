@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/presets.html"
 breadcrumb-title: ''
 description: Gérez les paramètres prédéfinis intégrés dans les fichiers de Substance ou créez de nouveaux paramètres prédéfinis dans Maya pour enregistrer les configurations de paramètres.
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # Préréglages
 
-Dans la section Paramètres prédéfinis, vous pouvez gérer entièrement les paramètres prédéfinis incorporés dans le fichier sbsar de Substance ou créer de nouveaux paramètres prédéfinis.
+Dans la section Paramètres prédéfinis, vous pouvez gérer entièrement les paramètres prédéfinis intégrés du fichier sbsar Substance ou en créer de nouveaux.
 
 ![](../../../assets/presets-15.png)
 

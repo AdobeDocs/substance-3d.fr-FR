@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-1-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-1-4.html"
 breadcrumb-title: ''
 description: Consultez les notes de mise à jour pour le plug-in Maya version 2.1.4 pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 helpx_creative_field: ""
@@ -24,6 +24,6 @@ Publié le 26 juin 2020
 
 Liste des modifications :
 
-* L’utilisation de fichiers image avec moins de quatre canaux comme entrées d’image ne se bloque plus
+* L’utilisation de fichiers image avec moins de quatre canaux comme entrées d’image n’a plus de crash
 
 Cette version est publiée pour Maya 2017, 2018, 2019 et 2020 sur Linux, MacOS et Windows, et Maya LT 2018, 2019 et 2020 sur MacOS et Windows
