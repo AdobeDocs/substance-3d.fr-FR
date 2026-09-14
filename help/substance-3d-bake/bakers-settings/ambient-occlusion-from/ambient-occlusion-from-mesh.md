@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/fr/substance-3d-bake/bakers-settings/ambient-occlusion-from-mesh.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: Bakez des textures d'ambient occlusion précises à partir de maillages à polychromie élevé en utilisant des techniques de raytracing pour un réalisme amélioré.
 helpx_creative_field: ""
 helpx_description: bakers > Bakers Settings > Ambient Occlusion from Mesh
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: Ambient occlusion du Maillage
-user-guide-description: ''
-user-guide-title: ''
+user-guide-description: ""
+user-guide-title: ""
 source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 2%
-
 ---
-
 
 # Ambient occlusion du Maillage
 
