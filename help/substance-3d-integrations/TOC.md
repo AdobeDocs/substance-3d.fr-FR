@@ -2,13 +2,11 @@
 user-guide-description: Écosystème Substance 3D
 user-guide-title: Écosystème Substance 3D
 breadcrumb-title: Guide de l’utilisateur de l’écosystème Substance 3D
-source-git-commit: 64bf951de3bf8ba9ce4c74240c48bb826ce337c5
+source-git-commit: 443fe2ec6a3769c9308038fe541176ed84330500
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '818'
 ht-degree: 2%
-
 ---
-
 
 # Écosystème Substance 3D {#ecosystem}
 
@@ -218,6 +216,8 @@ ht-degree: 2%
   + Mélangeur{#blender}
     + [Présentation du mélangeur](/help/substance-3d-integrations/3d-applications/blender/blender.md)
     + Notes de mise à jour{#release-notes}
+      + [Notes de mise à jour](/help/substance-3d-integrations/3d-applications/blender/release-notes/release-notes.md)
+      + [Module complémentaire 3.0.0+](/help/substance-3d-integrations/3d-applications/blender/release-notes/add-on-3-0-0.md)
       + [Module complémentaire 2.0.0+](/help/substance-3d-integrations/3d-applications/blender/release-notes/add-on-0-9-3/add-on-2-0-0-plus/add-on-2-0-0-plus.md)
       + [Module complémentaire 2.0.0](/help/substance-3d-integrations/3d-applications/blender/release-notes/blender-add-on-2-0-0/blender-add-on-2-0-0.md)
       + [Module complémentaire 1.0.2](/help/substance-3d-integrations/3d-applications/blender/release-notes/add-on-1-0-2/add-on-1-0-2.md)
