@@ -911,7 +911,7 @@ Tout aussi important, le PBR favorise une faible interdépendance entre les diff
 
 Dans la pratique, la PBR dévie le rôle de l’artiste de la compensation des bizarreries liées à l’éclairage ou au rendu, pour la décrire davantage en termes de caractéristiques du monde réel. Le résultat est un workflow qui favorise la cohérence par rapport aux retouches spécifiques à une scène, avec un réalisme émergeant naturellement à partir d&#39;entrées de matériau bien définies, plutôt que des astuces d&#39;éclairage artisanales.
 
-Pour plus d&#39;informations sur les caractéristiques techniques du PBR, consultez le [Guide PBR, de Wes McDermott](https://www.adobe.com/learn/substance-3d-designer/web/the-pbr-guide-part-1).
+Pour plus d&#39;informations sur les caractéristiques techniques du PBR, consultez le [Guide PBR, de Wes McDermott](https://www.adobe.com/fr/learn/substance-3d-designer/web/the-pbr-guide-part-1).
 
 ## Annexe ii : Qu&#39;est-ce que l&#39;OpenPBR ?
 
