@@ -1,7 +1,7 @@
 ---
 title: Module complémentaire Blender 3.0.0+
 description: Liste des notes de mise à jour concernant le module externe Substance 3D pour Blender.
-source-git-commit: aa5acd016cd1a55ab230d36352c4d3aa5514012a
+source-git-commit: 1488c476be7921c113d2a54f870fee090e6295e9
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -9,7 +9,7 @@ ht-degree: 0%
 
 # Module complémentaire 3.0.0+
 
-**Module complémentaire 3.1.0**.*Publié le : 12 octobre 2026*
+**Module complémentaire 3.1.0**.*Publié le : 20 octobre 2026*
 
 **Module Complémentaire Blender :**
 
