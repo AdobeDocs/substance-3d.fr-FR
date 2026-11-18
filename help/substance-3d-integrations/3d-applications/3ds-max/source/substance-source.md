@@ -1,29 +1,27 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/3ds-max/substance-source.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/substance-source.html"
+breadcrumb-title: ""
 description: Accédez et utilisez des matériaux de Substance de la bibliothèque de Substances Sources directement dans les projets 3ds Max.
 helpx_creative_field: ""
 helpx_description: Ecosystems and Plugins > 3D Applications > 3ds Max > Substance Source
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: Substance Source
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 0197b6f5f4e3ed1f2bc0e5576bd5818d04485ed5
+title: bibliothèque Substance 3D Assets
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 28a9d8cf7a4eed4163f99e8158c9cb8f9da88302
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 5%
-
+source-wordcount: '96'
+ht-degree: 11%
 ---
 
+# bibliothèque Substance 3D Assets
 
-# Substance Source
+Vous pouvez directement ouvrir la bibliothèque Substance 3D Assets à partir du plug-in Substance for 3ds Max.
 
-Vous pouvez utiliser des matériaux de Substance à partir de Substance Source dans le module 3ds Max v2.
+1. Dans le menu Substance en haut de l&#39;interface utilisateur de 3ds Max, choisissez Substance 3D Assets.
+1. Un navigateur s’ouvre et vous permet de vous connecter à votre compte d’Adobe pour télécharger des fichiers .sbsar. Les abonnés Substance disposent d’un accès illimité à toute la bibliothèque de ressources 3D.
+1. Téléchargez et importez des fichiers SBSAR dans 3ds Max à l&#39;aide du module externe Substance for 3ds Max.
 
-1. Dans le menu Substance en haut de l’interface utilisateur 3ds max, choisissez Substance Source.
-1. Un navigateur s’ouvre et vous permet de vous connecter à votre abonnement Source pour télécharger des fichiers .sbsar.
-1. Importez le fichier .fichier sbsar dans 3ds Max à l’aide du module externe Substance.
-
-   ![](../../../assets/max12.png)
+![](../../../assets/maya-max-v3-1/3dsmax-substance-3d-assets.png)
