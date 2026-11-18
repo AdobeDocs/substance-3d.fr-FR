@@ -10,9 +10,9 @@ helpx_tags: ""
 title: contrôle de version d’un moteur de Substance
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 4aabc9cc3e18e14f4d381cd98e2f320f07149298
+source-git-commit: 50cadc1d3d23c51ef24ab742a4eb85503db9b856
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '630'
 ht-degree: 25%
 ---
 
@@ -150,10 +150,10 @@ Reportez-vous aux tableaux ci-dessous pour savoir si un matériau de Substance o
 
 ## Plug-ins Substance
 
-| Plugin | Version du moteur de Substance | Version de la structure |
-| --- | --- | --- |
-| **Maya** 2.2.2 | 8.4.2 | N.D. |
-| **3ds Max** 2.4.6 | 8.0.3 | N.D. |
-| **Mélangeur** | 8.4.2 | N.D. |
-| **Unité** | 8.2.0 | N.D. |
-| **Irréel** | 8.0.8 | N.D. |
+| Plugin | Version du moteur de Substance |
+| --- | --- |
+| **Maya** 3.1.1 | 9.6.1 |
+| **3ds Max** 3.1.1 | 9.6.1 |
+| **Mélangeur** 3.1.0 | 9.6.1 |
+| **Unity** 3.8.0 à 3.12.0 | 9.0.0 |
+| **Irréel** 5.8.2 | 9.5.1 |
