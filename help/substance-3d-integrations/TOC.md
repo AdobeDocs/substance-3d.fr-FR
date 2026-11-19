@@ -2,9 +2,9 @@
 user-guide-description: Écosystème Substance 3D
 user-guide-title: Écosystème Substance 3D
 breadcrumb-title: Guide de l’utilisateur de l’écosystème Substance 3D
-source-git-commit: 28a9d8cf7a4eed4163f99e8158c9cb8f9da88302
+source-git-commit: 4df288c76e7c37d13798b4d1067466746678bb92
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '829'
 ht-degree: 2%
 ---
 
@@ -148,7 +148,7 @@ ht-degree: 2%
       + [Maya 2.0.3](/help/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-2-0-3/maya-2-0-3.md)
       + [Maya 0,9,11](/help/substance-3d-integrations/3d-applications/maya/maya-plugin-release-notes/maya-0-9-11/maya-0-9-11.md)
     + [Substance en Maya Aperçu](/help/substance-3d-integrations/3d-applications/maya/in-maya-overview/substance-in-maya-overview.md)
-    + [Installation](/help/substance-3d-integrations/3d-applications/maya/installation/installation.md)
+    + [Téléchargement et installation](/help/substance-3d-integrations/3d-applications/maya/installation/installation.md)
     + [Nœud de sortie de Substance](/help/substance-3d-integrations/3d-applications/maya/output-node/substance-output-node.md)
     + [Utilisation des workflows](/help/substance-3d-integrations/3d-applications/maya/using-workflows/using-workflows.md)
     + [Utilisation des sorties](/help/substance-3d-integrations/3d-applications/maya/working-with-outputs/working-with-outputs.md)
@@ -180,7 +180,7 @@ ht-degree: 2%
     + [Utilisation des paramètres prédéfinis](/help/substance-3d-integrations/3d-applications/3ds-max/using-presets/using-presets.md)
     + [Importation par lots](/help/substance-3d-integrations/3d-applications/3ds-max/batch-import/batch-import.md)
     + [Utilisation des workflows dans 3ds Max](/help/substance-3d-integrations/3d-applications/3ds-max/using-workflows-3ds-max/using-workflows-in-3ds-max.md)
-    + [Substance Source](/help/substance-3d-integrations/3d-applications/3ds-max/source/substance-source.md)
+    + [Substance 3D Assets](/help/substance-3d-integrations/3d-applications/3ds-max/source/substance-source.md)
     + [Animation d’un matériau de Substance](/help/substance-3d-integrations/3d-applications/3ds-max/animating-a-material/animating-a-substance-material.md)
     + [API de scripts 3ds MAX](/help/substance-3d-integrations/3d-applications/3ds-max/3ds-max-scripting-api/3ds-max-scripting-api.md)
     + [Dépannage](/help/substance-3d-integrations/3d-applications/3ds-max/troubleshooting/troubleshooting.md)

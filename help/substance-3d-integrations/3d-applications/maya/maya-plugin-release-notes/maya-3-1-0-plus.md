@@ -1,9 +1,9 @@
 ---
 description: Consultez les notes de mise à jour pour le plug-in Maya version 3.0.0 et ultérieure pour en savoir plus sur les nouvelles fonctionnalités, les améliorations et les correctifs de bogues.
 title: Maya 3.0.0
-source-git-commit: 28a9d8cf7a4eed4163f99e8158c9cb8f9da88302
+source-git-commit: 6453364f7dafa75c5bb2531a8707257498953e23
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '212'
 ht-degree: 0%
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 * Poids d’émission : le paramètre poids_émission ne fait pas partie de la spécification de l’OpenPBR 1.1 et n’est pas connecté automatiquement. Après l&#39;application du flux de travail, définissez manuellement la valeur Poids d&#39;émission dans l&#39;OpenPBR si votre matériau utilise des émissions.
 * OpenPBR - Rayon V - Echelle de rayon de sous-surface : lors de l&#39;utilisation du workflow OpenPBR - Rayon V, subsurface_radius_scale peut renvoyer une valeur de 0. Si cela se produit, supprimez la connexion et définissez manuellement la valeur dans le nœud V-Ray.
 * Différences visuelles entre les systèmes de rendu : une certaine variation entre l’aperçu du matériau dans Substance 3D Designer et le rendu dans Arnold ou V-Ray est due à des différences dans l’implémentation de la spécification d’OpenPBR par chaque système de rendu et s’améliorera à mesure que les implémentations convergeront.
-* Fichiers SBSAR exportés depuis Substance 3D Painter 12.2.0. ou une version antérieure peut ne pas se connecter correctement lors de l&#39;utilisation d&#39;un OpenPBR workflow Maya 3.1.0 Ajouté/Mis à jour : mise à jour de la Substance Engine (9.6.1.) y compris les correctifs de sécurité.
+* Fichiers SBSAR exportés depuis Substance 3D Painter 12.2.0. ou une version antérieure peut ne pas se connecter correctement lors de l’utilisation d’un workflow OpenPBR.
 
 ## Maya 3.1.0
 

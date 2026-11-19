@@ -10,19 +10,13 @@ helpx_tags: ""
 title: Téléchargement et installation
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 28a9d8cf7a4eed4163f99e8158c9cb8f9da88302
+source-git-commit: 0b6fbb25891bf442fc52b52089422ab0f762c1ae
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '91'
 ht-degree: 0%
 ---
 
 # Téléchargement et installation
-
-La Substance du plug-in Maya est incluse par défaut dans le programme d’installation de Maya.
-
-Vous pouvez télécharger des versions plus récentes du programme d&#39;installation depuis la page [Adobe Substance 3D pour Maya](https://substance3d.adobe.com/plugins/substance-in-maya/).
-
-## Anciennes versions de plug-in
 
 La dernière version du module externe est distribuée en mode natif par Autodesk avec la dernière version compatible de Maya. Si vous avez besoin d’une version spécifique pour une ancienne version, des liens de téléchargement sont disponibles ci-dessous
 
