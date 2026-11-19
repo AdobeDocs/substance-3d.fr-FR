@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/3ds-max/substance-in-3ds-max-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/substance-in-3ds-max-overview.html"
 breadcrumb-title: ""
 description: Découvrez le module externe Substance pour 3ds Max et apprenez à importer et à utiliser des matériaux de Substance dans vos projets.
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Présentation de la Substance dans 3ds Max
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 28a9d8cf7a4eed4163f99e8158c9cb8f9da88302
+source-git-commit: a167bcd2c2f0af70b3a4dc37eafc85145c79c590
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '332'
 ht-degree: 0%
 ---
 
@@ -70,43 +70,3 @@ Vous pouvez définir un canal spécifique pour la vignette du nœud de Substance
 Vous pouvez utiliser les propriétés Coordonnées pour afficher en mosaïque les textures de Substance et définir les couches de courbe de transfert.
 
 ![](../../../assets/max10.png)
-
-## Workflows d’OpenPBR
-
-Deux workflows OpenPBR sont disponibles dans la **liste des workflows** à partir du **menu Substance** : **Substance vers OpenPBR** et **Substance vers OpenPBR V-Ray**. Ces workflows sont conçus pour être utilisés avec des fichiers SBSAR créés à l’aide de l’OpenPBR dans Substance 3D Designer ou Sampler (OpenPBR est le modèle par défaut depuis Designer V16.0+ et Sampler V6.0+).
-
-![](../../../assets/maya-max-v3-1/3ds-max-openpbr-node-preview.png)
-
-### Qu’est-ce que l’OpenPBR ?
-
-OpenPBR est un modèle d&#39;ombrage de matériau physique ouvert développé par Adobe et Autodesk et contribué à l&#39;Academy Software Foundation (ASWF). Elle fournit une définition de matériau unifiée compatible entre les systèmes de rendu. Pour plus d&#39;informations, consultez la [documentation OpenPBR](https://experienceleague.adobe.com/fr/docs/substance-3d/general-knowledge/openpbr/openpbr-overview).
-
-### Quand utiliser un workflow OpenPBR
-
-Utilisez un workflow OpenPBR lorsque votre Fichier sbsar a été créé à l’aide de l’modèle de matériau dans Substance 3D Designer ou Substance 3D Sampler. Si votre SBSAR a été créé à l’aide d’un modèle de matériau standard d’Adobe (ASM), utilisez le workflow hérité compatible avec votre système de rendu (Arnold, V-Ray ou V-Ray 6).
-
->[!NOTE]
->
-> Si vous appliquez un workflow OpenPBR à un matériau ASM, ou un workflow standard à un OpenPBR SBSAR, le module externe connectera uniquement les sorties communes aux deux modèles de matériau. Le résultat peut être incomplet.
-
-### Workflows d’OpenPBR disponibles
-
-**OpenPBR**
-
-Utilise le nœud openPBRSurface natif de 3ds Max. Compatible avec Arnold et V-Ray. Il s’agit du workflow recommandé pour la plupart des utilisateurs qui travaillent avec des OpenPBR dans 3ds Max.
-
-**OpenPBR - V-Ray**
-
-Utilise le matériau V-Ray (VRayMtl) en mode OpenPBR. Recommandé pour les utilisateurs dont le pipeline est spécifiquement construit autour des configurations de matériau V-Ray.
-
-### Application d’un workflow OpenPBR
-
-![](../../../assets/maya-max-v3-1/3dsmax-substance-to-openpbr.png)
-
-1. Sélectionnez votre Fichier sbsar (OpenPBR) à l’aide du bouton Charger la Substance.
-1. Dans le menu supérieur, sélectionnez OpenPBR ou OpenPBR - V-Ray.
-1. Cliquez sur Créer un réseau pour créer le réseau shader dans l’éditeur de Matériau d’ardoise.
-1. Le plug-in connecte automatiquement les sorties SBSAR aux entrées correspondantes de l&#39;OpenPBR.
-1. Attribuez le matériau à votre maillage comme d’habitude.
-
-![](../../../assets/maya-max-v3-1/3ds-max-openpbr-overview.png)
