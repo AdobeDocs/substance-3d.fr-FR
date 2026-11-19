@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-integrations/3d-applications/3ds-max/using-workflows-in-3ds-max.html"
+helpx_url: "https://helpx.adobe.com/fr/substance-3d-integrations/3d-applications/3ds-max/using-workflows-in-3ds-max.html"
 breadcrumb-title: ""
 description: Utilisez les workflows de rendu de 3ds Max pour créer automatiquement des réseaux de shader pour différents systèmes de rendu à partir de matériaux de Substance.
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ Deux workflows OpenPBR sont disponibles dans la **liste des workflows** à parti
 
 ### Qu’est-ce que l’OpenPBR ?
 
-OpenPBR est un modèle d&#39;ombrage de matériau physique ouvert développé par Adobe et Autodesk et contribué à l&#39;Academy Software Foundation (ASWF). Elle fournit une définition de matériau unifiée compatible entre les systèmes de rendu. Pour plus d&#39;informations, consultez la [documentation OpenPBR](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/openpbr/openpbr-overview).
+OpenPBR est un modèle d&#39;ombrage de matériau physique ouvert développé par Adobe et Autodesk et contribué à l&#39;Academy Software Foundation (ASWF). Elle fournit une définition de matériau unifiée compatible entre les systèmes de rendu. Pour plus d&#39;informations, consultez la [documentation OpenPBR](https://experienceleague.adobe.com/fr/docs/substance-3d/general-knowledge/openpbr/openpbr-overview).
 
 ### Quand utiliser un workflow OpenPBR
 
